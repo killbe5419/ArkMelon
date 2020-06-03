@@ -10,7 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="607eec3e-89c1-47af-9f10-8be80260d6f9" name="Default Changelist" comment="first commit">
+    <list default="true" id="607eec3e-89c1-47af-9f10-8be80260d6f9" name="Default Changelist" comment="edit README.md">
       <change afterPath="$PROJECT_DIR$/node_modules/.bin/acorn" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/.bin/atob" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/.bin/cssesc" afterDir="false" />
@@ -9477,6 +9477,8 @@
       <change afterPath="$PROJECT_DIR$/node_modules/yargs/locales/zh_TW.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/yargs/package.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/yargs/yargs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9598,7 +9600,7 @@
       <workItem from="1591079370042" duration="7196000" />
       <workItem from="1591100624124" duration="832000" />
       <workItem from="1591164396600" duration="128000" />
-      <workItem from="1591164527724" duration="656000" />
+      <workItem from="1591164527724" duration="1597000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1591164943965</created>
@@ -9614,7 +9616,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591165105710</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="edit README.md">
+      <created>1591165321755</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1591165321755</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -9634,7 +9643,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="edit README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit README.md" />
   </component>
   <component name="WindowStateProjectService">
     <state x="492" y="382" key="#Scopes" timestamp="1589962361499">
@@ -9729,10 +9739,10 @@
       <screen x="0" y="23" width="1680" height="981" />
     </state>
     <state x="961" y="367" key="VCS.EditChangelistDialog/0.23.1680.981@0.23.1680.981" timestamp="1591165011540" />
-    <state x="742" y="189" key="Vcs.Push.Dialog.v2" timestamp="1591165196607">
+    <state x="742" y="189" key="Vcs.Push.Dialog.v2" timestamp="1591165314113">
       <screen x="0" y="23" width="1680" height="981" />
     </state>
-    <state x="742" y="189" key="Vcs.Push.Dialog.v2/0.23.1680.981@0.23.1680.981" timestamp="1591165196607" />
+    <state x="742" y="189" key="Vcs.Push.Dialog.v2/0.23.1680.981@0.23.1680.981" timestamp="1591165314113" />
     <state x="1017" y="424" width="341" height="221" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1590088369813">
       <screen x="0" y="23" width="1680" height="981" />
     </state>

@@ -1,2 +1,4 @@
 # ArkMelon
-### A multifunctional Wiki product for Arknights.(Ongoing)
+### A Large Scale Multifunctional Wiki Product for Arknights.(Ongoing)
+
+### Project completeness: about 3%
