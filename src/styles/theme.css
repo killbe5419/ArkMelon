@@ -1,0 +1,55 @@
+.light-mode-bar {
+    background-color: var(--bar-background-color-light);
+}
+.light-mode-bar * {
+    color: var(--bar-font-color-light);
+}
+.light-mode-bar * button {
+    background-color: var(--bar-background-color-light);
+}
+.light-mode-main {
+    background-color: var(--main-background-color-light);
+}
+.light-mode-main * {
+    color: var(--main-font-color-light);
+}
+.light-mode-bar div:hover {
+    color: var(--special-color);
+    background-color: var(--bar-hover-color-light)
+}
+.light-mode-bar div *:hover {
+    color: var(--special-color);
+    background-color: var(--bar-hover-color-light)
+}
+.light-mode-bar * button:hover {
+    color: var(--special-color);
+    background-color: var(--bar-hover-color-light);
+}
+
+.dark-mode-bar {
+    background-color: var(--bar-background-color-dark);
+}
+.dark-mode-bar * {
+    color: #ffffff;
+}
+.dark-mode-bar * button{
+    background-color: var(--bar-background-color-dark);
+}
+.dark-mode-main {
+    background-color: var(--main-background-color-dark);
+}
+.dark-mode-main * {
+    color: var(--main-font-color-dark);
+}
+.dark-mode-bar a:hover {
+    color: var(--special-color);
+    background-color: var(--bar-hover-color-dark)
+}
+.dark-mode-bar a *:hover {
+    color: var(--special-color);
+    background-color: var(--bar-hover-color-dark)
+}
+.dark-mode-bar * button:hover {
+    color: var(--special-color);
+    background-color: var(--bar-hover-color-dark);
+}
