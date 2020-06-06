@@ -80,13 +80,54 @@ class Nav extends React.Component {
 }
 
 class Search extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            value: " "
+        };
+    }
+
+    handleChange = event => {
+        this.setState({
+            value: event.target.value
+        });
+    }
+
+    handleSubmit = event => {
+        const data = {
+            params:{
+                method: "search",
+                value: this.state.value
+            }
+        }
+        axios.get("/search",data)
+            .then(res => {
+                window.open(res.data, "_blank");
+            })
+        event.preventDefault();
+    }
+
+    handleClean = () => {
+        this.setState({
+            value: ""
+        })
+    }
+
     render() {
         let input;
         if(this.props.contents.input.display) {
             input = (
-                <form className="search-input">
-                    <input placeholder="  搜索"/>
-                    <button type="submit">go</button>
+                <form className="search-input" onSubmit={ this.handleSubmit }>
+                    <input
+                        placeholder="  搜索"
+                        value={ this.state.value }
+                        onChange={ this.handleChange }
+                    />
+                    <button type="reset"
+                        className="search-cleaner"
+                        onClick={ this.handleClean }
+                    > x   </button>
+                    <button className="search-submit" type="submit">go</button>
                 </form>
             );
         } else {
@@ -692,7 +733,6 @@ class App extends React.Component {
             }
         }
     }
-
 
     render() {
         return (
