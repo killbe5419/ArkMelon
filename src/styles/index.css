@@ -98,7 +98,7 @@ li {
 .nav {
     display: flex;
     height: 100%;
-    width: 30%;
+    width: 40%;
 }
 
 .nav-container {
@@ -142,7 +142,7 @@ li {
 
 .search {
     display: flex;
-    width: 40%;
+    width: 30%;
     height: 50px;
     text-align: right;
     justify-content: flex-end;
@@ -151,31 +151,41 @@ li {
 }
 
 .search-input {
+    display: flex;
     width: 75%;
 }
 
 .search-input input{
-    width: 50%;
+    width: 80%;
     height: 26px;
-    background: #1f1f1f;
+    background: transparent;
     border: 2px solid #fff;
-    border-right: none;
     color: #fff;
-    border-radius: 5px 0 0 5px;
+    border-radius: 5px;
     font-size: 14px;
     padding: 0;
 }
 
+.search-input input:focus {
+    border: 2px solid #f08080;
+}
+
 .search-input button {
+    position: relative;
+    right: 40px;
     width: 30px;
     height: 30px;
-    background: #1f1f1f;
-    border: 2px solid #fff;
-    border-left: none;
+    background: transparent;
+    border: none;
     color: #fff;
-    border-radius: 0 5px 5px 0;
     font-size: 14px;
+    font-weight: 500;
     padding: 0;
+    overflow: -moz-hidden-unscrollable;
+}
+
+.search-input button:hover {
+    color: var(--special-color);
 }
 
 .search-icon {
@@ -186,10 +196,7 @@ li {
     border-radius: 4px;
     border: none;
     padding: 0;
-    margin-left: 20px;
 }
-
-
 
 .options {
     display: flex;
@@ -232,8 +239,6 @@ li {
     width: 25px;
     margin: 0 20% 0 20%;
 }
-
-
 
 /*********************************************************************/
 
