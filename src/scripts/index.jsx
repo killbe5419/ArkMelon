@@ -211,17 +211,17 @@ class TopBar extends React.Component {
                             display: false,
                             data: [
                                 {
-                                    key: "l1",
+                                    key: 0,
                                     title: "#####",
                                     href: "/"
                                 },
                                 {
-                                    key: "l2",
+                                    key: 1,
                                     title: "#####",
                                     href: "/"
                                 },
                                 {
-                                    key: "l3",
+                                    key: 2,
                                     title: "#####",
                                     href: "/"
                                 },
@@ -238,17 +238,17 @@ class TopBar extends React.Component {
                                 data:
                                     [
                                         {
-                                            key: "l1",
+                                            key: 0,
                                             title: "#####",
                                             href: "/"
                                         },
                                         {
-                                            key: "l2",
+                                            key: 0,
                                             title: "#####",
                                             href: "/"
                                         },
                                         {
-                                            key: "l3",
+                                            key: 1,
                                             title: "#####",
                                             href: "/"
                                         },
@@ -265,17 +265,17 @@ class TopBar extends React.Component {
                                 data:
                                     [
                                         {
-                                            key: "l1",
+                                            key: 0,
                                             title: "#####",
                                             href: "/"
                                         },
                                         {
-                                            key: "l2",
+                                            key: 1,
                                             title: "#####",
                                             href: "/"
                                         },
                                         {
-                                            key: "l3",
+                                            key: 2,
                                             title: "#####",
                                             href: "/"
                                         },
@@ -299,12 +299,12 @@ class TopBar extends React.Component {
                             display: false,
                             data: [
                                 {
-                                    key: "l1",
+                                    key: 0,
                                     title: "#####",
                                     href: "/"
                                 },
                                 {
-                                    key: "l2",
+                                    key: 1,
                                     title: "#####",
                                     href: "/"
                                 },
@@ -321,18 +321,18 @@ class TopBar extends React.Component {
                                 data:
                                     [
                                         {
-                                            key: "l1",
-                                            title: "#####",
+                                            key: 0,
+                                            title: "中文",
                                             href: "/"
                                         },
                                         {
-                                            key: "l2",
-                                            title: "#####",
+                                            key: 1,
+                                            title: "English",
                                             href: "/"
                                         },
                                         {
-                                            key: "l3",
-                                            title: "#####",
+                                            key: 2,
+                                            title: "日本語",
                                             href: "/"
                                         },
                                     ]
@@ -341,7 +341,7 @@ class TopBar extends React.Component {
                     {
                         key: 2,
                         name: "Github",
-                        href: "https://github.com/killbe5419",
+                        href: "https://github.com/killbe5419/ArkMelon",
                         listInfo: {}
                     }
                 ],
@@ -451,68 +451,191 @@ class TopBar extends React.Component {
     }
 }
 
-class Main extends React.Component {
+class ImgContainer extends React.Component {
     render() {
         return (
-            <div className={this.props.theme === "dark" ? "main dark-mode-main" : "main light-mode-main"}>
+            <a href={ this.props.input.href } >
+                <img alt={ this.props.tag + this.props.input.key } src={ this.props.input.img } />
+            </a>
+        );
+    }
+}
+
+class ContentsContainer extends React.Component {
+    render() {
+        let listItem;
+        if(this.props.content.data && Array.isArray(this.props.content.data)) {
+            listItem = this.props.content.data.map ( x =>
+               <ImgContainer input={ x } tag={ this.props.content.tag } key={ x.key }/>
+            )
+        } else {
+            listItem = null;
+        }
+        if(listItem !== null) {
+            return (
+                <div className="new-contents-v">
+                    { listItem }
+                </div>
+            )
+        } else {
+            return null;
+        }
+    }
+}
+
+class MainContent extends React.Component{
+    render() {
+        return (
+            <div className="news-containers">
+                <p> { this.props.content.name }</p>
+                <ContentsContainer content={ this.props.content } />
+            </div>
+        );
+    }
+}
+
+class MainContents extends React.Component {
+    render() {
+        let listItem;
+        if(this.props.contents && Array.isArray(this.props.contents)) {
+            listItem = this.props.contents.map( x =>
+                <MainContent content={ x } key={ x.key }/>
+            )
+        } else {
+            listItem = null;
+        }
+        if(listItem !== null) {
+            return (
+                <div className="main-contents">
+                    { listItem }
+                </div>
+            )
+        } else {
+            return null;
+        }
+    }
+}
+
+class Title extends React.Component {
+    render() {
+        return (
+            <div className="main-top">
+                <div className= { this.props.content.tag }>
+                    <p className={ this.props.content.tag + "-name"}> { this.props.content.name } </p>
+                    <p className={ this.props.content.tag + "-description"}> { this.props.content.description } </p>
+                </div>
+            </div>
+        );
+    }
+}
+
+class Main extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            title:{
+                tag: "title",
+                name: "ArkMelon",
+                description: "用于快速查看明日方舟游戏数据的资料库",
+            },
+            contents: [
+                {
+                    key: 0,
+                    tag: "event",
+                    name: "最新活动",
+                    data: [
+                        {
+                            key: 0,
+                            href: "/",
+                            img: "../images/index/event1.png"
+                        },
+                        {
+                            key: 1,
+                            href: "/",
+                            img: "../images/index/event2.png"
+                        },
+                    ],
+                },
+                {
+                    key: 1,
+                    tag: "pool",
+                    name: "新增卡池",
+                    data:[
+                        {
+                            key: 0,
+                            href: "/",
+                            img: "../images/index/pool1.png"
+                        },
+                        {
+                            key: 1,
+                            href: "/",
+                            img: "../images/index/pool2.png"
+                        },
+                    ],
+                },
+                {
+                    key: 2,
+                    tag: "operator",
+                    name: "新增干员",
+                    data: [
+                        {
+                            key: 0,
+                            href: "/",
+                            img: "../images/index/operator1.png"
+                        },
+                    ],
+                },
+                {
+                    key: 3,
+                    tag: "cloth",
+                    name: "新增服装",
+                    data: [
+                        {
+                            key: 0,
+                            href: "/",
+                            img: "../images/index/cloth1.png"
+                        },
+                    ],
+                },
+                {
+                    key: 4,
+                    tag: "theme",
+                    name: "新增家具",
+                    data: [
+                        {
+                            key: 0,
+                            href: "/",
+                            img: "../images/index/theme1.png"
+                        },
+                    ],
+                },
+                {
+                    key: 5,
+                    tag: "stage",
+                    name: "新增关卡",
+                    data:[
+                        {
+                            key: 0,
+                            href: "/",
+                            img: "../images/index/stage1.png"
+                        },
+                        {
+                            key: 1,
+                            href: "/",
+                            img: "../images/index/stage2.png"
+                        },
+                    ],
+                },
+            ],
+        }
+    }
+
+    render() {
+        return (
+            <div className="main">
                 <div className="main-container">
-                    <div className="main-top">
-                        <div className="title">
-                            <p className="title-name"> ArkMelon</p>
-                            <p className="title-description">用于快速查看明日方舟游戏数据的资料库</p>
-                        </div>
-                    </div>
-                    <div className="main-contents">
-                        <div className="news-containers">
-                            <p>最新活动</p>
-                            <div className="new-contents-v">
-                                <a href="/">
-                                    <img alt="event1" src="../images/index/event1.png" />
-                                    <img alt="event2" src="../images/index/event2.png" />
-                                </a>
-                            </div>
-                        </div>
-                        <div className="news-containers">
-                            <p>新增卡池</p>
-                            <div className="new-contents-v">
-                                <img alt="pool1" src="../images/index/pool1.png" />
-                                <img alt="pool2" src="../images/index/pool2.png" />
-                            </div>
-                        </div>
-                        <div className="news-containers">
-                            <p>新增干员</p>
-                            <div className="new-contents-v">
-                                <img alt="operator1" src="../images/index/operators1.png" />
-                            </div>
-                        </div>
-                        <div className="news-containers">
-                            <p>新增服装</p>
-                            <div className="new-contents-v">
-                                <a href="/">
-                                    <img alt="cloth1" src="../images/index/cloth1.png"/>
-                                </a>
-                            </div>
-                        </div>
-                        <div className="news-containers">
-                            <p>新增家具</p>
-                            <div className="new-contents-v">
-                                <a href="/">
-                                    <img alt="theme1" src="../images/index/theme1.png" />
-                                </a>
-                            </div>
-                        </div>
-                        <div className="news-containers">
-                            <p>新增关卡</p>
-                            <div className="new-contents-v">
-                                <a href="/">
-                                    <img alt="stage1" src="../images/index/stage1.png" />
-                                </a>
-                                <a href="/">
-                                    <img alt="stage2" src="../images/index/stage2.png" />
-                                </a>
-                            </div>
-                        </div>
-                    </div>
+                    <Title content={ this.state.title } />
+                    <MainContents contents={ this.state.contents }/>
                 </div>
             </div>
         );

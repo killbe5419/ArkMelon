@@ -97,7 +97,7 @@
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, ":root {\n    /*light colors*/\n    --bar-background-color-light: #606087;\n    --main-background-color-light: \t#FFFFF0;\n    --bar-font-color-light: #FFFBCD;\n    --main-font-color-light: #9370DB;\n    --bar-hover-color-light: #E6E6FA;\n\n    /*dark colors*/\n    --bar-background-color-dark: #1f1f1f;\n    --main-background-color-dark: #2f2f2f;\n    --bar-font-color-dark: #ffffff;\n    --main-font-color-dark: #ffffff;\n    --bar-hover-color-dark: #696969;\n\n    /*theme colors*/\n    --special-color: #f08080;\n}\n\n* {\n    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;\n    font-style: normal;\n    -webkit-font-smoothing: antialiased;\n}\na {\n    text-decoration: none;\n    cursor: pointer;\n}\ninput {\n    outline: none;\n    background:none;\n    border:none;\n}\nbutton {\n    outline: none;\n    cursor: pointer;\n}\nli {\n    list-style:none;\n}\n\n\n\n.header {\n    position: fixed;\n    display: block;\n    top: 0;\n    left: 0;\n    z-index: 1;\n    width: 100%;\n    height: 50px;\n    background-color: var(--bar-background-color-dark);\n}\n\n.header * {\n    color: var(--bar-font-color-dark);\n}\n\n.top-bar {\n    position: fixed;\n    display: flex;\n    padding-left: 20px;\n    padding-right: 20px;\n    margin-left: 40px;\n    margin-right: 40px;\n    height: 50px;\n    width: 90%;\n}\n\n.logo {\n    width: calc(100% / 6);\n    display: flex;\n    height: 100%;\n    text-decoration: none;\n    margin-right: 10px;\n}\n\n.logo img {\n    display: inline-block;\n    border-style: none;\n    margin: 10px 5px 10px 10px;\n    padding: 0;\n    border-radius: 8px;\n    height: 30px;\n    width: 30px;\n}\n\n.logo span {\n    text-align:center;\n    vertical-align: center;\n    font-weight: 700;\n    font-size: 20px;\n    margin: 15px 0 10px 5px;\n    overflow: no-display;\n    color: var(--special-color);\n}\n\n.nav {\n    display: flex;\n    height: 100%;\n    width: 30%;\n}\n\n.nav-container {\n    cursor: pointer;\n    display: flex;\n    flex-direction:column;\n    width: 100px;\n}\n\n.nav-contents {\n    height: 50px;\n    line-height: 50px;\n    text-align: center;\n}\n\n.nav-contents:hover {\n    color: var(--special-color);\n}\n\n.dropdown {\n    display: flex;\n    flex-direction:column;\n    width: 100%;\n    font-weight: 400;\n    background-color: transparent;\n}\n\n.dropdown a {\n    width: 100%;\n    height: 40px;\n    line-height: 40px;\n    font-weight: 400;\n    text-align: center;\n    background-color: var(--bar-background-color-dark);\n}\n\n.dropdown a:hover {\n    background-color: var(--bar-hover-color-dark);\n    color: var(--special-color);\n}\n\n.search {\n    display: flex;\n    width: 40%;\n    height: 50px;\n    text-align: right;\n    justify-content: flex-end;\n    align-items: center;\n    margin-right: 40px;\n}\n\n.search-input {\n    width: 75%;\n}\n\n.search-input input{\n    width: 50%;\n    height: 26px;\n    background: #1f1f1f;\n    border: 2px solid #fff;\n    border-right: none;\n    color: #fff;\n    border-radius: 5px 0 0 5px;\n    font-size: 14px;\n    padding: 0;\n}\n\n.search-input button {\n    width: 30px;\n    height: 30px;\n    background: #1f1f1f;\n    border: 2px solid #fff;\n    border-left: none;\n    color: #fff;\n    border-radius: 0 5px 5px 0;\n    font-size: 14px;\n    padding: 0;\n}\n\n.search-icon {\n    float:right;\n    width: 30px;\n    height: 30px;\n    background-color: #1f1f1f;\n    border-radius: 4px;\n    border: none;\n    padding: 0;\n    margin-left: 20px;\n}\n\n\n\n.options {\n    display: flex;\n}\n\n.opt-container {\n    cursor: pointer;\n    display: flex;\n    flex-direction:column;\n    width: 100px;\n}\n\n.opt-contents {\n    height: 50px;\n    line-height: 50px;\n    text-align: center;\n}\n\n.opt-contents:hover {\n    color: var(--special-color);\n}\n\n.language-container {\n    cursor: pointer;\n    display: flex;\n    flex-direction:column;\n    width: 100px;\n}\n\n.language-contents {\n    cursor: pointer;\n    height: 50px;\n    width: 50%;\n    line-height: 50px;\n    margin: 0 auto;\n}\n\n.language-icon {\n    height: 100%;\n    width: 25px;\n    margin: 0 20% 0 20%;\n}\n\n\n\n/*********************************************************************/\n\n.main {\n    display: flex;\n    margin-top: 50px;\n    min-height: 1000px;\n    width: 100%;\n    background-color: var(--main-background-color-dark);\n}\n\n.main * {\n    color: var(--main-font-color-dark);\n}\n\n.main-container {\n    display: flex;\n    flex-direction:column;\n    width: 70%;\n    height: 100%;\n    margin: auto;\n\n}\n\n.main-top {\n    display: flex;\n    width: 100%;\n    height: 300px;\n}\n\n.title {\n    display: flex;\n    flex-direction:column;\n    margin: auto;\n    height: 100%;\n}\n\n.title-name {\n    font-size: 50px;\n    font-weight: 700;\n    color: #f08080;\n    margin: 40px 0 20px 0;\n}\n\n.title-description {\n    font-size: 20px;\n    font-weight: 500;\n}\n\n.main-contents {\n    display: flex;\n    flex-direction:column;\n    width: 100%;\n    min-height: 800px;\n}\n\n\n.main-contents div p {\n    border-bottom: currentColor 2px solid;\n    font-weight: 500;\n}\n\n.news-containers {\n    display: flex;\n    flex-direction:column;\n    margin-bottom: 30px;\n}\n\n.new-contents-v {\n    display: flex;\n    flex-direction:column;\n    width: 80%;\n}\n\n.new-contents-v img {\n    width: 100%;\n    margin: 20px 10% 20px 10%;\n}\n\n.new-contents-h {\n    display: flex;\n}\n\n.new-contents-h img {\n    width: 100px;\n    height: 100px;\n    margin: 0 20px 0 20px;\n}\n\n\n\n\n/*********************************************************************/\n\n.footer {\n    display: flex;\n    width: 100%;\n    min-height: 300px;\n    bottom: 0;\n    left: 0;\n    background-color: var(--bar-background-color-dark);\n}\n\n.footer * {\n    color: var(--bar-font-color-dark);\n}\n\n.footer-contents {\n    display: flex;\n    flex-direction:column;\n    width: 90%;\n    margin: 20px 5% 20px 5%;\n}\n\n.footer-top {\n    display: flex;\n}\n\n.footer-top-left {\n    flex-direction:column;\n    display: flex;\n    width: 30%;\n    margin: auto;\n}\n\n.footer-top-middle {\n    flex-direction:column;\n    display: flex;\n    width: 30%;\n    margin: auto;\n}\n\n.footer-top-right {\n    flex-direction:column;\n    display: flex;\n    width: 30%;\n    margin: auto;\n}\n\n.footer-top div * {\n    margin: auto;\n}\n\n.footer-bottom {\n    display: flex;\n}\n\n.footer-bottom-middle {\n    width: 50%;\n    margin: auto;\n}\n\n\n\n.copyright {\n    display: flex;\n    flex-direction:column;\n    width: 300px;\n    margin: auto;\n}\n\n.copyright img{\n    width: 100px;\n    height: 100px;\n    margin: auto;\n}\n", ""]);
+exports.push([module.i, ":root {\n    /*light colors*/\n    --bar-background-color-light: #606087;\n    --main-background-color-light: \t#FFFFF0;\n    --bar-font-color-light: #FFFBCD;\n    --main-font-color-light: #9370DB;\n    --bar-hover-color-light: #E6E6FA;\n\n    /*dark colors*/\n    --bar-background-color-dark: #1f1f1f;\n    --main-background-color-dark: #2f2f2f;\n    --bar-font-color-dark: #ffffff;\n    --main-font-color-dark: #ffffff;\n    --bar-hover-color-dark: #696969;\n\n    /*theme colors*/\n    --special-color: #f08080;\n}\n\n* {\n    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;\n    font-style: normal;\n    -webkit-font-smoothing: antialiased;\n}\na {\n    text-decoration: none;\n    cursor: pointer;\n}\ninput {\n    outline: none;\n    background:none;\n    border:none;\n}\nbutton {\n    outline: none;\n    cursor: pointer;\n}\nli {\n    list-style:none;\n}\n\n\n\n.header {\n    position: fixed;\n    display: block;\n    top: 0;\n    left: 0;\n    z-index: 1;\n    width: 100%;\n    height: 50px;\n    background-color: var(--bar-background-color-dark);\n}\n\n.header * {\n    color: var(--bar-font-color-dark);\n}\n\n.top-bar {\n    position: fixed;\n    display: flex;\n    padding-left: 20px;\n    padding-right: 20px;\n    margin-left: 40px;\n    margin-right: 40px;\n    height: 50px;\n    width: 90%;\n}\n\n.logo {\n    width: calc(100% / 6);\n    display: flex;\n    height: 100%;\n    text-decoration: none;\n    margin-right: 10px;\n}\n\n.logo img {\n    display: inline-block;\n    border-style: none;\n    margin: 10px 5px 10px 10px;\n    padding: 0;\n    border-radius: 8px;\n    height: 30px;\n    width: 30px;\n}\n\n.logo span {\n    text-align:center;\n    vertical-align: center;\n    font-weight: 700;\n    font-size: 20px;\n    margin: 15px 0 10px 5px;\n    overflow: no-display;\n    color: var(--special-color);\n}\n\n.nav {\n    display: flex;\n    height: 100%;\n    width: 40%;\n}\n\n.nav-container {\n    cursor: pointer;\n    display: flex;\n    flex-direction:column;\n    width: 100px;\n}\n\n.nav-contents {\n    height: 50px;\n    line-height: 50px;\n    text-align: center;\n}\n\n.nav-contents:hover {\n    color: var(--special-color);\n}\n\n.dropdown {\n    display: flex;\n    flex-direction:column;\n    width: 100%;\n    font-weight: 400;\n    background-color: transparent;\n}\n\n.dropdown a {\n    width: 100%;\n    height: 40px;\n    line-height: 40px;\n    font-weight: 400;\n    text-align: center;\n    background-color: var(--bar-background-color-dark);\n}\n\n.dropdown a:hover {\n    background-color: var(--bar-hover-color-dark);\n    color: var(--special-color);\n}\n\n.search {\n    display: flex;\n    width: 30%;\n    height: 50px;\n    text-align: right;\n    justify-content: flex-end;\n    align-items: center;\n    margin-right: 40px;\n}\n\n.search-input {\n    display: flex;\n    width: 75%;\n}\n\n.search-input input{\n    width: 80%;\n    height: 26px;\n    background: transparent;\n    border: 2px solid #fff;\n    color: #fff;\n    border-radius: 5px;\n    font-size: 14px;\n    padding: 0;\n}\n\n.search-input input:focus {\n    border: 2px solid #f08080;\n}\n\n.search-input button {\n    position: relative;\n    right: 40px;\n    width: 30px;\n    height: 30px;\n    background: transparent;\n    border: none;\n    color: #fff;\n    font-size: 14px;\n    font-weight: 500;\n    padding: 0;\n    overflow: -moz-hidden-unscrollable;\n}\n\n.search-input button:hover {\n    color: var(--special-color);\n}\n\n.search-icon {\n    float:right;\n    width: 30px;\n    height: 30px;\n    background-color: #1f1f1f;\n    border-radius: 4px;\n    border: none;\n    padding: 0;\n}\n\n.options {\n    display: flex;\n}\n\n.opt-container {\n    cursor: pointer;\n    display: flex;\n    flex-direction:column;\n    width: 100px;\n}\n\n.opt-contents {\n    height: 50px;\n    line-height: 50px;\n    text-align: center;\n}\n\n.opt-contents:hover {\n    color: var(--special-color);\n}\n\n.language-container {\n    cursor: pointer;\n    display: flex;\n    flex-direction:column;\n    width: 100px;\n}\n\n.language-contents {\n    cursor: pointer;\n    height: 50px;\n    width: 50%;\n    line-height: 50px;\n    margin: 0 auto;\n}\n\n.language-icon {\n    height: 100%;\n    width: 25px;\n    margin: 0 20% 0 20%;\n}\n\n/*********************************************************************/\n\n.main {\n    display: flex;\n    margin-top: 50px;\n    min-height: 1000px;\n    width: 100%;\n    background-color: var(--main-background-color-dark);\n}\n\n.main * {\n    color: var(--main-font-color-dark);\n}\n\n.main-container {\n    display: flex;\n    flex-direction:column;\n    width: 70%;\n    height: 100%;\n    margin: auto;\n\n}\n\n.main-top {\n    display: flex;\n    width: 100%;\n    height: 300px;\n}\n\n.title {\n    display: flex;\n    flex-direction:column;\n    margin: auto;\n    height: 100%;\n}\n\n.title-name {\n    font-size: 50px;\n    font-weight: 700;\n    color: #f08080;\n    margin: 40px 0 20px 0;\n}\n\n.title-description {\n    font-size: 20px;\n    font-weight: 500;\n}\n\n.main-contents {\n    display: flex;\n    flex-direction:column;\n    width: 100%;\n    min-height: 800px;\n}\n\n\n.main-contents div p {\n    border-bottom: currentColor 2px solid;\n    font-weight: 500;\n}\n\n.news-containers {\n    display: flex;\n    flex-direction:column;\n    margin-bottom: 30px;\n}\n\n.new-contents-v {\n    display: flex;\n    flex-direction:column;\n    width: 80%;\n}\n\n.new-contents-v img {\n    width: 100%;\n    margin: 20px 10% 20px 10%;\n}\n\n.new-contents-h {\n    display: flex;\n}\n\n.new-contents-h img {\n    width: 100px;\n    height: 100px;\n    margin: 0 20px 0 20px;\n}\n\n\n\n\n/*********************************************************************/\n\n.footer {\n    display: flex;\n    width: 100%;\n    min-height: 300px;\n    bottom: 0;\n    left: 0;\n    background-color: var(--bar-background-color-dark);\n}\n\n.footer * {\n    color: var(--bar-font-color-dark);\n}\n\n.footer-contents {\n    display: flex;\n    flex-direction:column;\n    width: 90%;\n    margin: 20px 5% 20px 5%;\n}\n\n.footer-top {\n    display: flex;\n}\n\n.footer-top-left {\n    flex-direction:column;\n    display: flex;\n    width: 30%;\n    margin: auto;\n}\n\n.footer-top-middle {\n    flex-direction:column;\n    display: flex;\n    width: 30%;\n    margin: auto;\n}\n\n.footer-top-right {\n    flex-direction:column;\n    display: flex;\n    width: 30%;\n    margin: auto;\n}\n\n.footer-top div * {\n    margin: auto;\n}\n\n.footer-bottom {\n    display: flex;\n}\n\n.footer-bottom-middle {\n    width: 50%;\n    margin: auto;\n}\n\n\n\n.copyright {\n    display: flex;\n    flex-direction:column;\n    width: 300px;\n    margin: auto;\n}\n\n.copyright img{\n    width: 100px;\n    height: 100px;\n    margin: auto;\n}\n", ""]);
 // Exports
 module.exports = exports;
 
@@ -788,15 +788,15 @@ class TopBar extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           listInfo: {
             display: false,
             data: [{
-              key: "l1",
+              key: 0,
               title: "#####",
               href: "/"
             }, {
-              key: "l2",
+              key: 1,
               title: "#####",
               href: "/"
             }, {
-              key: "l3",
+              key: 2,
               title: "#####",
               href: "/"
             }]
@@ -807,15 +807,15 @@ class TopBar extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           listInfo: {
             display: false,
             data: [{
-              key: "l1",
+              key: 0,
               title: "#####",
               href: "/"
             }, {
-              key: "l2",
+              key: 0,
               title: "#####",
               href: "/"
             }, {
-              key: "l3",
+              key: 1,
               title: "#####",
               href: "/"
             }]
@@ -826,15 +826,15 @@ class TopBar extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           listInfo: {
             display: false,
             data: [{
-              key: "l1",
+              key: 0,
               title: "#####",
               href: "/"
             }, {
-              key: "l2",
+              key: 1,
               title: "#####",
               href: "/"
             }, {
-              key: "l3",
+              key: 2,
               title: "#####",
               href: "/"
             }]
@@ -854,11 +854,11 @@ class TopBar extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           listInfo: {
             display: false,
             data: [{
-              key: "l1",
+              key: 0,
               title: "#####",
               href: "/"
             }, {
-              key: "l2",
+              key: 1,
               title: "#####",
               href: "/"
             }]
@@ -870,23 +870,23 @@ class TopBar extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           listInfo: {
             display: false,
             data: [{
-              key: "l1",
-              title: "#####",
+              key: 0,
+              title: "中文",
               href: "/"
             }, {
-              key: "l2",
-              title: "#####",
+              key: 1,
+              title: "English",
               href: "/"
             }, {
-              key: "l3",
-              title: "#####",
+              key: 2,
+              title: "日本語",
               href: "/"
             }]
           }
         }, {
           key: 2,
           name: "Github",
-          href: "https://github.com/killbe5419",
+          href: "https://github.com/killbe5419/ArkMelon",
           listInfo: {}
         }]
       }
@@ -919,84 +919,182 @@ class TopBar extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
 
 }
 
-class Main extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+class ImgContainer extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+  render() {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+      href: this.props.input.href
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+      alt: this.props.tag + this.props.input.key,
+      src: this.props.input.img
+    }));
+  }
+
+}
+
+class ContentsContainer extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+  render() {
+    let listItem;
+
+    if (this.props.content.data && Array.isArray(this.props.content.data)) {
+      listItem = this.props.content.data.map(x => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(ImgContainer, {
+        input: x,
+        tag: this.props.content.tag,
+        key: x.key
+      }));
+    } else {
+      listItem = null;
+    }
+
+    if (listItem !== null) {
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "new-contents-v"
+      }, listItem);
+    } else {
+      return null;
+    }
+  }
+
+}
+
+class MainContent extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
   render() {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: this.props.theme === "dark" ? "main dark-mode-main" : "main light-mode-main"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "main-container"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "news-containers"
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, " ", this.props.content.name), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(ContentsContainer, {
+      content: this.props.content
+    }));
+  }
+
+}
+
+class MainContents extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+  render() {
+    let listItem;
+
+    if (this.props.contents && Array.isArray(this.props.contents)) {
+      listItem = this.props.contents.map(x => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(MainContent, {
+        content: x,
+        key: x.key
+      }));
+    } else {
+      listItem = null;
+    }
+
+    if (listItem !== null) {
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "main-contents"
+      }, listItem);
+    } else {
+      return null;
+    }
+  }
+
+}
+
+class Title extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+  render() {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: "main-top"
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "title"
+      className: this.props.content.tag
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-      className: "title-name"
-    }, " ArkMelon"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-      className: "title-description"
-    }, "\u7528\u4E8E\u5FEB\u901F\u67E5\u770B\u660E\u65E5\u65B9\u821F\u6E38\u620F\u6570\u636E\u7684\u8D44\u6599\u5E93"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "main-contents"
+      className: this.props.content.tag + "-name"
+    }, " ", this.props.content.name, " "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+      className: this.props.content.tag + "-description"
+    }, " ", this.props.content.description, " ")));
+  }
+
+}
+
+class Main extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      title: {
+        tag: "title",
+        name: "ArkMelon",
+        description: "用于快速查看明日方舟游戏数据的资料库"
+      },
+      contents: [{
+        key: 0,
+        tag: "event",
+        name: "最新活动",
+        data: [{
+          key: 0,
+          href: "/",
+          img: "../images/index/event1.png"
+        }, {
+          key: 1,
+          href: "/",
+          img: "../images/index/event2.png"
+        }]
+      }, {
+        key: 1,
+        tag: "pool",
+        name: "新增卡池",
+        data: [{
+          key: 0,
+          href: "/",
+          img: "../images/index/pool1.png"
+        }, {
+          key: 1,
+          href: "/",
+          img: "../images/index/pool2.png"
+        }]
+      }, {
+        key: 2,
+        tag: "operator",
+        name: "新增干员",
+        data: [{
+          key: 0,
+          href: "/",
+          img: "../images/index/operator1.png"
+        }]
+      }, {
+        key: 3,
+        tag: "cloth",
+        name: "新增服装",
+        data: [{
+          key: 0,
+          href: "/",
+          img: "../images/index/cloth1.png"
+        }]
+      }, {
+        key: 4,
+        tag: "theme",
+        name: "新增家具",
+        data: [{
+          key: 0,
+          href: "/",
+          img: "../images/index/theme1.png"
+        }]
+      }, {
+        key: 5,
+        tag: "stage",
+        name: "新增关卡",
+        data: [{
+          key: 0,
+          href: "/",
+          img: "../images/index/stage1.png"
+        }, {
+          key: 1,
+          href: "/",
+          img: "../images/index/stage2.png"
+        }]
+      }]
+    };
+  }
+
+  render() {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "main"
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "news-containers"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u6700\u65B0\u6D3B\u52A8"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "new-contents-v"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-      href: "/"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-      alt: "event1",
-      src: "../images/index/event1.png"
-    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-      alt: "event2",
-      src: "../images/index/event2.png"
-    })))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "news-containers"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u65B0\u589E\u5361\u6C60"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "new-contents-v"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-      alt: "pool1",
-      src: "../images/index/pool1.png"
-    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-      alt: "pool2",
-      src: "../images/index/pool2.png"
-    }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "news-containers"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u65B0\u589E\u5E72\u5458"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "new-contents-v"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-      alt: "operator1",
-      src: "../images/index/operators1.png"
-    }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "news-containers"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u65B0\u589E\u670D\u88C5"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "new-contents-v"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-      href: "/"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-      alt: "cloth1",
-      src: "../images/index/cloth1.png"
-    })))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "news-containers"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u65B0\u589E\u5BB6\u5177"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "new-contents-v"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-      href: "/"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-      alt: "theme1",
-      src: "../images/index/theme1.png"
-    })))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "news-containers"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u65B0\u589E\u5173\u5361"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "new-contents-v"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-      href: "/"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-      alt: "stage1",
-      src: "../images/index/stage1.png"
-    })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-      href: "/"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-      alt: "stage2",
-      src: "../images/index/stage2.png"
-    })))))));
+      className: "main-container"
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Title, {
+      content: this.state.title
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(MainContents, {
+      contents: this.state.contents
+    })));
   }
 
 }
