@@ -11,11 +11,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="607eec3e-89c1-47af-9f10-8be80260d6f9" name="Default Changelist" comment="add files.">
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/killbe.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/killbe.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/404.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dist/react.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/dist/react.bundle.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dist/react.bundle.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/dist/react.bundle.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scripts/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,9 +33,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="tsconfig.json" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -139,7 +141,7 @@
       <workItem from="1591100624124" duration="832000" />
       <workItem from="1591164396600" duration="128000" />
       <workItem from="1591164527724" duration="3148000" />
-      <workItem from="1591421869766" duration="15999000" />
+      <workItem from="1591421869766" duration="21728000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1591164943965</created>
@@ -211,7 +213,21 @@
       <option name="project" value="LOCAL" />
       <updated>1591434043776</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="divided components into much smaller parts.">
+      <created>1591439358533</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1591439358533</updated>
+    </task>
+    <task id="LOCAL-00012" summary="add changes.">
+      <created>1591439373359</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1591439373359</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,6 +254,7 @@
     <MESSAGE value="deleted test01.js." />
     <MESSAGE value="divided components to much smaller parts." />
     <MESSAGE value="fix some name-relative bugs." />
+    <MESSAGE value="divided components into much smaller parts." />
     <MESSAGE value="add changes." />
     <option name="LAST_COMMIT_MESSAGE" value="add changes." />
   </component>
@@ -258,22 +275,22 @@
       <screen x="0" y="23" width="1680" height="981" />
     </state>
     <state width="251" height="195" key="DatabaseViewActions_Filter/0.23.1680.981@0.23.1680.981" timestamp="1589966524504" />
-    <state width="878" height="188" key="GridCell.Tab.0.bottom" timestamp="1591434050873">
+    <state width="862" height="198" key="GridCell.Tab.0.bottom" timestamp="1591451133106">
       <screen x="0" y="23" width="1680" height="981" />
     </state>
-    <state width="878" height="188" key="GridCell.Tab.0.bottom/0.23.1680.981@0.23.1680.981" timestamp="1591434050873" />
-    <state width="878" height="188" key="GridCell.Tab.0.center" timestamp="1591434050872">
+    <state width="862" height="198" key="GridCell.Tab.0.bottom/0.23.1680.981@0.23.1680.981" timestamp="1591451133106" />
+    <state width="862" height="198" key="GridCell.Tab.0.center" timestamp="1591451133104">
       <screen x="0" y="23" width="1680" height="981" />
     </state>
-    <state width="878" height="188" key="GridCell.Tab.0.center/0.23.1680.981@0.23.1680.981" timestamp="1591434050872" />
-    <state width="878" height="188" key="GridCell.Tab.0.left" timestamp="1591434050871">
+    <state width="862" height="198" key="GridCell.Tab.0.center/0.23.1680.981@0.23.1680.981" timestamp="1591451133104" />
+    <state width="862" height="198" key="GridCell.Tab.0.left" timestamp="1591451133103">
       <screen x="0" y="23" width="1680" height="981" />
     </state>
-    <state width="878" height="188" key="GridCell.Tab.0.left/0.23.1680.981@0.23.1680.981" timestamp="1591434050871" />
-    <state width="878" height="188" key="GridCell.Tab.0.right" timestamp="1591434050872">
+    <state width="862" height="198" key="GridCell.Tab.0.left/0.23.1680.981@0.23.1680.981" timestamp="1591451133103" />
+    <state width="862" height="198" key="GridCell.Tab.0.right" timestamp="1591451133105">
       <screen x="0" y="23" width="1680" height="981" />
     </state>
-    <state width="878" height="188" key="GridCell.Tab.0.right/0.23.1680.981@0.23.1680.981" timestamp="1591434050872" />
+    <state width="862" height="198" key="GridCell.Tab.0.right/0.23.1680.981@0.23.1680.981" timestamp="1591451133105" />
     <state width="952" height="235" key="GridCell.Tab.1.bottom" timestamp="1590830953179">
       <screen x="0" y="23" width="1680" height="981" />
     </state>
