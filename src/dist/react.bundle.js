@@ -504,21 +504,36 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _styles_index_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../styles/index.css */ "./src/styles/index.css");
 /* harmony import */ var _styles_index_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_styles_index_css__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! axios */ "axios");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_3__);
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
 
 
 
 
+
+class ImgA extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+  render() {
+    const span = this.props.input.name ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, this.props.input.name) : null;
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+      className: this.props.className,
+      href: this.props.input.href
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+      alt: this.props.tag + this.props.input.key,
+      src: this.props.input.img
+    }), span);
+  }
+
+}
+
 class Logo extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
   render() {
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(ImgA, {
       className: "logo",
-      href: "/"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-      alt: "logo",
-      src: "../images/logo.jpg"
-    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "ArkMelon"));
+      tag: "logo",
+      input: this.props.content
+    });
   }
 
 }
@@ -564,8 +579,8 @@ class Nav extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       tag: this.props.tag,
       key: x.key,
       content: x,
-      onMouseOver: () => this.props.onMouseOver(x.key, "nav"),
-      onMouseLeave: () => this.props.onMouseLeave(x.key, "nav")
+      onMouseOver: () => this.props.onMouseOver(x.key, "top", "nav"),
+      onMouseLeave: () => this.props.onMouseLeave(x.key, "top", "nav")
     }));
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("nav", {
       className: "nav"
@@ -594,8 +609,8 @@ class Search extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       className: "search"
     }, input, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
       className: "search-icon",
-      onMouseOver: () => this.props.onMouseOver(null, this.props.tag),
-      onMouseLeave: () => this.props.onMouseLeave(null, this.props.tag),
+      onMouseOver: () => this.props.onMouseOver(null, "top", this.props.tag),
+      onMouseLeave: () => this.props.onMouseLeave(null, "top", this.props.tag),
       onClick: () => this.props.onClick()
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", {
       xmlns: "http://www.w3.org/2000/svg",
@@ -672,13 +687,13 @@ class Options extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(ChangeTheme, {
       tag: this.props.tag,
       content: this.props.contents[0],
-      onMouseOver: () => this.props.onMouseOver(0, "opt"),
-      onMouseLeave: () => this.props.onMouseLeave(0, "opt")
+      onMouseOver: () => this.props.onMouseOver(0, "top", "opt"),
+      onMouseLeave: () => this.props.onMouseLeave(0, "top", "opt")
     }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Language, {
       tag: "language",
       content: this.props.contents[1],
-      onMouseOver: () => this.props.onMouseOver(1, "opt"),
-      onMouseLeave: () => this.props.onMouseLeave(1, "opt")
+      onMouseOver: () => this.props.onMouseOver(1, "top", "opt"),
+      onMouseLeave: () => this.props.onMouseLeave(1, "top", "opt")
     }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Github, {
       tag: this.props.tag,
       content: this.props.contents[2]
@@ -688,245 +703,30 @@ class Options extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
 }
 
 class TopBar extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
-  constructor(props) {
-    super(props);
-
-    _defineProperty(this, "handleHover", (x, type) => {
-      let tmp = this.state.contents;
-
-      if (type === "nav") {
-        tmp.nav[x].listInfo.display = true;
-
-        if (tmp.nav[x].hasOwnProperty("color")) {
-          tmp.nav[x].color = "#f08080";
-        }
-
-        this.setState({
-          contents: tmp
-        });
-      }
-
-      if (type === "opt") {
-        tmp.opt[x].listInfo.display = true;
-
-        if (tmp.opt[x].hasOwnProperty("color")) {
-          tmp.opt[x].color = "#f08080";
-        }
-
-        this.setState({
-          contents: tmp
-        });
-      }
-
-      if (type === "srh") {
-        if (tmp.srh.button.hasOwnProperty("color")) {
-          tmp.srh.button.color = "#f08080";
-        }
-
-        this.setState({
-          contents: tmp
-        });
-      }
-    });
-
-    _defineProperty(this, "handleLeave", (x, type) => {
-      let tmp = this.state.contents;
-
-      if (type === "nav") {
-        tmp.nav[x].listInfo.display = false;
-
-        if (tmp.nav[x].hasOwnProperty("color")) {
-          tmp.nav[x].color = "#ffffff";
-        }
-
-        this.setState({
-          contents: tmp
-        });
-      }
-
-      if (type === "opt") {
-        tmp.opt[x].listInfo.display = false;
-
-        if (tmp.opt[x].hasOwnProperty("color")) {
-          tmp.opt[x].color = "#ffffff";
-        }
-
-        this.setState({
-          contents: tmp
-        });
-      }
-
-      if (type === "srh") {
-        if (tmp.srh.button.hasOwnProperty("color")) {
-          tmp.srh.button.color = "#fff";
-        }
-
-        this.setState({
-          contents: tmp
-        });
-      }
-    });
-
-    _defineProperty(this, "showSearchBar", () => {
-      let tmp = this.state.contents;
-
-      if (tmp.hasOwnProperty("srh")) {
-        if (tmp.srh.hasOwnProperty("input") && tmp.srh.hasOwnProperty("button")) {
-          tmp.srh.input.display = !tmp.srh.input.display;
-          this.setState({
-            contents: tmp
-          });
-        }
-      }
-    });
-
-    this.state = {
-      contents: {
-        nav: [{
-          key: 0,
-          name: "游戏数据",
-          listInfo: {
-            display: false,
-            data: [{
-              key: 0,
-              title: "#####",
-              href: "/"
-            }, {
-              key: 1,
-              title: "#####",
-              href: "/"
-            }, {
-              key: 2,
-              title: "#####",
-              href: "/"
-            }]
-          }
-        }, {
-          key: 1,
-          name: "材料相关",
-          listInfo: {
-            display: false,
-            data: [{
-              key: 0,
-              title: "#####",
-              href: "/"
-            }, {
-              key: 0,
-              title: "#####",
-              href: "/"
-            }, {
-              key: 1,
-              title: "#####",
-              href: "/"
-            }]
-          }
-        }, {
-          key: 2,
-          name: "寻访模拟",
-          listInfo: {
-            display: false,
-            data: [{
-              key: 0,
-              title: "#####",
-              href: "/"
-            }, {
-              key: 1,
-              title: "#####",
-              href: "/"
-            }, {
-              key: 2,
-              title: "#####",
-              href: "/"
-            }]
-          }
-        }],
-        srh: {
-          input: {
-            display: false
-          },
-          button: {
-            color: "#fff"
-          }
-        },
-        opt: [{
-          key: 0,
-          name: "主题",
-          listInfo: {
-            display: false,
-            data: [{
-              key: 0,
-              title: "#####",
-              href: "/"
-            }, {
-              key: 1,
-              title: "#####",
-              href: "/"
-            }]
-          }
-        }, {
-          key: 1,
-          name: "多语言",
-          color: "#ffffff",
-          listInfo: {
-            display: false,
-            data: [{
-              key: 0,
-              title: "中文",
-              href: "/"
-            }, {
-              key: 1,
-              title: "English",
-              href: "/"
-            }, {
-              key: 2,
-              title: "日本語",
-              href: "/"
-            }]
-          }
-        }, {
-          key: 2,
-          name: "Github",
-          href: "https://github.com/killbe5419/ArkMelon",
-          listInfo: {}
-        }]
-      }
-    };
-  }
-
   render() {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: this.props.theme === "dark" ? "header dark-mode-bar" : "header light-mode-bar"
+      className: "header"
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("header", {
       className: "top-bar"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Logo, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Nav, {
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Logo, {
+      content: this.props.contents.logo
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Nav, {
       tag: "nav",
-      contents: this.state.contents.nav,
-      onMouseOver: this.handleHover,
-      onMouseLeave: this.handleLeave
+      contents: this.props.contents.nav,
+      onMouseOver: this.props.onMouseOver,
+      onMouseLeave: this.props.onMouseLeave
     }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Search, {
       tag: "srh",
-      contents: this.state.contents.srh,
-      onMouseOver: this.handleHover,
-      onMouseLeave: this.handleLeave,
-      onClick: this.showSearchBar
+      contents: this.props.contents.srh,
+      onMouseOver: this.props.onMouseOver,
+      onMouseLeave: this.props.onMouseLeave,
+      onClick: this.props.onClick
     }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Options, {
       tag: "opt",
-      contents: this.state.contents.opt,
-      onMouseOver: this.handleHover,
-      onMouseLeave: this.handleLeave
+      contents: this.props.contents.opt,
+      onMouseOver: this.props.onMouseOver,
+      onMouseLeave: this.props.onMouseLeave
     })));
-  }
-
-}
-
-class ImgContainer extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
-  render() {
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-      href: this.props.input.href
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-      alt: this.props.tag + this.props.input.key,
-      src: this.props.input.img
-    }));
   }
 
 }
@@ -936,7 +736,7 @@ class ContentsContainer extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Com
     let listItem;
 
     if (this.props.content.data && Array.isArray(this.props.content.data)) {
-      listItem = this.props.content.data.map(x => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(ImgContainer, {
+      listItem = this.props.content.data.map(x => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(ImgA, {
         input: x,
         tag: this.props.content.tag,
         key: x.key
@@ -1007,93 +807,15 @@ class Title extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
 }
 
 class Main extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      title: {
-        tag: "title",
-        name: "ArkMelon",
-        description: "用于快速查看明日方舟游戏数据的资料库"
-      },
-      contents: [{
-        key: 0,
-        tag: "event",
-        name: "最新活动",
-        data: [{
-          key: 0,
-          href: "/",
-          img: "../images/index/event1.png"
-        }, {
-          key: 1,
-          href: "/",
-          img: "../images/index/event2.png"
-        }]
-      }, {
-        key: 1,
-        tag: "pool",
-        name: "新增卡池",
-        data: [{
-          key: 0,
-          href: "/",
-          img: "../images/index/pool1.png"
-        }, {
-          key: 1,
-          href: "/",
-          img: "../images/index/pool2.png"
-        }]
-      }, {
-        key: 2,
-        tag: "operator",
-        name: "新增干员",
-        data: [{
-          key: 0,
-          href: "/",
-          img: "../images/index/operator1.png"
-        }]
-      }, {
-        key: 3,
-        tag: "cloth",
-        name: "新增服装",
-        data: [{
-          key: 0,
-          href: "/",
-          img: "../images/index/cloth1.png"
-        }]
-      }, {
-        key: 4,
-        tag: "theme",
-        name: "新增家具",
-        data: [{
-          key: 0,
-          href: "/",
-          img: "../images/index/theme1.png"
-        }]
-      }, {
-        key: 5,
-        tag: "stage",
-        name: "新增关卡",
-        data: [{
-          key: 0,
-          href: "/",
-          img: "../images/index/stage1.png"
-        }, {
-          key: 1,
-          href: "/",
-          img: "../images/index/stage2.png"
-        }]
-      }]
-    };
-  }
-
   render() {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: "main"
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: "main-container"
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Title, {
-      content: this.state.title
+      content: this.props.contents.title
     }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(MainContents, {
-      contents: this.state.contents
+      contents: this.props.contents.contents
     })));
   }
 
@@ -1102,7 +824,7 @@ class Main extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
 class Footer extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
   render() {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: this.props.theme === "dark" ? "footer dark-mode-bar" : "footer light-mode-bar"
+      className: "footer"
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: "footer-contents"
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -1131,34 +853,316 @@ class App extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
   constructor(props) {
     super(props);
 
-    _defineProperty(this, "changeTheme", () => {
-      if (this.state.theme === "light") {
-        console.log("light");
-        this.setState({
-          theme: "dark"
-        });
-      } else {
-        console.log("dark");
-        this.setState({
-          theme: "light"
-        });
+    _defineProperty(this, "handleHover", (x, position, type) => {
+      let all = this.state.contents;
+
+      if (position === "top") {
+        let tmp = all.top;
+
+        if (type === "nav") {
+          tmp.nav[x].listInfo.display = true;
+
+          if (tmp.nav[x].hasOwnProperty("color")) {
+            tmp.nav[x].color = "#f08080";
+          }
+
+          all.top = tmp;
+          this.setState({
+            contents: all
+          });
+        }
+
+        if (type === "opt") {
+          tmp.opt[x].listInfo.display = true;
+
+          if (tmp.opt[x].hasOwnProperty("color")) {
+            tmp.opt[x].color = "#f08080";
+          }
+
+          all.top = tmp;
+          this.setState({
+            contents: all
+          });
+        }
+
+        if (type === "srh") {
+          if (tmp.srh.button.hasOwnProperty("color")) {
+            tmp.srh.button.color = "#f08080";
+          }
+
+          all.top = tmp;
+          this.setState({
+            contents: all
+          });
+        }
+      }
+    });
+
+    _defineProperty(this, "handleLeave", (x, position, type) => {
+      let all = this.state.contents;
+
+      if (position === "top") {
+        let tmp = all.top;
+
+        if (type === "nav") {
+          tmp.nav[x].listInfo.display = false;
+
+          if (tmp.nav[x].hasOwnProperty("color")) {
+            tmp.nav[x].color = "#ffffff";
+          }
+
+          all.top = tmp;
+          this.setState({
+            contents: all
+          });
+        }
+
+        if (type === "opt") {
+          tmp.opt[x].listInfo.display = false;
+
+          if (tmp.opt[x].hasOwnProperty("color")) {
+            tmp.opt[x].color = "#ffffff";
+          }
+
+          all.top = tmp;
+          this.setState({
+            contents: all
+          });
+        }
+
+        if (type === "srh") {
+          if (tmp.srh.button.hasOwnProperty("color")) {
+            tmp.srh.button.color = "#fff";
+          }
+
+          all.top = tmp;
+          this.setState({
+            contents: all
+          });
+        }
+      }
+    });
+
+    _defineProperty(this, "showSearchBar", () => {
+      let all = this.state.contents;
+      let tmp = all.top;
+
+      if (tmp.hasOwnProperty("srh")) {
+        if (tmp.srh.hasOwnProperty("input") && tmp.srh.hasOwnProperty("button")) {
+          tmp.srh.input.display = !tmp.srh.input.display;
+          all.top = tmp;
+          this.setState({
+            contents: all
+          });
+        }
       }
     });
 
     this.state = {
-      theme: "dark"
+      contents: {
+        top: {
+          logo: {
+            key: 0,
+            tag: "logo",
+            href: "/",
+            img: "../images/logo.jpg",
+            name: "ArkMelon"
+          },
+          nav: [{
+            key: 0,
+            name: "游戏数据",
+            listInfo: {
+              display: false,
+              data: [{
+                key: 0,
+                title: "#####",
+                href: "/"
+              }, {
+                key: 1,
+                title: "#####",
+                href: "/"
+              }, {
+                key: 2,
+                title: "#####",
+                href: "/"
+              }]
+            }
+          }, {
+            key: 1,
+            name: "材料相关",
+            listInfo: {
+              display: false,
+              data: [{
+                key: 0,
+                title: "#####",
+                href: "/"
+              }, {
+                key: 1,
+                title: "#####",
+                href: "/"
+              }, {
+                key: 2,
+                title: "#####",
+                href: "/"
+              }]
+            }
+          }, {
+            key: 2,
+            name: "寻访模拟",
+            listInfo: {
+              display: false,
+              data: [{
+                key: 0,
+                title: "#####",
+                href: "/"
+              }, {
+                key: 1,
+                title: "#####",
+                href: "/"
+              }, {
+                key: 2,
+                title: "#####",
+                href: "/"
+              }]
+            }
+          }],
+          srh: {
+            input: {
+              display: false
+            },
+            button: {
+              color: "#fff"
+            }
+          },
+          opt: [{
+            key: 0,
+            name: "主题",
+            listInfo: {
+              display: false,
+              data: [{
+                key: 0,
+                title: "#####",
+                href: "/"
+              }, {
+                key: 1,
+                title: "#####",
+                href: "/"
+              }]
+            }
+          }, {
+            key: 1,
+            name: "多语言",
+            color: "#ffffff",
+            listInfo: {
+              display: false,
+              data: [{
+                key: 0,
+                title: "中文",
+                href: "/"
+              }, {
+                key: 1,
+                title: "English",
+                href: "/"
+              }, {
+                key: 2,
+                title: "日本語",
+                href: "/"
+              }]
+            }
+          }, {
+            key: 2,
+            name: "Github",
+            href: "https://github.com/killbe5419/ArkMelon",
+            listInfo: {}
+          }]
+        },
+        main: {
+          title: {
+            tag: "title",
+            name: "ArkMelon",
+            description: "用于快速查看明日方舟游戏数据的资料库"
+          },
+          contents: [{
+            key: 0,
+            tag: "event",
+            name: "最新活动",
+            data: [{
+              key: 0,
+              href: "/",
+              img: "../images/index/event1.png"
+            }, {
+              key: 1,
+              href: "/",
+              img: "../images/index/event2.png"
+            }]
+          }, {
+            key: 1,
+            tag: "pool",
+            name: "新增卡池",
+            data: [{
+              key: 0,
+              href: "/",
+              img: "../images/index/pool1.png"
+            }, {
+              key: 1,
+              href: "/",
+              img: "../images/index/pool2.png"
+            }]
+          }, {
+            key: 2,
+            tag: "operator",
+            name: "新增干员",
+            data: [{
+              key: 0,
+              href: "/",
+              img: "../images/index/operator1.png"
+            }]
+          }, {
+            key: 3,
+            tag: "cloth",
+            name: "新增服装",
+            data: [{
+              key: 0,
+              href: "/",
+              img: "../images/index/cloth1.png"
+            }]
+          }, {
+            key: 4,
+            tag: "theme",
+            name: "新增家具",
+            data: [{
+              key: 0,
+              href: "/",
+              img: "../images/index/theme1.png"
+            }]
+          }, {
+            key: 5,
+            tag: "stage",
+            name: "新增关卡",
+            data: [{
+              key: 0,
+              href: "/",
+              img: "../images/index/stage1.png"
+            }, {
+              key: 1,
+              href: "/",
+              img: "../images/index/stage2.png"
+            }]
+          }]
+        }
+      }
     };
   }
 
   render() {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(TopBar, {
-      theme: this.state.theme,
-      changeTheme: () => this.changeTheme()
+      contents: this.state.contents.top,
+      onMouseOver: this.handleHover,
+      onMouseLeave: this.handleLeave,
+      onClick: this.showSearchBar
     }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Main, {
-      theme: this.state.theme
-    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Footer, {
-      theme: this.state.theme
-    }));
+      contents: this.state.contents.main
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Footer, null));
   }
 
 }
@@ -1193,6 +1197,17 @@ var update = api(content, options);
 
 
 module.exports = content.locals || {};
+
+/***/ }),
+
+/***/ "axios":
+/*!************************!*\
+  !*** external "axios" ***!
+  \************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = axios;
 
 /***/ }),
 

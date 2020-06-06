@@ -1,14 +1,24 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "../styles/index.css";
+import axios from "axios";
+
+class ImgA extends React.Component {
+    render() {
+        const span = this.props.input.name ? (<span>{ this.props.input.name }</span>) : null;
+        return (
+            <a className={ this.props.className } href={ this.props.input.href } >
+                <img alt={ this.props.tag + this.props.input.key } src={ this.props.input.img } />
+                { span }
+            </a>
+        );
+    }
+}
 
 class Logo extends React.Component {
     render() {
         return (
-            <a className="logo" href="/">
-                <img alt="logo" src="../images/logo.jpg"/>
-                <span>ArkMelon</span>
-            </a>
+           <ImgA className="logo" tag="logo"   input={ this.props.content } />
         );
     }
 }
@@ -50,7 +60,6 @@ class TopBarContainer extends React.Component {
 }
 
 class Nav extends React.Component {
-
     render() {
         const tmp = this.props.contents.slice();
         const listItem = tmp.map( x =>
@@ -58,8 +67,8 @@ class Nav extends React.Component {
                 tag={ this.props.tag }
                 key={ x.key }
                 content={ x }
-                onMouseOver={ () => this.props.onMouseOver(x.key,"nav") }
-                onMouseLeave={ () => this.props.onMouseLeave(x.key,"nav") }
+                onMouseOver={ () => this.props.onMouseOver(x.key, "top", "nav") }
+                onMouseLeave={ () => this.props.onMouseLeave(x.key, "top", "nav") }
             />
         )
         return (
@@ -88,8 +97,8 @@ class Search extends React.Component {
                 { input }
                 <button
                     className="search-icon"
-                    onMouseOver= {() => this.props.onMouseOver(null, this.props.tag) }
-                    onMouseLeave= { () => this.props.onMouseLeave(null, this.props.tag) }
+                    onMouseOver= {() => this.props.onMouseOver(null, "top", this.props.tag) }
+                    onMouseLeave= { () => this.props.onMouseLeave(null, "top", this.props.tag) }
                     onClick={ () => this.props.onClick() }>
                     <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 50 50" >
                         <path d="
@@ -180,14 +189,14 @@ class Options extends React.Component {
                 <ChangeTheme
                     tag={ this.props.tag }
                     content={ this.props.contents[0] }
-                    onMouseOver={ () => this.props.onMouseOver(0, "opt") }
-                    onMouseLeave={ () => this.props.onMouseLeave(0, "opt") }
+                    onMouseOver={ () => this.props.onMouseOver(0, "top", "opt") }
+                    onMouseLeave={ () => this.props.onMouseLeave(0, "top", "opt") }
                 />
                 <Language
                     tag={ "language" }
                     content={ this.props.contents[1] }
-                    onMouseOver={ () => this.props.onMouseOver(1, "opt") }
-                    onMouseLeave={ () => this.props.onMouseLeave(1, "opt") }
+                    onMouseOver={ () => this.props.onMouseOver(1, "top", "opt") }
+                    onMouseLeave={ () => this.props.onMouseLeave(1, "top", "opt") }
                 />
                 <Github
                     tag={ this.props.tag }
@@ -199,264 +208,32 @@ class Options extends React.Component {
 }
 
 class TopBar extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            contents: {
-                nav:[
-                    {
-                        key: 0,
-                        name: "游戏数据",
-                        listInfo: {
-                            display: false,
-                            data: [
-                                {
-                                    key: 0,
-                                    title: "#####",
-                                    href: "/"
-                                },
-                                {
-                                    key: 1,
-                                    title: "#####",
-                                    href: "/"
-                                },
-                                {
-                                    key: 2,
-                                    title: "#####",
-                                    href: "/"
-                                },
-                            ]
-                        }
-                    },
-                    {
-                        key: 1,
-                        name:
-                            "材料相关",
-                        listInfo:
-                            {
-                                display: false,
-                                data:
-                                    [
-                                        {
-                                            key: 0,
-                                            title: "#####",
-                                            href: "/"
-                                        },
-                                        {
-                                            key: 0,
-                                            title: "#####",
-                                            href: "/"
-                                        },
-                                        {
-                                            key: 1,
-                                            title: "#####",
-                                            href: "/"
-                                        },
-                                    ]
-                            }
-                    },
-                    {
-                        key: 2,
-                        name:
-                            "寻访模拟",
-                        listInfo:
-                            {
-                                display: false,
-                                data:
-                                    [
-                                        {
-                                            key: 0,
-                                            title: "#####",
-                                            href: "/"
-                                        },
-                                        {
-                                            key: 1,
-                                            title: "#####",
-                                            href: "/"
-                                        },
-                                        {
-                                            key: 2,
-                                            title: "#####",
-                                            href: "/"
-                                        },
-                                    ]
-                            }
-                    }
-                ],
-                srh: {
-                    input: {
-                        display: false
-                    },
-                    button:{
-                        color: "#fff",
-                    },
-                },
-                opt:[
-                    {
-                        key: 0,
-                        name: "主题",
-                        listInfo: {
-                            display: false,
-                            data: [
-                                {
-                                    key: 0,
-                                    title: "#####",
-                                    href: "/"
-                                },
-                                {
-                                    key: 1,
-                                    title: "#####",
-                                    href: "/"
-                                },
-                            ]
-                        }
-                    },
-                    {
-                        key: 1,
-                        name: "多语言",
-                        color: "#ffffff",
-                        listInfo:
-                            {
-                                display: false,
-                                data:
-                                    [
-                                        {
-                                            key: 0,
-                                            title: "中文",
-                                            href: "/"
-                                        },
-                                        {
-                                            key: 1,
-                                            title: "English",
-                                            href: "/"
-                                        },
-                                        {
-                                            key: 2,
-                                            title: "日本語",
-                                            href: "/"
-                                        },
-                                    ]
-                            }
-                    },
-                    {
-                        key: 2,
-                        name: "Github",
-                        href: "https://github.com/killbe5419/ArkMelon",
-                        listInfo: {}
-                    }
-                ],
-            }
-        }
-    }
-
-    handleHover = (x, type) => {
-        let tmp = this.state.contents;
-        if(type === "nav") {
-            tmp.nav[x].listInfo.display = true;
-            if(tmp.nav[x].hasOwnProperty("color")) {
-                tmp.nav[x].color = "#f08080";
-            }
-            this.setState({
-                contents: tmp
-            })
-        }
-        if(type === "opt") {
-            tmp.opt[x].listInfo.display = true;
-            if(tmp.opt[x].hasOwnProperty("color")) {
-                tmp.opt[x].color = "#f08080";
-            }
-            this.setState({
-                contents: tmp
-            })
-        }
-        if(type === "srh") {
-            if(tmp.srh.button.hasOwnProperty("color")) {
-                tmp.srh.button.color = "#f08080";
-            }
-            this.setState({
-                contents: tmp
-            })
-        }
-    }
-
-    handleLeave = (x, type) => {
-        let tmp = this.state.contents;
-        if(type === "nav") {
-            tmp.nav[x].listInfo.display = false;
-            if(tmp.nav[x].hasOwnProperty("color")) {
-                tmp.nav[x].color = "#ffffff";
-            }
-            this.setState({
-                contents: tmp
-            })
-        }
-        if(type === "opt") {
-            tmp.opt[x].listInfo.display = false;
-            if(tmp.opt[x].hasOwnProperty("color")) {
-                tmp.opt[x].color = "#ffffff";
-            }
-            this.setState({
-                contents: tmp
-            })
-        }
-        if(type === "srh") {
-            if(tmp.srh.button.hasOwnProperty("color")) {
-                tmp.srh.button.color = "#fff";
-            }
-            this.setState({
-                contents: tmp
-            })
-        }
-    }
-
-    showSearchBar = () => {
-        let tmp = this.state.contents;
-        if(tmp.hasOwnProperty("srh")) {
-            if(tmp.srh.hasOwnProperty("input") && tmp.srh.hasOwnProperty("button")) {
-                tmp.srh.input.display = !tmp.srh.input.display;
-                this.setState({
-                    contents: tmp
-                })
-            }
-        }
-    }
-
     render() {
         return (
-            <div className={this.props.theme === "dark" ? "header dark-mode-bar" : "header light-mode-bar"}>
+            <div className="header">
                 <header className="top-bar">
-                    <Logo />
+                    <Logo content={ this.props.contents.logo }/>
                     <Nav
                         tag="nav"
-                        contents={ this.state.contents.nav }
-                        onMouseOver={  this.handleHover }
-                        onMouseLeave={ this.handleLeave }
+                        contents={ this.props.contents.nav }
+                        onMouseOver={  this.props.onMouseOver }
+                        onMouseLeave={ this.props.onMouseLeave }
                     />
                     <Search
                         tag="srh"
-                        contents={ this.state.contents.srh }
-                        onMouseOver={ this.handleHover }
-                        onMouseLeave={ this.handleLeave }
-                        onClick={ this.showSearchBar }
+                        contents={ this.props.contents.srh }
+                        onMouseOver={ this.props.onMouseOver }
+                        onMouseLeave={ this.props.onMouseLeave }
+                        onClick={ this.props.onClick }
                     />
                     <Options
                         tag="opt"
-                        contents={ this.state.contents.opt }
-                        onMouseOver={ this.handleHover }
-                        onMouseLeave={ this.handleLeave }
+                        contents={ this.props.contents.opt }
+                        onMouseOver={ this.props.onMouseOver }
+                        onMouseLeave={ this.props.onMouseLeave }
                     />
                 </header>
             </div>
-        );
-    }
-}
-
-class ImgContainer extends React.Component {
-    render() {
-        return (
-            <a href={ this.props.input.href } >
-                <img alt={ this.props.tag + this.props.input.key } src={ this.props.input.img } />
-            </a>
         );
     }
 }
@@ -466,7 +243,7 @@ class ContentsContainer extends React.Component {
         let listItem;
         if(this.props.content.data && Array.isArray(this.props.content.data)) {
             listItem = this.props.content.data.map ( x =>
-               <ImgContainer input={ x } tag={ this.props.content.tag } key={ x.key }/>
+               <ImgA input={ x } tag={ this.props.content.tag } key={ x.key }/>
             )
         } else {
             listItem = null;
@@ -530,112 +307,12 @@ class Title extends React.Component {
 }
 
 class Main extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            title:{
-                tag: "title",
-                name: "ArkMelon",
-                description: "用于快速查看明日方舟游戏数据的资料库",
-            },
-            contents: [
-                {
-                    key: 0,
-                    tag: "event",
-                    name: "最新活动",
-                    data: [
-                        {
-                            key: 0,
-                            href: "/",
-                            img: "../images/index/event1.png"
-                        },
-                        {
-                            key: 1,
-                            href: "/",
-                            img: "../images/index/event2.png"
-                        },
-                    ],
-                },
-                {
-                    key: 1,
-                    tag: "pool",
-                    name: "新增卡池",
-                    data:[
-                        {
-                            key: 0,
-                            href: "/",
-                            img: "../images/index/pool1.png"
-                        },
-                        {
-                            key: 1,
-                            href: "/",
-                            img: "../images/index/pool2.png"
-                        },
-                    ],
-                },
-                {
-                    key: 2,
-                    tag: "operator",
-                    name: "新增干员",
-                    data: [
-                        {
-                            key: 0,
-                            href: "/",
-                            img: "../images/index/operator1.png"
-                        },
-                    ],
-                },
-                {
-                    key: 3,
-                    tag: "cloth",
-                    name: "新增服装",
-                    data: [
-                        {
-                            key: 0,
-                            href: "/",
-                            img: "../images/index/cloth1.png"
-                        },
-                    ],
-                },
-                {
-                    key: 4,
-                    tag: "theme",
-                    name: "新增家具",
-                    data: [
-                        {
-                            key: 0,
-                            href: "/",
-                            img: "../images/index/theme1.png"
-                        },
-                    ],
-                },
-                {
-                    key: 5,
-                    tag: "stage",
-                    name: "新增关卡",
-                    data:[
-                        {
-                            key: 0,
-                            href: "/",
-                            img: "../images/index/stage1.png"
-                        },
-                        {
-                            key: 1,
-                            href: "/",
-                            img: "../images/index/stage2.png"
-                        },
-                    ],
-                },
-            ],
-        }
-    }
-
     render() {
         return (
             <div className="main">
                 <div className="main-container">
-                    <Title content={ this.state.title } />
-                    <MainContents contents={ this.state.contents }/>
+                    <Title content={ this.props.contents.title } />
+                    <MainContents contents={ this.props.contents.contents }/>
                 </div>
             </div>
         );
@@ -645,7 +322,7 @@ class Main extends React.Component {
 class Footer extends React.Component {
     render() {
         return (
-            <div className={this.props.theme === "dark" ? "footer dark-mode-bar" : "footer light-mode-bar"}>
+            <div className="footer">
                 <div className="footer-contents">
                     <div className="footer-top">
                         <div className="footer-top-left">
@@ -677,31 +354,357 @@ class App extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            theme: "dark"
+            contents: {
+                top: {
+                    logo: {
+                        key: 0,
+                        tag: "logo",
+                        href: "/",
+                        img: "../images/logo.jpg",
+                        name: "ArkMelon"
+                    },
+                    nav:[
+                        {
+                            key: 0,
+                            name: "游戏数据",
+                            listInfo: {
+                                display: false,
+                                data: [
+                                    {
+                                        key: 0,
+                                        title: "#####",
+                                        href: "/"
+                                    },
+                                    {
+                                        key: 1,
+                                        title: "#####",
+                                        href: "/"
+                                    },
+                                    {
+                                        key: 2,
+                                        title: "#####",
+                                        href: "/"
+                                    },
+                                ]
+                            }
+                        },
+                        {
+                            key: 1,
+                            name:
+                                "材料相关",
+                            listInfo:
+                                {
+                                    display: false,
+                                    data:
+                                        [
+                                            {
+                                                key: 0,
+                                                title: "#####",
+                                                href: "/"
+                                            },
+                                            {
+                                                key: 1,
+                                                title: "#####",
+                                                href: "/"
+                                            },
+                                            {
+                                                key: 2,
+                                                title: "#####",
+                                                href: "/"
+                                            },
+                                        ]
+                                }
+                        },
+                        {
+                            key: 2,
+                            name:
+                                "寻访模拟",
+                            listInfo:
+                                {
+                                    display: false,
+                                    data:
+                                        [
+                                            {
+                                                key: 0,
+                                                title: "#####",
+                                                href: "/"
+                                            },
+                                            {
+                                                key: 1,
+                                                title: "#####",
+                                                href: "/"
+                                            },
+                                            {
+                                                key: 2,
+                                                title: "#####",
+                                                href: "/"
+                                            },
+                                        ]
+                                }
+                        }
+                    ],
+                    srh: {
+                        input: {
+                            display: false
+                        },
+                        button:{
+                            color: "#fff",
+                        },
+                    },
+                    opt:[
+                        {
+                            key: 0,
+                            name: "主题",
+                            listInfo: {
+                                display: false,
+                                data: [
+                                    {
+                                        key: 0,
+                                        title: "#####",
+                                        href: "/"
+                                    },
+                                    {
+                                        key: 1,
+                                        title: "#####",
+                                        href: "/"
+                                    },
+                                ]
+                            }
+                        },
+                        {
+                            key: 1,
+                            name: "多语言",
+                            color: "#ffffff",
+                            listInfo:
+                                {
+                                    display: false,
+                                    data:
+                                        [
+                                            {
+                                                key: 0,
+                                                title: "中文",
+                                                href: "/"
+                                            },
+                                            {
+                                                key: 1,
+                                                title: "English",
+                                                href: "/"
+                                            },
+                                            {
+                                                key: 2,
+                                                title: "日本語",
+                                                href: "/"
+                                            },
+                                        ]
+                                }
+                        },
+                        {
+                            key: 2,
+                            name: "Github",
+                            href: "https://github.com/killbe5419/ArkMelon",
+                            listInfo: {}
+                        }
+                    ],
+                },
+                main: {
+                    title:{
+                        tag: "title",
+                        name: "ArkMelon",
+                        description: "用于快速查看明日方舟游戏数据的资料库",
+                    },
+                    contents: [
+                        {
+                            key: 0,
+                            tag: "event",
+                            name: "最新活动",
+                            data: [
+                                {
+                                    key: 0,
+                                    href: "/",
+                                    img: "../images/index/event1.png"
+                                },
+                                {
+                                    key: 1,
+                                    href: "/",
+                                    img: "../images/index/event2.png"
+                                },
+                            ],
+                        },
+                        {
+                            key: 1,
+                            tag: "pool",
+                            name: "新增卡池",
+                            data:[
+                                {
+                                    key: 0,
+                                    href: "/",
+                                    img: "../images/index/pool1.png"
+                                },
+                                {
+                                    key: 1,
+                                    href: "/",
+                                    img: "../images/index/pool2.png"
+                                },
+                            ],
+                        },
+                        {
+                            key: 2,
+                            tag: "operator",
+                            name: "新增干员",
+                            data: [
+                                {
+                                    key: 0,
+                                    href: "/",
+                                    img: "../images/index/operator1.png"
+                                },
+                            ],
+                        },
+                        {
+                            key: 3,
+                            tag: "cloth",
+                            name: "新增服装",
+                            data: [
+                                {
+                                    key: 0,
+                                    href: "/",
+                                    img: "../images/index/cloth1.png"
+                                },
+                            ],
+                        },
+                        {
+                            key: 4,
+                            tag: "theme",
+                            name: "新增家具",
+                            data: [
+                                {
+                                    key: 0,
+                                    href: "/",
+                                    img: "../images/index/theme1.png"
+                                },
+                            ],
+                        },
+                        {
+                            key: 5,
+                            tag: "stage",
+                            name: "新增关卡",
+                            data:[
+                                {
+                                    key: 0,
+                                    href: "/",
+                                    img: "../images/index/stage1.png"
+                                },
+                                {
+                                    key: 1,
+                                    href: "/",
+                                    img: "../images/index/stage2.png"
+                                },
+                            ],
+                        },
+                    ],
+                }
+            }
         };
     }
 
-    changeTheme = () => {
-        if(this.state.theme === "light") {
-            console.log("light");
-            this.setState({
-                theme: "dark"
-            })
-        } else {
-            console.log("dark");
-            this.setState({
-                theme: "light"
-            })
+    handleHover = (x, position, type) => {
+        let all = this.state.contents;
+        if(position === "top") {
+            let tmp = all.top;
+            if(type === "nav") {
+                tmp.nav[x].listInfo.display = true;
+                if(tmp.nav[x].hasOwnProperty("color")) {
+                    tmp.nav[x].color = "#f08080";
+                }
+                all.top = tmp;
+                this.setState({
+                    contents: all
+                })
+            }
+            if(type === "opt") {
+                tmp.opt[x].listInfo.display = true;
+                if(tmp.opt[x].hasOwnProperty("color")) {
+                    tmp.opt[x].color = "#f08080";
+                }
+                all.top = tmp;
+                this.setState({
+                    contents: all
+                })
+            }
+            if(type === "srh") {
+                if(tmp.srh.button.hasOwnProperty("color")) {
+                    tmp.srh.button.color = "#f08080";
+                }
+                all.top = tmp;
+                this.setState({
+                    contents: all
+                })
+            }
+        }
+    }
+
+    handleLeave = (x, position, type) => {
+        let all = this.state.contents;
+        if(position === "top") {
+            let tmp = all.top;
+            if(type === "nav") {
+                tmp.nav[x].listInfo.display = false;
+                if(tmp.nav[x].hasOwnProperty("color")) {
+                    tmp.nav[x].color = "#ffffff";
+                }
+                all.top = tmp;
+                this.setState({
+                    contents: all
+                })
+            }
+            if(type === "opt") {
+                tmp.opt[x].listInfo.display = false;
+                if(tmp.opt[x].hasOwnProperty("color")) {
+                    tmp.opt[x].color = "#ffffff";
+                }
+                all.top = tmp;
+                this.setState({
+                    contents: all
+                })
+            }
+            if(type === "srh") {
+                if(tmp.srh.button.hasOwnProperty("color")) {
+                    tmp.srh.button.color = "#fff";
+                }
+                all.top = tmp;
+                this.setState({
+                    contents: all
+                })
+            }
         }
 
     }
 
+    showSearchBar = () => {
+        let all = this.state.contents;
+        let tmp = all.top;
+        if(tmp.hasOwnProperty("srh")) {
+            if(tmp.srh.hasOwnProperty("input") && tmp.srh.hasOwnProperty("button")) {
+                tmp.srh.input.display = !tmp.srh.input.display;
+                all.top = tmp;
+                this.setState({
+                    contents: all
+                })
+            }
+        }
+    }
+
+
     render() {
         return (
             <div>
-               <TopBar theme={ this.state.theme } changeTheme={() => this.changeTheme()} />
-               <Main theme={ this.state.theme }/>
-               <Footer theme={ this.state.theme }/>
+               <TopBar
+                   contents={ this.state.contents.top }
+                   onMouseOver={ this.handleHover }
+                   onMouseLeave={ this.handleLeave }
+                   onClick={ this.showSearchBar }
+               />
+               <Main contents={ this.state.contents.main }/>
+               <Footer />
             </div>
         );
     }
