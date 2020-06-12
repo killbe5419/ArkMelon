@@ -10,14 +10,41 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="607eec3e-89c1-47af-9f10-8be80260d6f9" name="Default Changelist" comment="add files.">
-      <change afterPath="$PROJECT_DIR$/src/pages/404.html" afterDir="false" />
+    <list default="true" id="607eec3e-89c1-47af-9f10-8be80260d6f9" name="Default Changelist" comment="add MIT LICENSE.">
+      <change afterPath="$PROJECT_DIR$/src/pages/gameData/clothes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/gameData/enemies.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/gameData/events.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/gameData/items.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/gameData/maps.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/gameData/operators.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/gameData/pools.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/gameData/themes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/material/conversion.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/material/levelUp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/material/planner.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/simulation/simulationIndex.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scripts/404.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scripts/components/Footer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scripts/components/MainTemplate.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scripts/components/TopBar.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scripts/components/basic.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scripts/template.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/404.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/components/Footer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/components/MainTemplate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/components/TopBar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/killbe.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/killbe.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dist/react.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/dist/react.bundle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dist/react.bundle.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/dist/react.bundle.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dist/react.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dist/react.bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/404.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scripts/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scripts/test.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/temp.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +76,9 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectId" id="1c7VU0sIv7a1GH6coNhZVNYH3TI" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -71,18 +100,20 @@
     <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/styles/components" />
+      <recent name="$PROJECT_DIR$/src/scripts/components" />
+      <recent name="$PROJECT_DIR$/src/images" />
+      <recent name="$PROJECT_DIR$/src/data" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/images" />
       <recent name="$PROJECT_DIR$/../../../Golang/ark-sim/src" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/images" />
-      <recent name="$PROJECT_DIR$/src/data" />
-      <recent name="$PROJECT_DIR$/src" />
-    </key>
   </component>
-  <component name="RunManager" selected="npm.server">
+  <component name="RunManager" selected="npm.watch">
     <configuration name="server" type="js.build_tools.npm" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -141,7 +172,12 @@
       <workItem from="1591100624124" duration="832000" />
       <workItem from="1591164396600" duration="128000" />
       <workItem from="1591164527724" duration="3148000" />
-      <workItem from="1591421869766" duration="21728000" />
+      <workItem from="1591421869766" duration="22374000" />
+      <workItem from="1591693713819" duration="2968000" />
+      <workItem from="1591857697477" duration="4000" />
+      <workItem from="1591868858065" duration="3985000" />
+      <workItem from="1591875587732" duration="7827000" />
+      <workItem from="1591939604218" duration="341000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1591164943965</created>
@@ -227,7 +263,49 @@
       <option name="project" value="LOCAL" />
       <updated>1591439373359</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="add handleSearch function.">
+      <created>1591451542917</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1591451542917</updated>
+    </task>
+    <task id="LOCAL-00014" summary="add 404 page.">
+      <created>1591451556558</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1591451556558</updated>
+    </task>
+    <task id="LOCAL-00015" summary="redesigned search part.">
+      <created>1591451605428</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1591451605428</updated>
+    </task>
+    <task id="LOCAL-00016" summary="add changes.">
+      <created>1591451614248</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1591451614248</updated>
+    </task>
+    <task id="LOCAL-00017" summary="add MIT LICENSE.">
+      <created>1591874043887</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1591874043887</updated>
+    </task>
+    <task id="LOCAL-00018" summary="add MIT LICENSE.">
+      <created>1591874128222</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1591874128222</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,8 +333,12 @@
     <MESSAGE value="divided components to much smaller parts." />
     <MESSAGE value="fix some name-relative bugs." />
     <MESSAGE value="divided components into much smaller parts." />
+    <MESSAGE value="add handleSearch function." />
+    <MESSAGE value="add 404 page." />
+    <MESSAGE value="redesigned search part." />
     <MESSAGE value="add changes." />
-    <option name="LAST_COMMIT_MESSAGE" value="add changes." />
+    <MESSAGE value="add MIT LICENSE." />
+    <option name="LAST_COMMIT_MESSAGE" value="add MIT LICENSE." />
   </component>
   <component name="WindowStateProjectService">
     <state x="492" y="382" key="#Scopes" timestamp="1589962361499">
@@ -275,22 +357,22 @@
       <screen x="0" y="23" width="1680" height="981" />
     </state>
     <state width="251" height="195" key="DatabaseViewActions_Filter/0.23.1680.981@0.23.1680.981" timestamp="1589966524504" />
-    <state width="862" height="198" key="GridCell.Tab.0.bottom" timestamp="1591451133106">
+    <state width="862" height="198" key="GridCell.Tab.0.bottom" timestamp="1591890486094">
       <screen x="0" y="23" width="1680" height="981" />
     </state>
-    <state width="862" height="198" key="GridCell.Tab.0.bottom/0.23.1680.981@0.23.1680.981" timestamp="1591451133106" />
-    <state width="862" height="198" key="GridCell.Tab.0.center" timestamp="1591451133104">
+    <state width="862" height="198" key="GridCell.Tab.0.bottom/0.23.1680.981@0.23.1680.981" timestamp="1591890486094" />
+    <state width="862" height="198" key="GridCell.Tab.0.center" timestamp="1591890486094">
       <screen x="0" y="23" width="1680" height="981" />
     </state>
-    <state width="862" height="198" key="GridCell.Tab.0.center/0.23.1680.981@0.23.1680.981" timestamp="1591451133104" />
-    <state width="862" height="198" key="GridCell.Tab.0.left" timestamp="1591451133103">
+    <state width="862" height="198" key="GridCell.Tab.0.center/0.23.1680.981@0.23.1680.981" timestamp="1591890486094" />
+    <state width="862" height="198" key="GridCell.Tab.0.left" timestamp="1591890486093">
       <screen x="0" y="23" width="1680" height="981" />
     </state>
-    <state width="862" height="198" key="GridCell.Tab.0.left/0.23.1680.981@0.23.1680.981" timestamp="1591451133103" />
-    <state width="862" height="198" key="GridCell.Tab.0.right" timestamp="1591451133105">
+    <state width="862" height="198" key="GridCell.Tab.0.left/0.23.1680.981@0.23.1680.981" timestamp="1591890486093" />
+    <state width="862" height="198" key="GridCell.Tab.0.right" timestamp="1591890486094">
       <screen x="0" y="23" width="1680" height="981" />
     </state>
-    <state width="862" height="198" key="GridCell.Tab.0.right/0.23.1680.981@0.23.1680.981" timestamp="1591451133105" />
+    <state width="862" height="198" key="GridCell.Tab.0.right/0.23.1680.981@0.23.1680.981" timestamp="1591890486094" />
     <state width="952" height="235" key="GridCell.Tab.1.bottom" timestamp="1590830953179">
       <screen x="0" y="23" width="1680" height="981" />
     </state>
@@ -351,10 +433,10 @@
       <screen x="0" y="23" width="1680" height="981" />
     </state>
     <state x="961" y="367" key="VCS.EditChangelistDialog/0.23.1680.981@0.23.1680.981" timestamp="1591165011540" />
-    <state x="742" y="189" key="Vcs.Push.Dialog.v2" timestamp="1591434077046">
+    <state x="742" y="189" key="Vcs.Push.Dialog.v2" timestamp="1591874138770">
       <screen x="0" y="23" width="1680" height="981" />
     </state>
-    <state x="742" y="189" key="Vcs.Push.Dialog.v2/0.23.1680.981@0.23.1680.981" timestamp="1591434077046" />
+    <state x="742" y="189" key="Vcs.Push.Dialog.v2/0.23.1680.981@0.23.1680.981" timestamp="1591874138770" />
     <state x="1017" y="424" width="341" height="221" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1590088369813">
       <screen x="0" y="23" width="1680" height="981" />
     </state>
