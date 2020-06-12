@@ -1,7 +1,7 @@
 # ArkMelon
 ### A Large Scale Multifunctional Wiki Product for Arknights.(Ongoing)
 
-### Project completeness: about 3%
+### Project completeness: about 7%
 
 ## License
 MIT

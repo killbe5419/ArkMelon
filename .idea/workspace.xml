@@ -357,22 +357,22 @@
       <screen x="0" y="23" width="1680" height="981" />
     </state>
     <state width="251" height="195" key="DatabaseViewActions_Filter/0.23.1680.981@0.23.1680.981" timestamp="1589966524504" />
-    <state width="862" height="198" key="GridCell.Tab.0.bottom" timestamp="1591890486094">
+    <state width="862" height="198" key="GridCell.Tab.0.bottom" timestamp="1591940147430">
       <screen x="0" y="23" width="1680" height="981" />
     </state>
-    <state width="862" height="198" key="GridCell.Tab.0.bottom/0.23.1680.981@0.23.1680.981" timestamp="1591890486094" />
-    <state width="862" height="198" key="GridCell.Tab.0.center" timestamp="1591890486094">
+    <state width="862" height="198" key="GridCell.Tab.0.bottom/0.23.1680.981@0.23.1680.981" timestamp="1591940147430" />
+    <state width="862" height="198" key="GridCell.Tab.0.center" timestamp="1591940147429">
       <screen x="0" y="23" width="1680" height="981" />
     </state>
-    <state width="862" height="198" key="GridCell.Tab.0.center/0.23.1680.981@0.23.1680.981" timestamp="1591890486094" />
-    <state width="862" height="198" key="GridCell.Tab.0.left" timestamp="1591890486093">
+    <state width="862" height="198" key="GridCell.Tab.0.center/0.23.1680.981@0.23.1680.981" timestamp="1591940147429" />
+    <state width="862" height="198" key="GridCell.Tab.0.left" timestamp="1591940147429">
       <screen x="0" y="23" width="1680" height="981" />
     </state>
-    <state width="862" height="198" key="GridCell.Tab.0.left/0.23.1680.981@0.23.1680.981" timestamp="1591890486093" />
-    <state width="862" height="198" key="GridCell.Tab.0.right" timestamp="1591890486094">
+    <state width="862" height="198" key="GridCell.Tab.0.left/0.23.1680.981@0.23.1680.981" timestamp="1591940147429" />
+    <state width="862" height="198" key="GridCell.Tab.0.right" timestamp="1591940147430">
       <screen x="0" y="23" width="1680" height="981" />
     </state>
-    <state width="862" height="198" key="GridCell.Tab.0.right/0.23.1680.981@0.23.1680.981" timestamp="1591890486094" />
+    <state width="862" height="198" key="GridCell.Tab.0.right/0.23.1680.981@0.23.1680.981" timestamp="1591940147430" />
     <state width="952" height="235" key="GridCell.Tab.1.bottom" timestamp="1590830953179">
       <screen x="0" y="23" width="1680" height="981" />
     </state>
@@ -433,10 +433,10 @@
       <screen x="0" y="23" width="1680" height="981" />
     </state>
     <state x="961" y="367" key="VCS.EditChangelistDialog/0.23.1680.981@0.23.1680.981" timestamp="1591165011540" />
-    <state x="742" y="189" key="Vcs.Push.Dialog.v2" timestamp="1591874138770">
+    <state x="742" y="189" key="Vcs.Push.Dialog.v2" timestamp="1591940171129">
       <screen x="0" y="23" width="1680" height="981" />
     </state>
-    <state x="742" y="189" key="Vcs.Push.Dialog.v2/0.23.1680.981@0.23.1680.981" timestamp="1591874138770" />
+    <state x="742" y="189" key="Vcs.Push.Dialog.v2/0.23.1680.981@0.23.1680.981" timestamp="1591940171129" />
     <state x="1017" y="424" width="341" height="221" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1590088369813">
       <screen x="0" y="23" width="1680" height="981" />
     </state>
