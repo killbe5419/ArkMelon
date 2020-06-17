@@ -11,41 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="607eec3e-89c1-47af-9f10-8be80260d6f9" name="Default Changelist" comment="use new system with react-router-dom.">
-      <change afterPath="$PROJECT_DIR$/src/scripts/app.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dist/404.bundle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dist/404.bundle.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dist/index.bundle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dist/index.bundle.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dist/template.bundle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dist/template.bundle.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/404.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/gameData/clothes.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/gameData/enemies.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/gameData/events.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/gameData/items.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/gameData/maps.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/gameData/operators.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/gameData/pools.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/gameData/themes.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/material/conversion.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/material/levelUp.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/material/planner.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/simulation/simulationIndex.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scripts/404.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/404.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scripts/components/MainTemplate.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/components/MainTemplate.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scripts/components/TopBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/components/TopBar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scripts/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scripts/template.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/template.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/404.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/404.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/components/MainTemplate.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/components/MainTemplate.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,7 +146,7 @@
       <workItem from="1591875587732" duration="7827000" />
       <workItem from="1591939604218" duration="5057000" />
       <workItem from="1592380166144" duration="5214000" />
-      <workItem from="1592389003734" duration="572000" />
+      <workItem from="1592389003734" duration="1360000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1591164943965</created>
@@ -378,7 +344,35 @@
       <option name="project" value="LOCAL" />
       <updated>1591940206849</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="use new system with react-router-dom.">
+      <created>1592389626196</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1592389626196</updated>
+    </task>
+    <task id="LOCAL-00030" summary="use new system with react-router-dom.">
+      <created>1592389630367</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1592389630367</updated>
+    </task>
+    <task id="LOCAL-00031" summary="use new system with react-router-dom.">
+      <created>1592389666272</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1592389666272</updated>
+    </task>
+    <task id="LOCAL-00032" summary="use new system with react-router-dom.">
+      <created>1592389808928</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1592389808928</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -516,10 +510,10 @@
       <screen x="0" y="23" width="1680" height="981" />
     </state>
     <state x="961" y="367" key="VCS.EditChangelistDialog/0.23.1680.981@0.23.1680.981" timestamp="1591165011540" />
-    <state x="742" y="189" key="Vcs.Push.Dialog.v2" timestamp="1591940213803">
+    <state x="742" y="189" key="Vcs.Push.Dialog.v2" timestamp="1592390522300">
       <screen x="0" y="23" width="1680" height="981" />
     </state>
-    <state x="742" y="189" key="Vcs.Push.Dialog.v2/0.23.1680.981@0.23.1680.981" timestamp="1591940213803" />
+    <state x="742" y="189" key="Vcs.Push.Dialog.v2/0.23.1680.981@0.23.1680.981" timestamp="1592390522300" />
     <state x="1017" y="424" width="341" height="221" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1590088369813">
       <screen x="0" y="23" width="1680" height="981" />
     </state>
