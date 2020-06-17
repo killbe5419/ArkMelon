@@ -12,8 +12,8 @@
     <orderEntry type="library" name="@types/mongodb" level="application" />
     <orderEntry type="library" name="@types/react" level="application" />
     <orderEntry type="library" name="axios" level="application" />
-    <orderEntry type="library" name="lodash" level="application" />
     <orderEntry type="library" name="react" level="application" />
     <orderEntry type="library" name="react-dom" level="application" />
+    <orderEntry type="library" name="@types/react-router-dom" level="application" />
   </component>
 </module>
