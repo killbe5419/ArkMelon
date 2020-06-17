@@ -1,23 +1,10 @@
 import React from "react";
-import ReactDOM from "react-dom";
-import TopBar from "./components/TopBar.jsx";
-import MainTemplate from "./components/MainTemplate.jsx";
-import Footer from "./components/Footer.jsx";
 import { Title, MainContents } from "./components/basic.jsx";
 import "../styles/index.css";
 
-class Main extends React.Component {
-    render() {
-        return (
-            <MainTemplate>
-                <Title className="main-top" content={ this.props.contents.title } />
-                <MainContents contents={ this.props.contents.contents }/>
-            </MainTemplate>
-        );
-    }
-}
 
-class App extends React.Component {
+
+class Index extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -123,17 +110,15 @@ class App extends React.Component {
     }
 
     render() {
+
+
         return (
-            <div>
-               <TopBar />
-               <Main contents={ this.state.contents.main }/>
-               <Footer />
+            <div className="main-container">
+                <Title className="main-top" content={ this.state.contents.main.title } />
+                <MainContents contents={ this.state.contents.main.contents }/>
             </div>
         );
     }
 }
 
-ReactDOM.render(
-    <App />,
-    document.getElementById("react-root")
-)
+export default Index;

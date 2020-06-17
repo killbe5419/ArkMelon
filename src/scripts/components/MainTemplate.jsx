@@ -5,9 +5,7 @@ class MainTemplate extends React.Component {
     render() {
         return (
             <div className="main">
-                <div className="main-container">
-                    { this.props.children }
-                </div>
+                { this.props.children }
             </div>
         );
     }

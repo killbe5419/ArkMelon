@@ -1,5 +1,6 @@
 import React from "react";
 import axios from "axios";
+
 import {ImgA, DropdownMenu} from "./basic.jsx";
 import "../../styles/components/TopBar.css";
 
@@ -289,17 +290,17 @@ class TopBar extends React.Component {
                                     {
                                         key: 0,
                                         title: "干员升级",
-                                        href: "/"
+                                        href: "/levelUp"
                                     },
                                     {
                                         key: 1,
                                         title: "刷图规划",
-                                        href: "/"
+                                        href: "/planner"
                                     },
                                     {
                                         key: 2,
                                         title: "合成计算",
-                                        href: "/"
+                                        href: "/conversion"
                                     },
                                 ]
                         }
@@ -308,28 +309,26 @@ class TopBar extends React.Component {
                     key: 2,
                     name:
                         "寻访模拟",
-                    listInfo:
-                        {
+                    listInfo: {
                             display: false,
-                            data:
-                                [
+                            data: [
                                     {
                                         key: 0,
-                                        title: "#####",
-                                        href: "/"
+                                        title: "常驻卡池",
+                                        href: "/permanentPool"
                                     },
                                     {
                                         key: 1,
-                                        title: "#####",
-                                        href: "/"
+                                        title: "限定卡池",
+                                        href: "/limitPool"
                                     },
                                     {
                                         key: 2,
-                                        title: "#####",
-                                        href: "/"
+                                        title: "活动卡池",
+                                        href: "/eventPool"
                                     },
-                                ]
-                        }
+                            ]
+                    }
                 }
             ],
             srh: {
@@ -349,12 +348,12 @@ class TopBar extends React.Component {
                         data: [
                             {
                                 key: 0,
-                                title: "#####",
+                                title: "浅色",
                                 href: "/"
                             },
                             {
                                 key: 1,
-                                title: "#####",
+                                title: "深色",
                                 href: "/"
                             },
                         ]

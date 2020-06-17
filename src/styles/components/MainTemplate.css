@@ -51,11 +51,3 @@ li {
 .main * {
     color: var(--main-font-color-dark);
 }
-
-.main-container {
-    display: flex;
-    flex-direction:column;
-    width: 70%;
-    height: 100%;
-    margin: auto;
-}
