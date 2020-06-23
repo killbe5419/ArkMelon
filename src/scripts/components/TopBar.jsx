@@ -221,229 +221,645 @@ class TopBar extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            logo: {
-                key: 0,
-                tag: "logo",
-                href: "/",
-                img: "../../images/logo.jpg",
-                name: "ArkMelon"
-            },
-            nav:[
-                {
+            zh_cn: {
+                language: "zh-cn",
+                logo: {
                     key: 0,
-                    name: "游戏数据",
-                    listInfo: {
-                        display: false,
-                        data: [
-                            {
-                                key: 0,
-                                title: "干员",
-                                href: "/operators"
-                            },
-                            {
-                                key: 1,
-                                title: "敌人",
-                                href: "/enemies"
-                            },
-                            {
-                                key: 2,
-                                title: "服装",
-                                href: "/clothes"
-                            },
-                            {
-                                key: 3,
-                                title: "地图",
-                                href: "/maps"
-                            },
-                            {
-                                key: 4,
-                                title: "家具",
-                                href: "/themes"
-                            },
-                            {
-                                key: 5,
-                                title: "活动",
-                                href: "/events"
-                            },
-                            {
-                                key: 6,
-                                title: "卡池",
-                                href: "/pools"
-                            },
-                            {
-                                key: 7,
-                                title: "道具",
-                                href: "/items"
-                            },
-                        ]
-                    }
+                    tag: "logo",
+                    href: "/",
+                    img: "../../images/logo.jpg",
+                    name: "ArkMelon"
                 },
-                {
-                    key: 1,
-                    name:
-                        "材料相关",
-                    listInfo:
-                        {
-                            display: false,
-                            data:
-                                [
-                                    {
-                                        key: 0,
-                                        title: "干员升级",
-                                        href: "/levelUp"
-                                    },
-                                    {
-                                        key: 1,
-                                        title: "刷图规划",
-                                        href: "/planner"
-                                    },
-                                    {
-                                        key: 2,
-                                        title: "合成计算",
-                                        href: "/conversion"
-                                    },
-                                ]
-                        }
-                },
-                {
-                    key: 2,
-                    name:
-                        "寻访模拟",
-                    listInfo: {
+                nav:[
+                    {
+                        key: 0,
+                        name: "游戏数据",
+                        listInfo: {
                             display: false,
                             data: [
-                                    {
-                                        key: 0,
-                                        title: "常驻卡池",
-                                        href: "/permanentPool"
-                                    },
-                                    {
-                                        key: 1,
-                                        title: "限定卡池",
-                                        href: "/limitPool"
-                                    },
-                                    {
-                                        key: 2,
-                                        title: "活动卡池",
-                                        href: "/eventPool"
-                                    },
+                                {
+                                    key: 0,
+                                    title: "干员",
+                                    href: "/operators"
+                                },
+                                {
+                                    key: 1,
+                                    title: "敌人",
+                                    href: "/enemies"
+                                },
+                                {
+                                    key: 2,
+                                    title: "服装",
+                                    href: "/clothes"
+                                },
+                                {
+                                    key: 3,
+                                    title: "地图",
+                                    href: "/maps"
+                                },
+                                {
+                                    key: 4,
+                                    title: "家具",
+                                    href: "/themes"
+                                },
+                                {
+                                    key: 5,
+                                    title: "活动",
+                                    href: "/events"
+                                },
+                                {
+                                    key: 6,
+                                    title: "卡池",
+                                    href: "/pools"
+                                },
+                                {
+                                    key: 7,
+                                    title: "道具",
+                                    href: "/items"
+                                },
                             ]
-                    }
-                }
-            ],
-            srh: {
-                input: {
-                    display: false
-                },
-                button:{
-                    color: "#fff",
-                },
-            },
-            opt:[
-                {
-                    key: 0,
-                    name: "主题",
-                    listInfo: {
-                        display: false,
-                        data: [
-                            {
-                                key: 0,
-                                title: "浅色",
-                                href: "/"
-                            },
-                            {
-                                key: 1,
-                                title: "深色",
-                                href: "/"
-                            },
-                        ]
-                    }
-                },
-                {
-                    key: 1,
-                    name: "多语言",
-                    color: "#ffffff",
-                    listInfo:
-                        {
-                            display: false,
-                            data:
-                                [
-                                    {
-                                        key: 0,
-                                        title: "中文",
-                                        href: "/"
-                                    },
-                                    {
-                                        key: 1,
-                                        title: "English",
-                                        href: "/"
-                                    },
-                                    {
-                                        key: 2,
-                                        title: "日本語",
-                                        href: "/"
-                                    },
-                                ]
                         }
+                    },
+                    {
+                        key: 1,
+                        name:
+                            "材料相关",
+                        listInfo:
+                            {
+                                display: false,
+                                data:
+                                    [
+                                        {
+                                            key: 0,
+                                            title: "干员升级",
+                                            href: "/levelUp"
+                                        },
+                                        {
+                                            key: 1,
+                                            title: "刷图规划",
+                                            href: "/planner"
+                                        },
+                                        {
+                                            key: 2,
+                                            title: "合成计算",
+                                            href: "/conversion"
+                                        },
+                                    ]
+                            }
+                    },
+                    {
+                        key: 2,
+                        name:
+                            "寻访模拟",
+                        listInfo: {
+                            display: false,
+                            data: [
+                                {
+                                    key: 0,
+                                    title: "常驻卡池",
+                                    href: "/permanentPool"
+                                },
+                                {
+                                    key: 1,
+                                    title: "限定卡池",
+                                    href: "/limitPool"
+                                },
+                                {
+                                    key: 2,
+                                    title: "活动卡池",
+                                    href: "/eventPool"
+                                },
+                            ]
+                        }
+                    }
+                ],
+                srh: {
+                    input: {
+                        display: false
+                    },
+                    button:{
+                        color: "#fff",
+                    },
                 },
-                {
-                    key: 2,
-                    name: "Github",
-                    href: "https://github.com/killbe5419/ArkMelon",
-                    listInfo: {}
-                }
-            ],
+                opt:[
+                    {
+                        key: 0,
+                        name: "主题",
+                        listInfo: {
+                            display: false,
+                            data: [
+                                {
+                                    key: 0,
+                                    title: "浅色",
+                                    href: "/"
+                                },
+                                {
+                                    key: 1,
+                                    title: "深色",
+                                    href: "/"
+                                },
+                            ]
+                        }
+                    },
+                    {
+                        key: 1,
+                        name: "多语言",
+                        color: "#ffffff",
+                        listInfo:
+                            {
+                                display: false,
+                                data:
+                                    [
+                                        {
+                                            key: 0,
+                                            title: "中文",
+                                            href: "/"
+                                        },
+                                        {
+                                            key: 1,
+                                            title: "English",
+                                            href: "/en-us"
+                                        },
+                                        {
+                                            key: 2,
+                                            title: "日本語",
+                                            href: "/ja-jp"
+                                        },
+                                    ]
+                            }
+                    },
+                    {
+                        key: 2,
+                        name: "Github",
+                        href: "https://github.com/killbe5419/ArkMelon",
+                        listInfo: {}
+                    }
+                ],
+            },
+            ja_jp: {
+                language: "ja-jp",
+                logo: {
+                    key: 0,
+                    tag: "logo",
+                    href: "/",
+                    img: "../../images/logo.jpg",
+                    name: "ArkMelon"
+                },
+                nav:[
+                    {
+                        key: 0,
+                        name: "ゲームデータ",
+                        listInfo: {
+                            display: false,
+                            data: [
+                                {
+                                    key: 0,
+                                    title: "オペレーター",
+                                    href: "/ja-jp/operators"
+                                },
+                                {
+                                    key: 1,
+                                    title: "敵",
+                                    href: "/ja-jp/enemies"
+                                },
+                                {
+                                    key: 2,
+                                    title: "服装",
+                                    href: "/ja-jp/clothes"
+                                },
+                                {
+                                    key: 3,
+                                    title: "地図",
+                                    href: "/ja-jp/maps"
+                                },
+                                {
+                                    key: 4,
+                                    title: "家具",
+                                    href: "/ja-jp/themes"
+                                },
+                                {
+                                    key: 5,
+                                    title: "イベント",
+                                    href: "/ja-jp/events"
+                                },
+                                {
+                                    key: 6,
+                                    title: "スカウト",
+                                    href: "/ja-jp/pools"
+                                },
+                                {
+                                    key: 7,
+                                    title: "アイテム",
+                                    href: "/ja-jp/items"
+                                },
+                            ]
+                        }
+                    },
+                    {
+                        key: 1,
+                        name:
+                            "素材関連",
+                        listInfo:
+                            {
+                                display: false,
+                                data:
+                                    [
+                                        {
+                                            key: 0,
+                                            title: "オペレーター関連",
+                                            href: "/ja-jp/levelUp"
+                                        },
+                                        {
+                                            key: 1,
+                                            title: "地図関連",
+                                            href: "/ja-jp/planner"
+                                        },
+                                        {
+                                            key: 2,
+                                            title: "合成計算",
+                                            href: "/ja-jp/conversion"
+                                        },
+                                    ]
+                            }
+                    },
+                    {
+                        key: 2,
+                        name:
+                            "ガチャシミュ",
+                        listInfo: {
+                            display: false,
+                            data: [
+                                {
+                                    key: 0,
+                                    title: "常設",
+                                    href: "/ja-jp/permanentPool"
+                                },
+                                {
+                                    key: 1,
+                                    title: "限定",
+                                    href: "/ja-jp/limitPool"
+                                },
+                                {
+                                    key: 2,
+                                    title: "イベント",
+                                    href: "/ja-jp/eventPool"
+                                },
+                            ]
+                        }
+                    }
+                ],
+                srh: {
+                    input: {
+                        display: false
+                    },
+                    button:{
+                        color: "#fff",
+                    },
+                },
+                opt:[
+                    {
+                        key: 0,
+                        name: "テーマ",
+                        listInfo: {
+                            display: false,
+                            data: [
+                                {
+                                    key: 0,
+                                    title: "Light",
+                                    href: "/"
+                                },
+                                {
+                                    key: 1,
+                                    title: "Dark",
+                                    href: "/"
+                                },
+                            ]
+                        }
+                    },
+                    {
+                        key: 1,
+                        name: "多语言",
+                        color: "#ffffff",
+                        listInfo:
+                            {
+                                display: false,
+                                data:
+                                    [
+                                        {
+                                            key: 0,
+                                            title: "中文",
+                                            href: "/"
+                                        },
+                                        {
+                                            key: 1,
+                                            title: "English",
+                                            href: "/en-us"
+                                        },
+                                        {
+                                            key: 2,
+                                            title: "日本語",
+                                            href: "/ja-jp"
+                                        },
+                                    ]
+                            }
+                    },
+                    {
+                        key: 2,
+                        name: "Github",
+                        href: "https://github.com/killbe5419/ArkMelon",
+                        listInfo: {}
+                    }
+                ],
+            },
+            en_us: {
+                language: "en-us",
+                logo: {
+                    key: 0,
+                    tag: "logo",
+                    href: "/",
+                    img: "../../images/logo.jpg",
+                    name: "ArkMelon"
+                },
+                nav:[
+                    {
+                        key: 0,
+                        name: "Game Data",
+                        listInfo: {
+                            display: false,
+                            data: [
+                                {
+                                    key: 0,
+                                    title: "Operators",
+                                    href: "/en-us/operators"
+                                },
+                                {
+                                    key: 1,
+                                    title: "Enemies",
+                                    href: "/enemies"
+                                },
+                                {
+                                    key: 2,
+                                    title: "Clothes",
+                                    href: "/clothes"
+                                },
+                                {
+                                    key: 3,
+                                    title: "Stages",
+                                    href: "/maps"
+                                },
+                                {
+                                    key: 4,
+                                    title: "Themes",
+                                    href: "/themes"
+                                },
+                                {
+                                    key: 5,
+                                    title: "Events",
+                                    href: "/events"
+                                },
+                                {
+                                    key: 6,
+                                    title: "Scouts",
+                                    href: "/pools"
+                                },
+                                {
+                                    key: 7,
+                                    title: "Items",
+                                    href: "/items"
+                                },
+                            ]
+                        }
+                    },
+                    {
+                        key: 1,
+                        name:
+                            "Materials",
+                        listInfo:
+                            {
+                                display: false,
+                                data:
+                                    [
+                                        {
+                                            key: 0,
+                                            title: "Operators Data",
+                                            href: "/levelUp"
+                                        },
+                                        {
+                                            key: 1,
+                                            title: "Stages Data",
+                                            href: "/planner"
+                                        },
+                                        {
+                                            key: 2,
+                                            title: "Conversion",
+                                            href: "/conversion"
+                                        },
+                                    ]
+                            }
+                    },
+                    {
+                        key: 2,
+                        name:
+                            "Scout SIMU",
+                        listInfo: {
+                            display: false,
+                            data: [
+                                {
+                                    key: 0,
+                                    title: "Permanent Scout",
+                                    href: "/permanentPool"
+                                },
+                                {
+                                    key: 1,
+                                    title: "Limit",
+                                    href: "/limitPool"
+                                },
+                                {
+                                    key: 2,
+                                    title: "Event",
+                                    href: "/eventPool"
+                                },
+                            ]
+                        }
+                    }
+                ],
+                srh: {
+                    input: {
+                        display: false
+                    },
+                    button:{
+                        color: "#fff",
+                    },
+                },
+                opt:[
+                    {
+                        key: 0,
+                        name: "Theme",
+                        listInfo: {
+                            display: false,
+                            data: [
+                                {
+                                    key: 0,
+                                    title: "Light",
+                                    href: "/"
+                                },
+                                {
+                                    key: 1,
+                                    title: "Dark",
+                                    href: "/"
+                                },
+                            ]
+                        }
+                    },
+                    {
+                        key: 1,
+                        name: "多语言",
+                        color: "#ffffff",
+                        listInfo:
+                            {
+                                display: false,
+                                data:
+                                    [
+                                        {
+                                            key: 0,
+                                            title: "中文",
+                                            href: "/"
+                                        },
+                                        {
+                                            key: 1,
+                                            title: "English",
+                                            href: "/en-us"
+                                        },
+                                        {
+                                            key: 2,
+                                            title: "日本語",
+                                            href: "/ja-jp"
+                                        },
+                                    ]
+                            }
+                    },
+                    {
+                        key: 2,
+                        name: "Github",
+                        href: "https://github.com/killbe5419/ArkMelon",
+                        listInfo: {}
+                    }
+                ],
+            }
         }
     }
 
     handleHover = (x, type) => {
-        let tmp = this.state;
-        if(type === "nav") {
-            tmp.nav[x].listInfo.display = true;
-            if(tmp.nav[x].hasOwnProperty("color")) {
-                tmp.nav[x].color = "#f08080";
+        let tmp;
+        if(this.props.language === "zh-cn") {
+            tmp = this.state.zh_cn;
+            if(type === "nav") {
+                tmp.nav[x].listInfo.display = true;
+                if(tmp.nav[x].hasOwnProperty("color")) {
+                    tmp.nav[x].color = "#f08080";
+                }
+                this.setState({
+                    zh_cn: tmp
+                })
             }
-            this.setState({
-                tmp
-            })
+            if(type === "opt") {
+                tmp.opt[x].listInfo.display = true;
+                if(tmp.opt[x].hasOwnProperty("color")) {
+                    tmp.opt[x].color = "#f08080";
+                }
+                this.setState({
+                    zh_cn: tmp
+                })
+            }
+            if(type === "srh") {
+                if(tmp.srh.button.hasOwnProperty("color")) {
+                    tmp.srh.button.color = "#f08080";
+                }
+                this.setState({
+                    zh_cn: tmp
+                })
+            }
         }
-        if(type === "opt") {
-            tmp.opt[x].listInfo.display = true;
-            if(tmp.opt[x].hasOwnProperty("color")) {
-                tmp.opt[x].color = "#f08080";
+        else if(this.props.language === "ja-jp") {
+            tmp = this.state.ja_jp;
+            if(type === "nav") {
+                tmp.nav[x].listInfo.display = true;
+                if(tmp.nav[x].hasOwnProperty("color")) {
+                    tmp.nav[x].color = "#f08080";
+                }
+                this.setState({
+                    ja_jp: tmp
+                })
             }
-            this.setState({
-                tmp
-            })
+            if(type === "opt") {
+                tmp.opt[x].listInfo.display = true;
+                if(tmp.opt[x].hasOwnProperty("color")) {
+                    tmp.opt[x].color = "#f08080";
+                }
+                this.setState({
+                    ja_jp: tmp
+                })
+            }
+            if(type === "srh") {
+                if(tmp.srh.button.hasOwnProperty("color")) {
+                    tmp.srh.button.color = "#f08080";
+                }
+                this.setState({
+                    ja_jp: tmp
+                })
+            }
         }
-        if(type === "srh") {
-            if(tmp.srh.button.hasOwnProperty("color")) {
-                tmp.srh.button.color = "#f08080";
+        else if(this.props.language === "en-us") {
+            tmp = this.state.en_us;
+            if(type === "nav") {
+                tmp.nav[x].listInfo.display = true;
+                if(tmp.nav[x].hasOwnProperty("color")) {
+                    tmp.nav[x].color = "#f08080";
+                }
+                this.setState({
+                    en_us: tmp
+                })
             }
-            this.setState({
-                tmp
-            })
+            if(type === "opt") {
+                tmp.opt[x].listInfo.display = true;
+                if(tmp.opt[x].hasOwnProperty("color")) {
+                    tmp.opt[x].color = "#f08080";
+                }
+                this.setState({
+                    en_us: tmp
+                })
+            }
+            if(type === "srh") {
+                if(tmp.srh.button.hasOwnProperty("color")) {
+                    tmp.srh.button.color = "#f08080";
+                }
+                this.setState({
+                    en_us: tmp
+                })
+            }
         }
     }
 
     handleLeave = (x, type) => {
-        let tmp = this.state;
+        let tmp;
+        if(this.props.language === "zh-cn") {
+            tmp = this.state.zh_cn;
             if(type === "nav") {
                 tmp.nav[x].listInfo.display = false;
                 if(tmp.nav[x].hasOwnProperty("color")) {
-                    tmp.nav[x].color = "#ffffff";
+                    tmp.nav[x].color = "#fff";
                 }
                 this.setState({
-                    tmp
+                    zh_cn: tmp
                 })
             }
             if(type === "opt") {
                 tmp.opt[x].listInfo.display = false;
                 if(tmp.opt[x].hasOwnProperty("color")) {
-                    tmp.opt[x].color = "#ffffff";
+                    tmp.opt[x].color = "#fff";
                 }
                 this.setState({
-                    tmp
+                    zh_cn: tmp
                 })
             }
             if(type === "srh") {
@@ -451,45 +867,140 @@ class TopBar extends React.Component {
                     tmp.srh.button.color = "#fff";
                 }
                 this.setState({
-                    tmp
+                    zh_cn: tmp
                 })
             }
-
-    }
-
-    showSearchBar = () => {
-        let tmp = this.state;
-        if(tmp.hasOwnProperty("srh")) {
-            if(tmp.srh.hasOwnProperty("input") && tmp.srh.hasOwnProperty("button")) {
-                tmp.srh.input.display = !tmp.srh.input.display;
+        }
+        else if(this.props.language === "ja-jp") {
+            tmp = this.state.ja_jp;
+            if(type === "nav") {
+                tmp.nav[x].listInfo.display = false;
+                if(tmp.nav[x].hasOwnProperty("color")) {
+                    tmp.nav[x].color = "#fff";
+                }
                 this.setState({
-                    tmp
+                    ja_jp: tmp
+                })
+            }
+            if(type === "opt") {
+                tmp.opt[x].listInfo.display = false;
+                if(tmp.opt[x].hasOwnProperty("color")) {
+                    tmp.opt[x].color = "#fff";
+                }
+                this.setState({
+                    ja_jp: tmp
+                })
+            }
+            if(type === "srh") {
+                if(tmp.srh.button.hasOwnProperty("color")) {
+                    tmp.srh.button.color = "#fff";
+                }
+                this.setState({
+                    ja_jp: tmp
+                })
+            }
+        }
+        else if(this.props.language === "en-us") {
+            tmp = this.state.en_us;
+            if(type === "nav") {
+                tmp.nav[x].listInfo.display = false;
+                if(tmp.nav[x].hasOwnProperty("color")) {
+                    tmp.nav[x].color = "#fff";
+                }
+                this.setState({
+                    en_us: tmp
+                })
+            }
+            if(type === "opt") {
+                tmp.opt[x].listInfo.display = false;
+                if(tmp.opt[x].hasOwnProperty("color")) {
+                    tmp.opt[x].color = "#fff";
+                }
+                this.setState({
+                    en_us: tmp
+                })
+            }
+            if(type === "srh") {
+                if(tmp.srh.button.hasOwnProperty("color")) {
+                    tmp.srh.button.color = "#fff";
+                }
+                this.setState({
+                    en_us: tmp
                 })
             }
         }
     }
 
+    showSearchBar = () => {
+        let tmp;
+        if(this.props.language === "zh-cn") {
+            tmp = this.state.zh_cn;
+            if(tmp.hasOwnProperty("srh")) {
+                if(tmp.srh.hasOwnProperty("input") && tmp.srh.hasOwnProperty("button")) {
+                    tmp.srh.input.display = !tmp.srh.input.display;
+                    this.setState({
+                        zh_cn: tmp
+                    })
+                }
+            }
+        }
+        else if(this.props.language === "ja-jp") {
+            tmp = this.state.ja_jp;
+            if(tmp.hasOwnProperty("srh")) {
+                if(tmp.srh.hasOwnProperty("input") && tmp.srh.hasOwnProperty("button")) {
+                    tmp.srh.input.display = !tmp.srh.input.display;
+                    this.setState({
+                        ja_jp: tmp
+                    })
+                }
+            }
+        }
+        else if(this.props.language === "en-us") {
+            tmp = this.state.en_us;
+            if(tmp.hasOwnProperty("srh")) {
+                if(tmp.srh.hasOwnProperty("input") && tmp.srh.hasOwnProperty("button")) {
+                    tmp.srh.input.display = !tmp.srh.input.display;
+                    this.setState({
+                        en_us: tmp
+                    })
+                }
+            }
+        }
+    }
+
     render() {
+        let ctx;
+        if(this.props.language === "zh-cn") {
+            ctx = this.state.zh_cn;
+        }
+        else if(this.props.language === "ja-jp") {
+            ctx = this.state.ja_jp;
+        }
+        else if(this.props.language === "en-us") {
+            ctx = this.state.en_us;
+        } else {
+            ctx = this.state.zh_cn;
+        }
         return (
             <div className="header">
                 <header className="top-bar">
-                    <Logo content={ this.state.logo }/>
+                    <Logo content={ ctx.logo }/>
                     <Nav
                         tag="nav"
-                        contents={ this.state.nav }
+                        contents={ ctx.nav }
                         onMouseOver={  this.handleHover }
                         onMouseLeave={ this.handleLeave }
                     />
                     <Search
                         tag="srh"
-                        contents={ this.state.srh }
+                        contents={ ctx.srh }
                         onMouseOver={ this.handleHover }
                         onMouseLeave={ this.handleLeave }
                         onClick={ this.showSearchBar }
                     />
                     <Options
                         tag="opt"
-                        contents={ this.state.opt }
+                        contents={ ctx.opt }
                         onMouseOver={ this.handleHover }
                         onMouseLeave={ this.handleLeave }
                     />

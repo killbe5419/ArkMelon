@@ -6,7 +6,7 @@ const app = express();
 const staticPath = path.join(__dirname,"src");
 app.use(express.static(staticPath));
 
-app.get("*",(req,res) => {
+app.get("/*",(req,res) => {
     res.sendFile(staticPath + "/index.html");
 })
 
