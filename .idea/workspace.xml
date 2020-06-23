@@ -11,7 +11,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="607eec3e-89c1-47af-9f10-8be80260d6f9" name="Default Changelist" comment="add dependencies.">
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/killbe.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/killbe.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dist/app.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/dist/app.bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dist/app.bundle.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/dist/app.bundle.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scripts/app.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/app.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scripts/components/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/components/Footer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scripts/components/TopBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/components/TopBar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scripts/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scripts/template.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/template.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +46,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
@@ -67,16 +79,16 @@
     <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/images" />
+      <recent name="$PROJECT_DIR$/../../../Golang/ark-sim/src" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/styles/components" />
       <recent name="$PROJECT_DIR$/src/scripts/components" />
       <recent name="$PROJECT_DIR$/src/images" />
       <recent name="$PROJECT_DIR$/src/data" />
-      <recent name="$PROJECT_DIR$/src" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/images" />
-      <recent name="$PROJECT_DIR$/../../../Golang/ark-sim/src" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
@@ -147,6 +159,11 @@
       <workItem from="1591939604218" duration="5057000" />
       <workItem from="1592380166144" duration="5214000" />
       <workItem from="1592389003734" duration="1963000" />
+      <workItem from="1592391622288" duration="2617000" />
+      <workItem from="1592647370068" duration="4000" />
+      <workItem from="1592647759356" duration="742000" />
+      <workItem from="1592724750119" duration="11157000" />
+      <workItem from="1592812226908" duration="2274000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1591164943965</created>
@@ -386,7 +403,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592391209927</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="add files.">
+      <created>1592391647006</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1592391647006</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -407,7 +431,6 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="edit README.md" />
-    <MESSAGE value="add files." />
     <MESSAGE value="deleted unused rows." />
     <MESSAGE value="fix small name bug." />
     <MESSAGE value="deleted test01.js." />
@@ -430,7 +453,8 @@
     <MESSAGE value="modified description file." />
     <MESSAGE value="use new system with react-router-dom." />
     <MESSAGE value="add dependencies." />
-    <option name="LAST_COMMIT_MESSAGE" value="add dependencies." />
+    <MESSAGE value="add files." />
+    <option name="LAST_COMMIT_MESSAGE" value="add files." />
   </component>
   <component name="WindowStateProjectService">
     <state x="492" y="382" key="#Scopes" timestamp="1589962361499">
@@ -449,22 +473,22 @@
       <screen x="0" y="23" width="1680" height="981" />
     </state>
     <state width="251" height="195" key="DatabaseViewActions_Filter/0.23.1680.981@0.23.1680.981" timestamp="1589966524504" />
-    <state width="862" height="198" key="GridCell.Tab.0.bottom" timestamp="1592391266936">
+    <state width="720" height="202" key="GridCell.Tab.0.bottom" timestamp="1592817216219">
       <screen x="0" y="23" width="1680" height="981" />
     </state>
-    <state width="862" height="198" key="GridCell.Tab.0.bottom/0.23.1680.981@0.23.1680.981" timestamp="1592391266936" />
-    <state width="862" height="198" key="GridCell.Tab.0.center" timestamp="1592391266935">
+    <state width="720" height="202" key="GridCell.Tab.0.bottom/0.23.1680.981@0.23.1680.981" timestamp="1592817216219" />
+    <state width="720" height="202" key="GridCell.Tab.0.center" timestamp="1592817216218">
       <screen x="0" y="23" width="1680" height="981" />
     </state>
-    <state width="862" height="198" key="GridCell.Tab.0.center/0.23.1680.981@0.23.1680.981" timestamp="1592391266935" />
-    <state width="862" height="198" key="GridCell.Tab.0.left" timestamp="1592391266934">
+    <state width="720" height="202" key="GridCell.Tab.0.center/0.23.1680.981@0.23.1680.981" timestamp="1592817216218" />
+    <state width="720" height="202" key="GridCell.Tab.0.left" timestamp="1592817216217">
       <screen x="0" y="23" width="1680" height="981" />
     </state>
-    <state width="862" height="198" key="GridCell.Tab.0.left/0.23.1680.981@0.23.1680.981" timestamp="1592391266934" />
-    <state width="862" height="198" key="GridCell.Tab.0.right" timestamp="1592391266935">
+    <state width="720" height="202" key="GridCell.Tab.0.left/0.23.1680.981@0.23.1680.981" timestamp="1592817216217" />
+    <state width="720" height="202" key="GridCell.Tab.0.right" timestamp="1592817216219">
       <screen x="0" y="23" width="1680" height="981" />
     </state>
-    <state width="862" height="198" key="GridCell.Tab.0.right/0.23.1680.981@0.23.1680.981" timestamp="1592391266935" />
+    <state width="720" height="202" key="GridCell.Tab.0.right/0.23.1680.981@0.23.1680.981" timestamp="1592817216219" />
     <state width="952" height="235" key="GridCell.Tab.1.bottom" timestamp="1590830953179">
       <screen x="0" y="23" width="1680" height="981" />
     </state>
@@ -525,10 +549,10 @@
       <screen x="0" y="23" width="1680" height="981" />
     </state>
     <state x="961" y="367" key="VCS.EditChangelistDialog/0.23.1680.981@0.23.1680.981" timestamp="1591165011540" />
-    <state x="742" y="189" key="Vcs.Push.Dialog.v2" timestamp="1592391218823">
+    <state x="742" y="189" key="Vcs.Push.Dialog.v2" timestamp="1592392378332">
       <screen x="0" y="23" width="1680" height="981" />
     </state>
-    <state x="742" y="189" key="Vcs.Push.Dialog.v2/0.23.1680.981@0.23.1680.981" timestamp="1592391218823" />
+    <state x="742" y="189" key="Vcs.Push.Dialog.v2/0.23.1680.981@0.23.1680.981" timestamp="1592392378332" />
     <state x="1017" y="424" width="341" height="221" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1590088369813">
       <screen x="0" y="23" width="1680" height="981" />
     </state>
