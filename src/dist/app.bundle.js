@@ -4903,12 +4903,32 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_template_jsx__WEBPACK_IMPORTED_MODULE_3__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_5__["BrowserRouter"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_5__["Switch"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_5__["Route"], {
+react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_5__["BrowserRouter"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_5__["Switch"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_5__["Route"], {
   exact: true,
   path: "/"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_index_jsx__WEBPACK_IMPORTED_MODULE_2__["default"], null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_5__["Route"], {
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_index_jsx__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  language: "zh-cn"
+})), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_5__["Route"], {
+  exact: true,
+  path: "/zh-cn"
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_index_jsx__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  language: "zh-cn"
+})), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_5__["Route"], {
+  path: "/zh-cn/:a"
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_index_jsx__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  language: "en-us"
+})), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_5__["Route"], {
+  path: "/ja-jp"
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_index_jsx__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  language: "ja-jp"
+})), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_5__["Route"], {
+  exact: true,
+  path: "/en-us"
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_index_jsx__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  language: "en-us"
+})), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_5__["Route"], {
   path: "/404"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_404_jsx__WEBPACK_IMPORTED_MODULE_4__["default"], null))))), document.getElementById("react-root"));
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_404_jsx__WEBPACK_IMPORTED_MODULE_4__["default"], null)))), document.getElementById("react-root"));
 
 /***/ }),
 
@@ -4929,7 +4949,61 @@ __webpack_require__.r(__webpack_exports__);
 
 
 class Footer extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      zh_cn: {
+        contents: [{
+          key: 0,
+          content: "关于ArkMelon"
+        }, {
+          key: 1,
+          content: "使用授权"
+        }, {
+          key: 2,
+          content: "手机/便携设备视图"
+        }]
+      },
+      ja_jp: {
+        contents: [{
+          key: 0,
+          content: "ArkMelonについて"
+        }, {
+          key: 1,
+          content: "著作権関連"
+        }, {
+          key: 2,
+          content: "スマホ/携帯設備ページ"
+        }]
+      },
+      en_us: {
+        contents: [{
+          key: 0,
+          content: "About ArkMelon"
+        }, {
+          key: 1,
+          content: "Authority"
+        }, {
+          key: 2,
+          content: "Phone/Portable View"
+        }]
+      }
+    };
+  }
+
   render() {
+    let ctx;
+
+    if (this.props.language === "zh-cn") {
+      ctx = this.state.zh_cn;
+    } else if (this.props.language === "ja-jp") {
+      ctx = this.state.ja_jp;
+    } else if (this.props.language === "en-us") {
+      ctx = this.state.en_us;
+    } else {
+      ctx = this.state.zh_cn;
+    }
+
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: "footer"
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -4940,15 +5014,15 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       className: "footer-top-left"
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
       href: "/"
-    }, "\u5173\u4E8EArkMelon")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    }, " ", ctx.contents[0].content)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: "footer-top-middle"
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
       href: "/"
-    }, "\u4F7F\u7528\u6388\u6743")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    }, " ", ctx.contents[1].content, " ")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: "footer-top-right"
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
       href: "/"
-    }, "\u624B\u673A/\u4FBF\u643A\u8BBE\u5907\u89C6\u56FE"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    }, ctx.contents[2].content))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: "copyright"
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Copyright \xA9 2020 DragonCat Products."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
       alt: "QR",
@@ -5216,253 +5290,720 @@ class TopBar extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
     super(props);
 
     _defineProperty(this, "handleHover", (x, type) => {
-      let tmp = this.state;
+      let tmp;
 
-      if (type === "nav") {
-        tmp.nav[x].listInfo.display = true;
+      if (this.props.language === "zh-cn") {
+        tmp = this.state.zh_cn;
 
-        if (tmp.nav[x].hasOwnProperty("color")) {
-          tmp.nav[x].color = "#f08080";
-        }
+        if (type === "nav") {
+          tmp.nav[x].listInfo.display = true;
 
-        this.setState({
-          tmp
-        });
-      }
+          if (tmp.nav[x].hasOwnProperty("color")) {
+            tmp.nav[x].color = "#f08080";
+          }
 
-      if (type === "opt") {
-        tmp.opt[x].listInfo.display = true;
-
-        if (tmp.opt[x].hasOwnProperty("color")) {
-          tmp.opt[x].color = "#f08080";
-        }
-
-        this.setState({
-          tmp
-        });
-      }
-
-      if (type === "srh") {
-        if (tmp.srh.button.hasOwnProperty("color")) {
-          tmp.srh.button.color = "#f08080";
-        }
-
-        this.setState({
-          tmp
-        });
-      }
-    });
-
-    _defineProperty(this, "handleLeave", (x, type) => {
-      let tmp = this.state;
-
-      if (type === "nav") {
-        tmp.nav[x].listInfo.display = false;
-
-        if (tmp.nav[x].hasOwnProperty("color")) {
-          tmp.nav[x].color = "#ffffff";
-        }
-
-        this.setState({
-          tmp
-        });
-      }
-
-      if (type === "opt") {
-        tmp.opt[x].listInfo.display = false;
-
-        if (tmp.opt[x].hasOwnProperty("color")) {
-          tmp.opt[x].color = "#ffffff";
-        }
-
-        this.setState({
-          tmp
-        });
-      }
-
-      if (type === "srh") {
-        if (tmp.srh.button.hasOwnProperty("color")) {
-          tmp.srh.button.color = "#fff";
-        }
-
-        this.setState({
-          tmp
-        });
-      }
-    });
-
-    _defineProperty(this, "showSearchBar", () => {
-      let tmp = this.state;
-
-      if (tmp.hasOwnProperty("srh")) {
-        if (tmp.srh.hasOwnProperty("input") && tmp.srh.hasOwnProperty("button")) {
-          tmp.srh.input.display = !tmp.srh.input.display;
           this.setState({
-            tmp
+            zh_cn: tmp
+          });
+        }
+
+        if (type === "opt") {
+          tmp.opt[x].listInfo.display = true;
+
+          if (tmp.opt[x].hasOwnProperty("color")) {
+            tmp.opt[x].color = "#f08080";
+          }
+
+          this.setState({
+            zh_cn: tmp
+          });
+        }
+
+        if (type === "srh") {
+          if (tmp.srh.button.hasOwnProperty("color")) {
+            tmp.srh.button.color = "#f08080";
+          }
+
+          this.setState({
+            zh_cn: tmp
+          });
+        }
+      } else if (this.props.language === "ja-jp") {
+        tmp = this.state.ja_jp;
+
+        if (type === "nav") {
+          tmp.nav[x].listInfo.display = true;
+
+          if (tmp.nav[x].hasOwnProperty("color")) {
+            tmp.nav[x].color = "#f08080";
+          }
+
+          this.setState({
+            ja_jp: tmp
+          });
+        }
+
+        if (type === "opt") {
+          tmp.opt[x].listInfo.display = true;
+
+          if (tmp.opt[x].hasOwnProperty("color")) {
+            tmp.opt[x].color = "#f08080";
+          }
+
+          this.setState({
+            ja_jp: tmp
+          });
+        }
+
+        if (type === "srh") {
+          if (tmp.srh.button.hasOwnProperty("color")) {
+            tmp.srh.button.color = "#f08080";
+          }
+
+          this.setState({
+            ja_jp: tmp
+          });
+        }
+      } else if (this.props.language === "en-us") {
+        tmp = this.state.en_us;
+
+        if (type === "nav") {
+          tmp.nav[x].listInfo.display = true;
+
+          if (tmp.nav[x].hasOwnProperty("color")) {
+            tmp.nav[x].color = "#f08080";
+          }
+
+          this.setState({
+            en_us: tmp
+          });
+        }
+
+        if (type === "opt") {
+          tmp.opt[x].listInfo.display = true;
+
+          if (tmp.opt[x].hasOwnProperty("color")) {
+            tmp.opt[x].color = "#f08080";
+          }
+
+          this.setState({
+            en_us: tmp
+          });
+        }
+
+        if (type === "srh") {
+          if (tmp.srh.button.hasOwnProperty("color")) {
+            tmp.srh.button.color = "#f08080";
+          }
+
+          this.setState({
+            en_us: tmp
           });
         }
       }
     });
 
+    _defineProperty(this, "handleLeave", (x, type) => {
+      let tmp;
+
+      if (this.props.language === "zh-cn") {
+        tmp = this.state.zh_cn;
+
+        if (type === "nav") {
+          tmp.nav[x].listInfo.display = false;
+
+          if (tmp.nav[x].hasOwnProperty("color")) {
+            tmp.nav[x].color = "#fff";
+          }
+
+          this.setState({
+            zh_cn: tmp
+          });
+        }
+
+        if (type === "opt") {
+          tmp.opt[x].listInfo.display = false;
+
+          if (tmp.opt[x].hasOwnProperty("color")) {
+            tmp.opt[x].color = "#fff";
+          }
+
+          this.setState({
+            zh_cn: tmp
+          });
+        }
+
+        if (type === "srh") {
+          if (tmp.srh.button.hasOwnProperty("color")) {
+            tmp.srh.button.color = "#fff";
+          }
+
+          this.setState({
+            zh_cn: tmp
+          });
+        }
+      } else if (this.props.language === "ja-jp") {
+        tmp = this.state.ja_jp;
+
+        if (type === "nav") {
+          tmp.nav[x].listInfo.display = false;
+
+          if (tmp.nav[x].hasOwnProperty("color")) {
+            tmp.nav[x].color = "#fff";
+          }
+
+          this.setState({
+            ja_jp: tmp
+          });
+        }
+
+        if (type === "opt") {
+          tmp.opt[x].listInfo.display = false;
+
+          if (tmp.opt[x].hasOwnProperty("color")) {
+            tmp.opt[x].color = "#fff";
+          }
+
+          this.setState({
+            ja_jp: tmp
+          });
+        }
+
+        if (type === "srh") {
+          if (tmp.srh.button.hasOwnProperty("color")) {
+            tmp.srh.button.color = "#fff";
+          }
+
+          this.setState({
+            ja_jp: tmp
+          });
+        }
+      } else if (this.props.language === "en-us") {
+        tmp = this.state.en_us;
+
+        if (type === "nav") {
+          tmp.nav[x].listInfo.display = false;
+
+          if (tmp.nav[x].hasOwnProperty("color")) {
+            tmp.nav[x].color = "#fff";
+          }
+
+          this.setState({
+            en_us: tmp
+          });
+        }
+
+        if (type === "opt") {
+          tmp.opt[x].listInfo.display = false;
+
+          if (tmp.opt[x].hasOwnProperty("color")) {
+            tmp.opt[x].color = "#fff";
+          }
+
+          this.setState({
+            en_us: tmp
+          });
+        }
+
+        if (type === "srh") {
+          if (tmp.srh.button.hasOwnProperty("color")) {
+            tmp.srh.button.color = "#fff";
+          }
+
+          this.setState({
+            en_us: tmp
+          });
+        }
+      }
+    });
+
+    _defineProperty(this, "showSearchBar", () => {
+      let tmp;
+
+      if (this.props.language === "zh-cn") {
+        tmp = this.state.zh_cn;
+
+        if (tmp.hasOwnProperty("srh")) {
+          if (tmp.srh.hasOwnProperty("input") && tmp.srh.hasOwnProperty("button")) {
+            tmp.srh.input.display = !tmp.srh.input.display;
+            this.setState({
+              zh_cn: tmp
+            });
+          }
+        }
+      } else if (this.props.language === "ja-jp") {
+        tmp = this.state.ja_jp;
+
+        if (tmp.hasOwnProperty("srh")) {
+          if (tmp.srh.hasOwnProperty("input") && tmp.srh.hasOwnProperty("button")) {
+            tmp.srh.input.display = !tmp.srh.input.display;
+            this.setState({
+              ja_jp: tmp
+            });
+          }
+        }
+      } else if (this.props.language === "en-us") {
+        tmp = this.state.en_us;
+
+        if (tmp.hasOwnProperty("srh")) {
+          if (tmp.srh.hasOwnProperty("input") && tmp.srh.hasOwnProperty("button")) {
+            tmp.srh.input.display = !tmp.srh.input.display;
+            this.setState({
+              en_us: tmp
+            });
+          }
+        }
+      }
+    });
+
     this.state = {
-      logo: {
-        key: 0,
-        tag: "logo",
-        href: "/",
-        img: "../../images/logo.jpg",
-        name: "ArkMelon"
-      },
-      nav: [{
-        key: 0,
-        name: "游戏数据",
-        listInfo: {
-          display: false,
-          data: [{
-            key: 0,
-            title: "干员",
-            href: "/operators"
-          }, {
-            key: 1,
-            title: "敌人",
-            href: "/enemies"
-          }, {
-            key: 2,
-            title: "服装",
-            href: "/clothes"
-          }, {
-            key: 3,
-            title: "地图",
-            href: "/maps"
-          }, {
-            key: 4,
-            title: "家具",
-            href: "/themes"
-          }, {
-            key: 5,
-            title: "活动",
-            href: "/events"
-          }, {
-            key: 6,
-            title: "卡池",
-            href: "/pools"
-          }, {
-            key: 7,
-            title: "道具",
-            href: "/items"
-          }]
-        }
-      }, {
-        key: 1,
-        name: "材料相关",
-        listInfo: {
-          display: false,
-          data: [{
-            key: 0,
-            title: "干员升级",
-            href: "/levelUp"
-          }, {
-            key: 1,
-            title: "刷图规划",
-            href: "/planner"
-          }, {
-            key: 2,
-            title: "合成计算",
-            href: "/conversion"
-          }]
-        }
-      }, {
-        key: 2,
-        name: "寻访模拟",
-        listInfo: {
-          display: false,
-          data: [{
-            key: 0,
-            title: "常驻卡池",
-            href: "/permanentPool"
-          }, {
-            key: 1,
-            title: "限定卡池",
-            href: "/limitPool"
-          }, {
-            key: 2,
-            title: "活动卡池",
-            href: "/eventPool"
-          }]
-        }
-      }],
-      srh: {
-        input: {
-          display: false
+      zh_cn: {
+        language: "zh-cn",
+        logo: {
+          key: 0,
+          tag: "logo",
+          href: "/",
+          img: "../../images/logo.jpg",
+          name: "ArkMelon"
         },
-        button: {
-          color: "#fff"
-        }
+        nav: [{
+          key: 0,
+          name: "游戏数据",
+          listInfo: {
+            display: false,
+            data: [{
+              key: 0,
+              title: "干员",
+              href: "/operators"
+            }, {
+              key: 1,
+              title: "敌人",
+              href: "/enemies"
+            }, {
+              key: 2,
+              title: "服装",
+              href: "/clothes"
+            }, {
+              key: 3,
+              title: "地图",
+              href: "/maps"
+            }, {
+              key: 4,
+              title: "家具",
+              href: "/themes"
+            }, {
+              key: 5,
+              title: "活动",
+              href: "/events"
+            }, {
+              key: 6,
+              title: "卡池",
+              href: "/pools"
+            }, {
+              key: 7,
+              title: "道具",
+              href: "/items"
+            }]
+          }
+        }, {
+          key: 1,
+          name: "材料相关",
+          listInfo: {
+            display: false,
+            data: [{
+              key: 0,
+              title: "干员升级",
+              href: "/levelUp"
+            }, {
+              key: 1,
+              title: "刷图规划",
+              href: "/planner"
+            }, {
+              key: 2,
+              title: "合成计算",
+              href: "/conversion"
+            }]
+          }
+        }, {
+          key: 2,
+          name: "寻访模拟",
+          listInfo: {
+            display: false,
+            data: [{
+              key: 0,
+              title: "常驻卡池",
+              href: "/permanentPool"
+            }, {
+              key: 1,
+              title: "限定卡池",
+              href: "/limitPool"
+            }, {
+              key: 2,
+              title: "活动卡池",
+              href: "/eventPool"
+            }]
+          }
+        }],
+        srh: {
+          input: {
+            display: false
+          },
+          button: {
+            color: "#fff"
+          }
+        },
+        opt: [{
+          key: 0,
+          name: "主题",
+          listInfo: {
+            display: false,
+            data: [{
+              key: 0,
+              title: "浅色",
+              href: "/"
+            }, {
+              key: 1,
+              title: "深色",
+              href: "/"
+            }]
+          }
+        }, {
+          key: 1,
+          name: "多语言",
+          color: "#ffffff",
+          listInfo: {
+            display: false,
+            data: [{
+              key: 0,
+              title: "中文",
+              href: "/"
+            }, {
+              key: 1,
+              title: "English",
+              href: "/en-us"
+            }, {
+              key: 2,
+              title: "日本語",
+              href: "/ja-jp"
+            }]
+          }
+        }, {
+          key: 2,
+          name: "Github",
+          href: "https://github.com/killbe5419/ArkMelon",
+          listInfo: {}
+        }]
       },
-      opt: [{
-        key: 0,
-        name: "主题",
-        listInfo: {
-          display: false,
-          data: [{
-            key: 0,
-            title: "浅色",
-            href: "/"
-          }, {
-            key: 1,
-            title: "深色",
-            href: "/"
-          }]
-        }
-      }, {
-        key: 1,
-        name: "多语言",
-        color: "#ffffff",
-        listInfo: {
-          display: false,
-          data: [{
-            key: 0,
-            title: "中文",
-            href: "/"
-          }, {
-            key: 1,
-            title: "English",
-            href: "/"
-          }, {
-            key: 2,
-            title: "日本語",
-            href: "/"
-          }]
-        }
-      }, {
-        key: 2,
-        name: "Github",
-        href: "https://github.com/killbe5419/ArkMelon",
-        listInfo: {}
-      }]
+      ja_jp: {
+        language: "ja-jp",
+        logo: {
+          key: 0,
+          tag: "logo",
+          href: "/",
+          img: "../../images/logo.jpg",
+          name: "ArkMelon"
+        },
+        nav: [{
+          key: 0,
+          name: "ゲームデータ",
+          listInfo: {
+            display: false,
+            data: [{
+              key: 0,
+              title: "オペレーター",
+              href: "/ja-jp/operators"
+            }, {
+              key: 1,
+              title: "敵",
+              href: "/ja-jp/enemies"
+            }, {
+              key: 2,
+              title: "服装",
+              href: "/ja-jp/clothes"
+            }, {
+              key: 3,
+              title: "地図",
+              href: "/ja-jp/maps"
+            }, {
+              key: 4,
+              title: "家具",
+              href: "/ja-jp/themes"
+            }, {
+              key: 5,
+              title: "イベント",
+              href: "/ja-jp/events"
+            }, {
+              key: 6,
+              title: "スカウト",
+              href: "/ja-jp/pools"
+            }, {
+              key: 7,
+              title: "アイテム",
+              href: "/ja-jp/items"
+            }]
+          }
+        }, {
+          key: 1,
+          name: "素材関連",
+          listInfo: {
+            display: false,
+            data: [{
+              key: 0,
+              title: "オペレーター関連",
+              href: "/ja-jp/levelUp"
+            }, {
+              key: 1,
+              title: "地図関連",
+              href: "/ja-jp/planner"
+            }, {
+              key: 2,
+              title: "合成計算",
+              href: "/ja-jp/conversion"
+            }]
+          }
+        }, {
+          key: 2,
+          name: "ガチャシミュ",
+          listInfo: {
+            display: false,
+            data: [{
+              key: 0,
+              title: "常設",
+              href: "/ja-jp/permanentPool"
+            }, {
+              key: 1,
+              title: "限定",
+              href: "/ja-jp/limitPool"
+            }, {
+              key: 2,
+              title: "イベント",
+              href: "/ja-jp/eventPool"
+            }]
+          }
+        }],
+        srh: {
+          input: {
+            display: false
+          },
+          button: {
+            color: "#fff"
+          }
+        },
+        opt: [{
+          key: 0,
+          name: "テーマ",
+          listInfo: {
+            display: false,
+            data: [{
+              key: 0,
+              title: "Light",
+              href: "/"
+            }, {
+              key: 1,
+              title: "Dark",
+              href: "/"
+            }]
+          }
+        }, {
+          key: 1,
+          name: "多语言",
+          color: "#ffffff",
+          listInfo: {
+            display: false,
+            data: [{
+              key: 0,
+              title: "中文",
+              href: "/"
+            }, {
+              key: 1,
+              title: "English",
+              href: "/en-us"
+            }, {
+              key: 2,
+              title: "日本語",
+              href: "/ja-jp"
+            }]
+          }
+        }, {
+          key: 2,
+          name: "Github",
+          href: "https://github.com/killbe5419/ArkMelon",
+          listInfo: {}
+        }]
+      },
+      en_us: {
+        language: "en-us",
+        logo: {
+          key: 0,
+          tag: "logo",
+          href: "/",
+          img: "../../images/logo.jpg",
+          name: "ArkMelon"
+        },
+        nav: [{
+          key: 0,
+          name: "Game Data",
+          listInfo: {
+            display: false,
+            data: [{
+              key: 0,
+              title: "Operators",
+              href: "/en-us/operators"
+            }, {
+              key: 1,
+              title: "Enemies",
+              href: "/enemies"
+            }, {
+              key: 2,
+              title: "Clothes",
+              href: "/clothes"
+            }, {
+              key: 3,
+              title: "Stages",
+              href: "/maps"
+            }, {
+              key: 4,
+              title: "Themes",
+              href: "/themes"
+            }, {
+              key: 5,
+              title: "Events",
+              href: "/events"
+            }, {
+              key: 6,
+              title: "Scouts",
+              href: "/pools"
+            }, {
+              key: 7,
+              title: "Items",
+              href: "/items"
+            }]
+          }
+        }, {
+          key: 1,
+          name: "Materials",
+          listInfo: {
+            display: false,
+            data: [{
+              key: 0,
+              title: "Operators Data",
+              href: "/levelUp"
+            }, {
+              key: 1,
+              title: "Stages Data",
+              href: "/planner"
+            }, {
+              key: 2,
+              title: "Conversion",
+              href: "/conversion"
+            }]
+          }
+        }, {
+          key: 2,
+          name: "Scout SIMU",
+          listInfo: {
+            display: false,
+            data: [{
+              key: 0,
+              title: "Permanent Scout",
+              href: "/permanentPool"
+            }, {
+              key: 1,
+              title: "Limit",
+              href: "/limitPool"
+            }, {
+              key: 2,
+              title: "Event",
+              href: "/eventPool"
+            }]
+          }
+        }],
+        srh: {
+          input: {
+            display: false
+          },
+          button: {
+            color: "#fff"
+          }
+        },
+        opt: [{
+          key: 0,
+          name: "Theme",
+          listInfo: {
+            display: false,
+            data: [{
+              key: 0,
+              title: "Light",
+              href: "/"
+            }, {
+              key: 1,
+              title: "Dark",
+              href: "/"
+            }]
+          }
+        }, {
+          key: 1,
+          name: "多语言",
+          color: "#ffffff",
+          listInfo: {
+            display: false,
+            data: [{
+              key: 0,
+              title: "中文",
+              href: "/"
+            }, {
+              key: 1,
+              title: "English",
+              href: "/en-us"
+            }, {
+              key: 2,
+              title: "日本語",
+              href: "/ja-jp"
+            }]
+          }
+        }, {
+          key: 2,
+          name: "Github",
+          href: "https://github.com/killbe5419/ArkMelon",
+          listInfo: {}
+        }]
+      }
     };
   }
 
   render() {
+    let ctx;
+
+    if (this.props.language === "zh-cn") {
+      ctx = this.state.zh_cn;
+    } else if (this.props.language === "ja-jp") {
+      ctx = this.state.ja_jp;
+    } else if (this.props.language === "en-us") {
+      ctx = this.state.en_us;
+    } else {
+      ctx = this.state.zh_cn;
+    }
+
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: "header"
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("header", {
       className: "top-bar"
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Logo, {
-      content: this.state.logo
+      content: ctx.logo
     }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Nav, {
       tag: "nav",
-      contents: this.state.nav,
+      contents: ctx.nav,
       onMouseOver: this.handleHover,
       onMouseLeave: this.handleLeave
     }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Search, {
       tag: "srh",
-      contents: this.state.srh,
+      contents: ctx.srh,
       onMouseOver: this.handleHover,
       onMouseLeave: this.handleLeave,
       onClick: this.showSearchBar
     }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Options, {
       tag: "opt",
-      contents: this.state.opt,
+      contents: ctx.opt,
       onMouseOver: this.handleHover,
       onMouseLeave: this.handleLeave
     })));
@@ -5617,6 +6158,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_basic_jsx__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/basic.jsx */ "./src/scripts/components/basic.jsx");
 /* harmony import */ var _styles_index_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../styles/index.css */ "./src/styles/index.css");
 /* harmony import */ var _styles_index_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_styles_index_css__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _template_jsx__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./template.jsx */ "./src/scripts/template.jsx");
+
 
 
 
@@ -5625,94 +6168,266 @@ class Index extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
   constructor(props) {
     super(props);
     this.state = {
-      contents: {
-        main: {
-          title: {
-            tag: "title",
-            name: "ArkMelon",
-            description: "用于快速查看明日方舟游戏数据的资料库"
-          },
-          contents: [{
-            key: 0,
-            tag: "event",
-            name: "最新活动",
-            data: [{
+      zh_cn: {
+        contents: {
+          main: {
+            title: {
+              tag: "title",
+              name: "ArkMelon",
+              description: "用于快速查看明日方舟游戏数据的资料库"
+            },
+            contents: [{
               key: 0,
-              href: "/",
-              img: "../images/index/event1.png"
+              tag: "event",
+              name: "最新活动",
+              data: [{
+                key: 0,
+                href: "/",
+                img: "../images/index/event1.png"
+              }, {
+                key: 1,
+                href: "/",
+                img: "../images/index/event2.png"
+              }]
             }, {
               key: 1,
-              href: "/",
-              img: "../images/index/event2.png"
+              tag: "pool",
+              name: "新增卡池",
+              data: [{
+                key: 0,
+                href: "/",
+                img: "../images/index/pool1.png"
+              }, {
+                key: 1,
+                href: "/",
+                img: "../images/index/pool2.png"
+              }]
+            }, {
+              key: 2,
+              tag: "operator",
+              name: "新增干员",
+              data: [{
+                key: 0,
+                href: "/",
+                img: "../images/index/operator1.png"
+              }]
+            }, {
+              key: 3,
+              tag: "cloth",
+              name: "新增服装",
+              data: [{
+                key: 0,
+                href: "/",
+                img: "../images/index/cloth1.png"
+              }]
+            }, {
+              key: 4,
+              tag: "theme",
+              name: "新增家具",
+              data: [{
+                key: 0,
+                href: "/",
+                img: "../images/index/theme1.png"
+              }]
+            }, {
+              key: 5,
+              tag: "stage",
+              name: "新增关卡",
+              data: [{
+                key: 0,
+                href: "/",
+                img: "../images/index/stage1.png"
+              }, {
+                key: 1,
+                href: "/",
+                img: "../images/index/stage2.png"
+              }]
             }]
-          }, {
-            key: 1,
-            tag: "pool",
-            name: "新增卡池",
-            data: [{
+          }
+        }
+      },
+      ja_jp: {
+        contents: {
+          main: {
+            title: {
+              tag: "title",
+              name: "ArkMelon",
+              description: "アークナイツの情報を便利に調べるためのデータベース"
+            },
+            contents: [{
               key: 0,
-              href: "/",
-              img: "../images/index/pool1.png"
+              tag: "event",
+              name: "最新イベント",
+              data: [{
+                key: 0,
+                href: "/",
+                img: "../images/index/event1.png"
+              }, {
+                key: 1,
+                href: "/",
+                img: "../images/index/event2.png"
+              }]
             }, {
               key: 1,
-              href: "/",
-              img: "../images/index/pool2.png"
+              tag: "pool",
+              name: "最新スカウト",
+              data: [{
+                key: 0,
+                href: "/",
+                img: "../images/index/pool1.png"
+              }, {
+                key: 1,
+                href: "/",
+                img: "../images/index/pool2.png"
+              }]
+            }, {
+              key: 2,
+              tag: "operator",
+              name: "最新オペレーター",
+              data: [{
+                key: 0,
+                href: "/",
+                img: "../images/index/operator1.png"
+              }]
+            }, {
+              key: 3,
+              tag: "cloth",
+              name: "最新服装",
+              data: [{
+                key: 0,
+                href: "/",
+                img: "../images/index/cloth1.png"
+              }]
+            }, {
+              key: 4,
+              tag: "theme",
+              name: "最新家具",
+              data: [{
+                key: 0,
+                href: "/",
+                img: "../images/index/theme1.png"
+              }]
+            }, {
+              key: 5,
+              tag: "stage",
+              name: "最新ステージ",
+              data: [{
+                key: 0,
+                href: "/",
+                img: "../images/index/stage1.png"
+              }, {
+                key: 1,
+                href: "/",
+                img: "../images/index/stage2.png"
+              }]
             }]
-          }, {
-            key: 2,
-            tag: "operator",
-            name: "新增干员",
-            data: [{
+          }
+        }
+      },
+      en_us: {
+        contents: {
+          main: {
+            title: {
+              tag: "title",
+              name: "ArkMelon",
+              description: "A Database To Search Data Of Arknights Efficiently"
+            },
+            contents: [{
               key: 0,
-              href: "/",
-              img: "../images/index/operator1.png"
-            }]
-          }, {
-            key: 3,
-            tag: "cloth",
-            name: "新增服装",
-            data: [{
-              key: 0,
-              href: "/",
-              img: "../images/index/cloth1.png"
-            }]
-          }, {
-            key: 4,
-            tag: "theme",
-            name: "新增家具",
-            data: [{
-              key: 0,
-              href: "/",
-              img: "../images/index/theme1.png"
-            }]
-          }, {
-            key: 5,
-            tag: "stage",
-            name: "新增关卡",
-            data: [{
-              key: 0,
-              href: "/",
-              img: "../images/index/stage1.png"
+              tag: "event",
+              name: "Newest Events",
+              data: [{
+                key: 0,
+                href: "/",
+                img: "../images/index/event1.png"
+              }, {
+                key: 1,
+                href: "/",
+                img: "../images/index/event2.png"
+              }]
             }, {
               key: 1,
-              href: "/",
-              img: "../images/index/stage2.png"
+              tag: "pool",
+              name: "Newest Scouts",
+              data: [{
+                key: 0,
+                href: "/",
+                img: "../images/index/pool1.png"
+              }, {
+                key: 1,
+                href: "/",
+                img: "../images/index/pool2.png"
+              }]
+            }, {
+              key: 2,
+              tag: "operator",
+              name: "Newest Operators",
+              data: [{
+                key: 0,
+                href: "/",
+                img: "../images/index/operator1.png"
+              }]
+            }, {
+              key: 3,
+              tag: "cloth",
+              name: "Newest Clothes",
+              data: [{
+                key: 0,
+                href: "/",
+                img: "../images/index/cloth1.png"
+              }]
+            }, {
+              key: 4,
+              tag: "theme",
+              name: "Newest Themes",
+              data: [{
+                key: 0,
+                href: "/",
+                img: "../images/index/theme1.png"
+              }]
+            }, {
+              key: 5,
+              tag: "stage",
+              name: "Newest Stages",
+              data: [{
+                key: 0,
+                href: "/",
+                img: "../images/index/stage1.png"
+              }, {
+                key: 1,
+                href: "/",
+                img: "../images/index/stage2.png"
+              }]
             }]
-          }]
+          }
         }
       }
     };
   }
 
   render() {
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    let language;
+
+    if (this.props.language === "zh-cn") {
+      language = this.state.zh_cn.contents.main;
+    } else if (this.props.language === "ja-jp") {
+      language = this.state.ja_jp.contents.main;
+    } else if (this.props.language === "en-us") {
+      language = this.state.en_us.contents.main;
+    } else {
+      language = this.state.zh_cn.contents.main;
+    }
+
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_template_jsx__WEBPACK_IMPORTED_MODULE_3__["default"], {
+      language: this.props.language
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: "main-container"
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_basic_jsx__WEBPACK_IMPORTED_MODULE_1__["Title"], {
       className: "main-top",
-      content: this.state.contents.main.title
+      content: language.title
     }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_basic_jsx__WEBPACK_IMPORTED_MODULE_1__["MainContents"], {
-      contents: this.state.contents.main.contents
-    }));
+      contents: language.contents
+    }), this.props.children));
   }
 
 }
@@ -5742,7 +6457,11 @@ __webpack_require__.r(__webpack_exports__);
 
 class Template extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
   render() {
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_TopBar_jsx__WEBPACK_IMPORTED_MODULE_1__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_MainTemplate_jsx__WEBPACK_IMPORTED_MODULE_2__["default"], null, this.props.children), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Footer_jsx__WEBPACK_IMPORTED_MODULE_3__["default"], null));
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_TopBar_jsx__WEBPACK_IMPORTED_MODULE_1__["default"], {
+      language: this.props.language
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_MainTemplate_jsx__WEBPACK_IMPORTED_MODULE_2__["default"], null, this.props.children), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Footer_jsx__WEBPACK_IMPORTED_MODULE_3__["default"], {
+      language: this.props.language
+    }));
   }
 
 }
