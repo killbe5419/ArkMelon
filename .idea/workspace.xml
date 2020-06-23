@@ -10,20 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="607eec3e-89c1-47af-9f10-8be80260d6f9" name="Default Changelist" comment="add dependencies.">
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/killbe.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/killbe.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dist/app.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/dist/app.bundle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dist/app.bundle.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/dist/app.bundle.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scripts/app.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/app.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scripts/components/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/components/Footer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scripts/components/TopBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/components/TopBar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scripts/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scripts/template.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/template.jsx" afterDir="false" />
-    </list>
+    <list default="true" id="607eec3e-89c1-47af-9f10-8be80260d6f9" name="Default Changelist" comment="start to use react-router-dom." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -164,6 +151,7 @@
       <workItem from="1592647759356" duration="742000" />
       <workItem from="1592724750119" duration="11157000" />
       <workItem from="1592812226908" duration="2274000" />
+      <workItem from="1592923783728" duration="446000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1591164943965</created>
@@ -410,7 +398,28 @@
       <option name="project" value="LOCAL" />
       <updated>1592391647006</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="add changes.">
+      <created>1592923940356</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1592923940356</updated>
+    </task>
+    <task id="LOCAL-00037" summary="add changes.">
+      <created>1592923948928</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1592923948928</updated>
+    </task>
+    <task id="LOCAL-00038" summary="start to use react-router-dom.">
+      <created>1592924229656</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1592924229656</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -429,7 +438,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="first commit" />
     <MESSAGE value="edit README.md" />
     <MESSAGE value="deleted unused rows." />
     <MESSAGE value="fix small name bug." />
@@ -448,13 +456,14 @@
     <MESSAGE value="add new pages." />
     <MESSAGE value="divided components to smaller parts." />
     <MESSAGE value="divided css." />
-    <MESSAGE value="add changes." />
     <MESSAGE value="fix something." />
     <MESSAGE value="modified description file." />
     <MESSAGE value="use new system with react-router-dom." />
     <MESSAGE value="add dependencies." />
     <MESSAGE value="add files." />
-    <option name="LAST_COMMIT_MESSAGE" value="add files." />
+    <MESSAGE value="add changes." />
+    <MESSAGE value="start to use react-router-dom." />
+    <option name="LAST_COMMIT_MESSAGE" value="start to use react-router-dom." />
   </component>
   <component name="WindowStateProjectService">
     <state x="492" y="382" key="#Scopes" timestamp="1589962361499">
