@@ -10,7 +10,17 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="607eec3e-89c1-47af-9f10-8be80260d6f9" name="Default Changelist" comment="add changes." />
+    <list default="true" id="607eec3e-89c1-47af-9f10-8be80260d6f9" name="Default Changelist" comment="add normalize.css.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dist/app.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/dist/app.bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dist/app.bundle.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/dist/app.bundle.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/components/footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/modules/footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/components/mainTemplate.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/modules/mainTemplate.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/components/topbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/modules/topbar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scripts/components/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/components/Footer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scripts/components/MainTemplate.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/components/MainTemplate.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scripts/components/TopBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/components/TopBar.jsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,8 +37,8 @@
         <option value="tsconfig.json" />
         <option value="JavaScript File" />
         <option value="HTML File" />
-        <option value="CSS File" />
         <option value="SCSS File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -60,7 +70,7 @@
     <property name="database.data.extractors.current.id" value="Comma-separated (CSV)_id" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.16.3" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -157,14 +167,7 @@
       <workItem from="1593675793644" duration="717000" />
       <workItem from="1593677210933" duration="670000" />
       <workItem from="1593679285352" duration="1122000" />
-      <workItem from="1593752129153" duration="6593000" />
-    </task>
-    <task id="LOCAL-00001" summary="first commit">
-      <created>1591164943965</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1591164943965</updated>
+      <workItem from="1593752129153" duration="7229000" />
     </task>
     <task id="LOCAL-00002" summary="first commit">
       <created>1591165105710</created>
@@ -495,7 +498,21 @@
       <option name="project" value="LOCAL" />
       <updated>1593759834917</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="Replace css with scss. Delete all old files.">
+      <created>1593759964255</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1593759964255</updated>
+    </task>
+    <task id="LOCAL-00050" summary="add normalize.css.">
+      <created>1593760116045</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1593760116046</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -514,8 +531,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="deleted test01.js." />
-    <MESSAGE value="divided components to much smaller parts." />
     <MESSAGE value="fix some name-relative bugs." />
     <MESSAGE value="divided components into much smaller parts." />
     <MESSAGE value="add handleSearch function." />
@@ -539,7 +554,9 @@
     <MESSAGE value="start using scss." />
     <MESSAGE value="backups of scss." />
     <MESSAGE value="add changes." />
-    <option name="LAST_COMMIT_MESSAGE" value="add changes." />
+    <MESSAGE value="Replace css with scss. Delete all old files." />
+    <MESSAGE value="add normalize.css." />
+    <option name="LAST_COMMIT_MESSAGE" value="add normalize.css." />
   </component>
   <component name="WindowStateProjectService">
     <state x="492" y="382" key="#Scopes" timestamp="1589962361499">
@@ -634,10 +651,10 @@
       <screen x="0" y="23" width="1680" height="981" />
     </state>
     <state x="961" y="367" key="VCS.EditChangelistDialog/0.23.1680.981@0.23.1680.981" timestamp="1591165011540" />
-    <state x="742" y="189" key="Vcs.Push.Dialog.v2" timestamp="1593759877202">
+    <state x="742" y="189" key="Vcs.Push.Dialog.v2" timestamp="1593760131170">
       <screen x="0" y="23" width="1680" height="981" />
     </state>
-    <state x="742" y="189" key="Vcs.Push.Dialog.v2/0.23.1680.981@0.23.1680.981" timestamp="1593759877202" />
+    <state x="742" y="189" key="Vcs.Push.Dialog.v2/0.23.1680.981@0.23.1680.981" timestamp="1593760131170" />
     <state x="1017" y="424" width="341" height="221" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1590088369813">
       <screen x="0" y="23" width="1680" height="981" />
     </state>

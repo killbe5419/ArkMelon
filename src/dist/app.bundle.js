@@ -161,10 +161,28 @@ function _objectWithoutPropertiesLoose(source, excluded) {
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/sass/components/footer.scss":
-/*!**********************************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/sass/components/footer.scss ***!
-  \**********************************************************************************************************************/
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/sass/index.scss":
+/*!**********************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/sass/index.scss ***!
+  \**********************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+// Module
+exports.push([module.i, "* {\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n  font-style: normal;\n  -webkit-font-smoothing: antialiased;\n  color: #fff;\n}\n\ninput {\n  outline: none;\n  background: none;\n  border: none;\n}\n\nbutton {\n  outline: none;\n  cursor: pointer;\n}\n\nli {\n  list-style: none;\n}\n\na {\n  text-decoration: none;\n  cursor: pointer;\n}\n\n.main-container {\n  display: flex;\n  flex-direction: column;\n  width: 70%;\n  height: 100%;\n  margin: auto;\n}\n\n.main-top {\n  display: flex;\n  width: 100%;\n  height: 300px;\n}\n\n.title {\n  display: flex;\n  flex-direction: column;\n  margin: auto;\n  height: 100%;\n}\n\n.title-name {\n  font-size: 50px;\n  font-weight: 700;\n  color: #f08080;\n  margin: 40px 0 20px 0;\n}\n\n.title-description {\n  font-size: 20px;\n  font-weight: 500;\n}\n\n.main-contents {\n  display: flex;\n  flex-direction: column;\n  width: 100%;\n  min-height: 800px;\n}\n.main-contents div p {\n  border-bottom: currentColor 2px solid;\n  font-weight: 500;\n}\n\n.news-containers {\n  display: flex;\n  flex-direction: column;\n  margin-bottom: 30px;\n}\n\n.new-contents-v {\n  display: flex;\n  flex-direction: column;\n  width: 80%;\n}\n.new-contents-v img {\n  width: 100%;\n  margin: 20px 10% 20px 10%;\n}\n\n.new-contents-h {\n  display: flex;\n}\n.new-contents-h img {\n  width: 100px;\n  height: 100px;\n  margin: 0 20px 0 20px;\n}", ""]);
+// Exports
+module.exports = exports;
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/sass/modules/footer.scss":
+/*!*******************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/sass/modules/footer.scss ***!
+  \*******************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -179,10 +197,10 @@ module.exports = exports;
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/sass/components/mainTemplate.scss":
-/*!****************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/sass/components/mainTemplate.scss ***!
-  \****************************************************************************************************************************/
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/sass/modules/mainTemplate.scss":
+/*!*************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/sass/modules/mainTemplate.scss ***!
+  \*************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -197,10 +215,10 @@ module.exports = exports;
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/sass/components/topbar.scss":
-/*!**********************************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/sass/components/topbar.scss ***!
-  \**********************************************************************************************************************/
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/sass/modules/topbar.scss":
+/*!*******************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/sass/modules/topbar.scss ***!
+  \*******************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -209,24 +227,6 @@ var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
 exports.push([module.i, "* {\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n  font-style: normal;\n  -webkit-font-smoothing: antialiased;\n  color: #fff;\n}\n\ninput {\n  outline: none;\n  background: none;\n  border: none;\n}\n\nbutton {\n  outline: none;\n  cursor: pointer;\n}\n\nli {\n  list-style: none;\n}\n\na {\n  text-decoration: none;\n  cursor: pointer;\n}\n\n.header {\n  position: fixed;\n  display: block;\n  top: 0;\n  left: 0;\n  z-index: 1;\n  width: 100%;\n  height: 50px;\n  background-color: #1f1f1f;\n}\n\n.top-bar {\n  position: fixed;\n  display: flex;\n  padding-left: 20px;\n  padding-right: 20px;\n  margin-left: 40px;\n  margin-right: 40px;\n  height: 50px;\n  width: 90%;\n}\n\n.logo {\n  width: calc(100% / 6);\n  display: flex;\n  height: 100%;\n  text-decoration: none;\n  margin-right: 10px;\n}\n.logo img {\n  display: inline-block;\n  border-style: none;\n  margin: 10px 5px 10px 10px;\n  padding: 0;\n  border-radius: 8px;\n  height: 30px;\n  width: 30px;\n}\n.logo span {\n  text-align: center;\n  vertical-align: center;\n  font-weight: 700;\n  font-size: 20px;\n  margin: 15px 0 10px 5px;\n  overflow: no-display;\n  color: #f08080;\n}\n\n.nav {\n  display: flex;\n  height: 100%;\n  width: 40%;\n}\n\n.nav-container {\n  cursor: pointer;\n  display: flex;\n  flex-direction: column;\n  width: 100px;\n}\n\n.nav-contents {\n  height: 50px;\n  line-height: 50px;\n  text-align: center;\n}\n\n.nav-contents:hover {\n  color: #f08080;\n}\n\n.dropdown {\n  display: flex;\n  flex-direction: column;\n  width: 100%;\n  font-weight: 400;\n  background-color: transparent;\n}\n.dropdown a {\n  width: 100%;\n  height: 40px;\n  line-height: 40px;\n  font-weight: 400;\n  text-align: center;\n  background-color: #1f1f1f;\n}\n.dropdown a:hover {\n  background-color: #696969;\n  color: #f08080;\n}\n\n.search {\n  display: flex;\n  width: 30%;\n  height: 50px;\n  text-align: right;\n  justify-content: flex-end;\n  align-items: center;\n  margin-right: 40px;\n}\n\n.search-input {\n  display: flex;\n  width: 100%;\n}\n.search-input input {\n  display: flex;\n  width: 100%;\n  height: 26px;\n  background: transparent;\n  border: 2px solid #fff;\n  color: #fff;\n  border-radius: 5px;\n  font-size: 14px;\n  padding: 0 10px 0 10px;\n}\n.search-input input:focus {\n  border: 2px solid #f08080;\n}\n.search-input button:hover {\n  color: #f08080;\n}\n\n.search-submit {\n  position: relative;\n  right: 55px;\n  width: 30px;\n  height: 26px;\n  top: 2px;\n  background: #1f1f1f;\n  border: none;\n  color: #fff;\n  font-size: 14px;\n  font-weight: 500;\n  padding: 0;\n}\n\n.search-cleaner {\n  position: relative;\n  right: 55px;\n  width: 20px;\n  height: 26px;\n  top: 2px;\n  background: #1f1f1f;\n  border: none;\n  color: #fff;\n  font-size: 14px;\n  font-weight: 500;\n  padding: 0 20px 0 10px;\n}\n\n.search-icon {\n  float: right;\n  width: 30px;\n  height: 30px;\n  background-color: #1f1f1f;\n  border-radius: 4px;\n  border: none;\n  padding: 0;\n}\n\n.options {\n  display: flex;\n}\n\n.opt-container {\n  cursor: pointer;\n  display: flex;\n  flex-direction: column;\n  width: 100px;\n}\n\n.opt-contents {\n  height: 50px;\n  line-height: 50px;\n  text-align: center;\n}\n\n.opt-contents:hover {\n  color: #f08080;\n}\n\n.language-container {\n  cursor: pointer;\n  display: flex;\n  flex-direction: column;\n  width: 100px;\n}\n\n.language-contents {\n  cursor: pointer;\n  height: 50px;\n  width: 50%;\n  line-height: 50px;\n  margin: 0 auto;\n}\n\n.language-icon {\n  height: 100%;\n  width: 25px;\n  margin: 0 20% 0 20%;\n}", ""]);
-// Exports
-module.exports = exports;
-
-
-/***/ }),
-
-/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/sass/index.scss":
-/*!**********************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/sass/index.scss ***!
-  \**********************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-// Imports
-var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
-exports = ___CSS_LOADER_API_IMPORT___(false);
-// Module
-exports.push([module.i, "* {\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n  font-style: normal;\n  -webkit-font-smoothing: antialiased;\n  color: #fff;\n}\n\ninput {\n  outline: none;\n  background: none;\n  border: none;\n}\n\nbutton {\n  outline: none;\n  cursor: pointer;\n}\n\nli {\n  list-style: none;\n}\n\na {\n  text-decoration: none;\n  cursor: pointer;\n}\n\n.main-container {\n  display: flex;\n  flex-direction: column;\n  width: 70%;\n  height: 100%;\n  margin: auto;\n}\n\n.main-top {\n  display: flex;\n  width: 100%;\n  height: 300px;\n}\n\n.title {\n  display: flex;\n  flex-direction: column;\n  margin: auto;\n  height: 100%;\n}\n\n.title-name {\n  font-size: 50px;\n  font-weight: 700;\n  color: #f08080;\n  margin: 40px 0 20px 0;\n}\n\n.title-description {\n  font-size: 20px;\n  font-weight: 500;\n}\n\n.main-contents {\n  display: flex;\n  flex-direction: column;\n  width: 100%;\n  min-height: 800px;\n}\n.main-contents div p {\n  border-bottom: currentColor 2px solid;\n  font-weight: 500;\n}\n\n.news-containers {\n  display: flex;\n  flex-direction: column;\n  margin-bottom: 30px;\n}\n\n.new-contents-v {\n  display: flex;\n  flex-direction: column;\n  width: 80%;\n}\n.new-contents-v img {\n  width: 100%;\n  margin: 20px 10% 20px 10%;\n}\n\n.new-contents-h {\n  display: flex;\n}\n.new-contents-h img {\n  width: 100px;\n  height: 100px;\n  margin: 0 20px 0 20px;\n}", ""]);
 // Exports
 module.exports = exports;
 
@@ -4837,93 +4837,6 @@ module.exports = g;
 
 /***/ }),
 
-/***/ "./src/sass/components/footer.scss":
-/*!*****************************************!*\
-  !*** ./src/sass/components/footer.scss ***!
-  \*****************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var api = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
-            var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js!../../../node_modules/sass-loader/dist/cjs.js!./footer.scss */ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/sass/components/footer.scss");
-
-            content = content.__esModule ? content.default : content;
-
-            if (typeof content === 'string') {
-              content = [[module.i, content, '']];
-            }
-
-var options = {};
-
-options.insert = "head";
-options.singleton = false;
-
-var update = api(content, options);
-
-
-
-module.exports = content.locals || {};
-
-/***/ }),
-
-/***/ "./src/sass/components/mainTemplate.scss":
-/*!***********************************************!*\
-  !*** ./src/sass/components/mainTemplate.scss ***!
-  \***********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var api = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
-            var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js!../../../node_modules/sass-loader/dist/cjs.js!./mainTemplate.scss */ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/sass/components/mainTemplate.scss");
-
-            content = content.__esModule ? content.default : content;
-
-            if (typeof content === 'string') {
-              content = [[module.i, content, '']];
-            }
-
-var options = {};
-
-options.insert = "head";
-options.singleton = false;
-
-var update = api(content, options);
-
-
-
-module.exports = content.locals || {};
-
-/***/ }),
-
-/***/ "./src/sass/components/topbar.scss":
-/*!*****************************************!*\
-  !*** ./src/sass/components/topbar.scss ***!
-  \*****************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var api = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
-            var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js!../../../node_modules/sass-loader/dist/cjs.js!./topbar.scss */ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/sass/components/topbar.scss");
-
-            content = content.__esModule ? content.default : content;
-
-            if (typeof content === 'string') {
-              content = [[module.i, content, '']];
-            }
-
-var options = {};
-
-options.insert = "head";
-options.singleton = false;
-
-var update = api(content, options);
-
-
-
-module.exports = content.locals || {};
-
-/***/ }),
-
 /***/ "./src/sass/index.scss":
 /*!*****************************!*\
   !*** ./src/sass/index.scss ***!
@@ -4933,6 +4846,93 @@ module.exports = content.locals || {};
 
 var api = __webpack_require__(/*! ../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
             var content = __webpack_require__(/*! !../../node_modules/css-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!./index.scss */ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/sass/index.scss");
+
+            content = content.__esModule ? content.default : content;
+
+            if (typeof content === 'string') {
+              content = [[module.i, content, '']];
+            }
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = api(content, options);
+
+
+
+module.exports = content.locals || {};
+
+/***/ }),
+
+/***/ "./src/sass/modules/footer.scss":
+/*!**************************************!*\
+  !*** ./src/sass/modules/footer.scss ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var api = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+            var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js!../../../node_modules/sass-loader/dist/cjs.js!./footer.scss */ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/sass/modules/footer.scss");
+
+            content = content.__esModule ? content.default : content;
+
+            if (typeof content === 'string') {
+              content = [[module.i, content, '']];
+            }
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = api(content, options);
+
+
+
+module.exports = content.locals || {};
+
+/***/ }),
+
+/***/ "./src/sass/modules/mainTemplate.scss":
+/*!********************************************!*\
+  !*** ./src/sass/modules/mainTemplate.scss ***!
+  \********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var api = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+            var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js!../../../node_modules/sass-loader/dist/cjs.js!./mainTemplate.scss */ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/sass/modules/mainTemplate.scss");
+
+            content = content.__esModule ? content.default : content;
+
+            if (typeof content === 'string') {
+              content = [[module.i, content, '']];
+            }
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = api(content, options);
+
+
+
+module.exports = content.locals || {};
+
+/***/ }),
+
+/***/ "./src/sass/modules/topbar.scss":
+/*!**************************************!*\
+  !*** ./src/sass/modules/topbar.scss ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var api = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+            var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js!../../../node_modules/sass-loader/dist/cjs.js!./topbar.scss */ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/sass/modules/topbar.scss");
 
             content = content.__esModule ? content.default : content;
 
@@ -5057,8 +5057,8 @@ react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render( /*#__PURE__*/react__WEB
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _sass_components_footer_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../sass/components/footer.scss */ "./src/sass/components/footer.scss");
-/* harmony import */ var _sass_components_footer_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_sass_components_footer_scss__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _sass_modules_footer_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../sass/modules/footer.scss */ "./src/sass/modules/footer.scss");
+/* harmony import */ var _sass_modules_footer_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_sass_modules_footer_scss__WEBPACK_IMPORTED_MODULE_1__);
 
 
 
@@ -5161,8 +5161,8 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _sass_components_mainTemplate_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../sass/components/mainTemplate.scss */ "./src/sass/components/mainTemplate.scss");
-/* harmony import */ var _sass_components_mainTemplate_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_sass_components_mainTemplate_scss__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _sass_modules_mainTemplate_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../sass/modules/mainTemplate.scss */ "./src/sass/modules/mainTemplate.scss");
+/* harmony import */ var _sass_modules_mainTemplate_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_sass_modules_mainTemplate_scss__WEBPACK_IMPORTED_MODULE_1__);
 
 
 
@@ -5193,8 +5193,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! axios */ "axios");
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _basic_jsx__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./basic.jsx */ "./src/scripts/components/basic.jsx");
-/* harmony import */ var _sass_components_topbar_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../sass/components/topbar.scss */ "./src/sass/components/topbar.scss");
-/* harmony import */ var _sass_components_topbar_scss__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_sass_components_topbar_scss__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _sass_modules_topbar_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../sass/modules/topbar.scss */ "./src/sass/modules/topbar.scss");
+/* harmony import */ var _sass_modules_topbar_scss__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_sass_modules_topbar_scss__WEBPACK_IMPORTED_MODULE_3__);
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
 

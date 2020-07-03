@@ -1,5 +1,5 @@
 import React from "react";
-import "../../sass/components/mainTemplate.scss";
+import "../../sass/modules/mainTemplate.scss";
 
 class MainTemplate extends React.Component {
     render() {

@@ -2,7 +2,7 @@ import React from "react";
 import axios from "axios";
 
 import { ImgA, DropdownMenu } from "./basic.jsx";
-import "../../sass/components/topbar.scss";
+import "../../sass/modules/topbar.scss";
 
 class Logo extends React.Component {
     render() {
