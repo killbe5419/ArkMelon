@@ -1,0 +1,10 @@
+@use "../base";
+
+.main {
+  display: flex;
+  margin-top: 50px;
+  min-height: 1000px;
+  width: 100%;
+  background-color: base.$bkg-main-dark;
+
+}

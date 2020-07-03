@@ -1,0 +1,67 @@
+@use "../base";
+
+.footer {
+  background-color: base.$bkg-bar-dark;
+  display: flex;
+  a:hover {
+    color: base.$primary-color;
+  }
+}
+
+.footer-contents {
+  display: flex;
+  flex-direction:column;
+  width: 90%;
+  margin: 20px 5% 20px 5%;
+}
+
+.footer-top {
+  display: flex;
+  div {
+    * {
+      margin: auto;
+    }
+  }
+}
+
+.footer-top-left {
+  flex-direction:column;
+  display: flex;
+  width: 30%;
+  margin: auto;
+}
+
+.footer-top-middle {
+  flex-direction:column;
+  display: flex;
+  width: 30%;
+  margin: auto;
+}
+
+.footer-top-right {
+  flex-direction:column;
+  display: flex;
+  width: 30%;
+  margin: auto;
+}
+
+.footer-bottom {
+  display: flex;
+}
+
+.footer-bottom-middle {
+  width: 50%;
+  margin: auto;
+}
+
+.copyright {
+  display: flex;
+  flex-direction:column;
+  width: 300px;
+  margin: auto;
+  img {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+  }
+}
