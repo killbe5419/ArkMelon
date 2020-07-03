@@ -1,13 +1,13 @@
 import React from "react";
 import axios from "axios";
 
-import {ImgA, DropdownMenu} from "./basic.jsx";
-import "../../styles/components/TopBar.css";
+import { ImgA, DropdownMenu } from "./basic.jsx";
+import "../../sass/components/topbar.scss";
 
 class Logo extends React.Component {
     render() {
         return (
-            <ImgA className="logo" tag="logo"   input={ this.props.content } />
+            <ImgA className="logo" tag="logo" input={ this.props.content } />
         );
     }
 }

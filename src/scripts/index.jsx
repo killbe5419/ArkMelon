@@ -1,6 +1,6 @@
 import React from "react";
 import { Title, MainContents } from "./components/basic.jsx";
-import "../styles/index.css";
+import "../sass/index.scss";
 import Template from "./template.jsx";
 
 class Index extends React.Component {
