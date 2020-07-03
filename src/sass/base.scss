@@ -1,28 +1,37 @@
-$bkg-bar-dark: #1f1f1f;
-$bkg-main-dark: #2f2f2f;
+$bkg-bar-dark: #2f2f2f;
+$bkg-main-dark: #1f1f1f;
 $font-dark: #fff;
 $bar-hover-dark: #696969;
+
+$bkg-bar-light: #6495ED;
+$bkg-main-light: #FDF5E6;
+$font-main-light: #333;
+$font-bar-light: #fff;
+$bar-hover-light: #87CEFA;
+
 $primary-color: #f08080;
 
-* {
+:root {
   font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
   font-style: normal;
   -webkit-font-smoothing: antialiased;
-  color: $font-dark;
 }
-input {
-  outline: none;
-  background:none;
-  border:none;
-}
-button {
-  outline: none;
-  cursor: pointer;
-}
-li {
-  list-style:none;
-}
-a {
-  text-decoration: none;
-  cursor: pointer;
+
+* {
+  input {
+    outline: none;
+    background:none;
+    border:none;
+  }
+  button {
+    outline: none;
+    cursor: pointer;
+  }
+  li {
+    list-style:none;
+  }
+  a {
+    text-decoration: none;
+    cursor: pointer;
+  }
 }

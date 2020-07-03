@@ -1,10 +1,23 @@
 @use "../base";
 
 .footer {
-  background-color: base.$bkg-bar-dark;
   display: flex;
   a:hover {
     color: base.$primary-color;
+  }
+  &.dark-theme {
+    background-color: base.$bkg-bar-dark;
+    color: base.$font-dark;
+    * {
+      color: base.$font-dark;
+    }
+  }
+  &.light-theme {
+    background-color: base.$bkg-bar-light;
+    color: base.$font-bar-light;
+    * {
+      color: base.$font-bar-light;
+    }
   }
 }
 
