@@ -10,28 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="607eec3e-89c1-47af-9f10-8be80260d6f9" name="Default Changelist" comment="add changes.">
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sass/base.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sass/components/footer.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sass/components/mainTemplate.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sass/components/topbar.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sass/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dist/app.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/dist/app.bundle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dist/app.bundle.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/dist/app.bundle.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scripts/components/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/components/Footer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scripts/components/MainTemplate.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/components/MainTemplate.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scripts/components/TopBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/components/TopBar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scripts/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/components/Footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/components/Footer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/components/MainTemplate.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/components/MainTemplate.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/components/TopBar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/components/TopBar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
-    </list>
+    <list default="true" id="607eec3e-89c1-47af-9f10-8be80260d6f9" name="Default Changelist" comment="add changes." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -178,7 +157,7 @@
       <workItem from="1593675793644" duration="717000" />
       <workItem from="1593677210933" duration="670000" />
       <workItem from="1593679285352" duration="1122000" />
-      <workItem from="1593752129153" duration="6158000" />
+      <workItem from="1593752129153" duration="6593000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1591164943965</created>
@@ -474,7 +453,49 @@
       <option name="project" value="LOCAL" />
       <updated>1593675843004</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="add changes.">
+      <created>1593759703967</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1593759703967</updated>
+    </task>
+    <task id="LOCAL-00044" summary="start using sass-loader to compile scss files.">
+      <created>1593759773425</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1593759773425</updated>
+    </task>
+    <task id="LOCAL-00045" summary="start using scss.">
+      <created>1593759805232</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1593759805232</updated>
+    </task>
+    <task id="LOCAL-00046" summary="start using scss.">
+      <created>1593759810967</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1593759810967</updated>
+    </task>
+    <task id="LOCAL-00047" summary="backups of scss.">
+      <created>1593759826879</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1593759826879</updated>
+    </task>
+    <task id="LOCAL-00048" summary="add changes.">
+      <created>1593759834917</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1593759834917</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -493,9 +514,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="edit README.md" />
-    <MESSAGE value="deleted unused rows." />
-    <MESSAGE value="fix small name bug." />
     <MESSAGE value="deleted test01.js." />
     <MESSAGE value="divided components to much smaller parts." />
     <MESSAGE value="fix some name-relative bugs." />
@@ -517,6 +535,9 @@
     <MESSAGE value="add dependencies." />
     <MESSAGE value="add files." />
     <MESSAGE value="start to use react-router-dom." />
+    <MESSAGE value="start using sass-loader to compile scss files." />
+    <MESSAGE value="start using scss." />
+    <MESSAGE value="backups of scss." />
     <MESSAGE value="add changes." />
     <option name="LAST_COMMIT_MESSAGE" value="add changes." />
   </component>
@@ -537,22 +558,22 @@
       <screen x="0" y="23" width="1680" height="981" />
     </state>
     <state width="251" height="195" key="DatabaseViewActions_Filter/0.23.1680.981@0.23.1680.981" timestamp="1589966524504" />
-    <state width="833" height="186" key="GridCell.Tab.0.bottom" timestamp="1593759150138">
+    <state width="833" height="186" key="GridCell.Tab.0.bottom" timestamp="1593759836516">
       <screen x="0" y="23" width="1680" height="981" />
     </state>
-    <state width="833" height="186" key="GridCell.Tab.0.bottom/0.23.1680.981@0.23.1680.981" timestamp="1593759150138" />
-    <state width="833" height="186" key="GridCell.Tab.0.center" timestamp="1593759150137">
+    <state width="833" height="186" key="GridCell.Tab.0.bottom/0.23.1680.981@0.23.1680.981" timestamp="1593759836516" />
+    <state width="833" height="186" key="GridCell.Tab.0.center" timestamp="1593759836515">
       <screen x="0" y="23" width="1680" height="981" />
     </state>
-    <state width="833" height="186" key="GridCell.Tab.0.center/0.23.1680.981@0.23.1680.981" timestamp="1593759150137" />
-    <state width="833" height="186" key="GridCell.Tab.0.left" timestamp="1593759150136">
+    <state width="833" height="186" key="GridCell.Tab.0.center/0.23.1680.981@0.23.1680.981" timestamp="1593759836515" />
+    <state width="833" height="186" key="GridCell.Tab.0.left" timestamp="1593759836514">
       <screen x="0" y="23" width="1680" height="981" />
     </state>
-    <state width="833" height="186" key="GridCell.Tab.0.left/0.23.1680.981@0.23.1680.981" timestamp="1593759150136" />
-    <state width="833" height="186" key="GridCell.Tab.0.right" timestamp="1593759150138">
+    <state width="833" height="186" key="GridCell.Tab.0.left/0.23.1680.981@0.23.1680.981" timestamp="1593759836514" />
+    <state width="833" height="186" key="GridCell.Tab.0.right" timestamp="1593759836516">
       <screen x="0" y="23" width="1680" height="981" />
     </state>
-    <state width="833" height="186" key="GridCell.Tab.0.right/0.23.1680.981@0.23.1680.981" timestamp="1593759150138" />
+    <state width="833" height="186" key="GridCell.Tab.0.right/0.23.1680.981@0.23.1680.981" timestamp="1593759836516" />
     <state width="952" height="235" key="GridCell.Tab.1.bottom" timestamp="1590830953179">
       <screen x="0" y="23" width="1680" height="981" />
     </state>
@@ -613,10 +634,10 @@
       <screen x="0" y="23" width="1680" height="981" />
     </state>
     <state x="961" y="367" key="VCS.EditChangelistDialog/0.23.1680.981@0.23.1680.981" timestamp="1591165011540" />
-    <state x="742" y="189" key="Vcs.Push.Dialog.v2" timestamp="1592925695223">
+    <state x="742" y="189" key="Vcs.Push.Dialog.v2" timestamp="1593759877202">
       <screen x="0" y="23" width="1680" height="981" />
     </state>
-    <state x="742" y="189" key="Vcs.Push.Dialog.v2/0.23.1680.981@0.23.1680.981" timestamp="1592925695223" />
+    <state x="742" y="189" key="Vcs.Push.Dialog.v2/0.23.1680.981@0.23.1680.981" timestamp="1593759877202" />
     <state x="1017" y="424" width="341" height="221" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1590088369813">
       <screen x="0" y="23" width="1680" height="981" />
     </state>
