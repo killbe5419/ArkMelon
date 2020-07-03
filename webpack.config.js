@@ -15,7 +15,12 @@ module.exports = {
                 use: ["style-loader","css-loader"]
             },
             {
-                test: /\.jsx$/,
+                test: /\.s[ac]ss$/i,
+                exclude: /(node_modules|bower_components)/,
+                use: ["style-loader", "css-loader", "sass-loader"]
+            },
+            {
+                test: /\.m?jsx$/,
                 exclude: /(node_modules|bower_components)/,
                 use: {
                     loader: "babel-loader",
@@ -25,12 +30,6 @@ module.exports = {
                     }
                 },
             },
-            {
-                test: /\.(png|svg|jpg|gif)$/,
-                use: [
-                    "file-loader",
-                ],
-            }
         ]
     },
 
