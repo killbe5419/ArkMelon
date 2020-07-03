@@ -70,7 +70,7 @@ class Footer extends React.Component {
             ctx = this.state.zh_cn;
         }
         return (
-            <div className="footer">
+            <div className={`footer ${ this.props.theme }`}>
                 <div className="footer-contents">
                     <div className="footer-top">
                         <div className="footer-top-left">

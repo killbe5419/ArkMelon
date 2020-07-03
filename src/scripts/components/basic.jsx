@@ -32,6 +32,28 @@ class DropdownMenu extends React.Component {
     }
 }
 
+class ChangeThemeDropdown extends React.Component {
+    render() {
+        const tmp = this.props.listInfo.data;
+        const listItems = tmp.map( x =>
+            <a key={ x.key.toString() }
+                onClick={ x.func }
+            >
+                { x.title }
+            </a>
+        );
+        if(this.props.listInfo.display) {
+            return (
+                <div className="dropdown">
+                    { listItems }
+                </div>
+            );
+        } else {
+            return null;
+        }
+    }
+}
+
 class ContentsContainer extends React.Component {
     render() {
         let listItem;
@@ -100,4 +122,4 @@ class MainContents extends React.Component {
     }
 }
 
-export {ImgA, DropdownMenu, Title, MainContents};
+export {ImgA, DropdownMenu, ChangeThemeDropdown, Title, MainContents};

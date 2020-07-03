@@ -1,6 +1,6 @@
 import React from "react";
 import { Title } from "./components/basic.jsx";
-import "../styles/404.css";
+import "../sass/404.scss";
 
 
 class _404 extends React.Component {

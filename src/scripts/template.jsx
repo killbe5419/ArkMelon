@@ -7,11 +7,16 @@ class Template extends React.Component {
     render() {
         return (
             <div>
-                <TopBar language={ this.props.language }/>
-                <MainTemplate >
+                <TopBar
+                    language={ this.props.language }
+                    theme={ this.props.theme }
+                    toDarkTheme={ this.props.toDarkTheme }
+                    toLightTheme={ this.props.toLightTheme }
+                />
+                <MainTemplate theme={ this.props.theme }>
                     { this.props.children }
                 </MainTemplate>
-                <Footer language={ this.props.language }/>
+                <Footer language={ this.props.language } theme={ this.props.theme }/>
             </div>
         );
     }

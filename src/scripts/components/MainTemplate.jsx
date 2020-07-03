@@ -4,7 +4,7 @@ import "../../sass/modules/mainTemplate.scss";
 class MainTemplate extends React.Component {
     render() {
         return (
-            <div className="main">
+            <div className={ `main ${ this.props.theme }` }>
                 { this.props.children }
             </div>
         );

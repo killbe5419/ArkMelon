@@ -1,7 +1,7 @@
 import React from "react";
 import axios from "axios";
 
-import { ImgA, DropdownMenu } from "./basic.jsx";
+import { ImgA, DropdownMenu, ChangeThemeDropdown } from "./basic.jsx";
 import "../../sass/modules/topbar.scss";
 
 class Logo extends React.Component {
@@ -146,7 +146,7 @@ class ChangeTheme extends React.Component {
                 <div className={ this.props.tag + "-contents"}>
                     { this.props.content.name }
                 </div>
-                <DropdownMenu listInfo={ this.props.content.listInfo } />
+               <ChangeThemeDropdown listInfo={ this.props.content.listInfo }/>
             </div>
         );
     }
@@ -351,12 +351,12 @@ class TopBar extends React.Component {
                                 {
                                     key: 0,
                                     title: "浅色",
-                                    href: "/"
+                                    func: this.props.toLightTheme
                                 },
                                 {
                                     key: 1,
                                     title: "深色",
-                                    href: "/"
+                                    func: this.props.toDarkTheme
                                 },
                             ]
                         }
@@ -526,12 +526,12 @@ class TopBar extends React.Component {
                                 {
                                     key: 0,
                                     title: "Light",
-                                    href: "/"
+                                    func: this.props.toLightTheme
                                 },
                                 {
                                     key: 1,
                                     title: "Dark",
-                                    href: "/"
+                                    func: this.props.toDarkTheme
                                 },
                             ]
                         }
@@ -701,12 +701,12 @@ class TopBar extends React.Component {
                                 {
                                     key: 0,
                                     title: "Light",
-                                    href: "/"
+                                    func: this.props.toLightTheme
                                 },
                                 {
                                     key: 1,
                                     title: "Dark",
-                                    href: "/"
+                                    func: this.props.toDarkTheme
                                 },
                             ]
                         }
@@ -982,7 +982,7 @@ class TopBar extends React.Component {
             ctx = this.state.zh_cn;
         }
         return (
-            <div className="header">
+            <div className={`header ${this.props.theme}`}>
                 <header className="top-bar">
                     <Logo content={ ctx.logo }/>
                     <Nav
