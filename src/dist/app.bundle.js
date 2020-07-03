@@ -161,6 +161,24 @@ function _objectWithoutPropertiesLoose(source, excluded) {
 
 /***/ }),
 
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/sass/404.scss":
+/*!********************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/sass/404.scss ***!
+  \********************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+// Module
+exports.push([module.i, "", ""]);
+// Exports
+module.exports = exports;
+
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/sass/index.scss":
 /*!**********************************************************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/sass/index.scss ***!
@@ -172,7 +190,7 @@ function _objectWithoutPropertiesLoose(source, excluded) {
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, "* {\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n  font-style: normal;\n  -webkit-font-smoothing: antialiased;\n  color: #fff;\n}\n\ninput {\n  outline: none;\n  background: none;\n  border: none;\n}\n\nbutton {\n  outline: none;\n  cursor: pointer;\n}\n\nli {\n  list-style: none;\n}\n\na {\n  text-decoration: none;\n  cursor: pointer;\n}\n\n.main-container {\n  display: flex;\n  flex-direction: column;\n  width: 70%;\n  height: 100%;\n  margin: auto;\n}\n\n.main-top {\n  display: flex;\n  width: 100%;\n  height: 300px;\n}\n\n.title {\n  display: flex;\n  flex-direction: column;\n  margin: auto;\n  height: 100%;\n}\n\n.title-name {\n  font-size: 50px;\n  font-weight: 700;\n  color: #f08080;\n  margin: 40px 0 20px 0;\n}\n\n.title-description {\n  font-size: 20px;\n  font-weight: 500;\n}\n\n.main-contents {\n  display: flex;\n  flex-direction: column;\n  width: 100%;\n  min-height: 800px;\n}\n.main-contents div p {\n  border-bottom: currentColor 2px solid;\n  font-weight: 500;\n}\n\n.news-containers {\n  display: flex;\n  flex-direction: column;\n  margin-bottom: 30px;\n}\n\n.new-contents-v {\n  display: flex;\n  flex-direction: column;\n  width: 80%;\n}\n.new-contents-v img {\n  width: 100%;\n  margin: 20px 10% 20px 10%;\n}\n\n.new-contents-h {\n  display: flex;\n}\n.new-contents-h img {\n  width: 100px;\n  height: 100px;\n  margin: 0 20px 0 20px;\n}", ""]);
+exports.push([module.i, ":root {\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n  font-style: normal;\n  -webkit-font-smoothing: antialiased;\n}\n\n* input {\n  outline: none;\n  background: none;\n  border: none;\n}\n* button {\n  outline: none;\n  cursor: pointer;\n}\n* li {\n  list-style: none;\n}\n* a {\n  text-decoration: none;\n  cursor: pointer;\n}\n\n.main-container {\n  display: flex;\n  flex-direction: column;\n  width: 70%;\n  height: 100%;\n  margin: auto;\n}\n.main-container.dark-theme * {\n  color: #fff;\n}\n.main-container.dark-theme .title-name {\n  color: #f08080;\n}\n.main-container.light-theme * {\n  color: #333;\n}\n.main-container.light-theme .title-name {\n  color: #f08080;\n}\n\n.main-top {\n  display: flex;\n  width: 100%;\n  height: 300px;\n}\n\n.title {\n  display: flex;\n  flex-direction: column;\n  margin: auto;\n  height: 100%;\n}\n\n.title-name {\n  font-size: 50px;\n  font-weight: 700;\n  margin: 40px 0 20px 0;\n}\n\n.title-description {\n  font-size: 20px;\n  font-weight: 500;\n}\n\n.main-contents {\n  display: flex;\n  flex-direction: column;\n  width: 100%;\n  min-height: 800px;\n}\n.main-contents div p {\n  border-bottom: currentColor 2px solid;\n  font-weight: 500;\n}\n\n.news-containers {\n  display: flex;\n  flex-direction: column;\n  margin-bottom: 30px;\n}\n\n.new-contents-v {\n  display: flex;\n  flex-direction: column;\n  width: 80%;\n}\n.new-contents-v img {\n  width: 100%;\n  margin: 20px 10% 20px 10%;\n}\n\n.new-contents-h {\n  display: flex;\n}\n.new-contents-h img {\n  width: 100px;\n  height: 100px;\n  margin: 0 20px 0 20px;\n}", ""]);
 // Exports
 module.exports = exports;
 
@@ -190,7 +208,7 @@ module.exports = exports;
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, "* {\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n  font-style: normal;\n  -webkit-font-smoothing: antialiased;\n  color: #fff;\n}\n\ninput {\n  outline: none;\n  background: none;\n  border: none;\n}\n\nbutton {\n  outline: none;\n  cursor: pointer;\n}\n\nli {\n  list-style: none;\n}\n\na {\n  text-decoration: none;\n  cursor: pointer;\n}\n\n.footer {\n  background-color: #1f1f1f;\n  display: flex;\n}\n.footer a:hover {\n  color: #f08080;\n}\n\n.footer-contents {\n  display: flex;\n  flex-direction: column;\n  width: 90%;\n  margin: 20px 5% 20px 5%;\n}\n\n.footer-top {\n  display: flex;\n}\n.footer-top div * {\n  margin: auto;\n}\n\n.footer-top-left {\n  flex-direction: column;\n  display: flex;\n  width: 30%;\n  margin: auto;\n}\n\n.footer-top-middle {\n  flex-direction: column;\n  display: flex;\n  width: 30%;\n  margin: auto;\n}\n\n.footer-top-right {\n  flex-direction: column;\n  display: flex;\n  width: 30%;\n  margin: auto;\n}\n\n.footer-bottom {\n  display: flex;\n}\n\n.footer-bottom-middle {\n  width: 50%;\n  margin: auto;\n}\n\n.copyright {\n  display: flex;\n  flex-direction: column;\n  width: 300px;\n  margin: auto;\n}\n.copyright img {\n  width: 100px;\n  height: 100px;\n  margin: auto;\n}", ""]);
+exports.push([module.i, ":root {\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n  font-style: normal;\n  -webkit-font-smoothing: antialiased;\n}\n\n* input {\n  outline: none;\n  background: none;\n  border: none;\n}\n* button {\n  outline: none;\n  cursor: pointer;\n}\n* li {\n  list-style: none;\n}\n* a {\n  text-decoration: none;\n  cursor: pointer;\n}\n\n.footer {\n  display: flex;\n}\n.footer a:hover {\n  color: #f08080;\n}\n.footer.dark-theme {\n  background-color: #2f2f2f;\n  color: #fff;\n}\n.footer.dark-theme * {\n  color: #fff;\n}\n.footer.light-theme {\n  background-color: #6495ED;\n  color: #fff;\n}\n.footer.light-theme * {\n  color: #fff;\n}\n\n.footer-contents {\n  display: flex;\n  flex-direction: column;\n  width: 90%;\n  margin: 20px 5% 20px 5%;\n}\n\n.footer-top {\n  display: flex;\n}\n.footer-top div * {\n  margin: auto;\n}\n\n.footer-top-left {\n  flex-direction: column;\n  display: flex;\n  width: 30%;\n  margin: auto;\n}\n\n.footer-top-middle {\n  flex-direction: column;\n  display: flex;\n  width: 30%;\n  margin: auto;\n}\n\n.footer-top-right {\n  flex-direction: column;\n  display: flex;\n  width: 30%;\n  margin: auto;\n}\n\n.footer-bottom {\n  display: flex;\n}\n\n.footer-bottom-middle {\n  width: 50%;\n  margin: auto;\n}\n\n.copyright {\n  display: flex;\n  flex-direction: column;\n  width: 300px;\n  margin: auto;\n}\n.copyright img {\n  width: 100px;\n  height: 100px;\n  margin: auto;\n}", ""]);
 // Exports
 module.exports = exports;
 
@@ -208,7 +226,7 @@ module.exports = exports;
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, "* {\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n  font-style: normal;\n  -webkit-font-smoothing: antialiased;\n  color: #fff;\n}\n\ninput {\n  outline: none;\n  background: none;\n  border: none;\n}\n\nbutton {\n  outline: none;\n  cursor: pointer;\n}\n\nli {\n  list-style: none;\n}\n\na {\n  text-decoration: none;\n  cursor: pointer;\n}\n\n.main {\n  display: flex;\n  margin-top: 50px;\n  min-height: 1000px;\n  width: 100%;\n  background-color: #2f2f2f;\n}", ""]);
+exports.push([module.i, ":root {\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n  font-style: normal;\n  -webkit-font-smoothing: antialiased;\n}\n\n* input {\n  outline: none;\n  background: none;\n  border: none;\n}\n* button {\n  outline: none;\n  cursor: pointer;\n}\n* li {\n  list-style: none;\n}\n* a {\n  text-decoration: none;\n  cursor: pointer;\n}\n\n.main {\n  display: flex;\n  margin-top: 50px;\n  min-height: 1000px;\n  width: 100%;\n}\n.main.dark-theme {\n  background-color: #1f1f1f;\n}\n.main.light-theme {\n  background-color: #FDF5E6;\n}", ""]);
 // Exports
 module.exports = exports;
 
@@ -226,25 +244,7 @@ module.exports = exports;
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, "* {\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n  font-style: normal;\n  -webkit-font-smoothing: antialiased;\n  color: #fff;\n}\n\ninput {\n  outline: none;\n  background: none;\n  border: none;\n}\n\nbutton {\n  outline: none;\n  cursor: pointer;\n}\n\nli {\n  list-style: none;\n}\n\na {\n  text-decoration: none;\n  cursor: pointer;\n}\n\n.header {\n  position: fixed;\n  display: block;\n  top: 0;\n  left: 0;\n  z-index: 1;\n  width: 100%;\n  height: 50px;\n  background-color: #1f1f1f;\n}\n\n.top-bar {\n  position: fixed;\n  display: flex;\n  padding-left: 20px;\n  padding-right: 20px;\n  margin-left: 40px;\n  margin-right: 40px;\n  height: 50px;\n  width: 90%;\n}\n\n.logo {\n  width: calc(100% / 6);\n  display: flex;\n  height: 100%;\n  text-decoration: none;\n  margin-right: 10px;\n}\n.logo img {\n  display: inline-block;\n  border-style: none;\n  margin: 10px 5px 10px 10px;\n  padding: 0;\n  border-radius: 8px;\n  height: 30px;\n  width: 30px;\n}\n.logo span {\n  text-align: center;\n  vertical-align: center;\n  font-weight: 700;\n  font-size: 20px;\n  margin: 15px 0 10px 5px;\n  overflow: no-display;\n  color: #f08080;\n}\n\n.nav {\n  display: flex;\n  height: 100%;\n  width: 40%;\n}\n\n.nav-container {\n  cursor: pointer;\n  display: flex;\n  flex-direction: column;\n  width: 100px;\n}\n\n.nav-contents {\n  height: 50px;\n  line-height: 50px;\n  text-align: center;\n}\n\n.nav-contents:hover {\n  color: #f08080;\n}\n\n.dropdown {\n  display: flex;\n  flex-direction: column;\n  width: 100%;\n  font-weight: 400;\n  background-color: transparent;\n}\n.dropdown a {\n  width: 100%;\n  height: 40px;\n  line-height: 40px;\n  font-weight: 400;\n  text-align: center;\n  background-color: #1f1f1f;\n}\n.dropdown a:hover {\n  background-color: #696969;\n  color: #f08080;\n}\n\n.search {\n  display: flex;\n  width: 30%;\n  height: 50px;\n  text-align: right;\n  justify-content: flex-end;\n  align-items: center;\n  margin-right: 40px;\n}\n\n.search-input {\n  display: flex;\n  width: 100%;\n}\n.search-input input {\n  display: flex;\n  width: 100%;\n  height: 26px;\n  background: transparent;\n  border: 2px solid #fff;\n  color: #fff;\n  border-radius: 5px;\n  font-size: 14px;\n  padding: 0 10px 0 10px;\n}\n.search-input input:focus {\n  border: 2px solid #f08080;\n}\n.search-input button:hover {\n  color: #f08080;\n}\n\n.search-submit {\n  position: relative;\n  right: 55px;\n  width: 30px;\n  height: 26px;\n  top: 2px;\n  background: #1f1f1f;\n  border: none;\n  color: #fff;\n  font-size: 14px;\n  font-weight: 500;\n  padding: 0;\n}\n\n.search-cleaner {\n  position: relative;\n  right: 55px;\n  width: 20px;\n  height: 26px;\n  top: 2px;\n  background: #1f1f1f;\n  border: none;\n  color: #fff;\n  font-size: 14px;\n  font-weight: 500;\n  padding: 0 20px 0 10px;\n}\n\n.search-icon {\n  float: right;\n  width: 30px;\n  height: 30px;\n  background-color: #1f1f1f;\n  border-radius: 4px;\n  border: none;\n  padding: 0;\n}\n\n.options {\n  display: flex;\n}\n\n.opt-container {\n  cursor: pointer;\n  display: flex;\n  flex-direction: column;\n  width: 100px;\n}\n\n.opt-contents {\n  height: 50px;\n  line-height: 50px;\n  text-align: center;\n}\n\n.opt-contents:hover {\n  color: #f08080;\n}\n\n.language-container {\n  cursor: pointer;\n  display: flex;\n  flex-direction: column;\n  width: 100px;\n}\n\n.language-contents {\n  cursor: pointer;\n  height: 50px;\n  width: 50%;\n  line-height: 50px;\n  margin: 0 auto;\n}\n\n.language-icon {\n  height: 100%;\n  width: 25px;\n  margin: 0 20% 0 20%;\n}", ""]);
-// Exports
-module.exports = exports;
-
-
-/***/ }),
-
-/***/ "./node_modules/css-loader/dist/cjs.js!./src/styles/404.css":
-/*!******************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js!./src/styles/404.css ***!
-  \******************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-// Imports
-var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
-exports = ___CSS_LOADER_API_IMPORT___(false);
-// Module
-exports.push([module.i, ".message {\n    display: flex;\n    width: 100%;\n    height: 300px;\n}\n\n.title {\n    display: flex;\n    flex-direction:column;\n    margin: auto;\n    height: 100%;\n}\n\n.title-name {\n    font-size: 50px;\n    font-weight: 700;\n    color: #f08080;\n    margin: 40px 0 20px 0;\n}\n\n.title-description {\n    font-size: 20px;\n    font-weight: 500;\n}", ""]);
+exports.push([module.i, ":root {\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n  font-style: normal;\n  -webkit-font-smoothing: antialiased;\n}\n\n* input {\n  outline: none;\n  background: none;\n  border: none;\n}\n* button {\n  outline: none;\n  cursor: pointer;\n}\n* li {\n  list-style: none;\n}\n* a {\n  text-decoration: none;\n  cursor: pointer;\n}\n\n.header {\n  position: fixed;\n  display: block;\n  top: 0;\n  left: 0;\n  z-index: 1;\n  width: 100%;\n  height: 50px;\n}\n.header.dark-theme {\n  background-color: #2f2f2f;\n}\n.header.dark-theme .nav * {\n  color: #fff;\n  background-color: #2f2f2f;\n}\n.header.dark-theme .nav a:hover {\n  background-color: #696969;\n  color: #f08080;\n}\n.header.dark-theme .options * {\n  color: #fff;\n  background-color: #2f2f2f;\n}\n.header.dark-theme .options a:hover {\n  background-color: #696969;\n  color: #f08080;\n}\n.header.dark-theme .search-input input {\n  border: 2px solid #fff;\n  color: #fff;\n}\n.header.dark-theme .search-submit {\n  background-color: #2f2f2f;\n  color: #fff;\n}\n.header.dark-theme .search-cleaner {\n  background-color: #2f2f2f;\n  color: #fff;\n}\n.header.dark-theme .search-icon {\n  background-color: #2f2f2f;\n}\n.header.light-theme {\n  background-color: #6495ED;\n}\n.header.light-theme .nav * {\n  color: #fff;\n  background-color: #6495ED;\n}\n.header.light-theme .nav a:hover {\n  background-color: #87CEFA;\n  color: #f08080;\n}\n.header.light-theme .options * {\n  color: #fff;\n  background-color: #6495ED;\n}\n.header.light-theme .options a:hover {\n  background-color: #87CEFA;\n  color: #f08080;\n}\n.header.light-theme .search-input input {\n  border: 2px solid #fff;\n  color: #fff;\n}\n.header.light-theme .search-submit {\n  background-color: #6495ED;\n  color: #fff;\n}\n.header.light-theme .search-cleaner {\n  background-color: #6495ED;\n  color: #fff;\n}\n.header.light-theme .search-icon {\n  background-color: #6495ED;\n}\n\n.top-bar {\n  position: fixed;\n  display: flex;\n  padding-left: 20px;\n  padding-right: 20px;\n  margin-left: 40px;\n  margin-right: 40px;\n  height: 50px;\n  width: 90%;\n}\n\n.logo {\n  width: calc(100% / 6);\n  display: flex;\n  height: 100%;\n  text-decoration: none;\n  margin-right: 10px;\n}\n.logo img {\n  display: inline-block;\n  border-style: none;\n  margin: 10px 5px 10px 10px;\n  padding: 0;\n  border-radius: 8px;\n  height: 30px;\n  width: 30px;\n}\n.logo span {\n  text-align: center;\n  vertical-align: center;\n  font-weight: 700;\n  font-size: 20px;\n  margin: 15px 0 10px 5px;\n  overflow: no-display;\n  color: #f08080;\n}\n\n.nav {\n  display: flex;\n  height: 100%;\n  width: 40%;\n}\n\n.nav-container {\n  cursor: pointer;\n  display: flex;\n  flex-direction: column;\n  width: 100px;\n}\n\n.nav-contents {\n  height: 50px;\n  line-height: 50px;\n  text-align: center;\n}\n\n.dropdown {\n  display: flex;\n  flex-direction: column;\n  width: 100%;\n  font-weight: 400;\n  background-color: transparent;\n}\n.dropdown a {\n  width: 100%;\n  height: 40px;\n  line-height: 40px;\n  font-weight: 400;\n  text-align: center;\n}\n\n.search {\n  display: flex;\n  width: 30%;\n  height: 50px;\n  text-align: right;\n  justify-content: flex-end;\n  align-items: center;\n  margin-right: 40px;\n}\n\n.search-input {\n  display: flex;\n  width: 100%;\n}\n.search-input input {\n  display: flex;\n  width: 100%;\n  height: 26px;\n  background: transparent;\n  border-radius: 5px;\n  font-size: 14px;\n  padding: 0 10px 0 10px;\n}\n.search-input input:focus {\n  border: 2px solid #f08080;\n}\n.search-input button:hover {\n  color: #f08080;\n}\n\n.search-submit {\n  position: relative;\n  right: 55px;\n  width: 30px;\n  height: 26px;\n  top: 2px;\n  border: none;\n  font-size: 14px;\n  font-weight: 500;\n  padding: 0;\n}\n\n.search-cleaner {\n  position: relative;\n  right: 55px;\n  width: 20px;\n  height: 26px;\n  top: 2px;\n  border: none;\n  font-size: 14px;\n  font-weight: 500;\n  padding: 0 20px 0 10px;\n}\n\n.search-icon {\n  float: right;\n  width: 30px;\n  height: 30px;\n  border-radius: 4px;\n  border: none;\n  padding: 0;\n}\n\n.options {\n  display: flex;\n}\n\n.opt-container {\n  cursor: pointer;\n  display: flex;\n  flex-direction: column;\n  width: 100px;\n}\n\n.opt-contents {\n  height: 50px;\n  line-height: 50px;\n  text-align: center;\n}\n\n.opt-contents:hover {\n  color: #f08080;\n}\n\n.language-container {\n  cursor: pointer;\n  display: flex;\n  flex-direction: column;\n  width: 100px;\n}\n\n.language-contents {\n  cursor: pointer;\n  height: 50px;\n  width: 50%;\n  line-height: 50px;\n  margin: 0 auto;\n}\n\n.language-icon {\n  height: 100%;\n  width: 25px;\n  margin: 0 20% 0 20%;\n}", ""]);
 // Exports
 module.exports = exports;
 
@@ -4837,6 +4837,35 @@ module.exports = g;
 
 /***/ }),
 
+/***/ "./src/sass/404.scss":
+/*!***************************!*\
+  !*** ./src/sass/404.scss ***!
+  \***************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var api = __webpack_require__(/*! ../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+            var content = __webpack_require__(/*! !../../node_modules/css-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!./404.scss */ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/sass/404.scss");
+
+            content = content.__esModule ? content.default : content;
+
+            if (typeof content === 'string') {
+              content = [[module.i, content, '']];
+            }
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = api(content, options);
+
+
+
+module.exports = content.locals || {};
+
+/***/ }),
+
 /***/ "./src/sass/index.scss":
 /*!*****************************!*\
   !*** ./src/sass/index.scss ***!
@@ -4965,8 +4994,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_basic_jsx__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/basic.jsx */ "./src/scripts/components/basic.jsx");
-/* harmony import */ var _styles_404_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../styles/404.css */ "./src/styles/404.css");
-/* harmony import */ var _styles_404_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_styles_404_css__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _sass_404_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../sass/404.scss */ "./src/sass/404.scss");
+/* harmony import */ var _sass_404_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_sass_404_scss__WEBPACK_IMPORTED_MODULE_2__);
 
 
 
@@ -5119,7 +5148,7 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
     }
 
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "footer"
+      className: `footer ${this.props.theme}`
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: "footer-contents"
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -5169,7 +5198,7 @@ __webpack_require__.r(__webpack_exports__);
 class MainTemplate extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
   render() {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "main"
+      className: `main ${this.props.theme}`
     }, this.props.children);
   }
 
@@ -5330,7 +5359,7 @@ class ChangeTheme extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component
       onMouseLeave: this.props.onMouseLeave
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: this.props.tag + "-contents"
-    }, this.props.content.name), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_basic_jsx__WEBPACK_IMPORTED_MODULE_2__["DropdownMenu"], {
+    }, this.props.content.name), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_basic_jsx__WEBPACK_IMPORTED_MODULE_2__["ChangeThemeDropdown"], {
       listInfo: this.props.content.listInfo
     }));
   }
@@ -5774,11 +5803,11 @@ class TopBar extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
             data: [{
               key: 0,
               title: "浅色",
-              href: "/"
+              func: this.props.toLightTheme
             }, {
               key: 1,
               title: "深色",
-              href: "/"
+              func: this.props.toDarkTheme
             }]
           }
         }, {
@@ -5911,11 +5940,11 @@ class TopBar extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
             data: [{
               key: 0,
               title: "Light",
-              href: "/"
+              func: this.props.toLightTheme
             }, {
               key: 1,
               title: "Dark",
-              href: "/"
+              func: this.props.toDarkTheme
             }]
           }
         }, {
@@ -6048,11 +6077,11 @@ class TopBar extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
             data: [{
               key: 0,
               title: "Light",
-              href: "/"
+              func: this.props.toLightTheme
             }, {
               key: 1,
               title: "Dark",
-              href: "/"
+              func: this.props.toDarkTheme
             }]
           }
         }, {
@@ -6099,7 +6128,7 @@ class TopBar extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
     }
 
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "header"
+      className: `header ${this.props.theme}`
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("header", {
       className: "top-bar"
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Logo, {
@@ -6133,13 +6162,14 @@ class TopBar extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
 /*!******************************************!*\
   !*** ./src/scripts/components/basic.jsx ***!
   \******************************************/
-/*! exports provided: ImgA, DropdownMenu, Title, MainContents */
+/*! exports provided: ImgA, DropdownMenu, ChangeThemeDropdown, Title, MainContents */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ImgA", function() { return ImgA; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DropdownMenu", function() { return DropdownMenu; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ChangeThemeDropdown", function() { return ChangeThemeDropdown; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Title", function() { return Title; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MainContents", function() { return MainContents; });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
@@ -6166,6 +6196,25 @@ class DropdownMenu extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Componen
     const listItems = tmp.map(x => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
       key: x.key.toString(),
       href: x.href
+    }, x.title));
+
+    if (this.props.listInfo.display) {
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "dropdown"
+      }, listItems);
+    } else {
+      return null;
+    }
+  }
+
+}
+
+class ChangeThemeDropdown extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+  render() {
+    const tmp = this.props.listInfo.data;
+    const listItems = tmp.map(x => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+      key: x.key.toString(),
+      onClick: x.func
     }, x.title));
 
     if (this.props.listInfo.display) {
@@ -6273,6 +6322,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _sass_index_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../sass/index.scss */ "./src/sass/index.scss");
 /* harmony import */ var _sass_index_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_sass_index_scss__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _template_jsx__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./template.jsx */ "./src/scripts/template.jsx");
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
 
 
 
@@ -6281,7 +6332,23 @@ __webpack_require__.r(__webpack_exports__);
 class Index extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
   constructor(props) {
     super(props);
+
+    _defineProperty(this, "toDarkTheme", () => {
+      console.log("to-dark");
+      this.setState({
+        theme: "dark-theme"
+      });
+    });
+
+    _defineProperty(this, "toLightTheme", () => {
+      console.log("to-light");
+      this.setState({
+        theme: "light-theme"
+      });
+    });
+
     this.state = {
+      theme: "dark-theme",
       zh_cn: {
         contents: {
           main: {
@@ -6533,14 +6600,19 @@ class Index extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
     }
 
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_template_jsx__WEBPACK_IMPORTED_MODULE_3__["default"], {
-      language: this.props.language
+      language: this.props.language,
+      theme: this.state.theme,
+      toDarkTheme: this.toDarkTheme,
+      toLightTheme: this.toLightTheme
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "main-container"
+      className: `main-container ${this.state.theme}`
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_basic_jsx__WEBPACK_IMPORTED_MODULE_1__["Title"], {
       className: "main-top",
-      content: language.title
+      content: language.title,
+      theme: this.state.theme
     }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_basic_jsx__WEBPACK_IMPORTED_MODULE_1__["MainContents"], {
-      contents: language.contents
+      contents: language.contents,
+      theme: this.state.theme
     }), this.props.children));
   }
 
@@ -6572,44 +6644,21 @@ __webpack_require__.r(__webpack_exports__);
 class Template extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
   render() {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_TopBar_jsx__WEBPACK_IMPORTED_MODULE_1__["default"], {
-      language: this.props.language
-    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_MainTemplate_jsx__WEBPACK_IMPORTED_MODULE_2__["default"], null, this.props.children), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Footer_jsx__WEBPACK_IMPORTED_MODULE_3__["default"], {
-      language: this.props.language
+      language: this.props.language,
+      theme: this.props.theme,
+      toDarkTheme: this.props.toDarkTheme,
+      toLightTheme: this.props.toLightTheme
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_MainTemplate_jsx__WEBPACK_IMPORTED_MODULE_2__["default"], {
+      theme: this.props.theme
+    }, this.props.children), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Footer_jsx__WEBPACK_IMPORTED_MODULE_3__["default"], {
+      language: this.props.language,
+      theme: this.props.theme
     }));
   }
 
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (Template);
-
-/***/ }),
-
-/***/ "./src/styles/404.css":
-/*!****************************!*\
-  !*** ./src/styles/404.css ***!
-  \****************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var api = __webpack_require__(/*! ../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
-            var content = __webpack_require__(/*! !../../node_modules/css-loader/dist/cjs.js!./404.css */ "./node_modules/css-loader/dist/cjs.js!./src/styles/404.css");
-
-            content = content.__esModule ? content.default : content;
-
-            if (typeof content === 'string') {
-              content = [[module.i, content, '']];
-            }
-
-var options = {};
-
-options.insert = "head";
-options.singleton = false;
-
-var update = api(content, options);
-
-
-
-module.exports = content.locals || {};
 
 /***/ }),
 
