@@ -10,16 +10,24 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="607eec3e-89c1-47af-9f10-8be80260d6f9" name="Default Changelist" comment="add normalize.css.">
+    <list default="true" id="607eec3e-89c1-47af-9f10-8be80260d6f9" name="Default Changelist" comment="add changes.">
+      <change afterPath="$PROJECT_DIR$/src/sass/404.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dist/app.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/dist/app.bundle.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dist/app.bundle.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/dist/app.bundle.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/components/footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/modules/footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/components/mainTemplate.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/modules/mainTemplate.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/components/topbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/modules/topbar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/base.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/modules/footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/modules/footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/modules/mainTemplate.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/modules/mainTemplate.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/modules/topbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/modules/topbar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scripts/404.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/404.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scripts/components/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/components/Footer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scripts/components/MainTemplate.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/components/MainTemplate.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scripts/components/TopBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/components/TopBar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scripts/components/basic.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/components/basic.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scripts/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scripts/template.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/template.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,8 +45,8 @@
         <option value="tsconfig.json" />
         <option value="JavaScript File" />
         <option value="HTML File" />
-        <option value="SCSS File" />
         <option value="CSS File" />
+        <option value="SCSS File" />
       </list>
     </option>
   </component>
@@ -70,7 +78,7 @@
     <property name="database.data.extractors.current.id" value="Comma-separated (CSV)_id" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.16.3" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -167,14 +175,7 @@
       <workItem from="1593675793644" duration="717000" />
       <workItem from="1593677210933" duration="670000" />
       <workItem from="1593679285352" duration="1122000" />
-      <workItem from="1593752129153" duration="7229000" />
-    </task>
-    <task id="LOCAL-00002" summary="first commit">
-      <created>1591165105710</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1591165105710</updated>
+      <workItem from="1593752129153" duration="18705000" />
     </task>
     <task id="LOCAL-00003" summary="edit README.md">
       <created>1591165321755</created>
@@ -512,7 +513,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593760116046</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="add changes.">
+      <created>1593760788591</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1593760788591</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -553,10 +561,10 @@
     <MESSAGE value="start using sass-loader to compile scss files." />
     <MESSAGE value="start using scss." />
     <MESSAGE value="backups of scss." />
-    <MESSAGE value="add changes." />
     <MESSAGE value="Replace css with scss. Delete all old files." />
     <MESSAGE value="add normalize.css." />
-    <option name="LAST_COMMIT_MESSAGE" value="add normalize.css." />
+    <MESSAGE value="add changes." />
+    <option name="LAST_COMMIT_MESSAGE" value="add changes." />
   </component>
   <component name="WindowStateProjectService">
     <state x="492" y="382" key="#Scopes" timestamp="1589962361499">
@@ -575,22 +583,22 @@
       <screen x="0" y="23" width="1680" height="981" />
     </state>
     <state width="251" height="195" key="DatabaseViewActions_Filter/0.23.1680.981@0.23.1680.981" timestamp="1589966524504" />
-    <state width="833" height="186" key="GridCell.Tab.0.bottom" timestamp="1593759836516">
+    <state width="929" height="186" key="GridCell.Tab.0.bottom" timestamp="1593777241134">
       <screen x="0" y="23" width="1680" height="981" />
     </state>
-    <state width="833" height="186" key="GridCell.Tab.0.bottom/0.23.1680.981@0.23.1680.981" timestamp="1593759836516" />
-    <state width="833" height="186" key="GridCell.Tab.0.center" timestamp="1593759836515">
+    <state width="929" height="186" key="GridCell.Tab.0.bottom/0.23.1680.981@0.23.1680.981" timestamp="1593777241134" />
+    <state width="929" height="186" key="GridCell.Tab.0.center" timestamp="1593777241133">
       <screen x="0" y="23" width="1680" height="981" />
     </state>
-    <state width="833" height="186" key="GridCell.Tab.0.center/0.23.1680.981@0.23.1680.981" timestamp="1593759836515" />
-    <state width="833" height="186" key="GridCell.Tab.0.left" timestamp="1593759836514">
+    <state width="929" height="186" key="GridCell.Tab.0.center/0.23.1680.981@0.23.1680.981" timestamp="1593777241133" />
+    <state width="929" height="186" key="GridCell.Tab.0.left" timestamp="1593777241132">
       <screen x="0" y="23" width="1680" height="981" />
     </state>
-    <state width="833" height="186" key="GridCell.Tab.0.left/0.23.1680.981@0.23.1680.981" timestamp="1593759836514" />
-    <state width="833" height="186" key="GridCell.Tab.0.right" timestamp="1593759836516">
+    <state width="929" height="186" key="GridCell.Tab.0.left/0.23.1680.981@0.23.1680.981" timestamp="1593777241132" />
+    <state width="929" height="186" key="GridCell.Tab.0.right" timestamp="1593777241134">
       <screen x="0" y="23" width="1680" height="981" />
     </state>
-    <state width="833" height="186" key="GridCell.Tab.0.right/0.23.1680.981@0.23.1680.981" timestamp="1593759836516" />
+    <state width="929" height="186" key="GridCell.Tab.0.right/0.23.1680.981@0.23.1680.981" timestamp="1593777241134" />
     <state width="952" height="235" key="GridCell.Tab.1.bottom" timestamp="1590830953179">
       <screen x="0" y="23" width="1680" height="981" />
     </state>
@@ -643,6 +651,10 @@
       <screen x="0" y="23" width="1680" height="981" />
     </state>
     <state width="243" height="539" key="HiddenNamespacesPopup/0.23.1680.981@0.23.1680.981" timestamp="1589966757042" />
+    <state x="286" y="91" key="RollbackChangesDialog" timestamp="1593760995144">
+      <screen x="0" y="23" width="1680" height="981" />
+    </state>
+    <state x="286" y="91" key="RollbackChangesDialog/0.23.1680.981@0.23.1680.981" timestamp="1593760995144" />
     <state x="352" y="125" key="SettingsEditor" timestamp="1592389591364">
       <screen x="0" y="23" width="1680" height="981" />
     </state>
