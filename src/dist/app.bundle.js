@@ -244,7 +244,25 @@ module.exports = exports;
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, ":root {\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n  font-style: normal;\n  -webkit-font-smoothing: antialiased;\n}\n\n* input {\n  outline: none;\n  background: none;\n  border: none;\n}\n* button {\n  outline: none;\n  cursor: pointer;\n}\n* li {\n  list-style: none;\n}\n* a {\n  text-decoration: none;\n  cursor: pointer;\n}\n\n.header {\n  position: fixed;\n  display: block;\n  top: 0;\n  left: 0;\n  z-index: 1;\n  width: 100%;\n  height: 50px;\n}\n.header.dark-theme {\n  background-color: #2f2f2f;\n}\n.header.dark-theme .nav * {\n  color: #fff;\n  background-color: #2f2f2f;\n}\n.header.dark-theme .nav a:hover {\n  background-color: #696969;\n  color: #f08080;\n}\n.header.dark-theme .options * {\n  color: #fff;\n  background-color: #2f2f2f;\n}\n.header.dark-theme .options a:hover {\n  background-color: #696969;\n  color: #f08080;\n}\n.header.dark-theme .search-input input {\n  border: 2px solid #fff;\n  color: #fff;\n}\n.header.dark-theme .search-submit {\n  background-color: #2f2f2f;\n  color: #fff;\n}\n.header.dark-theme .search-cleaner {\n  background-color: #2f2f2f;\n  color: #fff;\n}\n.header.dark-theme .search-icon {\n  background-color: #2f2f2f;\n}\n.header.light-theme {\n  background-color: #6495ED;\n}\n.header.light-theme .nav * {\n  color: #fff;\n  background-color: #6495ED;\n}\n.header.light-theme .nav a:hover {\n  background-color: #87CEFA;\n  color: #f08080;\n}\n.header.light-theme .options * {\n  color: #fff;\n  background-color: #6495ED;\n}\n.header.light-theme .options a:hover {\n  background-color: #87CEFA;\n  color: #f08080;\n}\n.header.light-theme .search-input input {\n  border: 2px solid #fff;\n  color: #fff;\n}\n.header.light-theme .search-submit {\n  background-color: #6495ED;\n  color: #fff;\n}\n.header.light-theme .search-cleaner {\n  background-color: #6495ED;\n  color: #fff;\n}\n.header.light-theme .search-icon {\n  background-color: #6495ED;\n}\n\n.top-bar {\n  position: fixed;\n  display: flex;\n  padding-left: 20px;\n  padding-right: 20px;\n  margin-left: 40px;\n  margin-right: 40px;\n  height: 50px;\n  width: 90%;\n}\n\n.logo {\n  width: calc(100% / 6);\n  display: flex;\n  height: 100%;\n  text-decoration: none;\n  margin-right: 10px;\n}\n.logo img {\n  display: inline-block;\n  border-style: none;\n  margin: 10px 5px 10px 10px;\n  padding: 0;\n  border-radius: 8px;\n  height: 30px;\n  width: 30px;\n}\n.logo span {\n  text-align: center;\n  vertical-align: center;\n  font-weight: 700;\n  font-size: 20px;\n  margin: 15px 0 10px 5px;\n  overflow: no-display;\n  color: #f08080;\n}\n\n.nav {\n  display: flex;\n  height: 100%;\n  width: 40%;\n}\n\n.nav-container {\n  cursor: pointer;\n  display: flex;\n  flex-direction: column;\n  width: 100px;\n}\n\n.nav-contents {\n  height: 50px;\n  line-height: 50px;\n  text-align: center;\n}\n\n.dropdown {\n  display: flex;\n  flex-direction: column;\n  width: 100%;\n  font-weight: 400;\n  background-color: transparent;\n}\n.dropdown a {\n  width: 100%;\n  height: 40px;\n  line-height: 40px;\n  font-weight: 400;\n  text-align: center;\n}\n\n.search {\n  display: flex;\n  width: 30%;\n  height: 50px;\n  text-align: right;\n  justify-content: flex-end;\n  align-items: center;\n  margin-right: 40px;\n}\n\n.search-input {\n  display: flex;\n  width: 100%;\n}\n.search-input input {\n  display: flex;\n  width: 100%;\n  height: 26px;\n  background: transparent;\n  border-radius: 5px;\n  font-size: 14px;\n  padding: 0 10px 0 10px;\n}\n.search-input input:focus {\n  border: 2px solid #f08080;\n}\n.search-input button:hover {\n  color: #f08080;\n}\n\n.search-submit {\n  position: relative;\n  right: 55px;\n  width: 30px;\n  height: 26px;\n  top: 2px;\n  border: none;\n  font-size: 14px;\n  font-weight: 500;\n  padding: 0;\n}\n\n.search-cleaner {\n  position: relative;\n  right: 55px;\n  width: 20px;\n  height: 26px;\n  top: 2px;\n  border: none;\n  font-size: 14px;\n  font-weight: 500;\n  padding: 0 20px 0 10px;\n}\n\n.search-icon {\n  float: right;\n  width: 30px;\n  height: 30px;\n  border-radius: 4px;\n  border: none;\n  padding: 0;\n}\n\n.options {\n  display: flex;\n}\n\n.opt-container {\n  cursor: pointer;\n  display: flex;\n  flex-direction: column;\n  width: 100px;\n}\n\n.opt-contents {\n  height: 50px;\n  line-height: 50px;\n  text-align: center;\n}\n\n.opt-contents:hover {\n  color: #f08080;\n}\n\n.language-container {\n  cursor: pointer;\n  display: flex;\n  flex-direction: column;\n  width: 100px;\n}\n\n.language-contents {\n  cursor: pointer;\n  height: 50px;\n  width: 50%;\n  line-height: 50px;\n  margin: 0 auto;\n}\n\n.language-icon {\n  height: 100%;\n  width: 25px;\n  margin: 0 20% 0 20%;\n}", ""]);
+exports.push([module.i, ":root {\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n  font-style: normal;\n  -webkit-font-smoothing: antialiased;\n}\n\n* input {\n  outline: none;\n  background: none;\n  border: none;\n}\n* button {\n  outline: none;\n  cursor: pointer;\n}\n* li {\n  list-style: none;\n}\n* a {\n  text-decoration: none;\n  cursor: pointer;\n}\n\n.header {\n  position: fixed;\n  display: block;\n  top: 0;\n  left: 0;\n  z-index: 1;\n  width: 100%;\n  height: 50px;\n}\n.header.dark-theme {\n  background-color: #2f2f2f;\n}\n.header.dark-theme .nav * {\n  color: #fff;\n  background-color: #2f2f2f;\n}\n.header.dark-theme .nav *:hover {\n  color: #f08080;\n}\n.header.dark-theme .nav a:hover {\n  background-color: #696969;\n  color: #f08080;\n}\n.header.dark-theme .options * {\n  color: #fff;\n  background-color: #2f2f2f;\n}\n.header.dark-theme .options *:hover {\n  color: #f08080;\n}\n.header.dark-theme .options a:hover {\n  background-color: #696969;\n  color: #f08080;\n}\n.header.dark-theme .search-input input {\n  border: 2px solid #fff;\n  color: #fff;\n}\n.header.dark-theme .search-submit {\n  background-color: #2f2f2f;\n  color: #fff;\n}\n.header.dark-theme .search-cleaner {\n  background-color: #2f2f2f;\n  color: #fff;\n}\n.header.dark-theme .search-icon {\n  background-color: #2f2f2f;\n}\n.header.light-theme {\n  background-color: #6495ED;\n}\n.header.light-theme .nav * {\n  color: #fff;\n  background-color: #6495ED;\n}\n.header.light-theme .nav *:hover {\n  color: #f08080;\n}\n.header.light-theme .nav a:hover {\n  background-color: #B0C4DE;\n  color: #f08080;\n}\n.header.light-theme .options * {\n  color: #fff;\n  background-color: #6495ED;\n}\n.header.light-theme .options *:hover {\n  color: #f08080;\n}\n.header.light-theme .options a:hover {\n  background-color: #B0C4DE;\n  color: #f08080;\n}\n.header.light-theme .search-input input {\n  border: 2px solid #fff;\n  color: #fff;\n}\n.header.light-theme .search-input:focus {\n  border: 2px solid #f08080;\n}\n.header.light-theme .search-submit {\n  background-color: #6495ED;\n  color: #fff;\n}\n.header.light-theme .search-cleaner {\n  background-color: #6495ED;\n  color: #fff;\n}\n.header.light-theme .search-icon {\n  background-color: #6495ED;\n}\n\n.top-bar {\n  position: fixed;\n  display: flex;\n  padding-left: 20px;\n  padding-right: 20px;\n  margin-left: 40px;\n  margin-right: 40px;\n  height: 50px;\n  width: 90%;\n}\n\n.logo {\n  width: calc(100% / 6);\n  display: flex;\n  height: 100%;\n  text-decoration: none;\n  margin-right: 10px;\n}\n.logo img {\n  display: inline-block;\n  border-style: none;\n  margin: 10px 5px 10px 10px;\n  padding: 0;\n  border-radius: 8px;\n  height: 30px;\n  width: 30px;\n}\n.logo span {\n  text-align: center;\n  vertical-align: center;\n  font-weight: 700;\n  font-size: 20px;\n  margin: 15px 0 10px 5px;\n  overflow: no-display;\n  color: #f08080;\n}\n\n.nav {\n  display: flex;\n  height: 100%;\n  width: 40%;\n}\n\n.nav-container {\n  cursor: pointer;\n  display: flex;\n  flex-direction: column;\n  width: 100px;\n}\n\n.nav-contents {\n  height: 50px;\n  line-height: 50px;\n  text-align: center;\n}\n\n.dropdown {\n  display: flex;\n  flex-direction: column;\n  width: 100%;\n  font-weight: 400;\n  background-color: transparent;\n}\n.dropdown a {\n  width: 100%;\n  height: 40px;\n  line-height: 40px;\n  font-weight: 400;\n  text-align: center;\n}\n\n.search {\n  display: flex;\n  width: 30%;\n  height: 50px;\n  text-align: right;\n  justify-content: flex-end;\n  align-items: center;\n  margin-right: 40px;\n}\n\n.search-input {\n  display: flex;\n  width: 100%;\n}\n.search-input input {\n  display: flex;\n  width: 100%;\n  height: 26px;\n  background: transparent;\n  border-radius: 5px;\n  font-size: 14px;\n  padding: 0 10px 0 10px;\n}\n.search-input button:hover {\n  color: #f08080;\n}\n\n.search-submit {\n  position: relative;\n  right: 55px;\n  width: 30px;\n  height: 26px;\n  top: 2px;\n  border: none;\n  font-size: 14px;\n  font-weight: 500;\n  padding: 0;\n}\n\n.search-cleaner {\n  position: relative;\n  right: 55px;\n  width: 20px;\n  height: 26px;\n  top: 2px;\n  border: none;\n  font-size: 14px;\n  font-weight: 500;\n  padding: 0 20px 0 10px;\n}\n\n.search-icon {\n  float: right;\n  width: 30px;\n  height: 30px;\n  border-radius: 4px;\n  border: none;\n  padding: 0;\n}\n\n.options {\n  display: flex;\n}\n\n.opt-container {\n  cursor: pointer;\n  display: flex;\n  flex-direction: column;\n  width: 100px;\n}\n\n.opt-contents {\n  height: 50px;\n  line-height: 50px;\n  text-align: center;\n}\n\n.opt-contents:hover {\n  color: #f08080;\n}\n\n.language-container {\n  cursor: pointer;\n  display: flex;\n  flex-direction: column;\n  width: 100px;\n}\n\n.language-contents {\n  cursor: pointer;\n  height: 50px;\n  width: 50%;\n  line-height: 50px;\n  margin: 0 auto;\n}\n\n.language-icon {\n  height: 100%;\n  width: 25px;\n  margin: 0 20% 0 20%;\n}", ""]);
+// Exports
+module.exports = exports;
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/sass/templatePage.scss":
+/*!*****************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/sass/templatePage.scss ***!
+  \*****************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+// Module
+exports.push([module.i, ":root {\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n  font-style: normal;\n  -webkit-font-smoothing: antialiased;\n}\n\n* input {\n  outline: none;\n  background: none;\n  border: none;\n}\n* button {\n  outline: none;\n  cursor: pointer;\n}\n* li {\n  list-style: none;\n}\n* a {\n  text-decoration: none;\n  cursor: pointer;\n}\n\n.main-container {\n  display: flex;\n  flex-direction: column;\n  width: 70%;\n  height: 100%;\n  margin: auto;\n}\n.main-container.dark-theme * {\n  color: #fff;\n}\n.main-container.dark-theme .title-name {\n  color: #f08080;\n}\n.main-container.light-theme * {\n  color: #333;\n}\n.main-container.light-theme .title-name {\n  color: #f08080;\n}", ""]);
 // Exports
 module.exports = exports;
 
@@ -4982,46 +5000,32 @@ module.exports = content.locals || {};
 
 /***/ }),
 
-/***/ "./src/scripts/404.jsx":
-/*!*****************************!*\
-  !*** ./src/scripts/404.jsx ***!
-  \*****************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ "./src/sass/templatePage.scss":
+/*!************************************!*\
+  !*** ./src/sass/templatePage.scss ***!
+  \************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
 
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _components_basic_jsx__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/basic.jsx */ "./src/scripts/components/basic.jsx");
-/* harmony import */ var _sass_404_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../sass/404.scss */ "./src/sass/404.scss");
-/* harmony import */ var _sass_404_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_sass_404_scss__WEBPACK_IMPORTED_MODULE_2__);
+var api = __webpack_require__(/*! ../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+            var content = __webpack_require__(/*! !../../node_modules/css-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!./templatePage.scss */ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/sass/templatePage.scss");
+
+            content = content.__esModule ? content.default : content;
+
+            if (typeof content === 'string') {
+              content = [[module.i, content, '']];
+            }
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = api(content, options);
 
 
 
-
-class _404 extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      title: {
-        tag: "title",
-        name: "Oops! There's something wrong happened!",
-        description: "we can't found what you want."
-      }
-    };
-  }
-
-  render() {
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_basic_jsx__WEBPACK_IMPORTED_MODULE_1__["Title"], {
-      className: "message",
-      content: this.state.title
-    });
-  }
-
-}
-
-/* harmony default export */ __webpack_exports__["default"] = (_404);
+module.exports = content.locals || {};
 
 /***/ }),
 
@@ -5038,40 +5042,51 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ "react-dom");
 /* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _index_jsx__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./index.jsx */ "./src/scripts/index.jsx");
-/* harmony import */ var _404_jsx__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./404.jsx */ "./src/scripts/404.jsx");
-/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var _pages_index_jsx__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./pages/index.jsx */ "./src/scripts/pages/index.jsx");
+/* harmony import */ var _pages_404_jsx__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./pages/404.jsx */ "./src/scripts/pages/404.jsx");
+/* harmony import */ var _pages_templatePage_jsx__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./pages/templatePage.jsx */ "./src/scripts/pages/templatePage.jsx");
 
 
 
 
 
-react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_4__["BrowserRouter"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_4__["Switch"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_4__["Route"], {
+
+react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["BrowserRouter"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Switch"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
   exact: true,
   path: "/"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_index_jsx__WEBPACK_IMPORTED_MODULE_2__["default"], {
-  language: "zh-cn"
-})), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_4__["Route"], {
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_pages_index_jsx__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  language: "ja-jp"
+})), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
   exact: true,
   path: "/zh-cn"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_index_jsx__WEBPACK_IMPORTED_MODULE_2__["default"], {
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_pages_index_jsx__WEBPACK_IMPORTED_MODULE_3__["default"], {
   language: "zh-cn"
-})), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_4__["Route"], {
-  path: "/zh-cn/:a"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_index_jsx__WEBPACK_IMPORTED_MODULE_2__["default"], {
-  language: "en-us"
-})), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_4__["Route"], {
-  path: "/ja-jp"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_index_jsx__WEBPACK_IMPORTED_MODULE_2__["default"], {
-  language: "ja-jp"
-})), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_4__["Route"], {
+})), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
+  path: "/zh-cn/*"
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_pages_templatePage_jsx__WEBPACK_IMPORTED_MODULE_5__["default"], {
+  language: "zh-cn"
+})), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
   exact: true,
-  path: "/en-us"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_index_jsx__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  path: "/ja-jp"
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_pages_index_jsx__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  language: "ja-jp"
+})), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
+  path: "/ja-jp/*"
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_pages_templatePage_jsx__WEBPACK_IMPORTED_MODULE_5__["default"], {
+  language: "ja-jp"
+})), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
+  exact: true,
+  path: "/en-us/"
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_pages_index_jsx__WEBPACK_IMPORTED_MODULE_3__["default"], {
   language: "en-us"
-})), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_4__["Route"], {
+})), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
+  path: "/en-us/*"
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_pages_templatePage_jsx__WEBPACK_IMPORTED_MODULE_5__["default"], {
+  language: "en-us"
+})), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
   path: "/404"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_404_jsx__WEBPACK_IMPORTED_MODULE_3__["default"], null)))), document.getElementById("react-root"));
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_pages_404_jsx__WEBPACK_IMPORTED_MODULE_4__["default"], null)))), document.getElementById("react-root"));
 
 /***/ }),
 
@@ -5208,6 +5223,46 @@ class MainTemplate extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Componen
 
 /***/ }),
 
+/***/ "./src/scripts/components/Template.jsx":
+/*!*********************************************!*\
+  !*** ./src/scripts/components/Template.jsx ***!
+  \*********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _TopBar_jsx__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./TopBar.jsx */ "./src/scripts/components/TopBar.jsx");
+/* harmony import */ var _MainTemplate_jsx__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./MainTemplate.jsx */ "./src/scripts/components/MainTemplate.jsx");
+/* harmony import */ var _Footer_jsx__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Footer.jsx */ "./src/scripts/components/Footer.jsx");
+
+
+
+
+
+class Template extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+  render() {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_TopBar_jsx__WEBPACK_IMPORTED_MODULE_1__["default"], {
+      language: this.props.language,
+      theme: this.props.theme,
+      toDarkTheme: this.props.toDarkTheme,
+      toLightTheme: this.props.toLightTheme
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_MainTemplate_jsx__WEBPACK_IMPORTED_MODULE_2__["default"], {
+      theme: this.props.theme
+    }, this.props.children), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Footer_jsx__WEBPACK_IMPORTED_MODULE_3__["default"], {
+      language: this.props.language,
+      theme: this.props.theme
+    }));
+  }
+
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (Template);
+
+/***/ }),
+
 /***/ "./src/scripts/components/TopBar.jsx":
 /*!*******************************************!*\
   !*** ./src/scripts/components/TopBar.jsx ***!
@@ -5316,7 +5371,7 @@ class Search extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
         className: "search-input",
         onSubmit: this.handleSubmit
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
-        placeholder: "  \u641C\u7D22",
+        placeholder: "  => search",
         value: this.state.value,
         onChange: this.handleChange
       }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
@@ -5705,7 +5760,7 @@ class TopBar extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
         logo: {
           key: 0,
           tag: "logo",
-          href: "/",
+          href: "/zh-cn",
           img: "../../images/logo.jpg",
           name: "ArkMelon"
         },
@@ -5717,35 +5772,35 @@ class TopBar extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
             data: [{
               key: 0,
               title: "干员",
-              href: "/operators"
+              href: "/zh-cn/operators"
             }, {
               key: 1,
               title: "敌人",
-              href: "/enemies"
+              href: "/zh-cn/enemies"
             }, {
               key: 2,
               title: "服装",
-              href: "/clothes"
+              href: "/zh-cn/clothes"
             }, {
               key: 3,
               title: "地图",
-              href: "/maps"
+              href: "/zh-cn/maps"
             }, {
               key: 4,
               title: "家具",
-              href: "/themes"
+              href: "/zh-cn/themes"
             }, {
               key: 5,
               title: "活动",
-              href: "/events"
+              href: "/zh-cn/events"
             }, {
               key: 6,
               title: "卡池",
-              href: "/pools"
+              href: "/zh-cn/pools"
             }, {
               key: 7,
               title: "道具",
-              href: "/items"
+              href: "/zh-cn/items"
             }]
           }
         }, {
@@ -5756,15 +5811,15 @@ class TopBar extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
             data: [{
               key: 0,
               title: "干员升级",
-              href: "/levelUp"
+              href: "/zh-cn/levelUp"
             }, {
               key: 1,
               title: "刷图规划",
-              href: "/planner"
+              href: "/zh-cn/planner"
             }, {
               key: 2,
               title: "合成计算",
-              href: "/conversion"
+              href: "/zh-cn/conversion"
             }]
           }
         }, {
@@ -5775,15 +5830,15 @@ class TopBar extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
             data: [{
               key: 0,
               title: "常驻卡池",
-              href: "/permanentPool"
+              href: "/zh-cn/permanentPool"
             }, {
               key: 1,
               title: "限定卡池",
-              href: "/limitPool"
+              href: "/zh-cn/limitPool"
             }, {
               key: 2,
               title: "活动卡池",
-              href: "/eventPool"
+              href: "/zh-cn/eventPool"
             }]
           }
         }],
@@ -5819,7 +5874,7 @@ class TopBar extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
             data: [{
               key: 0,
               title: "中文",
-              href: "/"
+              href: "/zh-cn"
             }, {
               key: 1,
               title: "English",
@@ -5842,7 +5897,7 @@ class TopBar extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
         logo: {
           key: 0,
           tag: "logo",
-          href: "/",
+          href: "/ja-jp",
           img: "../../images/logo.jpg",
           name: "ArkMelon"
         },
@@ -5956,7 +6011,7 @@ class TopBar extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
             data: [{
               key: 0,
               title: "中文",
-              href: "/"
+              href: "/zh-cn"
             }, {
               key: 1,
               title: "English",
@@ -5979,7 +6034,7 @@ class TopBar extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
         logo: {
           key: 0,
           tag: "logo",
-          href: "/",
+          href: "/en-us",
           img: "../../images/logo.jpg",
           name: "ArkMelon"
         },
@@ -5995,31 +6050,31 @@ class TopBar extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
             }, {
               key: 1,
               title: "Enemies",
-              href: "/enemies"
+              href: "/en-us/enemies"
             }, {
               key: 2,
               title: "Clothes",
-              href: "/clothes"
+              href: "/en-us/clothes"
             }, {
               key: 3,
               title: "Stages",
-              href: "/maps"
+              href: "/en-us/maps"
             }, {
               key: 4,
               title: "Themes",
-              href: "/themes"
+              href: "/en-us/themes"
             }, {
               key: 5,
               title: "Events",
-              href: "/events"
+              href: "/en-us/events"
             }, {
               key: 6,
               title: "Scouts",
-              href: "/pools"
+              href: "/en-us/pools"
             }, {
               key: 7,
               title: "Items",
-              href: "/items"
+              href: "/en-us/items"
             }]
           }
         }, {
@@ -6030,15 +6085,15 @@ class TopBar extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
             data: [{
               key: 0,
               title: "Operators Data",
-              href: "/levelUp"
+              href: "/en-us/levelUp"
             }, {
               key: 1,
               title: "Stages Data",
-              href: "/planner"
+              href: "/en-us/planner"
             }, {
               key: 2,
               title: "Conversion",
-              href: "/conversion"
+              href: "/en-us/conversion"
             }]
           }
         }, {
@@ -6049,15 +6104,15 @@ class TopBar extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
             data: [{
               key: 0,
               title: "Permanent Scout",
-              href: "/permanentPool"
+              href: "/en-us/permanentPool"
             }, {
               key: 1,
               title: "Limit",
-              href: "/limitPool"
+              href: "/en-us/limitPool"
             }, {
               key: 2,
               title: "Event",
-              href: "/eventPool"
+              href: "/en-us/eventPool"
             }]
           }
         }],
@@ -6093,7 +6148,7 @@ class TopBar extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
             data: [{
               key: 0,
               title: "中文",
-              href: "/"
+              href: "/zh-cn"
             }, {
               key: 1,
               title: "English",
@@ -6307,10 +6362,10 @@ class MainContents extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Componen
 
 /***/ }),
 
-/***/ "./src/scripts/index.jsx":
-/*!*******************************!*\
-  !*** ./src/scripts/index.jsx ***!
-  \*******************************/
+/***/ "./src/scripts/pages/404.jsx":
+/*!***********************************!*\
+  !*** ./src/scripts/pages/404.jsx ***!
+  \***********************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -6318,10 +6373,53 @@ class MainContents extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Componen
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _components_basic_jsx__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/basic.jsx */ "./src/scripts/components/basic.jsx");
-/* harmony import */ var _sass_index_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../sass/index.scss */ "./src/sass/index.scss");
+/* harmony import */ var _components_basic_jsx__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/basic.jsx */ "./src/scripts/components/basic.jsx");
+/* harmony import */ var _sass_404_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../sass/404.scss */ "./src/sass/404.scss");
+/* harmony import */ var _sass_404_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_sass_404_scss__WEBPACK_IMPORTED_MODULE_2__);
+
+
+
+
+class _404 extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      title: {
+        tag: "title",
+        name: "Oops! There's something wrong happened!",
+        description: "we can't found what you want."
+      }
+    };
+  }
+
+  render() {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_basic_jsx__WEBPACK_IMPORTED_MODULE_1__["Title"], {
+      className: "message",
+      content: this.state.title
+    });
+  }
+
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (_404);
+
+/***/ }),
+
+/***/ "./src/scripts/pages/index.jsx":
+/*!*************************************!*\
+  !*** ./src/scripts/pages/index.jsx ***!
+  \*************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_basic_jsx__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/basic.jsx */ "./src/scripts/components/basic.jsx");
+/* harmony import */ var _sass_index_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../sass/index.scss */ "./src/sass/index.scss");
 /* harmony import */ var _sass_index_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_sass_index_scss__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _template_jsx__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./template.jsx */ "./src/scripts/template.jsx");
+/* harmony import */ var _components_Template_jsx__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Template.jsx */ "./src/scripts/components/Template.jsx");
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
 
@@ -6348,7 +6446,7 @@ class Index extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
     });
 
     this.state = {
-      theme: "dark-theme",
+      theme: "light-theme",
       zh_cn: {
         contents: {
           main: {
@@ -6363,12 +6461,12 @@ class Index extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
               name: "最新活动",
               data: [{
                 key: 0,
-                href: "/",
-                img: "../images/index/event1.png"
+                href: "/zh-cn",
+                img: "../images/index/zh-cn/event1.jpg"
               }, {
                 key: 1,
-                href: "/",
-                img: "../images/index/event2.png"
+                href: "/zh-cn",
+                img: "../images/index/zh-cn/event2.jpg"
               }]
             }, {
               key: 1,
@@ -6376,12 +6474,8 @@ class Index extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
               name: "新增卡池",
               data: [{
                 key: 0,
-                href: "/",
-                img: "../images/index/pool1.png"
-              }, {
-                key: 1,
-                href: "/",
-                img: "../images/index/pool2.png"
+                href: "/zh-cn",
+                img: "../images/index/zh-cn/pool1.jpg"
               }]
             }, {
               key: 2,
@@ -6389,8 +6483,8 @@ class Index extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
               name: "新增干员",
               data: [{
                 key: 0,
-                href: "/",
-                img: "../images/index/operator1.png"
+                href: "/zh-cn",
+                img: "../images/index/zh-cn/operator1.jpg"
               }]
             }, {
               key: 3,
@@ -6398,8 +6492,8 @@ class Index extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
               name: "新增服装",
               data: [{
                 key: 0,
-                href: "/",
-                img: "../images/index/cloth1.png"
+                href: "/zh-cn",
+                img: "../images/index/zh-cn/cloth1.jpg"
               }]
             }, {
               key: 4,
@@ -6407,8 +6501,8 @@ class Index extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
               name: "新增家具",
               data: [{
                 key: 0,
-                href: "/",
-                img: "../images/index/theme1.png"
+                href: "/zh-cn",
+                img: "../images/index/zh-cn/theme1.jpg"
               }]
             }, {
               key: 5,
@@ -6416,12 +6510,8 @@ class Index extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
               name: "新增关卡",
               data: [{
                 key: 0,
-                href: "/",
-                img: "../images/index/stage1.png"
-              }, {
-                key: 1,
-                href: "/",
-                img: "../images/index/stage2.png"
+                href: "/zh-cn",
+                img: "../images/index/zh-cn/stage1.jpg"
               }]
             }]
           }
@@ -6441,12 +6531,16 @@ class Index extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
               name: "最新イベント",
               data: [{
                 key: 0,
-                href: "/",
-                img: "../images/index/event1.png"
+                href: "/ja-jp",
+                img: "../images/index/ja-jp/event1.jpg"
               }, {
                 key: 1,
-                href: "/",
-                img: "../images/index/event2.png"
+                href: "/ja-jp",
+                img: "../images/index/ja-jp/event2.jpg"
+              }, {
+                key: 2,
+                href: "/ja-jp",
+                img: "../images/index/ja-jp/event3.jpg"
               }]
             }, {
               key: 1,
@@ -6454,12 +6548,8 @@ class Index extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
               name: "最新スカウト",
               data: [{
                 key: 0,
-                href: "/",
-                img: "../images/index/pool1.png"
-              }, {
-                key: 1,
-                href: "/",
-                img: "../images/index/pool2.png"
+                href: "/ja-jp",
+                img: "../images/index/ja-jp/pool1.png"
               }]
             }, {
               key: 2,
@@ -6467,8 +6557,8 @@ class Index extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
               name: "最新オペレーター",
               data: [{
                 key: 0,
-                href: "/",
-                img: "../images/index/operator1.png"
+                href: "/ja-jp",
+                img: "../images/index/ja-jp/operator1.png"
               }]
             }, {
               key: 3,
@@ -6476,8 +6566,12 @@ class Index extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
               name: "最新服装",
               data: [{
                 key: 0,
-                href: "/",
-                img: "../images/index/cloth1.png"
+                href: "/ja-jp",
+                img: "../images/index/ja-jp/cloth1.jpg"
+              }, {
+                key: 0,
+                href: "/ja-jp",
+                img: "../images/index/ja-jp/cloth2.jpg"
               }]
             }, {
               key: 4,
@@ -6485,8 +6579,8 @@ class Index extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
               name: "最新家具",
               data: [{
                 key: 0,
-                href: "/",
-                img: "../images/index/theme1.png"
+                href: "/ja-jp",
+                img: "../images/index/ja-jp/theme1.jpg"
               }]
             }, {
               key: 5,
@@ -6494,12 +6588,12 @@ class Index extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
               name: "最新ステージ",
               data: [{
                 key: 0,
-                href: "/",
-                img: "../images/index/stage1.png"
+                href: "/ja-jp",
+                img: "../images/index/ja-jp/stage1.jpg"
               }, {
                 key: 1,
-                href: "/",
-                img: "../images/index/stage2.png"
+                href: "/ja-jp",
+                img: "../images/index/ja-jp/stage2.jpg"
               }]
             }]
           }
@@ -6519,12 +6613,8 @@ class Index extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
               name: "Newest Events",
               data: [{
                 key: 0,
-                href: "/",
-                img: "../images/index/event1.png"
-              }, {
-                key: 1,
-                href: "/",
-                img: "../images/index/event2.png"
+                href: "/en-us",
+                img: "../images/index/en-us/nothing.jpg"
               }]
             }, {
               key: 1,
@@ -6532,12 +6622,8 @@ class Index extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
               name: "Newest Scouts",
               data: [{
                 key: 0,
-                href: "/",
-                img: "../images/index/pool1.png"
-              }, {
-                key: 1,
-                href: "/",
-                img: "../images/index/pool2.png"
+                href: "/en-us",
+                img: "../images/index/en-us/nothing.jpg"
               }]
             }, {
               key: 2,
@@ -6545,8 +6631,8 @@ class Index extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
               name: "Newest Operators",
               data: [{
                 key: 0,
-                href: "/",
-                img: "../images/index/operator1.png"
+                href: "/en-us",
+                img: "../images/index/en-us/nothing.jpg"
               }]
             }, {
               key: 3,
@@ -6554,8 +6640,8 @@ class Index extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
               name: "Newest Clothes",
               data: [{
                 key: 0,
-                href: "/",
-                img: "../images/index/cloth1.png"
+                href: "/en-us",
+                img: "../images/index/en-us/nothing.jpg"
               }]
             }, {
               key: 4,
@@ -6563,8 +6649,8 @@ class Index extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
               name: "Newest Themes",
               data: [{
                 key: 0,
-                href: "/",
-                img: "../images/index/theme1.png"
+                href: "/en-us",
+                img: "../images/index/en-us/nothing.jpg"
               }]
             }, {
               key: 5,
@@ -6572,12 +6658,8 @@ class Index extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
               name: "Newest Stages",
               data: [{
                 key: 0,
-                href: "/",
-                img: "../images/index/stage1.png"
-              }, {
-                key: 1,
-                href: "/",
-                img: "../images/index/stage2.png"
+                href: "/en-us",
+                img: "../images/index/en-us/nothing.jpg"
               }]
             }]
           }
@@ -6599,7 +6681,7 @@ class Index extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       language = this.state.zh_cn.contents.main;
     }
 
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_template_jsx__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Template_jsx__WEBPACK_IMPORTED_MODULE_3__["default"], {
       language: this.props.language,
       theme: this.state.theme,
       toDarkTheme: this.toDarkTheme,
@@ -6622,10 +6704,10 @@ class Index extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
 
 /***/ }),
 
-/***/ "./src/scripts/template.jsx":
-/*!**********************************!*\
-  !*** ./src/scripts/template.jsx ***!
-  \**********************************/
+/***/ "./src/scripts/pages/templatePage.jsx":
+/*!********************************************!*\
+  !*** ./src/scripts/pages/templatePage.jsx ***!
+  \********************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -6633,32 +6715,52 @@ class Index extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _components_TopBar_jsx__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/TopBar.jsx */ "./src/scripts/components/TopBar.jsx");
-/* harmony import */ var _components_MainTemplate_jsx__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/MainTemplate.jsx */ "./src/scripts/components/MainTemplate.jsx");
-/* harmony import */ var _components_Footer_jsx__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/Footer.jsx */ "./src/scripts/components/Footer.jsx");
+/* harmony import */ var _components_basic_jsx__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/basic.jsx */ "./src/scripts/components/basic.jsx");
+/* harmony import */ var _sass_templatePage_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../sass/templatePage.scss */ "./src/sass/templatePage.scss");
+/* harmony import */ var _sass_templatePage_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_sass_templatePage_scss__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _components_Template_jsx__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Template.jsx */ "./src/scripts/components/Template.jsx");
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
 
 
 
 
-class Template extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+
+class TemplatePage extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+  constructor(props) {
+    super(props);
+
+    _defineProperty(this, "toDarkTheme", () => {
+      console.log("to-dark");
+      this.setState({
+        theme: "dark-theme"
+      });
+    });
+
+    _defineProperty(this, "toLightTheme", () => {
+      console.log("to-light");
+      this.setState({
+        theme: "light-theme"
+      });
+    });
+
+    this.state = {
+      theme: "light-theme"
+    };
+  }
+
   render() {
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_TopBar_jsx__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Template_jsx__WEBPACK_IMPORTED_MODULE_3__["default"], {
       language: this.props.language,
-      theme: this.props.theme,
-      toDarkTheme: this.props.toDarkTheme,
-      toLightTheme: this.props.toLightTheme
-    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_MainTemplate_jsx__WEBPACK_IMPORTED_MODULE_2__["default"], {
-      theme: this.props.theme
-    }, this.props.children), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Footer_jsx__WEBPACK_IMPORTED_MODULE_3__["default"], {
-      language: this.props.language,
-      theme: this.props.theme
-    }));
+      theme: this.state.theme,
+      toDarkTheme: this.toDarkTheme,
+      toLightTheme: this.toLightTheme
+    });
   }
 
 }
 
-/* harmony default export */ __webpack_exports__["default"] = (Template);
+/* harmony default export */ __webpack_exports__["default"] = (TemplatePage);
 
 /***/ }),
 
