@@ -1,7 +1,7 @@
 import React from "react";
-import TopBar from "./components/TopBar.jsx";
-import MainTemplate from "./components/MainTemplate.jsx";
-import Footer from "./components/Footer.jsx";
+import TopBar from "./TopBar.jsx";
+import MainTemplate from "./MainTemplate.jsx";
+import Footer from "./Footer.jsx";
 
 class Template extends React.Component {
     render() {

@@ -88,7 +88,7 @@ class Search extends React.Component {
             input = (
                 <form className="search-input" onSubmit={ this.handleSubmit }>
                     <input
-                        placeholder="  搜索"
+                        placeholder="  => search"
                         value={ this.state.value }
                         onChange={ this.handleChange }
                     />
@@ -226,7 +226,7 @@ class TopBar extends React.Component {
                 logo: {
                     key: 0,
                     tag: "logo",
-                    href: "/",
+                    href: "/zh-cn",
                     img: "../../images/logo.jpg",
                     name: "ArkMelon"
                 },
@@ -240,42 +240,42 @@ class TopBar extends React.Component {
                                 {
                                     key: 0,
                                     title: "干员",
-                                    href: "/operators"
+                                    href: "/zh-cn/operators"
                                 },
                                 {
                                     key: 1,
                                     title: "敌人",
-                                    href: "/enemies"
+                                    href: "/zh-cn/enemies"
                                 },
                                 {
                                     key: 2,
                                     title: "服装",
-                                    href: "/clothes"
+                                    href: "/zh-cn/clothes"
                                 },
                                 {
                                     key: 3,
                                     title: "地图",
-                                    href: "/maps"
+                                    href: "/zh-cn/maps"
                                 },
                                 {
                                     key: 4,
                                     title: "家具",
-                                    href: "/themes"
+                                    href: "/zh-cn/themes"
                                 },
                                 {
                                     key: 5,
                                     title: "活动",
-                                    href: "/events"
+                                    href: "/zh-cn/events"
                                 },
                                 {
                                     key: 6,
                                     title: "卡池",
-                                    href: "/pools"
+                                    href: "/zh-cn/pools"
                                 },
                                 {
                                     key: 7,
                                     title: "道具",
-                                    href: "/items"
+                                    href: "/zh-cn/items"
                                 },
                             ]
                         }
@@ -292,17 +292,17 @@ class TopBar extends React.Component {
                                         {
                                             key: 0,
                                             title: "干员升级",
-                                            href: "/levelUp"
+                                            href: "/zh-cn/levelUp"
                                         },
                                         {
                                             key: 1,
                                             title: "刷图规划",
-                                            href: "/planner"
+                                            href: "/zh-cn/planner"
                                         },
                                         {
                                             key: 2,
                                             title: "合成计算",
-                                            href: "/conversion"
+                                            href: "/zh-cn/conversion"
                                         },
                                     ]
                             }
@@ -317,17 +317,17 @@ class TopBar extends React.Component {
                                 {
                                     key: 0,
                                     title: "常驻卡池",
-                                    href: "/permanentPool"
+                                    href: "/zh-cn/permanentPool"
                                 },
                                 {
                                     key: 1,
                                     title: "限定卡池",
-                                    href: "/limitPool"
+                                    href: "/zh-cn/limitPool"
                                 },
                                 {
                                     key: 2,
                                     title: "活动卡池",
-                                    href: "/eventPool"
+                                    href: "/zh-cn/eventPool"
                                 },
                             ]
                         }
@@ -373,7 +373,7 @@ class TopBar extends React.Component {
                                         {
                                             key: 0,
                                             title: "中文",
-                                            href: "/"
+                                            href: "/zh-cn"
                                         },
                                         {
                                             key: 1,
@@ -401,7 +401,7 @@ class TopBar extends React.Component {
                 logo: {
                     key: 0,
                     tag: "logo",
-                    href: "/",
+                    href: "/ja-jp",
                     img: "../../images/logo.jpg",
                     name: "ArkMelon"
                 },
@@ -548,7 +548,7 @@ class TopBar extends React.Component {
                                         {
                                             key: 0,
                                             title: "中文",
-                                            href: "/"
+                                            href: "/zh-cn"
                                         },
                                         {
                                             key: 1,
@@ -576,7 +576,7 @@ class TopBar extends React.Component {
                 logo: {
                     key: 0,
                     tag: "logo",
-                    href: "/",
+                    href: "/en-us",
                     img: "../../images/logo.jpg",
                     name: "ArkMelon"
                 },
@@ -595,37 +595,37 @@ class TopBar extends React.Component {
                                 {
                                     key: 1,
                                     title: "Enemies",
-                                    href: "/enemies"
+                                    href: "/en-us/enemies"
                                 },
                                 {
                                     key: 2,
                                     title: "Clothes",
-                                    href: "/clothes"
+                                    href: "/en-us/clothes"
                                 },
                                 {
                                     key: 3,
                                     title: "Stages",
-                                    href: "/maps"
+                                    href: "/en-us/maps"
                                 },
                                 {
                                     key: 4,
                                     title: "Themes",
-                                    href: "/themes"
+                                    href: "/en-us/themes"
                                 },
                                 {
                                     key: 5,
                                     title: "Events",
-                                    href: "/events"
+                                    href: "/en-us/events"
                                 },
                                 {
                                     key: 6,
                                     title: "Scouts",
-                                    href: "/pools"
+                                    href: "/en-us/pools"
                                 },
                                 {
                                     key: 7,
                                     title: "Items",
-                                    href: "/items"
+                                    href: "/en-us/items"
                                 },
                             ]
                         }
@@ -642,17 +642,17 @@ class TopBar extends React.Component {
                                         {
                                             key: 0,
                                             title: "Operators Data",
-                                            href: "/levelUp"
+                                            href: "/en-us/levelUp"
                                         },
                                         {
                                             key: 1,
                                             title: "Stages Data",
-                                            href: "/planner"
+                                            href: "/en-us/planner"
                                         },
                                         {
                                             key: 2,
                                             title: "Conversion",
-                                            href: "/conversion"
+                                            href: "/en-us/conversion"
                                         },
                                     ]
                             }
@@ -667,17 +667,17 @@ class TopBar extends React.Component {
                                 {
                                     key: 0,
                                     title: "Permanent Scout",
-                                    href: "/permanentPool"
+                                    href: "/en-us/permanentPool"
                                 },
                                 {
                                     key: 1,
                                     title: "Limit",
-                                    href: "/limitPool"
+                                    href: "/en-us/limitPool"
                                 },
                                 {
                                     key: 2,
                                     title: "Event",
-                                    href: "/eventPool"
+                                    href: "/en-us/eventPool"
                                 },
                             ]
                         }
@@ -723,7 +723,7 @@ class TopBar extends React.Component {
                                         {
                                             key: 0,
                                             title: "中文",
-                                            href: "/"
+                                            href: "/zh-cn"
                                         },
                                         {
                                             key: 1,

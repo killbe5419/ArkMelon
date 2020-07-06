@@ -1,13 +1,13 @@
 import React from "react";
-import { Title, MainContents } from "./components/basic.jsx";
-import "../sass/index.scss";
-import Template from "./template.jsx";
+import { Title, MainContents } from "../components/basic.jsx";
+import "../../sass/index.scss";
+import Template from "../components/Template.jsx";
 
 class Index extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            theme: "dark-theme",
+            theme: "light-theme",
             zh_cn: {
                 contents: {
                     main: {
@@ -24,13 +24,13 @@ class Index extends React.Component {
                                 data: [
                                     {
                                         key: 0,
-                                        href: "/",
-                                        img: "../images/index/event1.png"
+                                        href: "/zh-cn",
+                                        img: "../images/index/zh-cn/event1.jpg"
                                     },
                                     {
                                         key: 1,
-                                        href: "/",
-                                        img: "../images/index/event2.png"
+                                        href: "/zh-cn",
+                                        img: "../images/index/zh-cn/event2.jpg"
                                     },
                                 ],
                             },
@@ -41,13 +41,8 @@ class Index extends React.Component {
                                 data:[
                                     {
                                         key: 0,
-                                        href: "/",
-                                        img: "../images/index/pool1.png"
-                                    },
-                                    {
-                                        key: 1,
-                                        href: "/",
-                                        img: "../images/index/pool2.png"
+                                        href: "/zh-cn",
+                                        img: "../images/index/zh-cn/pool1.jpg"
                                     },
                                 ],
                             },
@@ -58,8 +53,8 @@ class Index extends React.Component {
                                 data: [
                                     {
                                         key: 0,
-                                        href: "/",
-                                        img: "../images/index/operator1.png"
+                                        href: "/zh-cn",
+                                        img: "../images/index/zh-cn/operator1.jpg"
                                     },
                                 ],
                             },
@@ -70,8 +65,8 @@ class Index extends React.Component {
                                 data: [
                                     {
                                         key: 0,
-                                        href: "/",
-                                        img: "../images/index/cloth1.png"
+                                        href: "/zh-cn",
+                                        img: "../images/index/zh-cn/cloth1.jpg"
                                     },
                                 ],
                             },
@@ -82,8 +77,8 @@ class Index extends React.Component {
                                 data: [
                                     {
                                         key: 0,
-                                        href: "/",
-                                        img: "../images/index/theme1.png"
+                                        href: "/zh-cn",
+                                        img: "../images/index/zh-cn/theme1.jpg"
                                     },
                                 ],
                             },
@@ -94,13 +89,8 @@ class Index extends React.Component {
                                 data:[
                                     {
                                         key: 0,
-                                        href: "/",
-                                        img: "../images/index/stage1.png"
-                                    },
-                                    {
-                                        key: 1,
-                                        href: "/",
-                                        img: "../images/index/stage2.png"
+                                        href: "/zh-cn",
+                                        img: "../images/index/zh-cn/stage1.jpg"
                                     },
                                 ],
                             },
@@ -124,13 +114,18 @@ class Index extends React.Component {
                                 data: [
                                     {
                                         key: 0,
-                                        href: "/",
-                                        img: "../images/index/event1.png"
+                                        href: "/ja-jp",
+                                        img: "../images/index/ja-jp/event1.jpg"
                                     },
                                     {
                                         key: 1,
-                                        href: "/",
-                                        img: "../images/index/event2.png"
+                                        href: "/ja-jp",
+                                        img: "../images/index/ja-jp/event2.jpg"
+                                    },
+                                    {
+                                        key: 2,
+                                        href: "/ja-jp",
+                                        img: "../images/index/ja-jp/event3.jpg"
                                     },
                                 ],
                             },
@@ -141,13 +136,8 @@ class Index extends React.Component {
                                 data:[
                                     {
                                         key: 0,
-                                        href: "/",
-                                        img: "../images/index/pool1.png"
-                                    },
-                                    {
-                                        key: 1,
-                                        href: "/",
-                                        img: "../images/index/pool2.png"
+                                        href: "/ja-jp",
+                                        img: "../images/index/ja-jp/pool1.png"
                                     },
                                 ],
                             },
@@ -158,8 +148,8 @@ class Index extends React.Component {
                                 data: [
                                     {
                                         key: 0,
-                                        href: "/",
-                                        img: "../images/index/operator1.png"
+                                        href: "/ja-jp",
+                                        img: "../images/index/ja-jp/operator1.png"
                                     },
                                 ],
                             },
@@ -170,8 +160,13 @@ class Index extends React.Component {
                                 data: [
                                     {
                                         key: 0,
-                                        href: "/",
-                                        img: "../images/index/cloth1.png"
+                                        href: "/ja-jp",
+                                        img: "../images/index/ja-jp/cloth1.jpg"
+                                    },
+                                    {
+                                        key: 0,
+                                        href: "/ja-jp",
+                                        img: "../images/index/ja-jp/cloth2.jpg"
                                     },
                                 ],
                             },
@@ -182,8 +177,8 @@ class Index extends React.Component {
                                 data: [
                                     {
                                         key: 0,
-                                        href: "/",
-                                        img: "../images/index/theme1.png"
+                                        href: "/ja-jp",
+                                        img: "../images/index/ja-jp/theme1.jpg"
                                     },
                                 ],
                             },
@@ -194,13 +189,13 @@ class Index extends React.Component {
                                 data:[
                                     {
                                         key: 0,
-                                        href: "/",
-                                        img: "../images/index/stage1.png"
+                                        href: "/ja-jp",
+                                        img: "../images/index/ja-jp/stage1.jpg"
                                     },
                                     {
                                         key: 1,
-                                        href: "/",
-                                        img: "../images/index/stage2.png"
+                                        href: "/ja-jp",
+                                        img: "../images/index/ja-jp/stage2.jpg"
                                     },
                                 ],
                             },
@@ -224,13 +219,8 @@ class Index extends React.Component {
                                 data: [
                                     {
                                         key: 0,
-                                        href: "/",
-                                        img: "../images/index/event1.png"
-                                    },
-                                    {
-                                        key: 1,
-                                        href: "/",
-                                        img: "../images/index/event2.png"
+                                        href: "/en-us",
+                                        img: "../images/index/en-us/nothing.jpg"
                                     },
                                 ],
                             },
@@ -241,13 +231,8 @@ class Index extends React.Component {
                                 data:[
                                     {
                                         key: 0,
-                                        href: "/",
-                                        img: "../images/index/pool1.png"
-                                    },
-                                    {
-                                        key: 1,
-                                        href: "/",
-                                        img: "../images/index/pool2.png"
+                                        href: "/en-us",
+                                        img: "../images/index/en-us/nothing.jpg"
                                     },
                                 ],
                             },
@@ -258,8 +243,8 @@ class Index extends React.Component {
                                 data: [
                                     {
                                         key: 0,
-                                        href: "/",
-                                        img: "../images/index/operator1.png"
+                                        href: "/en-us",
+                                        img: "../images/index/en-us/nothing.jpg"
                                     },
                                 ],
                             },
@@ -270,8 +255,8 @@ class Index extends React.Component {
                                 data: [
                                     {
                                         key: 0,
-                                        href: "/",
-                                        img: "../images/index/cloth1.png"
+                                        href: "/en-us",
+                                        img: "../images/index/en-us/nothing.jpg"
                                     },
                                 ],
                             },
@@ -282,8 +267,8 @@ class Index extends React.Component {
                                 data: [
                                     {
                                         key: 0,
-                                        href: "/",
-                                        img: "../images/index/theme1.png"
+                                        href: "/en-us",
+                                        img: "../images/index/en-us/nothing.jpg"
                                     },
                                 ],
                             },
@@ -294,13 +279,8 @@ class Index extends React.Component {
                                 data:[
                                     {
                                         key: 0,
-                                        href: "/",
-                                        img: "../images/index/stage1.png"
-                                    },
-                                    {
-                                        key: 1,
-                                        href: "/",
-                                        img: "../images/index/stage2.png"
+                                        href: "/en-us",
+                                        img: "../images/index/en-us/nothing.jpg"
                                     },
                                 ],
                             },

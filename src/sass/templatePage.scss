@@ -1,0 +1,25 @@
+@use "base";
+
+.main-container {
+  display: flex;
+  flex-direction:column;
+  width: 70%;
+  height: 100%;
+  margin: auto;
+  &.dark-theme {
+    * {
+      color: base.$font-dark;
+    }
+    .title-name {
+      color: base.$primary-color;
+    }
+  }
+  &.light-theme {
+    * {
+      color: base.$font-main-light;
+    }
+    .title-name {
+      color: base.$primary-color;
+    }
+  }
+}
