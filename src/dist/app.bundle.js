@@ -6715,12 +6715,10 @@ class Index extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _components_basic_jsx__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/basic.jsx */ "./src/scripts/components/basic.jsx");
-/* harmony import */ var _sass_templatePage_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../sass/templatePage.scss */ "./src/sass/templatePage.scss");
-/* harmony import */ var _sass_templatePage_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_sass_templatePage_scss__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _components_Template_jsx__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Template.jsx */ "./src/scripts/components/Template.jsx");
+/* harmony import */ var _sass_templatePage_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../sass/templatePage.scss */ "./src/sass/templatePage.scss");
+/* harmony import */ var _sass_templatePage_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_sass_templatePage_scss__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _components_Template_jsx__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Template.jsx */ "./src/scripts/components/Template.jsx");
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-
 
 
 
@@ -6750,7 +6748,7 @@ class TemplatePage extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Componen
   }
 
   render() {
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Template_jsx__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Template_jsx__WEBPACK_IMPORTED_MODULE_2__["default"], {
       language: this.props.language,
       theme: this.state.theme,
       toDarkTheme: this.toDarkTheme,
