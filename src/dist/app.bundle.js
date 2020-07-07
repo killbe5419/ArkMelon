@@ -6569,7 +6569,7 @@ class Index extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
                 href: "/ja-jp",
                 img: "../images/index/ja-jp/cloth1.jpg"
               }, {
-                key: 0,
+                key: 1,
                 href: "/ja-jp",
                 img: "../images/index/ja-jp/cloth2.jpg"
               }]

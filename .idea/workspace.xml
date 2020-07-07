@@ -10,38 +10,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="607eec3e-89c1-47af-9f10-8be80260d6f9" name="Default Changelist" comment="added [change theme] function.">
-      <change afterPath="$PROJECT_DIR$/src/images/index/en-us/nothing.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/index/ja-jp/cloth1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/index/ja-jp/cloth2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/index/ja-jp/event1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/index/ja-jp/event2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/index/ja-jp/event3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/index/ja-jp/operator1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/index/ja-jp/pool1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/index/ja-jp/stage1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/index/ja-jp/stage2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/index/ja-jp/theme1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/index/zh-cn/cloth1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/index/zh-cn/event1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/index/zh-cn/event2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/index/zh-cn/operator1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/index/zh-cn/pool1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/index/zh-cn/stage1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/index/zh-cn/theme1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sass/templatePage.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scripts/pages/templatePage.jsx" afterDir="false" />
+    <list default="true" id="607eec3e-89c1-47af-9f10-8be80260d6f9" name="Default Changelist" comment="add changes.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/Cards/6/skadi.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dist/app.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/dist/app.bundle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dist/app.bundle.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/dist/app.bundle.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/base.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/modules/topbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/modules/topbar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scripts/404.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/pages/404.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scripts/app.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/app.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scripts/components/TopBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/components/TopBar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scripts/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/pages/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scripts/template.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/components/Template.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +83,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.watch">
+  <component name="RunManager" selected="npm.server">
     <configuration name="server" type="js.build_tools.npm" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -192,35 +162,8 @@
       <workItem from="1593679285352" duration="1122000" />
       <workItem from="1593752129153" duration="18991000" />
       <workItem from="1593848312921" duration="613000" />
-      <workItem from="1594017630397" duration="7173000" />
-    </task>
-    <task id="LOCAL-00007" summary="deleted test01.js.">
-      <created>1591433965044</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1591433965044</updated>
-    </task>
-    <task id="LOCAL-00008" summary="divided components to much smaller parts.">
-      <created>1591434012439</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1591434012439</updated>
-    </task>
-    <task id="LOCAL-00009" summary="fix some name-relative bugs.">
-      <created>1591434034046</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1591434034046</updated>
-    </task>
-    <task id="LOCAL-00010" summary="add changes.">
-      <created>1591434043776</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1591434043776</updated>
+      <workItem from="1594017630397" duration="7341000" />
+      <workItem from="1594083955569" duration="973000" />
     </task>
     <task id="LOCAL-00011" summary="divided components into much smaller parts.">
       <created>1591439358533</created>
@@ -537,7 +480,35 @@
       <option name="project" value="LOCAL" />
       <updated>1593779044765</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="add changes.">
+      <created>1594057957712</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1594057957713</updated>
+    </task>
+    <task id="LOCAL-00057" summary="add changes.">
+      <created>1594057970166</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1594057970166</updated>
+    </task>
+    <task id="LOCAL-00058" summary="added change theme function.">
+      <created>1594058043471</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1594058043471</updated>
+    </task>
+    <task id="LOCAL-00059" summary="add changes.">
+      <created>1594058057853</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1594058057853</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -557,7 +528,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="divided components into much smaller parts." />
     <MESSAGE value="add handleSearch function." />
     <MESSAGE value="add 404 page." />
     <MESSAGE value="redesigned search part." />
@@ -580,9 +550,10 @@
     <MESSAGE value="backups of scss." />
     <MESSAGE value="Replace css with scss. Delete all old files." />
     <MESSAGE value="add normalize.css." />
-    <MESSAGE value="add changes." />
     <MESSAGE value="added [change theme] function." />
-    <option name="LAST_COMMIT_MESSAGE" value="added [change theme] function." />
+    <MESSAGE value="added change theme function." />
+    <MESSAGE value="add changes." />
+    <option name="LAST_COMMIT_MESSAGE" value="add changes." />
   </component>
   <component name="WindowStateProjectService">
     <state x="492" y="382" key="#Scopes" timestamp="1589962361499">
@@ -601,22 +572,22 @@
       <screen x="0" y="23" width="1680" height="981" />
     </state>
     <state width="251" height="195" key="DatabaseViewActions_Filter/0.23.1680.981@0.23.1680.981" timestamp="1589966524504" />
-    <state width="929" height="186" key="GridCell.Tab.0.bottom" timestamp="1594028669170">
+    <state width="929" height="186" key="GridCell.Tab.0.bottom" timestamp="1594085221226">
       <screen x="0" y="23" width="1680" height="981" />
     </state>
-    <state width="929" height="186" key="GridCell.Tab.0.bottom/0.23.1680.981@0.23.1680.981" timestamp="1594028669170" />
-    <state width="929" height="186" key="GridCell.Tab.0.center" timestamp="1594028669169">
+    <state width="929" height="186" key="GridCell.Tab.0.bottom/0.23.1680.981@0.23.1680.981" timestamp="1594085221226" />
+    <state width="929" height="186" key="GridCell.Tab.0.center" timestamp="1594085221225">
       <screen x="0" y="23" width="1680" height="981" />
     </state>
-    <state width="929" height="186" key="GridCell.Tab.0.center/0.23.1680.981@0.23.1680.981" timestamp="1594028669169" />
-    <state width="929" height="186" key="GridCell.Tab.0.left" timestamp="1594028669168">
+    <state width="929" height="186" key="GridCell.Tab.0.center/0.23.1680.981@0.23.1680.981" timestamp="1594085221225" />
+    <state width="929" height="186" key="GridCell.Tab.0.left" timestamp="1594085221224">
       <screen x="0" y="23" width="1680" height="981" />
     </state>
-    <state width="929" height="186" key="GridCell.Tab.0.left/0.23.1680.981@0.23.1680.981" timestamp="1594028669168" />
-    <state width="929" height="186" key="GridCell.Tab.0.right" timestamp="1594028669169">
+    <state width="929" height="186" key="GridCell.Tab.0.left/0.23.1680.981@0.23.1680.981" timestamp="1594085221224" />
+    <state width="929" height="186" key="GridCell.Tab.0.right" timestamp="1594085221225">
       <screen x="0" y="23" width="1680" height="981" />
     </state>
-    <state width="929" height="186" key="GridCell.Tab.0.right/0.23.1680.981@0.23.1680.981" timestamp="1594028669169" />
+    <state width="929" height="186" key="GridCell.Tab.0.right/0.23.1680.981@0.23.1680.981" timestamp="1594085221225" />
     <state width="952" height="235" key="GridCell.Tab.1.bottom" timestamp="1590830953179">
       <screen x="0" y="23" width="1680" height="981" />
     </state>
@@ -681,10 +652,10 @@
       <screen x="0" y="23" width="1680" height="981" />
     </state>
     <state x="961" y="367" key="VCS.EditChangelistDialog/0.23.1680.981@0.23.1680.981" timestamp="1591165011540" />
-    <state x="742" y="189" key="Vcs.Push.Dialog.v2" timestamp="1593779051627">
+    <state x="742" y="189" key="Vcs.Push.Dialog.v2" timestamp="1594058098116">
       <screen x="0" y="23" width="1680" height="981" />
     </state>
-    <state x="742" y="189" key="Vcs.Push.Dialog.v2/0.23.1680.981@0.23.1680.981" timestamp="1593779051627" />
+    <state x="742" y="189" key="Vcs.Push.Dialog.v2/0.23.1680.981@0.23.1680.981" timestamp="1594058098116" />
     <state x="1017" y="424" width="341" height="221" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1590088369813">
       <screen x="0" y="23" width="1680" height="981" />
     </state>
