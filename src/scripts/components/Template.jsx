@@ -12,6 +12,9 @@ class Template extends React.Component {
                     theme={ this.props.theme }
                     toDarkTheme={ this.props.toDarkTheme }
                     toLightTheme={ this.props.toLightTheme }
+                    toZH_CN = { this.props.toZH_CN }
+                    toEN_US = { this.props.toEN_US }
+                    toJA_JP = { this.props.toJA_JP }
                 />
                 <MainTemplate theme={ this.props.theme }>
                     { this.props.children }

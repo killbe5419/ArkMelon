@@ -32,7 +32,7 @@ class DropdownMenu extends React.Component {
     }
 }
 
-class ChangeThemeDropdown extends React.Component {
+class ChangeAttrDropdown extends React.Component {
     render() {
         const tmp = this.props.listInfo.data;
         const listItems = tmp.map( x =>
@@ -122,4 +122,4 @@ class MainContents extends React.Component {
     }
 }
 
-export {ImgA, DropdownMenu, ChangeThemeDropdown, Title, MainContents};
+export {ImgA, DropdownMenu, ChangeAttrDropdown, Title, MainContents};

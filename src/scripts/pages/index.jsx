@@ -7,7 +7,6 @@ class Index extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            theme: "light-theme",
             zh_cn: {
                 contents: {
                     main: {
@@ -292,20 +291,6 @@ class Index extends React.Component {
         };
     }
 
-    toDarkTheme = () => {
-        console.log("to-dark");
-        this.setState({
-            theme: "dark-theme"
-        })
-    }
-
-    toLightTheme = () => {
-        console.log("to-light");
-        this.setState({
-            theme: "light-theme"
-        })
-    }
-
     render() {
         let language;
         if(this.props.language === "zh-cn") {
@@ -322,13 +307,16 @@ class Index extends React.Component {
         return (
             <Template
                 language={ this.props.language }
-                theme={ this.state.theme }
-                toDarkTheme={ this.toDarkTheme }
-                toLightTheme={ this.toLightTheme }
+                theme={ this.props.theme }
+                toDarkTheme={ this.props.toDarkTheme }
+                toLightTheme={ this.props.toLightTheme }
+                toZH_CN = { this.props.toZH_CN }
+                toEN_US = { this.props.toEN_US }
+                toJA_JP = { this.props.toJA_JP }
             >
-                <div className={`main-container ${this.state.theme}`} >
-                    <Title className="main-top" content={ language.title } theme={ this.state.theme } />
-                    <MainContents contents={ language.contents } theme={ this.state.theme } />
+                <div className={`main-container ${this.props.theme}`} >
+                    <Title className="main-top" content={ language.title } theme={ this.props.theme } />
+                    <MainContents contents={ language.contents } theme={ this.props.theme } />
                     { this.props.children }
                 </div>
             </Template>

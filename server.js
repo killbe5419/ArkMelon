@@ -7,6 +7,7 @@ const staticPath = path.join(__dirname,"src");
 app.use(express.static(staticPath));
 
 app.get("/*",(req,res) => {
+    console.log(`get!`);
     res.sendFile(staticPath + "/index.html");
 })
 

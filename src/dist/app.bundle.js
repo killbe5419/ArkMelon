@@ -5046,47 +5046,163 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _pages_index_jsx__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./pages/index.jsx */ "./src/scripts/pages/index.jsx");
 /* harmony import */ var _pages_404_jsx__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./pages/404.jsx */ "./src/scripts/pages/404.jsx");
 /* harmony import */ var _pages_templatePage_jsx__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./pages/templatePage.jsx */ "./src/scripts/pages/templatePage.jsx");
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
 
 
 
 
 
-react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["BrowserRouter"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Switch"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
-  exact: true,
-  path: "/"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_pages_index_jsx__WEBPACK_IMPORTED_MODULE_3__["default"], {
-  language: "ja-jp"
-})), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
-  exact: true,
-  path: "/zh-cn"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_pages_index_jsx__WEBPACK_IMPORTED_MODULE_3__["default"], {
-  language: "zh-cn"
-})), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
-  path: "/zh-cn/*"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_pages_templatePage_jsx__WEBPACK_IMPORTED_MODULE_5__["default"], {
-  language: "zh-cn"
-})), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
-  exact: true,
-  path: "/ja-jp"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_pages_index_jsx__WEBPACK_IMPORTED_MODULE_3__["default"], {
-  language: "ja-jp"
-})), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
-  path: "/ja-jp/*"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_pages_templatePage_jsx__WEBPACK_IMPORTED_MODULE_5__["default"], {
-  language: "ja-jp"
-})), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
-  exact: true,
-  path: "/en-us/"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_pages_index_jsx__WEBPACK_IMPORTED_MODULE_3__["default"], {
-  language: "en-us"
-})), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
-  path: "/en-us/*"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_pages_templatePage_jsx__WEBPACK_IMPORTED_MODULE_5__["default"], {
-  language: "en-us"
-})), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
-  path: "/404"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_pages_404_jsx__WEBPACK_IMPORTED_MODULE_4__["default"], null)))), document.getElementById("react-root"));
+
+
+function checkThemeCookie() {
+  if (document.cookie.length === 0) {
+    document.cookie = "theme=dark-theme;expires= Thu, 18 Dec 2043 12:00:00 GMT;path=/";
+    return "dark-theme";
+  } else {
+    let cookieArr = document.cookie.split(";");
+
+    for (let i = 0; i < cookieArr.length; i++) {
+      if (cookieArr[i].split("=")[0].trim() === "theme") {
+        return cookieArr[i].split("=")[1];
+      }
+    }
+
+    document.cookie = "theme=dark-theme;expires= Thu, 18 Dec 2043 12:00:00 GMT;path=/";
+    return "dark-theme";
+  }
+}
+
+function checkLanguageCookie() {
+  if (document.cookie.length === 0) {
+    document.cookie = "language=zh-cn;expires= Thu, 18 Dec 2043 12:00:00 GMT;path=/";
+    return "zh-cn";
+  } else {
+    const cookieArr = document.cookie.split(";");
+
+    for (let i = 0; i < cookieArr.length; i++) {
+      if (cookieArr[i].split("=")[0].trim() === "language") {
+        return cookieArr[i].split("=")[1];
+      }
+    }
+
+    document.cookie = "language=zh-cn;expires= Thu, 18 Dec 2043 12:00:00 GMT;path=/";
+    return "zh-cn";
+  }
+}
+
+class App extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+  constructor(props) {
+    super(props);
+
+    _defineProperty(this, "toDarkTheme", () => {
+      console.log("to-dark");
+      document.cookie = "theme=dark-theme;expires= Thu, 18 Dec 2043 12:00:00 GMT;path=/";
+      this.setState({
+        theme: "dark-theme"
+      });
+    });
+
+    _defineProperty(this, "toLightTheme", () => {
+      console.log("to-light");
+      document.cookie = "theme=light-theme;expires= Thu, 18 Dec 2043 12:00:00 GMT;path=/";
+      this.setState({
+        theme: "light-theme"
+      });
+    });
+
+    _defineProperty(this, "toZH_CN", () => {
+      console.log("change language to zh-cn");
+      document.cookie = "language=zh-cn;expires= Thu, 18 Dec 2043 12:00:00 GMT;path=/";
+      this.setState({
+        language: "zh-cn"
+      });
+    });
+
+    _defineProperty(this, "toEN_US", () => {
+      console.log("change language to en-us");
+      document.cookie = "language=en-us;expires= Thu, 18 Dec 2043 12:00:00 GMT;path=/";
+      this.setState({
+        language: "en-us"
+      });
+    });
+
+    _defineProperty(this, "toJA_JP", () => {
+      console.log("change language to ja-jp");
+      document.cookie = "language=ja-jp;expires= Thu, 18 Dec 2043 12:00:00 GMT;path=/";
+      this.setState({
+        language: "ja-jp"
+      });
+    });
+
+    this.state = {
+      theme: checkThemeCookie(),
+      language: checkLanguageCookie()
+    };
+  }
+
+  render() {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["BrowserRouter"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Switch"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
+      exact: true,
+      path: "/"
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_pages_index_jsx__WEBPACK_IMPORTED_MODULE_3__["default"], {
+      language: this.state.language,
+      theme: this.state.theme,
+      toDarkTheme: this.toDarkTheme,
+      toLightTheme: this.toLightTheme,
+      toZH_CN: this.toZH_CN,
+      toEN_US: this.toEN_US,
+      toJA_JP: this.toJA_JP
+    })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
+      path: "/*"
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_pages_templatePage_jsx__WEBPACK_IMPORTED_MODULE_5__["default"], {
+      language: this.state.language,
+      theme: this.state.theme,
+      toDarkTheme: this.toDarkTheme,
+      toLightTheme: this.toLightTheme,
+      toZH_CN: this.toZH_CN,
+      toEN_US: this.toEN_US,
+      toJA_JP: this.toJA_JP
+    })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
+      path: "/404"
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_pages_404_jsx__WEBPACK_IMPORTED_MODULE_4__["default"], null))));
+  }
+
+}
+
+react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render(
+/*#__PURE__*/
+
+/* <Router>
+    <Switch>
+        <Route exact path="/">
+            <Index language="zh-cn" />
+        </Route>
+        <Route exact path="/zh-cn">
+            <Index language="zh-cn" />
+        </Route>
+        <Route path="/zh-cn/*">
+            <TemplatePage language="zh-cn" />
+        </Route>
+        <Route exact path="/ja-jp">
+            <Index language="ja-jp"/>
+        </Route>
+        <Route path="/ja-jp/*">
+            <TemplatePage language="ja-jp" />
+        </Route>
+        <Route exact path="/en-us/">
+            <Index language="en-us"/>
+        </Route>
+        <Route path="/en-us/*">
+            <TemplatePage language="en-us" />
+        </Route>
+        <Route path="/404">
+            <_404 />
+        </Route>
+    </Switch>
+</Router>,
+*/
+react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(App, null), document.getElementById("react-root"));
 
 /***/ }),
 
@@ -5248,7 +5364,10 @@ class Template extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       language: this.props.language,
       theme: this.props.theme,
       toDarkTheme: this.props.toDarkTheme,
-      toLightTheme: this.props.toLightTheme
+      toLightTheme: this.props.toLightTheme,
+      toZH_CN: this.props.toZH_CN,
+      toEN_US: this.props.toEN_US,
+      toJA_JP: this.props.toJA_JP
     }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_MainTemplate_jsx__WEBPACK_IMPORTED_MODULE_2__["default"], {
       theme: this.props.theme
     }, this.props.children), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Footer_jsx__WEBPACK_IMPORTED_MODULE_3__["default"], {
@@ -5414,7 +5533,7 @@ class ChangeTheme extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component
       onMouseLeave: this.props.onMouseLeave
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: this.props.tag + "-contents"
-    }, this.props.content.name), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_basic_jsx__WEBPACK_IMPORTED_MODULE_2__["ChangeThemeDropdown"], {
+    }, this.props.content.name), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_basic_jsx__WEBPACK_IMPORTED_MODULE_2__["ChangeAttrDropdown"], {
       listInfo: this.props.content.listInfo
     }));
   }
@@ -5441,7 +5560,7 @@ class Language extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
     }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
       d: " M12.87 15.07l-2.54-2.51.03-.03c1.74-1.94 2.98-4.17 3.71-6.53H17V4h-7V2H8v2H1v1.99h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12zm-2.62 7l1.62-4.33L19.12 17h-3.24z",
       fill: this.props.content.color
-    }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_basic_jsx__WEBPACK_IMPORTED_MODULE_2__["DropdownMenu"], {
+    }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_basic_jsx__WEBPACK_IMPORTED_MODULE_2__["ChangeAttrDropdown"], {
       listInfo: this.props.content.listInfo
     }));
   }
@@ -5760,7 +5879,7 @@ class TopBar extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
         logo: {
           key: 0,
           tag: "logo",
-          href: "/zh-cn",
+          href: "/",
           img: "../../images/logo.jpg",
           name: "ArkMelon"
         },
@@ -5772,35 +5891,35 @@ class TopBar extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
             data: [{
               key: 0,
               title: "干员",
-              href: "/zh-cn/operators"
+              href: "/operators"
             }, {
               key: 1,
               title: "敌人",
-              href: "/zh-cn/enemies"
+              href: "/enemies"
             }, {
               key: 2,
               title: "服装",
-              href: "/zh-cn/clothes"
+              href: "/clothes"
             }, {
               key: 3,
               title: "地图",
-              href: "/zh-cn/maps"
+              href: "/maps"
             }, {
               key: 4,
               title: "家具",
-              href: "/zh-cn/themes"
+              href: "/themes"
             }, {
               key: 5,
               title: "活动",
-              href: "/zh-cn/events"
+              href: "/events"
             }, {
               key: 6,
               title: "卡池",
-              href: "/zh-cn/pools"
+              href: "/pools"
             }, {
               key: 7,
               title: "道具",
-              href: "/zh-cn/items"
+              href: "/items"
             }]
           }
         }, {
@@ -5811,15 +5930,15 @@ class TopBar extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
             data: [{
               key: 0,
               title: "干员升级",
-              href: "/zh-cn/levelUp"
+              href: "/levelUp"
             }, {
               key: 1,
               title: "刷图规划",
-              href: "/zh-cn/planner"
+              href: "/planner"
             }, {
               key: 2,
               title: "合成计算",
-              href: "/zh-cn/conversion"
+              href: "/conversion"
             }]
           }
         }, {
@@ -5874,15 +5993,15 @@ class TopBar extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
             data: [{
               key: 0,
               title: "中文",
-              href: "/zh-cn"
+              func: this.props.toZH_CN
             }, {
               key: 1,
               title: "English",
-              href: "/en-us"
+              func: this.props.toEN_US
             }, {
               key: 2,
               title: "日本語",
-              href: "/ja-jp"
+              func: this.props.toJA_JP
             }]
           }
         }, {
@@ -5897,7 +6016,7 @@ class TopBar extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
         logo: {
           key: 0,
           tag: "logo",
-          href: "/ja-jp",
+          href: "/",
           img: "../../images/logo.jpg",
           name: "ArkMelon"
         },
@@ -5909,35 +6028,35 @@ class TopBar extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
             data: [{
               key: 0,
               title: "オペレーター",
-              href: "/ja-jp/operators"
+              href: "/operators"
             }, {
               key: 1,
               title: "敵",
-              href: "/ja-jp/enemies"
+              href: "/enemies"
             }, {
               key: 2,
               title: "服装",
-              href: "/ja-jp/clothes"
+              href: "/clothes"
             }, {
               key: 3,
               title: "地図",
-              href: "/ja-jp/maps"
+              href: "/maps"
             }, {
               key: 4,
               title: "家具",
-              href: "/ja-jp/themes"
+              href: "/themes"
             }, {
               key: 5,
               title: "イベント",
-              href: "/ja-jp/events"
+              href: "/events"
             }, {
               key: 6,
               title: "スカウト",
-              href: "/ja-jp/pools"
+              href: "/pools"
             }, {
               key: 7,
               title: "アイテム",
-              href: "/ja-jp/items"
+              href: "/items"
             }]
           }
         }, {
@@ -6011,15 +6130,15 @@ class TopBar extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
             data: [{
               key: 0,
               title: "中文",
-              href: "/zh-cn"
+              func: this.props.toZH_CN
             }, {
               key: 1,
               title: "English",
-              href: "/en-us"
+              func: this.props.toEN_US
             }, {
               key: 2,
               title: "日本語",
-              href: "/ja-jp"
+              func: this.props.toJA_JP
             }]
           }
         }, {
@@ -6034,7 +6153,7 @@ class TopBar extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
         logo: {
           key: 0,
           tag: "logo",
-          href: "/en-us",
+          href: "/",
           img: "../../images/logo.jpg",
           name: "ArkMelon"
         },
@@ -6046,35 +6165,35 @@ class TopBar extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
             data: [{
               key: 0,
               title: "Operators",
-              href: "/en-us/operators"
+              href: "/operators"
             }, {
               key: 1,
               title: "Enemies",
-              href: "/en-us/enemies"
+              href: "/enemies"
             }, {
               key: 2,
               title: "Clothes",
-              href: "/en-us/clothes"
+              href: "/clothes"
             }, {
               key: 3,
               title: "Stages",
-              href: "/en-us/maps"
+              href: "/maps"
             }, {
               key: 4,
               title: "Themes",
-              href: "/en-us/themes"
+              href: "/themes"
             }, {
               key: 5,
               title: "Events",
-              href: "/en-us/events"
+              href: "/events"
             }, {
               key: 6,
               title: "Scouts",
-              href: "/en-us/pools"
+              href: "/pools"
             }, {
               key: 7,
               title: "Items",
-              href: "/en-us/items"
+              href: "/items"
             }]
           }
         }, {
@@ -6148,15 +6267,15 @@ class TopBar extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
             data: [{
               key: 0,
               title: "中文",
-              href: "/zh-cn"
+              func: this.props.toZH_CN
             }, {
               key: 1,
               title: "English",
-              href: "/en-us"
+              func: this.props.toEN_US
             }, {
               key: 2,
               title: "日本語",
-              href: "/ja-jp"
+              func: this.props.toJA_JP
             }]
           }
         }, {
@@ -6217,14 +6336,14 @@ class TopBar extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
 /*!******************************************!*\
   !*** ./src/scripts/components/basic.jsx ***!
   \******************************************/
-/*! exports provided: ImgA, DropdownMenu, ChangeThemeDropdown, Title, MainContents */
+/*! exports provided: ImgA, DropdownMenu, ChangeAttrDropdown, Title, MainContents */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ImgA", function() { return ImgA; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DropdownMenu", function() { return DropdownMenu; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ChangeThemeDropdown", function() { return ChangeThemeDropdown; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ChangeAttrDropdown", function() { return ChangeAttrDropdown; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Title", function() { return Title; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MainContents", function() { return MainContents; });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
@@ -6264,7 +6383,7 @@ class DropdownMenu extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Componen
 
 }
 
-class ChangeThemeDropdown extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+class ChangeAttrDropdown extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
   render() {
     const tmp = this.props.listInfo.data;
     const listItems = tmp.map(x => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -6420,8 +6539,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _sass_index_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../sass/index.scss */ "./src/sass/index.scss");
 /* harmony import */ var _sass_index_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_sass_index_scss__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _components_Template_jsx__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Template.jsx */ "./src/scripts/components/Template.jsx");
-function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-
 
 
 
@@ -6430,23 +6547,7 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 class Index extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
   constructor(props) {
     super(props);
-
-    _defineProperty(this, "toDarkTheme", () => {
-      console.log("to-dark");
-      this.setState({
-        theme: "dark-theme"
-      });
-    });
-
-    _defineProperty(this, "toLightTheme", () => {
-      console.log("to-light");
-      this.setState({
-        theme: "light-theme"
-      });
-    });
-
     this.state = {
-      theme: "light-theme",
       zh_cn: {
         contents: {
           main: {
@@ -6683,18 +6784,21 @@ class Index extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
 
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Template_jsx__WEBPACK_IMPORTED_MODULE_3__["default"], {
       language: this.props.language,
-      theme: this.state.theme,
-      toDarkTheme: this.toDarkTheme,
-      toLightTheme: this.toLightTheme
+      theme: this.props.theme,
+      toDarkTheme: this.props.toDarkTheme,
+      toLightTheme: this.props.toLightTheme,
+      toZH_CN: this.props.toZH_CN,
+      toEN_US: this.props.toEN_US,
+      toJA_JP: this.props.toJA_JP
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: `main-container ${this.state.theme}`
+      className: `main-container ${this.props.theme}`
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_basic_jsx__WEBPACK_IMPORTED_MODULE_1__["Title"], {
       className: "main-top",
       content: language.title,
-      theme: this.state.theme
+      theme: this.props.theme
     }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_basic_jsx__WEBPACK_IMPORTED_MODULE_1__["MainContents"], {
       contents: language.contents,
-      theme: this.state.theme
+      theme: this.props.theme
     }), this.props.children));
   }
 
@@ -6718,41 +6822,20 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _sass_templatePage_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../sass/templatePage.scss */ "./src/sass/templatePage.scss");
 /* harmony import */ var _sass_templatePage_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_sass_templatePage_scss__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _components_Template_jsx__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Template.jsx */ "./src/scripts/components/Template.jsx");
-function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-
 
 
 
 
 class TemplatePage extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
-  constructor(props) {
-    super(props);
-
-    _defineProperty(this, "toDarkTheme", () => {
-      console.log("to-dark");
-      this.setState({
-        theme: "dark-theme"
-      });
-    });
-
-    _defineProperty(this, "toLightTheme", () => {
-      console.log("to-light");
-      this.setState({
-        theme: "light-theme"
-      });
-    });
-
-    this.state = {
-      theme: "light-theme"
-    };
-  }
-
   render() {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Template_jsx__WEBPACK_IMPORTED_MODULE_2__["default"], {
       language: this.props.language,
-      theme: this.state.theme,
-      toDarkTheme: this.toDarkTheme,
-      toLightTheme: this.toLightTheme
+      theme: this.props.theme,
+      toDarkTheme: this.props.toDarkTheme,
+      toLightTheme: this.props.toLightTheme,
+      toZH_CN: this.props.toZH_CN,
+      toEN_US: this.props.toEN_US,
+      toJA_JP: this.props.toJA_JP
     });
   }
 

@@ -12,6 +12,15 @@
   <component name="ChangeListManager">
     <list default="true" id="607eec3e-89c1-47af-9f10-8be80260d6f9" name="Default Changelist" comment="add changes.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dist/app.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/dist/app.bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dist/app.bundle.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/dist/app.bundle.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scripts/app.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/app.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scripts/components/Template.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/components/Template.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scripts/components/TopBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/components/TopBar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scripts/components/basic.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/components/basic.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scripts/pages/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/pages/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scripts/pages/templatePage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/pages/templatePage.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,13 +70,14 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.data.extractors.current.id" value="Comma-separated (CSV)_id" />
-    <property name="javascript.nodejs.core.library.configured.version" value="12.16.3" />
+    <property name="javascript.nodejs.core.library.configured.version" value="12.18.3" />
+    <property name="javascript.nodejs.core.library.typings.version" value="12.12.54" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -83,7 +93,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.server">
+  <component name="RunManager" selected="npm.watch">
     <configuration name="server" type="js.build_tools.npm" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -109,6 +119,7 @@
       <item itemvalue="npm.watch" />
     </list>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="project-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -164,13 +175,12 @@
       <workItem from="1593848312921" duration="613000" />
       <workItem from="1594017630397" duration="7341000" />
       <workItem from="1594083955569" duration="973000" />
-    </task>
-    <task id="LOCAL-00011" summary="divided components into much smaller parts.">
-      <created>1591439358533</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1591439358533</updated>
+      <workItem from="1594109451762" duration="2466000" />
+      <workItem from="1594159276922" duration="2531000" />
+      <workItem from="1597563696302" duration="140000" />
+      <workItem from="1597563838870" duration="40000" />
+      <workItem from="1597563880476" duration="1428000" />
+      <workItem from="1597641780704" duration="11054000" />
     </task>
     <task id="LOCAL-00012" summary="add changes.">
       <created>1591439373359</created>
@@ -508,11 +518,18 @@
       <option name="project" value="LOCAL" />
       <updated>1594058057853</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="add changes.">
+      <created>1594109654007</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1594109654008</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -572,22 +589,26 @@
       <screen x="0" y="23" width="1680" height="981" />
     </state>
     <state width="251" height="195" key="DatabaseViewActions_Filter/0.23.1680.981@0.23.1680.981" timestamp="1589966524504" />
-    <state width="929" height="186" key="GridCell.Tab.0.bottom" timestamp="1594085221226">
-      <screen x="0" y="23" width="1680" height="981" />
+    <state width="1044" height="204" key="GridCell.Tab.0.bottom" timestamp="1597662958908">
+      <screen x="0" y="23" width="1680" height="970" />
     </state>
-    <state width="929" height="186" key="GridCell.Tab.0.bottom/0.23.1680.981@0.23.1680.981" timestamp="1594085221226" />
-    <state width="929" height="186" key="GridCell.Tab.0.center" timestamp="1594085221225">
-      <screen x="0" y="23" width="1680" height="981" />
+    <state width="1044" height="204" key="GridCell.Tab.0.bottom/0.23.1680.970@0.23.1680.970" timestamp="1597662958908" />
+    <state width="929" height="186" key="GridCell.Tab.0.bottom/0.23.1680.981@0.23.1680.981" timestamp="1594215132334" />
+    <state width="1044" height="204" key="GridCell.Tab.0.center" timestamp="1597662958905">
+      <screen x="0" y="23" width="1680" height="970" />
     </state>
-    <state width="929" height="186" key="GridCell.Tab.0.center/0.23.1680.981@0.23.1680.981" timestamp="1594085221225" />
-    <state width="929" height="186" key="GridCell.Tab.0.left" timestamp="1594085221224">
-      <screen x="0" y="23" width="1680" height="981" />
+    <state width="1044" height="204" key="GridCell.Tab.0.center/0.23.1680.970@0.23.1680.970" timestamp="1597662958905" />
+    <state width="929" height="186" key="GridCell.Tab.0.center/0.23.1680.981@0.23.1680.981" timestamp="1594215132332" />
+    <state width="1044" height="204" key="GridCell.Tab.0.left" timestamp="1597662958903">
+      <screen x="0" y="23" width="1680" height="970" />
     </state>
-    <state width="929" height="186" key="GridCell.Tab.0.left/0.23.1680.981@0.23.1680.981" timestamp="1594085221224" />
-    <state width="929" height="186" key="GridCell.Tab.0.right" timestamp="1594085221225">
-      <screen x="0" y="23" width="1680" height="981" />
+    <state width="1044" height="204" key="GridCell.Tab.0.left/0.23.1680.970@0.23.1680.970" timestamp="1597662958903" />
+    <state width="929" height="186" key="GridCell.Tab.0.left/0.23.1680.981@0.23.1680.981" timestamp="1594215132323" />
+    <state width="1044" height="204" key="GridCell.Tab.0.right" timestamp="1597662958906">
+      <screen x="0" y="23" width="1680" height="970" />
     </state>
-    <state width="929" height="186" key="GridCell.Tab.0.right/0.23.1680.981@0.23.1680.981" timestamp="1594085221225" />
+    <state width="1044" height="204" key="GridCell.Tab.0.right/0.23.1680.970@0.23.1680.970" timestamp="1597662958906" />
+    <state width="929" height="186" key="GridCell.Tab.0.right/0.23.1680.981@0.23.1680.981" timestamp="1594215132333" />
     <state width="952" height="235" key="GridCell.Tab.1.bottom" timestamp="1590830953179">
       <screen x="0" y="23" width="1680" height="981" />
     </state>
@@ -644,18 +665,20 @@
       <screen x="0" y="23" width="1680" height="981" />
     </state>
     <state x="286" y="91" key="RollbackChangesDialog/0.23.1680.981@0.23.1680.981" timestamp="1593760995144" />
-    <state x="352" y="125" key="SettingsEditor" timestamp="1592389591364">
-      <screen x="0" y="23" width="1680" height="981" />
+    <state x="299" y="144" key="SettingsEditor" timestamp="1597641816939">
+      <screen x="0" y="23" width="1680" height="970" />
     </state>
+    <state x="299" y="144" key="SettingsEditor/0.23.1680.970@0.23.1680.970" timestamp="1597641816939" />
     <state x="352" y="125" key="SettingsEditor/0.23.1680.981@0.23.1680.981" timestamp="1592389591364" />
     <state x="961" y="367" key="VCS.EditChangelistDialog" timestamp="1591165011540">
       <screen x="0" y="23" width="1680" height="981" />
     </state>
     <state x="961" y="367" key="VCS.EditChangelistDialog/0.23.1680.981@0.23.1680.981" timestamp="1591165011540" />
-    <state x="742" y="189" key="Vcs.Push.Dialog.v2" timestamp="1594058098116">
-      <screen x="0" y="23" width="1680" height="981" />
+    <state x="742" y="187" key="Vcs.Push.Dialog.v2" timestamp="1597653725008">
+      <screen x="0" y="23" width="1680" height="970" />
     </state>
-    <state x="742" y="189" key="Vcs.Push.Dialog.v2/0.23.1680.981@0.23.1680.981" timestamp="1594058098116" />
+    <state x="742" y="187" key="Vcs.Push.Dialog.v2/0.23.1680.970@0.23.1680.970" timestamp="1597653725008" />
+    <state x="742" y="189" key="Vcs.Push.Dialog.v2/0.23.1680.981@0.23.1680.981" timestamp="1594109673979" />
     <state x="1017" y="424" width="341" height="221" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1590088369813">
       <screen x="0" y="23" width="1680" height="981" />
     </state>
