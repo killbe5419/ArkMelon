@@ -161,42 +161,6 @@ function _objectWithoutPropertiesLoose(source, excluded) {
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/sass/404.scss":
-/*!********************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/sass/404.scss ***!
-  \********************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-// Imports
-var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
-exports = ___CSS_LOADER_API_IMPORT___(false);
-// Module
-exports.push([module.i, "", ""]);
-// Exports
-module.exports = exports;
-
-
-/***/ }),
-
-/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/sass/index.scss":
-/*!**********************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/sass/index.scss ***!
-  \**********************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-// Imports
-var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
-exports = ___CSS_LOADER_API_IMPORT___(false);
-// Module
-exports.push([module.i, ":root {\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n  font-style: normal;\n  -webkit-font-smoothing: antialiased;\n}\n\n* input {\n  outline: none;\n  background: none;\n  border: none;\n}\n* button {\n  outline: none;\n  cursor: pointer;\n}\n* li {\n  list-style: none;\n}\n* a {\n  text-decoration: none;\n  cursor: pointer;\n}\n\n.main-container {\n  display: flex;\n  flex-direction: column;\n  width: 70%;\n  height: 100%;\n  margin: auto;\n}\n.main-container.dark-theme * {\n  color: #fff;\n}\n.main-container.dark-theme .title-name {\n  color: #f08080;\n}\n.main-container.light-theme * {\n  color: #333;\n}\n.main-container.light-theme .title-name {\n  color: #f08080;\n}\n\n.main-top {\n  display: flex;\n  width: 100%;\n  height: 300px;\n}\n\n.title {\n  display: flex;\n  flex-direction: column;\n  margin: auto;\n  height: 100%;\n}\n\n.title-name {\n  font-size: 50px;\n  font-weight: 700;\n  margin: 40px 0 20px 0;\n}\n\n.title-description {\n  font-size: 20px;\n  font-weight: 500;\n}\n\n.main-contents {\n  display: flex;\n  flex-direction: column;\n  width: 100%;\n  min-height: 800px;\n}\n.main-contents div p {\n  border-bottom: currentColor 2px solid;\n  font-weight: 500;\n}\n\n.news-containers {\n  display: flex;\n  flex-direction: column;\n  margin-bottom: 30px;\n}\n\n.new-contents-v {\n  display: flex;\n  flex-direction: column;\n  width: 80%;\n}\n.new-contents-v img {\n  width: 100%;\n  margin: 20px 10% 20px 10%;\n}\n\n.new-contents-h {\n  display: flex;\n}\n.new-contents-h img {\n  width: 100px;\n  height: 100px;\n  margin: 0 20px 0 20px;\n}", ""]);
-// Exports
-module.exports = exports;
-
-
-/***/ }),
-
 /***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/sass/modules/footer.scss":
 /*!*******************************************************************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/sass/modules/footer.scss ***!
@@ -251,15 +215,69 @@ module.exports = exports;
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/sass/templatePage.scss":
-/*!*****************************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/sass/templatePage.scss ***!
-  \*****************************************************************************************************************/
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/sass/pages/404.scss":
+/*!**************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/sass/pages/404.scss ***!
+  \**************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 // Imports
-var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+// Module
+exports.push([module.i, "", ""]);
+// Exports
+module.exports = exports;
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/sass/pages/index.scss":
+/*!****************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/sass/pages/index.scss ***!
+  \****************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+// Module
+exports.push([module.i, ":root {\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n  font-style: normal;\n  -webkit-font-smoothing: antialiased;\n}\n\n* input {\n  outline: none;\n  background: none;\n  border: none;\n}\n* button {\n  outline: none;\n  cursor: pointer;\n}\n* li {\n  list-style: none;\n}\n* a {\n  text-decoration: none;\n  cursor: pointer;\n}\n\n.main-container {\n  display: flex;\n  flex-direction: column;\n  width: 70%;\n  height: 100%;\n  margin: auto;\n}\n.main-container.dark-theme * {\n  color: #fff;\n}\n.main-container.dark-theme .title-name {\n  color: #f08080;\n}\n.main-container.light-theme * {\n  color: #333;\n}\n.main-container.light-theme .title-name {\n  color: #f08080;\n}\n\n.main-top {\n  display: flex;\n  width: 100%;\n  height: 300px;\n}\n\n.title {\n  display: flex;\n  flex-direction: column;\n  margin: auto;\n  height: 100%;\n}\n\n.title-name {\n  font-size: 50px;\n  font-weight: 700;\n  margin: 40px 0 20px 0;\n}\n\n.title-description {\n  font-size: 20px;\n  font-weight: 500;\n}\n\n.main-contents {\n  display: flex;\n  flex-direction: column;\n  width: 100%;\n  min-height: 800px;\n}\n.main-contents div p {\n  border-bottom: currentColor 2px solid;\n  font-weight: 500;\n}\n\n.news-containers {\n  display: flex;\n  flex-direction: column;\n  margin-bottom: 30px;\n}\n\n.new-contents-v {\n  display: flex;\n  flex-direction: column;\n  width: 80%;\n}\n.new-contents-v img {\n  width: 100%;\n  margin: 20px 10% 20px 10%;\n}\n\n.new-contents-h {\n  display: flex;\n}\n.new-contents-h img {\n  width: 100px;\n  height: 100px;\n  margin: 0 20px 0 20px;\n}", ""]);
+// Exports
+module.exports = exports;
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/sass/pages/pools.scss":
+/*!****************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/sass/pages/pools.scss ***!
+  \****************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+// Module
+exports.push([module.i, ":root {\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n  font-style: normal;\n  -webkit-font-smoothing: antialiased;\n}\n\n* input {\n  outline: none;\n  background: none;\n  border: none;\n}\n* button {\n  outline: none;\n  cursor: pointer;\n}\n* li {\n  list-style: none;\n}\n* a {\n  text-decoration: none;\n  cursor: pointer;\n}\n\n.main-container {\n  display: flex;\n  flex-direction: column;\n  width: 70%;\n  height: 100%;\n  margin: auto;\n}\n.main-container.dark-theme * {\n  color: #fff;\n}\n.main-container.dark-theme .title-name {\n  color: #f08080;\n}\n.main-container.light-theme * {\n  color: #333;\n}\n.main-container.light-theme .title-name {\n  color: #f08080;\n}\n\n.main-top {\n  display: flex;\n  width: 100%;\n  height: 300px;\n}\n\n.title {\n  display: flex;\n  flex-direction: column;\n  margin: auto;\n  height: 100%;\n}\n\n.title-name {\n  font-size: 50px;\n  font-weight: 700;\n  margin: 40px 0 20px 0;\n}\n\n.title-description {\n  font-size: 20px;\n  font-weight: 500;\n}\n\n.main-contents {\n  display: flex;\n  flex-direction: column;\n  width: 100%;\n  min-height: 800px;\n}\n.main-contents div p {\n  border-bottom: currentColor 2px solid;\n  font-weight: 500;\n}\n\n.news-containers {\n  display: flex;\n  flex-direction: column;\n  margin-bottom: 30px;\n}\n\n.new-contents-v {\n  display: flex;\n  flex-direction: column;\n  width: 80%;\n}\n.new-contents-v img {\n  width: 100%;\n  margin: 20px 10% 20px 10%;\n}\n\n.new-contents-h {\n  display: flex;\n}\n.new-contents-h img {\n  width: 100px;\n  height: 100px;\n  margin: 0 20px 0 20px;\n}", ""]);
+// Exports
+module.exports = exports;
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/sass/pages/templatePage.scss":
+/*!***********************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/sass/pages/templatePage.scss ***!
+  \***********************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
 exports.push([module.i, ":root {\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n  font-style: normal;\n  -webkit-font-smoothing: antialiased;\n}\n\n* input {\n  outline: none;\n  background: none;\n  border: none;\n}\n* button {\n  outline: none;\n  cursor: pointer;\n}\n* li {\n  list-style: none;\n}\n* a {\n  text-decoration: none;\n  cursor: pointer;\n}\n\n.main-container {\n  display: flex;\n  flex-direction: column;\n  width: 70%;\n  height: 100%;\n  margin: auto;\n}\n.main-container.dark-theme * {\n  color: #fff;\n}\n.main-container.dark-theme .title-name {\n  color: #f08080;\n}\n.main-container.light-theme * {\n  color: #333;\n}\n.main-container.light-theme .title-name {\n  color: #f08080;\n}", ""]);
@@ -4855,64 +4873,6 @@ module.exports = g;
 
 /***/ }),
 
-/***/ "./src/sass/404.scss":
-/*!***************************!*\
-  !*** ./src/sass/404.scss ***!
-  \***************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var api = __webpack_require__(/*! ../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
-            var content = __webpack_require__(/*! !../../node_modules/css-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!./404.scss */ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/sass/404.scss");
-
-            content = content.__esModule ? content.default : content;
-
-            if (typeof content === 'string') {
-              content = [[module.i, content, '']];
-            }
-
-var options = {};
-
-options.insert = "head";
-options.singleton = false;
-
-var update = api(content, options);
-
-
-
-module.exports = content.locals || {};
-
-/***/ }),
-
-/***/ "./src/sass/index.scss":
-/*!*****************************!*\
-  !*** ./src/sass/index.scss ***!
-  \*****************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var api = __webpack_require__(/*! ../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
-            var content = __webpack_require__(/*! !../../node_modules/css-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!./index.scss */ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/sass/index.scss");
-
-            content = content.__esModule ? content.default : content;
-
-            if (typeof content === 'string') {
-              content = [[module.i, content, '']];
-            }
-
-var options = {};
-
-options.insert = "head";
-options.singleton = false;
-
-var update = api(content, options);
-
-
-
-module.exports = content.locals || {};
-
-/***/ }),
-
 /***/ "./src/sass/modules/footer.scss":
 /*!**************************************!*\
   !*** ./src/sass/modules/footer.scss ***!
@@ -5000,15 +4960,102 @@ module.exports = content.locals || {};
 
 /***/ }),
 
-/***/ "./src/sass/templatePage.scss":
-/*!************************************!*\
-  !*** ./src/sass/templatePage.scss ***!
-  \************************************/
+/***/ "./src/sass/pages/404.scss":
+/*!*********************************!*\
+  !*** ./src/sass/pages/404.scss ***!
+  \*********************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var api = __webpack_require__(/*! ../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
-            var content = __webpack_require__(/*! !../../node_modules/css-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!./templatePage.scss */ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/sass/templatePage.scss");
+var api = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+            var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js!../../../node_modules/sass-loader/dist/cjs.js!./404.scss */ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/sass/pages/404.scss");
+
+            content = content.__esModule ? content.default : content;
+
+            if (typeof content === 'string') {
+              content = [[module.i, content, '']];
+            }
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = api(content, options);
+
+
+
+module.exports = content.locals || {};
+
+/***/ }),
+
+/***/ "./src/sass/pages/index.scss":
+/*!***********************************!*\
+  !*** ./src/sass/pages/index.scss ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var api = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+            var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js!../../../node_modules/sass-loader/dist/cjs.js!./index.scss */ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/sass/pages/index.scss");
+
+            content = content.__esModule ? content.default : content;
+
+            if (typeof content === 'string') {
+              content = [[module.i, content, '']];
+            }
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = api(content, options);
+
+
+
+module.exports = content.locals || {};
+
+/***/ }),
+
+/***/ "./src/sass/pages/pools.scss":
+/*!***********************************!*\
+  !*** ./src/sass/pages/pools.scss ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var api = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+            var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js!../../../node_modules/sass-loader/dist/cjs.js!./pools.scss */ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/sass/pages/pools.scss");
+
+            content = content.__esModule ? content.default : content;
+
+            if (typeof content === 'string') {
+              content = [[module.i, content, '']];
+            }
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = api(content, options);
+
+
+
+module.exports = content.locals || {};
+
+/***/ }),
+
+/***/ "./src/sass/pages/templatePage.scss":
+/*!******************************************!*\
+  !*** ./src/sass/pages/templatePage.scss ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var api = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+            var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js!../../../node_modules/sass-loader/dist/cjs.js!./templatePage.scss */ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/sass/pages/templatePage.scss");
 
             content = content.__esModule ? content.default : content;
 
@@ -5046,7 +5093,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _pages_index_jsx__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./pages/index.jsx */ "./src/scripts/pages/index.jsx");
 /* harmony import */ var _pages_404_jsx__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./pages/404.jsx */ "./src/scripts/pages/404.jsx");
 /* harmony import */ var _pages_templatePage_jsx__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./pages/templatePage.jsx */ "./src/scripts/pages/templatePage.jsx");
+/* harmony import */ var _pages_RegularPool_jsx__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./pages/RegularPool.jsx */ "./src/scripts/pages/RegularPool.jsx");
+/* harmony import */ var _pages_eventPool_jsx__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./pages/eventPool.jsx */ "./src/scripts/pages/eventPool.jsx");
+/* harmony import */ var _pages_limitPool_jsx__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./pages/limitPool.jsx */ "./src/scripts/pages/limitPool.jsx");
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+
+
 
 
 
@@ -5146,6 +5199,39 @@ class App extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       exact: true,
       path: "/"
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_pages_index_jsx__WEBPACK_IMPORTED_MODULE_3__["default"], {
+      language: this.state.language,
+      theme: this.state.theme,
+      toDarkTheme: this.toDarkTheme,
+      toLightTheme: this.toLightTheme,
+      toZH_CN: this.toZH_CN,
+      toEN_US: this.toEN_US,
+      toJA_JP: this.toJA_JP
+    })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
+      exact: true,
+      path: "/regularPool"
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_pages_RegularPool_jsx__WEBPACK_IMPORTED_MODULE_6__["default"], {
+      language: this.state.language,
+      theme: this.state.theme,
+      toDarkTheme: this.toDarkTheme,
+      toLightTheme: this.toLightTheme,
+      toZH_CN: this.toZH_CN,
+      toEN_US: this.toEN_US,
+      toJA_JP: this.toJA_JP
+    })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
+      exact: true,
+      path: "/eventPool"
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_pages_eventPool_jsx__WEBPACK_IMPORTED_MODULE_7__["default"], {
+      language: this.state.language,
+      theme: this.state.theme,
+      toDarkTheme: this.toDarkTheme,
+      toLightTheme: this.toLightTheme,
+      toZH_CN: this.toZH_CN,
+      toEN_US: this.toEN_US,
+      toJA_JP: this.toJA_JP
+    })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
+      exact: true,
+      path: "/limitPool"
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_pages_limitPool_jsx__WEBPACK_IMPORTED_MODULE_8__["default"], {
       language: this.state.language,
       theme: this.state.theme,
       toDarkTheme: this.toDarkTheme,
@@ -5949,15 +6035,15 @@ class TopBar extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
             data: [{
               key: 0,
               title: "常驻卡池",
-              href: "/zh-cn/permanentPool"
+              href: "/regularPool"
             }, {
               key: 1,
               title: "限定卡池",
-              href: "/zh-cn/limitPool"
+              href: "/limitPool"
             }, {
               key: 2,
               title: "活动卡池",
-              href: "/zh-cn/eventPool"
+              href: "/eventPool"
             }]
           }
         }],
@@ -6067,15 +6153,15 @@ class TopBar extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
             data: [{
               key: 0,
               title: "オペレーター関連",
-              href: "/ja-jp/levelUp"
+              href: "/levelUp"
             }, {
               key: 1,
               title: "地図関連",
-              href: "/ja-jp/planner"
+              href: "/planner"
             }, {
               key: 2,
               title: "合成計算",
-              href: "/ja-jp/conversion"
+              href: "/conversion"
             }]
           }
         }, {
@@ -6086,15 +6172,15 @@ class TopBar extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
             data: [{
               key: 0,
               title: "常設",
-              href: "/ja-jp/permanentPool"
+              href: "/regularPool"
             }, {
               key: 1,
               title: "限定",
-              href: "/ja-jp/limitPool"
+              href: "/limitPool"
             }, {
               key: 2,
               title: "イベント",
-              href: "/ja-jp/eventPool"
+              href: "/eventPool"
             }]
           }
         }],
@@ -6204,15 +6290,15 @@ class TopBar extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
             data: [{
               key: 0,
               title: "Operators Data",
-              href: "/en-us/levelUp"
+              href: "/levelUp"
             }, {
               key: 1,
               title: "Stages Data",
-              href: "/en-us/planner"
+              href: "/planner"
             }, {
               key: 2,
               title: "Conversion",
-              href: "/en-us/conversion"
+              href: "/conversion"
             }]
           }
         }, {
@@ -6222,8 +6308,8 @@ class TopBar extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
             display: false,
             data: [{
               key: 0,
-              title: "Permanent Scout",
-              href: "/en-us/permanentPool"
+              title: "Regular Scout",
+              href: "/en-us/regularPool"
             }, {
               key: 1,
               title: "Limit",
@@ -6493,8 +6579,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_basic_jsx__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/basic.jsx */ "./src/scripts/components/basic.jsx");
-/* harmony import */ var _sass_404_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../sass/404.scss */ "./src/sass/404.scss");
-/* harmony import */ var _sass_404_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_sass_404_scss__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _sass_pages_404_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../sass/pages/404.scss */ "./src/sass/pages/404.scss");
+/* harmony import */ var _sass_pages_404_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_sass_pages_404_scss__WEBPACK_IMPORTED_MODULE_2__);
 
 
 
@@ -6524,6 +6610,652 @@ class _404 extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
 
 /***/ }),
 
+/***/ "./src/scripts/pages/RegularPool.jsx":
+/*!*******************************************!*\
+  !*** ./src/scripts/pages/RegularPool.jsx ***!
+  \*******************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_basic_jsx__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/basic.jsx */ "./src/scripts/components/basic.jsx");
+/* harmony import */ var _sass_pages_pools_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../sass/pages/pools.scss */ "./src/sass/pages/pools.scss");
+/* harmony import */ var _sass_pages_pools_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_sass_pages_pools_scss__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _components_Template_jsx__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Template.jsx */ "./src/scripts/components/Template.jsx");
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+
+
+
+
+
+class RegularPool extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+  constructor(props) {
+    super(props);
+
+    _defineProperty(this, "checkLanguage", () => {
+      if (this.props.language === "zh-cn") {
+        return this.state.zh_cn;
+      } else if (this.props.language === "ja-jp") {
+        return this.state.ja_jp;
+      } else if (this.props.language === "en-us") {
+        return this.state.en_us;
+      } else {
+        return this.state.zh_cn;
+      }
+    });
+
+    this.state = {
+      zh_cn: {
+        contents: [{
+          key: 35,
+          tag: "pool",
+          name: "常驻标准寻访35期 [ 2020/08/20 ~ 2020/09/03 ]",
+          data: [{
+            key: 0,
+            href: "/regularPool/35",
+            img: "../images/pools/regularPool/regular35.jpg"
+          }]
+        }, {
+          key: 34,
+          tag: "pool",
+          name: "常驻标准寻访34期 [ 2020/08/06 ~ 2020/08/20 ]",
+          data: [{
+            key: 0,
+            href: "/regularPool/34",
+            img: "../images/pools/regularPool/regular34.jpg"
+          }]
+        }, {
+          key: 33,
+          tag: "pool",
+          name: "常驻标准寻访33期 [ 2020/07/23 ~ 2020/08/06 ]",
+          data: [{
+            key: 0,
+            href: "/regularPool/33",
+            img: "../images/pools/regularPool/regular33.jpg"
+          }]
+        }, {
+          key: 32,
+          tag: "pool",
+          name: "常驻标准寻访32期 [ 2020/07/09 ~ 2020/07/23 ]",
+          data: [{
+            key: 0,
+            href: "/regularPool/32",
+            img: "../images/pools/regularPool/regular32.jpg"
+          }]
+        }, {
+          key: 31,
+          tag: "pool",
+          name: "常驻标准寻访31期 [ 2020/06/25 ~ 2020/07/09 ]",
+          data: [{
+            key: 0,
+            href: "/regularPool/31",
+            img: "../images/pools/regularPool/regular31.jpg"
+          }]
+        }, {
+          key: 30,
+          tag: "pool",
+          name: "常驻标准寻访30期 [ 2020/06/11 ~ 2020/06/25 ]",
+          data: [{
+            key: 0,
+            href: "/regularPool/30",
+            img: "../images/pools/regularPool/regular30.jpg"
+          }]
+        }, {
+          key: 29,
+          tag: "pool",
+          name: "常驻标准寻访29期 [ 2020/05/28 ~ 2020/06/11 ]",
+          data: [{
+            key: 0,
+            href: "/regularPool/29",
+            img: "../images/pools/regularPool/regular29.jpg"
+          }]
+        }, {
+          key: 28,
+          tag: "pool",
+          name: "常驻标准寻访28期 [ 2020/05/14 ~ 2020/05/28 ]",
+          data: [{
+            key: 0,
+            href: "/regularPool/28",
+            img: "../images/pools/regularPool/regular28.jpg"
+          }]
+        }, {
+          key: 27,
+          tag: "pool",
+          name: "常驻标准寻访27期 [ 2020/04/30 ~ 2020/05/14 ]",
+          data: [{
+            key: 0,
+            href: "/regularPool/27",
+            img: "../images/pools/regularPool/regular27.jpg"
+          }]
+        }, {
+          key: 26,
+          tag: "pool",
+          name: "常驻标准寻访26期 [ 2020/04/16 ~ 2020/04/30 ]",
+          data: [{
+            key: 0,
+            href: "/regularPool/26",
+            img: "../images/pools/regularPool/regular26.jpg"
+          }]
+        }, {
+          key: 25,
+          tag: "pool",
+          name: "常驻标准寻访25期 [ 2020/04/02 ~ 2020/04/16 ]",
+          data: [{
+            key: 0,
+            href: "/regularPool/25",
+            img: "../images/pools/regularPool/regular25.jpg"
+          }]
+        }, {
+          key: 24,
+          tag: "pool",
+          name: "常驻标准寻访24期 [ 2020/03/19 ~ 2020/04/02 ]",
+          data: [{
+            key: 0,
+            href: "/regularPool/24",
+            img: "../images/pools/regularPool/regular24.jpg"
+          }]
+        }, {
+          key: 23,
+          tag: "pool",
+          name: "常驻标准寻访23期 [ 2020/03/05 ~ 2020/03/19 ]",
+          data: [{
+            key: 0,
+            href: "/regularPool/23",
+            img: "../images/pools/regularPool/regular23.jpg"
+          }]
+        }, {
+          key: 22,
+          tag: "pool",
+          name: "常驻标准寻访22期 [ 2020/02/20 ~ 2020/03/05 ]",
+          data: [{
+            key: 0,
+            href: "/regularPool/22",
+            img: "../images/pools/regularPool/regular22.jpg"
+          }]
+        }, {
+          key: 21,
+          tag: "pool",
+          name: "常驻标准寻访21期 [ 2020/02/06 ~ 2020/02/20 ]",
+          data: [{
+            key: 0,
+            href: "/regularPool/21",
+            img: "../images/pools/regularPool/regular21.jpg"
+          }]
+        }, {
+          key: 20,
+          tag: "pool",
+          name: "常驻标准寻访20期 [ 2020/01/23 ~ 2020/02/06 ]",
+          data: [{
+            key: 0,
+            href: "/regularPool/20",
+            img: "../images/pools/regularPool/regular20.jpg"
+          }]
+        }, {
+          key: 19,
+          tag: "pool",
+          name: "常驻标准寻访19期 [ 2020/01/09 ~ 2020/01/23 ]",
+          data: [{
+            key: 0,
+            href: "/regularPool/19",
+            img: "../images/pools/regularPool/regular19.jpg"
+          }]
+        }, {
+          key: 18,
+          tag: "pool",
+          name: "常驻标准寻访18期 [ 2019/12/26 ~ 2020/01/09 ]",
+          data: [{
+            key: 0,
+            href: "/regularPool/18",
+            img: "../images/pools/regularPool/regular18.jpg"
+          }]
+        }, {
+          key: 17,
+          tag: "pool",
+          name: "常驻标准寻访17期 [ 2019/12/12 ~ 2020/12/26 ]",
+          data: [{
+            key: 0,
+            href: "/regularPool/17",
+            img: "../images/pools/regularPool/regular17.jpg"
+          }]
+        }, {
+          key: 16,
+          tag: "pool",
+          name: "常驻标准寻访16期 [ 2019/11/28 ~ 2019/12/12 ]",
+          data: [{
+            key: 0,
+            href: "/regularPool/16",
+            img: "../images/pools/regularPool/regular16.jpg"
+          }]
+        }, {
+          key: 15,
+          tag: "pool",
+          name: "常驻标准寻访15期 [ 2019/11/14 ~ 2019/11/28 ]",
+          data: [{
+            key: 0,
+            href: "/regularPool/15",
+            img: "../images/pools/regularPool/regular15.jpg"
+          }]
+        }, {
+          key: 0,
+          tag: "pool",
+          name: "常驻标准寻访14期 [ 2019/10/31 ~ 2019/11/14 ]",
+          data: [{
+            key: 0,
+            href: "/regularPool/14",
+            img: "../images/pools/regularPool/regular14.jpg"
+          }]
+        }, {
+          key: 13,
+          tag: "pool",
+          name: "常驻标准寻访13期 [ 2019/10/17 ~ 2019/10/31 ]",
+          data: [{
+            key: 0,
+            href: "/regularPool/13",
+            img: "../images/pools/regularPool/regular13.jpg"
+          }]
+        }, {
+          key: 12,
+          tag: "pool",
+          name: "常驻标准寻访12期 [ 2019/10/03 ~ 2019/10/17 ]",
+          data: [{
+            key: 0,
+            href: "/regularPool/12",
+            img: "../images/pools/regularPool/regular12.jpg"
+          }]
+        }, {
+          key: 11,
+          tag: "pool",
+          name: "常驻标准寻访11期 [ 2019/09/19 ~ 2019/10/03 ]",
+          data: [{
+            key: 0,
+            href: "/regularPool/11",
+            img: "../images/pools/regularPool/regular11.jpg"
+          }]
+        }, {
+          key: 10,
+          tag: "pool",
+          name: "常驻标准寻访10期 [ 2019/09/05 ~ 2019/09/19 ]",
+          data: [{
+            key: 0,
+            href: "/regularPool/10",
+            img: "../images/pools/regularPool/regular10.jpg"
+          }]
+        }, {
+          key: 9,
+          tag: "pool",
+          name: "常驻标准寻访09期 [ 2019/08/22 ~ 2019/09/05 ]",
+          data: [{
+            key: 0,
+            href: "/regularPool/09",
+            img: "../images/pools/regularPool/regular09.jpg"
+          }]
+        }, {
+          key: 8,
+          tag: "pool",
+          name: "常驻标准寻访08期 [ 2019/08/08 ~ 2019/08/22 ]",
+          data: [{
+            key: 0,
+            href: "/regularPool/08",
+            img: "../images/pools/regularPool/regular08.jpg"
+          }]
+        }, {
+          key: 7,
+          tag: "pool",
+          name: "常驻标准寻访07期 [ 2019/07/25 ~ 2019/08/08 ]",
+          data: [{
+            key: 0,
+            href: "/regularPool/07",
+            img: "../images/pools/regularPool/regular07.jpg"
+          }]
+        }, {
+          key: 6,
+          tag: "pool",
+          name: "常驻标准寻访06期 [ 2019/07/11 ~ 2019/07/25 ]",
+          data: [{
+            key: 0,
+            href: "/regularPool/06",
+            img: "../images/pools/regularPool/regular06.jpg"
+          }]
+        }, {
+          key: 5,
+          tag: "pool",
+          name: "常驻标准寻访05期 [ 2019/06/27 ~ 2019/07/11 ]",
+          data: [{
+            key: 0,
+            href: "/regularPool/05",
+            img: "../images/pools/regularPool/regular05.jpg"
+          }]
+        }, {
+          key: 4,
+          tag: "pool",
+          name: "常驻标准寻访04期 [ 2019/06/13 ~ 2019/06/27 ]",
+          data: [{
+            key: 0,
+            href: "/regularPool/04",
+            img: "../images/pools/regularPool/regular04.jpg"
+          }]
+        }, {
+          key: 3,
+          tag: "pool",
+          name: "常驻标准寻访03期 [ 2019/05/30 ~ 2019/06/13 ]",
+          data: [{
+            key: 0,
+            href: "/regularPool/03",
+            img: "../images/pools/regularPool/regular03.jpg"
+          }]
+        }, {
+          key: 2,
+          tag: "pool",
+          name: "常驻标准寻访02期 [ 2019/05/16 ~ 2019/05/30 ]",
+          data: [{
+            key: 0,
+            href: "/regularPool/02",
+            img: "../images/pools/regularPool/regular02.jpg"
+          }]
+        }, {
+          key: 1,
+          tag: "pool",
+          name: "常驻标准寻访01期 [ 2019/04/30 ~ 2019/05/16 ]",
+          data: [{
+            key: 0,
+            href: "/regularPool/01",
+            img: "../images/pools/regularPool/regular01.jpg"
+          }]
+        }]
+      },
+      ja_jp: {},
+      en_us: {}
+    };
+  }
+
+  render() {
+    let language = this.checkLanguage();
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Template_jsx__WEBPACK_IMPORTED_MODULE_3__["default"], {
+      language: this.props.language,
+      theme: this.props.theme,
+      toDarkTheme: this.props.toDarkTheme,
+      toLightTheme: this.props.toLightTheme,
+      toZH_CN: this.props.toZH_CN,
+      toEN_US: this.props.toEN_US,
+      toJA_JP: this.props.toJA_JP
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: `main-container ${this.props.theme}`
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_basic_jsx__WEBPACK_IMPORTED_MODULE_1__["MainContents"], {
+      contents: language.contents,
+      theme: this.props.theme
+    })));
+  }
+
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (RegularPool);
+
+/***/ }),
+
+/***/ "./src/scripts/pages/eventPool.jsx":
+/*!*****************************************!*\
+  !*** ./src/scripts/pages/eventPool.jsx ***!
+  \*****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_basic_jsx__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/basic.jsx */ "./src/scripts/components/basic.jsx");
+/* harmony import */ var _sass_pages_pools_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../sass/pages/pools.scss */ "./src/sass/pages/pools.scss");
+/* harmony import */ var _sass_pages_pools_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_sass_pages_pools_scss__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _components_Template_jsx__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Template.jsx */ "./src/scripts/components/Template.jsx");
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+
+
+
+
+
+class EventPool extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+  constructor(props) {
+    super(props);
+
+    _defineProperty(this, "checkLanguage", () => {
+      if (this.props.language === "zh-cn") {
+        return this.state.zh_cn;
+      } else if (this.props.language === "ja-jp") {
+        return this.state.ja_jp;
+      } else if (this.props.language === "en-us") {
+        return this.state.en_us;
+      } else {
+        return this.state.zh_cn;
+      }
+    });
+
+    this.state = {
+      zh_cn: {
+        contents: [{
+          key: 21,
+          tag: "pool",
+          name: "不羁逆流 [ 2020/08/11 ~ 2020/08/25 ] ",
+          data: [{
+            key: 0,
+            href: "/eventPool/unbound_reflux",
+            img: "../images/pools/eventPool/21不羁逆流.jpg"
+          }]
+        }, {
+          key: 20,
+          tag: "pool",
+          name: "流沙涡旋 [2020/07/28 ~ 2020/08/11] ",
+          data: [{
+            key: 0,
+            href: "/eventPool/spiral_sinking",
+            img: "../images/pools/eventPool/20流沙涡旋.jpg"
+          }]
+        }, {
+          key: 19,
+          tag: "pool",
+          name: "君影轻灵 [2020/07/09 ~ 2020/07/23] ",
+          data: [{
+            key: 0,
+            href: "/eventPool/lisa_of_the_valley",
+            img: "../images/pools/eventPool/19君影轻灵.jpg"
+          }]
+        }, {
+          key: 18,
+          tag: "pool",
+          name: "雪落晨心 [2020/06/18 ~ 2020/07/02] ",
+          data: [{
+            key: 0,
+            href: "/eventPool/snowfall_утро",
+            img: "../images/pools/eventPool/18雪落晨心.jpg"
+          }]
+        }, {
+          key: 17,
+          tag: "pool",
+          name: "雾漫荒林 [2020/06/02 ~ 2020/06/16] ",
+          data: [{
+            key: 0,
+            href: "/eventPool/misty_wild",
+            img: "../images/pools/eventPool/17雾漫荒林.jpg"
+          }]
+        }, {
+          key: 16,
+          tag: "pool",
+          name: "联合行动 [2020/05/15 ~ 2020/05/29] ",
+          data: [{
+            key: 0,
+            href: "/eventPool/united_operation_2",
+            img: "../images/pools/eventPool/16联合行动2.jpg"
+          }]
+        }, {
+          key: 15,
+          tag: "pool",
+          name: "往日幻像 [2020/04/21 ~ 2020/05/05] ",
+          data: [{
+            key: 0,
+            href: "/eventPool/past_illusion",
+            img: "../images/pools/eventPool/15往日幻象.jpg"
+          }]
+        }, {
+          key: 14,
+          tag: "pool",
+          name: "草垛上的风笛声 [2020/03/17 ~ 2020/03/31] ",
+          data: [{
+            key: 0,
+            href: "/eventPool/grassy_bagpipe",
+            img: "../images/pools/eventPool/14草垛上的风笛声.jpg"
+          }]
+        }, {
+          key: 13,
+          tag: "pool",
+          name: "百种兵器 [2020/02/25 ~ 2020/03/10] ",
+          data: [{
+            key: 0,
+            href: "/eventPool/thousands_heads",
+            img: "../images/pools/eventPool/13百种兵器.jpg"
+          }]
+        }, {
+          key: 12,
+          tag: "pool",
+          name: "热情，膨胀，爆发！ [2019/12/24 ~ 2020/01/07] ",
+          data: [{
+            key: 0,
+            href: "/eventPool/enthusiasm_expansion_explosion",
+            img: "../images/pools/eventPool/12热情，膨胀，爆发！.jpg"
+          }]
+        }, {
+          key: 11,
+          tag: "pool",
+          name: "凝电之钻 [2019/12/10 ~ 2019/12/24] ",
+          data: [{
+            key: 0,
+            href: "/eventPool/drill_electric",
+            img: "../images/pools/eventPool/11凝电之钻.jpg"
+          }]
+        }, {
+          key: 10,
+          tag: "pool",
+          name: "锁与匙的守卫者 [ 2019/11/19 ~ 2019/12/03 ] ",
+          data: [{
+            key: 0,
+            href: "/eventPool/keeper_of_the_lock&keys",
+            img: "../images/pools/eventPool/10锁与匙的守卫者.jpg"
+          }]
+        }, {
+          key: 9,
+          tag: "pool",
+          name: "联合行动 [2019/11/01 ~ 2019/11/15] ",
+          data: [{
+            key: 0,
+            href: "/eventPool/united_operation_1",
+            img: "../images/pools/eventPool/09联合行动1.jpg"
+          }]
+        }, {
+          key: 8,
+          tag: "pool",
+          name: "冰封原野 [2019/10/15 ~ 2019/10/29] ",
+          data: [{
+            key: 0,
+            href: "/eventPool/frozen_land",
+            img: "../images/pools/eventPool/08冰封原野.jpg"
+          }]
+        }, {
+          key: 7,
+          tag: "pool",
+          name: "火舞之人 [2019/10/01 ~ 2019/10/11] ",
+          data: [{
+            key: 0,
+            href: "/eventPool/dancing_lava",
+            img: "../images/pools/eventPool/07火舞之人.jpg"
+          }]
+        }, {
+          key: 6,
+          tag: "pool",
+          name: "久铸尘铁 [2019/09/10 ~ 2019/09/24] ",
+          data: [{
+            key: 0,
+            href: "/eventPool/forging_steel",
+            img: "../images/pools/eventPool/06久铸尘铁.jpg"
+          }]
+        }, {
+          key: 5,
+          tag: "pool",
+          name: "深夏的守夜人 [2019/08/27 ~ 2019/09/10] ",
+          data: [{
+            key: 0,
+            href: "/eventPool/summer_guardians",
+            img: "../images/pools/eventPool/05深夏的守夜人.jpg"
+          }]
+        }, {
+          key: 4,
+          tag: "pool",
+          name: "龙门特别行动专员寻访 [2019/07/22 ~ 2019/08/05] ",
+          data: [{
+            key: 0,
+            href: "/eventPool/lungmen_specoperators",
+            img: "../images/pools/eventPool/04龙门特别行动专员寻访.jpg"
+          }]
+        }, {
+          key: 3,
+          tag: "pool",
+          name: "鞘中赤红 [2019/07/29 ~ 2019/07/22] ",
+          data: [{
+            key: 0,
+            href: "/eventPool/the_crimson_hidden_dragon",
+            img: "../images/pools/eventPool/03鞘中赤红.jpg"
+          }]
+        }, {
+          key: 2,
+          tag: "pool",
+          name: "搅动潮汐之剑 [2019/05/30 ~ 2019/06/13] ",
+          data: [{
+            key: 0,
+            href: "/eventPool/treasure_knights",
+            img: "../images/pools/eventPool/02搅动潮汐之剑.jpg"
+          }]
+        }, {
+          key: 1,
+          tag: "pool",
+          name: "银灰色的荣耀 [2019/05/23 ~ 2019/05/30] ",
+          data: [{
+            key: 0,
+            href: "/eventPool/the_glory_of_sliverash",
+            img: "../images/pools/eventPool/01银灰色的荣耀.jpg"
+          }]
+        }]
+      },
+      ja_jp: {},
+      en_us: {}
+    };
+  }
+
+  render() {
+    let language = this.checkLanguage();
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Template_jsx__WEBPACK_IMPORTED_MODULE_3__["default"], {
+      language: this.props.language,
+      theme: this.props.theme,
+      toDarkTheme: this.props.toDarkTheme,
+      toLightTheme: this.props.toLightTheme,
+      toZH_CN: this.props.toZH_CN,
+      toEN_US: this.props.toEN_US,
+      toJA_JP: this.props.toJA_JP
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: `main-container ${this.props.theme}`
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_basic_jsx__WEBPACK_IMPORTED_MODULE_1__["MainContents"], {
+      contents: language.contents,
+      theme: this.props.theme
+    })));
+  }
+
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (EventPool);
+
+/***/ }),
+
 /***/ "./src/scripts/pages/index.jsx":
 /*!*************************************!*\
   !*** ./src/scripts/pages/index.jsx ***!
@@ -6536,9 +7268,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_basic_jsx__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/basic.jsx */ "./src/scripts/components/basic.jsx");
-/* harmony import */ var _sass_index_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../sass/index.scss */ "./src/sass/index.scss");
-/* harmony import */ var _sass_index_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_sass_index_scss__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _sass_pages_index_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../sass/pages/index.scss */ "./src/sass/pages/index.scss");
+/* harmony import */ var _sass_pages_index_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_sass_pages_index_scss__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _components_Template_jsx__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Template.jsx */ "./src/scripts/components/Template.jsx");
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
 
 
 
@@ -6547,241 +7281,231 @@ __webpack_require__.r(__webpack_exports__);
 class Index extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
   constructor(props) {
     super(props);
+
+    _defineProperty(this, "checkLanguage", () => {
+      if (this.props.language === "zh-cn") {
+        return this.state.zh_cn;
+      } else if (this.props.language === "ja-jp") {
+        return this.state.ja_jp;
+      } else if (this.props.language === "en-us") {
+        return this.state.en_us;
+      } else {
+        return this.state.zh_cn;
+      }
+    });
+
     this.state = {
       zh_cn: {
-        contents: {
-          main: {
-            title: {
-              tag: "title",
-              name: "ArkMelon",
-              description: "用于快速查看明日方舟游戏数据的资料库"
-            },
-            contents: [{
-              key: 0,
-              tag: "event",
-              name: "最新活动",
-              data: [{
-                key: 0,
-                href: "/zh-cn",
-                img: "../images/index/zh-cn/event1.jpg"
-              }, {
-                key: 1,
-                href: "/zh-cn",
-                img: "../images/index/zh-cn/event2.jpg"
-              }]
-            }, {
-              key: 1,
-              tag: "pool",
-              name: "新增卡池",
-              data: [{
-                key: 0,
-                href: "/zh-cn",
-                img: "../images/index/zh-cn/pool1.jpg"
-              }]
-            }, {
-              key: 2,
-              tag: "operator",
-              name: "新增干员",
-              data: [{
-                key: 0,
-                href: "/zh-cn",
-                img: "../images/index/zh-cn/operator1.jpg"
-              }]
-            }, {
-              key: 3,
-              tag: "cloth",
-              name: "新增服装",
-              data: [{
-                key: 0,
-                href: "/zh-cn",
-                img: "../images/index/zh-cn/cloth1.jpg"
-              }]
-            }, {
-              key: 4,
-              tag: "theme",
-              name: "新增家具",
-              data: [{
-                key: 0,
-                href: "/zh-cn",
-                img: "../images/index/zh-cn/theme1.jpg"
-              }]
-            }, {
-              key: 5,
-              tag: "stage",
-              name: "新增关卡",
-              data: [{
-                key: 0,
-                href: "/zh-cn",
-                img: "../images/index/zh-cn/stage1.jpg"
-              }]
-            }]
-          }
-        }
+        title: {
+          tag: "title",
+          name: "ArkMelon",
+          description: "用于快速查看明日方舟游戏数据的资料库"
+        },
+        contents: [{
+          key: 0,
+          tag: "event",
+          name: "最新活动",
+          data: [{
+            key: 0,
+            href: "/",
+            img: "../images/index/zh-cn/event1.jpg"
+          }, {
+            key: 1,
+            href: "/",
+            img: "../images/index/zh-cn/event2.jpg"
+          }]
+        }, {
+          key: 1,
+          tag: "pool",
+          name: "新增卡池",
+          data: [{
+            key: 0,
+            href: "/",
+            img: "../images/index/zh-cn/pool1.jpg"
+          }]
+        }, {
+          key: 2,
+          tag: "operator",
+          name: "新增干员",
+          data: [{
+            key: 0,
+            href: "/",
+            img: "../images/index/zh-cn/operator1.jpg"
+          }]
+        }, {
+          key: 3,
+          tag: "cloth",
+          name: "新增服装",
+          data: [{
+            key: 0,
+            href: "/",
+            img: "../images/index/zh-cn/cloth1.jpg"
+          }]
+        }, {
+          key: 4,
+          tag: "theme",
+          name: "新增家具",
+          data: [{
+            key: 0,
+            href: "/",
+            img: "../images/index/zh-cn/theme1.jpg"
+          }]
+        }, {
+          key: 5,
+          tag: "stage",
+          name: "新增关卡",
+          data: [{
+            key: 0,
+            href: "/",
+            img: "../images/index/zh-cn/stage1.jpg"
+          }]
+        }]
       },
       ja_jp: {
-        contents: {
-          main: {
-            title: {
-              tag: "title",
-              name: "ArkMelon",
-              description: "アークナイツの情報を便利に調べるためのデータベース"
-            },
-            contents: [{
-              key: 0,
-              tag: "event",
-              name: "最新イベント",
-              data: [{
-                key: 0,
-                href: "/ja-jp",
-                img: "../images/index/ja-jp/event1.jpg"
-              }, {
-                key: 1,
-                href: "/ja-jp",
-                img: "../images/index/ja-jp/event2.jpg"
-              }, {
-                key: 2,
-                href: "/ja-jp",
-                img: "../images/index/ja-jp/event3.jpg"
-              }]
-            }, {
-              key: 1,
-              tag: "pool",
-              name: "最新スカウト",
-              data: [{
-                key: 0,
-                href: "/ja-jp",
-                img: "../images/index/ja-jp/pool1.png"
-              }]
-            }, {
-              key: 2,
-              tag: "operator",
-              name: "最新オペレーター",
-              data: [{
-                key: 0,
-                href: "/ja-jp",
-                img: "../images/index/ja-jp/operator1.png"
-              }]
-            }, {
-              key: 3,
-              tag: "cloth",
-              name: "最新服装",
-              data: [{
-                key: 0,
-                href: "/ja-jp",
-                img: "../images/index/ja-jp/cloth1.jpg"
-              }, {
-                key: 1,
-                href: "/ja-jp",
-                img: "../images/index/ja-jp/cloth2.jpg"
-              }]
-            }, {
-              key: 4,
-              tag: "theme",
-              name: "最新家具",
-              data: [{
-                key: 0,
-                href: "/ja-jp",
-                img: "../images/index/ja-jp/theme1.jpg"
-              }]
-            }, {
-              key: 5,
-              tag: "stage",
-              name: "最新ステージ",
-              data: [{
-                key: 0,
-                href: "/ja-jp",
-                img: "../images/index/ja-jp/stage1.jpg"
-              }, {
-                key: 1,
-                href: "/ja-jp",
-                img: "../images/index/ja-jp/stage2.jpg"
-              }]
-            }]
-          }
-        }
+        title: {
+          tag: "title",
+          name: "ArkMelon",
+          description: "アークナイツの情報を便利に調べるためのデータベース"
+        },
+        contents: [{
+          key: 0,
+          tag: "event",
+          name: "最新イベント",
+          data: [{
+            key: 0,
+            href: "/",
+            img: "../images/index/ja-jp/event1.jpg"
+          }, {
+            key: 1,
+            href: "/",
+            img: "../images/index/ja-jp/event2.jpg"
+          }, {
+            key: 2,
+            href: "/",
+            img: "../images/index/ja-jp/event3.jpg"
+          }]
+        }, {
+          key: 1,
+          tag: "pool",
+          name: "最新スカウト",
+          data: [{
+            key: 0,
+            href: "/",
+            img: "../images/index/ja-jp/pool1.png"
+          }]
+        }, {
+          key: 2,
+          tag: "operator",
+          name: "最新オペレーター",
+          data: [{
+            key: 0,
+            href: "/",
+            img: "../images/index/ja-jp/operator1.png"
+          }]
+        }, {
+          key: 3,
+          tag: "cloth",
+          name: "最新服装",
+          data: [{
+            key: 0,
+            href: "/",
+            img: "../images/index/ja-jp/cloth1.jpg"
+          }, {
+            key: 1,
+            href: "/",
+            img: "../images/index/ja-jp/cloth2.jpg"
+          }]
+        }, {
+          key: 4,
+          tag: "theme",
+          name: "最新家具",
+          data: [{
+            key: 0,
+            href: "/",
+            img: "../images/index/ja-jp/theme1.jpg"
+          }]
+        }, {
+          key: 5,
+          tag: "stage",
+          name: "最新ステージ",
+          data: [{
+            key: 0,
+            href: "/",
+            img: "../images/index/ja-jp/stage1.jpg"
+          }, {
+            key: 1,
+            href: "/",
+            img: "../images/index/ja-jp/stage2.jpg"
+          }]
+        }]
       },
       en_us: {
-        contents: {
-          main: {
-            title: {
-              tag: "title",
-              name: "ArkMelon",
-              description: "A Database To Search Data Of Arknights Efficiently"
-            },
-            contents: [{
-              key: 0,
-              tag: "event",
-              name: "Newest Events",
-              data: [{
-                key: 0,
-                href: "/en-us",
-                img: "../images/index/en-us/nothing.jpg"
-              }]
-            }, {
-              key: 1,
-              tag: "pool",
-              name: "Newest Scouts",
-              data: [{
-                key: 0,
-                href: "/en-us",
-                img: "../images/index/en-us/nothing.jpg"
-              }]
-            }, {
-              key: 2,
-              tag: "operator",
-              name: "Newest Operators",
-              data: [{
-                key: 0,
-                href: "/en-us",
-                img: "../images/index/en-us/nothing.jpg"
-              }]
-            }, {
-              key: 3,
-              tag: "cloth",
-              name: "Newest Clothes",
-              data: [{
-                key: 0,
-                href: "/en-us",
-                img: "../images/index/en-us/nothing.jpg"
-              }]
-            }, {
-              key: 4,
-              tag: "theme",
-              name: "Newest Themes",
-              data: [{
-                key: 0,
-                href: "/en-us",
-                img: "../images/index/en-us/nothing.jpg"
-              }]
-            }, {
-              key: 5,
-              tag: "stage",
-              name: "Newest Stages",
-              data: [{
-                key: 0,
-                href: "/en-us",
-                img: "../images/index/en-us/nothing.jpg"
-              }]
-            }]
-          }
-        }
+        title: {
+          tag: "title",
+          name: "ArkMelon",
+          description: "A Database To Search Data Of Arknights Efficiently"
+        },
+        contents: [{
+          key: 0,
+          tag: "event",
+          name: "Newest Events",
+          data: [{
+            key: 0,
+            href: "/",
+            img: "../images/index/en-us/nothing.jpg"
+          }]
+        }, {
+          key: 1,
+          tag: "pool",
+          name: "Newest Scouts",
+          data: [{
+            key: 0,
+            href: "/",
+            img: "../images/index/en-us/nothing.jpg"
+          }]
+        }, {
+          key: 2,
+          tag: "operator",
+          name: "Newest Operators",
+          data: [{
+            key: 0,
+            href: "/",
+            img: "../images/index/en-us/nothing.jpg"
+          }]
+        }, {
+          key: 3,
+          tag: "cloth",
+          name: "Newest Clothes",
+          data: [{
+            key: 0,
+            href: "/",
+            img: "../images/index/en-us/nothing.jpg"
+          }]
+        }, {
+          key: 4,
+          tag: "theme",
+          name: "Newest Themes",
+          data: [{
+            key: 0,
+            href: "/",
+            img: "../images/index/en-us/nothing.jpg"
+          }]
+        }, {
+          key: 5,
+          tag: "stage",
+          name: "Newest Stages",
+          data: [{
+            key: 0,
+            href: "/",
+            img: "../images/index/en-us/nothing.jpg"
+          }]
+        }]
       }
     };
   }
 
   render() {
-    let language;
-
-    if (this.props.language === "zh-cn") {
-      language = this.state.zh_cn.contents.main;
-    } else if (this.props.language === "ja-jp") {
-      language = this.state.ja_jp.contents.main;
-    } else if (this.props.language === "en-us") {
-      language = this.state.en_us.contents.main;
-    } else {
-      language = this.state.zh_cn.contents.main;
-    }
-
+    let language = this.checkLanguage();
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Template_jsx__WEBPACK_IMPORTED_MODULE_3__["default"], {
       language: this.props.language,
       theme: this.props.theme,
@@ -6799,12 +7523,101 @@ class Index extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
     }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_basic_jsx__WEBPACK_IMPORTED_MODULE_1__["MainContents"], {
       contents: language.contents,
       theme: this.props.theme
-    }), this.props.children));
+    })));
   }
 
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (Index);
+
+/***/ }),
+
+/***/ "./src/scripts/pages/limitPool.jsx":
+/*!*****************************************!*\
+  !*** ./src/scripts/pages/limitPool.jsx ***!
+  \*****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_basic_jsx__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/basic.jsx */ "./src/scripts/components/basic.jsx");
+/* harmony import */ var _sass_pages_pools_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../sass/pages/pools.scss */ "./src/sass/pages/pools.scss");
+/* harmony import */ var _sass_pages_pools_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_sass_pages_pools_scss__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _components_Template_jsx__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Template.jsx */ "./src/scripts/components/Template.jsx");
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+
+
+
+
+
+class LimitPool extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+  constructor(props) {
+    super(props);
+
+    _defineProperty(this, "checkLanguage", () => {
+      if (this.props.language === "zh-cn") {
+        return this.state.zh_cn;
+      } else if (this.props.language === "ja-jp") {
+        return this.state.ja_jp;
+      } else if (this.props.language === "en-us") {
+        return this.state.en_us;
+      } else {
+        return this.state.zh_cn;
+      }
+    });
+
+    this.state = {
+      zh_cn: {
+        contents: [{
+          key: 2,
+          tag: "pool",
+          name: "遗愿焰火 [ 2020/05/01 ~ 2020/05/15 ] ",
+          data: [{
+            key: 0,
+            href: "/limitPool/last_wish_cremation",
+            img: "../images/pools/limitPool/[2020周年]遗愿焰火.jpg"
+          }]
+        }, {
+          key: 1,
+          tag: "pool",
+          name: "地生五金 [ 2020/01/16 ~ 2020/01/30 ] ",
+          data: [{
+            key: 0,
+            href: "/limitPool/earthborn_metals",
+            img: "../images/pools/limitPool/[2019春节]地生五金.jpg"
+          }]
+        }]
+      },
+      ja_jp: {},
+      en_us: {}
+    };
+  }
+
+  render() {
+    let language = this.checkLanguage();
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Template_jsx__WEBPACK_IMPORTED_MODULE_3__["default"], {
+      language: this.props.language,
+      theme: this.props.theme,
+      toDarkTheme: this.props.toDarkTheme,
+      toLightTheme: this.props.toLightTheme,
+      toZH_CN: this.props.toZH_CN,
+      toEN_US: this.props.toEN_US,
+      toJA_JP: this.props.toJA_JP
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: `main-container ${this.props.theme}`
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_basic_jsx__WEBPACK_IMPORTED_MODULE_1__["MainContents"], {
+      contents: language.contents,
+      theme: this.props.theme
+    })));
+  }
+
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (LimitPool);
 
 /***/ }),
 
@@ -6819,8 +7632,8 @@ class Index extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _sass_templatePage_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../sass/templatePage.scss */ "./src/sass/templatePage.scss");
-/* harmony import */ var _sass_templatePage_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_sass_templatePage_scss__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _sass_pages_templatePage_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../sass/pages/templatePage.scss */ "./src/sass/pages/templatePage.scss");
+/* harmony import */ var _sass_pages_templatePage_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_sass_pages_templatePage_scss__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _components_Template_jsx__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Template.jsx */ "./src/scripts/components/Template.jsx");
 
 

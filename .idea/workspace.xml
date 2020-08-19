@@ -10,15 +10,79 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="607eec3e-89c1-47af-9f10-8be80260d6f9" name="Default Changelist" comment="add changes.">
+    <list default="true" id="607eec3e-89c1-47af-9f10-8be80260d6f9" name="Default Changelist" comment="add cookie cache.">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/yitian.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/pools/eventPool/01银灰色的荣耀.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/pools/eventPool/02搅动潮汐之剑.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/pools/eventPool/03鞘中赤红.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/pools/eventPool/04龙门特别行动专员寻访.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/pools/eventPool/05深夏的守夜人.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/pools/eventPool/06久铸尘铁.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/pools/eventPool/07火舞之人.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/pools/eventPool/08冰封原野.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/pools/eventPool/09联合行动1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/pools/eventPool/10锁与匙的守卫者.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/pools/eventPool/11凝电之钻.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/pools/eventPool/12热情，膨胀，爆发！.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/pools/eventPool/13百种兵器.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/pools/eventPool/14草垛上的风笛声.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/pools/eventPool/15往日幻象.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/pools/eventPool/16联合行动2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/pools/eventPool/17雾漫荒林.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/pools/eventPool/18雪落晨心.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/pools/eventPool/19君影轻灵.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/pools/eventPool/20流沙涡旋.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/pools/eventPool/21不羁逆流.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/pools/limitPool/[2019春节]地生五金.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/pools/limitPool/[2020周年]遗愿焰火.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/pools/regularPool/regular01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/pools/regularPool/regular02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/pools/regularPool/regular03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/pools/regularPool/regular04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/pools/regularPool/regular05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/pools/regularPool/regular06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/pools/regularPool/regular07.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/pools/regularPool/regular08.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/pools/regularPool/regular09.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/pools/regularPool/regular10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/pools/regularPool/regular11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/pools/regularPool/regular12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/pools/regularPool/regular13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/pools/regularPool/regular14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/pools/regularPool/regular15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/pools/regularPool/regular16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/pools/regularPool/regular17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/pools/regularPool/regular18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/pools/regularPool/regular19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/pools/regularPool/regular20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/pools/regularPool/regular21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/pools/regularPool/regular22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/pools/regularPool/regular23.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/pools/regularPool/regular24.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/pools/regularPool/regular25.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/pools/regularPool/regular26.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/pools/regularPool/regular27.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/pools/regularPool/regular28.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/pools/regularPool/regular29.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/pools/regularPool/regular30.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/pools/regularPool/regular31.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/pools/regularPool/regular32.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/pools/regularPool/regular33.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/pools/regularPool/regular34.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/pools/regularPool/regular35.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sass/pages/pools.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scripts/pages/eventPool.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scripts/pages/limitPool.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scripts/pages/regularPool.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dist/app.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/dist/app.bundle.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dist/app.bundle.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/dist/app.bundle.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/404.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/pages/404.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/pages/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/templatePage.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/pages/templatePage.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scripts/app.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/app.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scripts/components/Template.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/components/Template.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scripts/components/TopBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/components/TopBar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scripts/components/basic.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/components/basic.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scripts/pages/404.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/pages/404.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scripts/pages/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/pages/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scripts/pages/templatePage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/pages/templatePage.jsx" afterDir="false" />
     </list>
@@ -80,17 +144,17 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/images/index/en-us" />
-      <recent name="$PROJECT_DIR$/src/scripts/components" />
-      <recent name="$PROJECT_DIR$/src/scripts/pages" />
-      <recent name="$PROJECT_DIR$/src/styles/components" />
-      <recent name="$PROJECT_DIR$/src/images" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/images" />
       <recent name="$PROJECT_DIR$/../../../Golang/ark-sim/src" />
       <recent name="$PROJECT_DIR$/src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/sass/pages" />
+      <recent name="$PROJECT_DIR$/src/images/index/en-us" />
+      <recent name="$PROJECT_DIR$/src/scripts/components" />
+      <recent name="$PROJECT_DIR$/src/scripts/pages" />
+      <recent name="$PROJECT_DIR$/src/styles/components" />
     </key>
   </component>
   <component name="RunManager" selected="npm.watch">
@@ -181,6 +245,7 @@
       <workItem from="1597563838870" duration="40000" />
       <workItem from="1597563880476" duration="1428000" />
       <workItem from="1597641780704" duration="11054000" />
+      <workItem from="1597823613283" duration="12476000" />
     </task>
     <task id="LOCAL-00012" summary="add changes.">
       <created>1591439373359</created>
@@ -589,25 +654,25 @@
       <screen x="0" y="23" width="1680" height="981" />
     </state>
     <state width="251" height="195" key="DatabaseViewActions_Filter/0.23.1680.981@0.23.1680.981" timestamp="1589966524504" />
-    <state width="1044" height="204" key="GridCell.Tab.0.bottom" timestamp="1597662958908">
+    <state width="1140" height="251" key="GridCell.Tab.0.bottom" timestamp="1597826720087">
       <screen x="0" y="23" width="1680" height="970" />
     </state>
-    <state width="1044" height="204" key="GridCell.Tab.0.bottom/0.23.1680.970@0.23.1680.970" timestamp="1597662958908" />
+    <state width="1140" height="251" key="GridCell.Tab.0.bottom/0.23.1680.970@0.23.1680.970" timestamp="1597826720087" />
     <state width="929" height="186" key="GridCell.Tab.0.bottom/0.23.1680.981@0.23.1680.981" timestamp="1594215132334" />
-    <state width="1044" height="204" key="GridCell.Tab.0.center" timestamp="1597662958905">
+    <state width="1140" height="251" key="GridCell.Tab.0.center" timestamp="1597826720086">
       <screen x="0" y="23" width="1680" height="970" />
     </state>
-    <state width="1044" height="204" key="GridCell.Tab.0.center/0.23.1680.970@0.23.1680.970" timestamp="1597662958905" />
+    <state width="1140" height="251" key="GridCell.Tab.0.center/0.23.1680.970@0.23.1680.970" timestamp="1597826720086" />
     <state width="929" height="186" key="GridCell.Tab.0.center/0.23.1680.981@0.23.1680.981" timestamp="1594215132332" />
-    <state width="1044" height="204" key="GridCell.Tab.0.left" timestamp="1597662958903">
+    <state width="1140" height="251" key="GridCell.Tab.0.left" timestamp="1597826720085">
       <screen x="0" y="23" width="1680" height="970" />
     </state>
-    <state width="1044" height="204" key="GridCell.Tab.0.left/0.23.1680.970@0.23.1680.970" timestamp="1597662958903" />
+    <state width="1140" height="251" key="GridCell.Tab.0.left/0.23.1680.970@0.23.1680.970" timestamp="1597826720085" />
     <state width="929" height="186" key="GridCell.Tab.0.left/0.23.1680.981@0.23.1680.981" timestamp="1594215132323" />
-    <state width="1044" height="204" key="GridCell.Tab.0.right" timestamp="1597662958906">
+    <state width="1140" height="251" key="GridCell.Tab.0.right" timestamp="1597826720086">
       <screen x="0" y="23" width="1680" height="970" />
     </state>
-    <state width="1044" height="204" key="GridCell.Tab.0.right/0.23.1680.970@0.23.1680.970" timestamp="1597662958906" />
+    <state width="1140" height="251" key="GridCell.Tab.0.right/0.23.1680.970@0.23.1680.970" timestamp="1597826720086" />
     <state width="929" height="186" key="GridCell.Tab.0.right/0.23.1680.981@0.23.1680.981" timestamp="1594215132333" />
     <state width="952" height="235" key="GridCell.Tab.1.bottom" timestamp="1590830953179">
       <screen x="0" y="23" width="1680" height="981" />
@@ -695,18 +760,24 @@
       <screen x="0" y="23" width="1680" height="981" />
     </state>
     <state x="398" y="321" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.23.1680.981@0.23.1680.981" timestamp="1591164901115" />
-    <state x="119" y="34" width="579" height="888" key="dock-window-1" timestamp="1593754544050">
-      <screen x="0" y="23" width="1680" height="981" />
+    <state x="683" y="167" width="745" height="825" key="dock-window-1" timestamp="1597744658683">
+      <screen x="0" y="23" width="1680" height="970" />
     </state>
+    <state x="683" y="167" width="745" height="825" key="dock-window-1/0.23.1680.970@0.23.1680.970" timestamp="1597744658683" />
     <state x="119" y="34" width="579" height="888" key="dock-window-1/0.23.1680.981@0.23.1680.981" timestamp="1593754544050" />
-    <state x="972" y="23" width="579" height="879" key="dock-window-2" timestamp="1593758278902">
-      <screen x="0" y="23" width="1680" height="981" />
+    <state x="904" y="142" width="745" height="953" key="dock-window-2" timestamp="1597825941775">
+      <screen x="0" y="23" width="1680" height="970" />
     </state>
+    <state x="904" y="142" width="745" height="953" key="dock-window-2/0.23.1680.970@0.23.1680.970" timestamp="1597825941775" />
     <state x="972" y="23" width="579" height="879" key="dock-window-2/0.23.1680.981@0.23.1680.981" timestamp="1593758278902" />
     <state x="1023" y="23" width="580" height="830" key="dock-window-3" timestamp="1593758838895">
       <screen x="0" y="23" width="1680" height="981" />
     </state>
     <state x="1023" y="23" width="580" height="830" key="dock-window-3/0.23.1680.981@0.23.1680.981" timestamp="1593758838895" />
+    <state x="320" y="27" width="808" height="966" key="find.popup" timestamp="1597826573134">
+      <screen x="0" y="23" width="1680" height="970" />
+    </state>
+    <state x="320" y="27" width="808" height="966" key="find.popup/0.23.1680.970@0.23.1680.970" timestamp="1597826573134" />
     <state x="840" y="234" key="git4idea.merge.GitPullDialog" timestamp="1591164875852">
       <screen x="0" y="23" width="1680" height="981" />
     </state>

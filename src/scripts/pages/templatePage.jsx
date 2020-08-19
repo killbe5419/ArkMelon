@@ -1,5 +1,5 @@
 import React from "react";
-import "../../sass/templatePage.scss";
+import "../../sass/pages/templatePage.scss";
 import Template from "../components/Template.jsx";
 
 class TemplatePage extends React.Component {

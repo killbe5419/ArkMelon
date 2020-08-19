@@ -4,6 +4,9 @@ import {BrowserRouter as Router, Switch, Route,} from "react-router-dom";
 import Index from "./pages/index.jsx";
 import _404 from "./pages/404.jsx";
 import TemplatePage from "./pages/templatePage.jsx";
+import RegularPool from "./pages/RegularPool.jsx";
+import EventPool from "./pages/eventPool.jsx";
+import LimitPool from "./pages/limitPool.jsx";
 
 function checkThemeCookie() {
     if(document.cookie.length === 0) {
@@ -92,6 +95,39 @@ class App extends React.Component {
                 <Switch>
                     <Route exact path="/">
                         <Index
+                            language = { this.state.language }
+                            theme = { this.state.theme }
+                            toDarkTheme = { this.toDarkTheme }
+                            toLightTheme = { this.toLightTheme }
+                            toZH_CN = { this.toZH_CN }
+                            toEN_US = { this.toEN_US }
+                            toJA_JP = { this.toJA_JP }
+                        />
+                    </Route>
+                    <Route exact path="/regularPool">
+                        <RegularPool
+                            language = { this.state.language }
+                            theme = { this.state.theme }
+                            toDarkTheme = { this.toDarkTheme }
+                            toLightTheme = { this.toLightTheme }
+                            toZH_CN = { this.toZH_CN }
+                            toEN_US = { this.toEN_US }
+                            toJA_JP = { this.toJA_JP }
+                        />
+                    </Route>
+                    <Route exact path="/eventPool">
+                        <EventPool
+                            language = { this.state.language }
+                            theme = { this.state.theme }
+                            toDarkTheme = { this.toDarkTheme }
+                            toLightTheme = { this.toLightTheme }
+                            toZH_CN = { this.toZH_CN }
+                            toEN_US = { this.toEN_US }
+                            toJA_JP = { this.toJA_JP }
+                        />
+                    </Route>
+                    <Route exact path="/limitPool">
+                        <LimitPool
                             language = { this.state.language }
                             theme = { this.state.theme }
                             toDarkTheme = { this.toDarkTheme }

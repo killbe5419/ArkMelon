@@ -1,0 +1,87 @@
+@use "src/sass/base";
+
+.main-container {
+  display: flex;
+  flex-direction:column;
+  width: 70%;
+  height: 100%;
+  margin: auto;
+  &.dark-theme {
+    * {
+      color: base.$font-dark;
+    }
+    .title-name {
+      color: base.$primary-color;
+    }
+  }
+  &.light-theme {
+    * {
+      color: base.$font-main-light;
+    }
+    .title-name {
+      color: base.$primary-color;
+    }
+  }
+}
+
+.main-top {
+  display: flex;
+  width: 100%;
+  height: 300px;
+}
+
+.title {
+  display: flex;
+  flex-direction:column;
+  margin: auto;
+  height: 100%;
+}
+
+.title-name {
+  font-size: 50px;
+  font-weight: 700;
+  margin: 40px 0 20px 0;
+}
+
+.title-description {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.main-contents {
+  display: flex;
+  flex-direction:column;
+  width: 100%;
+  min-height: 800px;
+  div {
+    p {
+      border-bottom: currentColor 2px solid;
+      font-weight: 500;
+    }
+  }
+}
+
+.news-containers {
+  display: flex;
+  flex-direction:column;
+  margin-bottom: 30px;
+}
+
+.new-contents-v {
+  display: flex;
+  flex-direction:column;
+  width: 80%;
+  img {
+    width: 100%;
+    margin: 20px 10% 20px 10%;
+  }
+}
+
+.new-contents-h {
+  display: flex;
+  img {
+    width: 100px;
+    height: 100px;
+    margin: 0 20px 0 20px;
+  }
+}

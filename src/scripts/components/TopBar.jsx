@@ -316,17 +316,17 @@ class TopBar extends React.Component {
                                 {
                                     key: 0,
                                     title: "常驻卡池",
-                                    href: "/zh-cn/permanentPool"
+                                    href: "/regularPool"
                                 },
                                 {
                                     key: 1,
                                     title: "限定卡池",
-                                    href: "/zh-cn/limitPool"
+                                    href: "/limitPool"
                                 },
                                 {
                                     key: 2,
                                     title: "活动卡池",
-                                    href: "/zh-cn/eventPool"
+                                    href: "/eventPool"
                                 },
                             ]
                         }
@@ -466,17 +466,17 @@ class TopBar extends React.Component {
                                         {
                                             key: 0,
                                             title: "オペレーター関連",
-                                            href: "/ja-jp/levelUp"
+                                            href: "/levelUp"
                                         },
                                         {
                                             key: 1,
                                             title: "地図関連",
-                                            href: "/ja-jp/planner"
+                                            href: "/planner"
                                         },
                                         {
                                             key: 2,
                                             title: "合成計算",
-                                            href: "/ja-jp/conversion"
+                                            href: "/conversion"
                                         },
                                     ]
                             }
@@ -491,17 +491,17 @@ class TopBar extends React.Component {
                                 {
                                     key: 0,
                                     title: "常設",
-                                    href: "/ja-jp/permanentPool"
+                                    href: "/regularPool"
                                 },
                                 {
                                     key: 1,
                                     title: "限定",
-                                    href: "/ja-jp/limitPool"
+                                    href: "/limitPool"
                                 },
                                 {
                                     key: 2,
                                     title: "イベント",
-                                    href: "/ja-jp/eventPool"
+                                    href: "/eventPool"
                                 },
                             ]
                         }
@@ -641,17 +641,17 @@ class TopBar extends React.Component {
                                         {
                                             key: 0,
                                             title: "Operators Data",
-                                            href: "/en-us/levelUp"
+                                            href: "/levelUp"
                                         },
                                         {
                                             key: 1,
                                             title: "Stages Data",
-                                            href: "/en-us/planner"
+                                            href: "/planner"
                                         },
                                         {
                                             key: 2,
                                             title: "Conversion",
-                                            href: "/en-us/conversion"
+                                            href: "/conversion"
                                         },
                                     ]
                             }
@@ -665,8 +665,8 @@ class TopBar extends React.Component {
                             data: [
                                 {
                                     key: 0,
-                                    title: "Permanent Scout",
-                                    href: "/en-us/permanentPool"
+                                    title: "Regular Scout",
+                                    href: "/en-us/regularPool"
                                 },
                                 {
                                     key: 1,
