@@ -190,7 +190,7 @@ module.exports = exports;
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, ":root {\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n  font-style: normal;\n  -webkit-font-smoothing: antialiased;\n}\n\n* input {\n  outline: none;\n  background: none;\n  border: none;\n}\n* button {\n  outline: none;\n  cursor: pointer;\n}\n* li {\n  list-style: none;\n}\n* a {\n  text-decoration: none;\n  cursor: pointer;\n}\n\n.main {\n  display: flex;\n  margin-top: 50px;\n  min-height: 1000px;\n  width: 100%;\n}\n.main.dark-theme {\n  background-color: #1f1f1f;\n}\n.main.light-theme {\n  background-color: #FDF5E6;\n}", ""]);
+exports.push([module.i, ":root {\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n  font-style: normal;\n  -webkit-font-smoothing: antialiased;\n}\n\n* input {\n  outline: none;\n  background: none;\n  border: none;\n}\n* button {\n  outline: none;\n  cursor: pointer;\n}\n* li {\n  list-style: none;\n}\n* a {\n  text-decoration: none;\n  cursor: pointer;\n}\n\n.main {\n  display: flex;\n  margin-top: 50px;\n  min-height: 800px;\n  width: 100%;\n}\n.main.dark-theme {\n  background-color: #1f1f1f;\n}\n.main.light-theme {\n  background-color: #FDF5E6;\n}", ""]);
 // Exports
 module.exports = exports;
 
@@ -245,6 +245,24 @@ var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
 exports.push([module.i, ":root {\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n  font-style: normal;\n  -webkit-font-smoothing: antialiased;\n}\n\n* input {\n  outline: none;\n  background: none;\n  border: none;\n}\n* button {\n  outline: none;\n  cursor: pointer;\n}\n* li {\n  list-style: none;\n}\n* a {\n  text-decoration: none;\n  cursor: pointer;\n}\n\n.main-container {\n  display: flex;\n  flex-direction: column;\n  width: 70%;\n  height: 100%;\n  margin: auto;\n}\n.main-container.dark-theme * {\n  color: #fff;\n}\n.main-container.dark-theme .title-name {\n  color: #f08080;\n}\n.main-container.light-theme * {\n  color: #333;\n}\n.main-container.light-theme .title-name {\n  color: #f08080;\n}\n\n.main-top {\n  display: flex;\n  width: 100%;\n  height: 300px;\n}\n\n.title {\n  display: flex;\n  flex-direction: column;\n  margin: auto;\n  height: 100%;\n}\n\n.title-name {\n  font-size: 50px;\n  font-weight: 700;\n  margin: 40px 0 20px 0;\n}\n\n.title-description {\n  font-size: 20px;\n  font-weight: 500;\n}\n\n.main-contents {\n  display: flex;\n  flex-direction: column;\n  width: 100%;\n  min-height: 800px;\n}\n.main-contents div p {\n  border-bottom: currentColor 2px solid;\n  font-weight: 500;\n}\n\n.news-containers {\n  display: flex;\n  flex-direction: column;\n  margin-bottom: 30px;\n}\n\n.new-contents-v {\n  display: flex;\n  flex-direction: column;\n  width: 80%;\n}\n.new-contents-v img {\n  width: 100%;\n  margin: 20px 10% 20px 10%;\n}\n\n.new-contents-h {\n  display: flex;\n}\n.new-contents-h img {\n  width: 100px;\n  height: 100px;\n  margin: 0 20px 0 20px;\n}", ""]);
+// Exports
+module.exports = exports;
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/sass/pages/pickcard.scss":
+/*!*******************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/sass/pages/pickcard.scss ***!
+  \*******************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+// Module
+exports.push([module.i, ":root {\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n  font-style: normal;\n  -webkit-font-smoothing: antialiased;\n}\n\n* input {\n  outline: none;\n  background: none;\n  border: none;\n}\n* button {\n  outline: none;\n  cursor: pointer;\n}\n* li {\n  list-style: none;\n}\n* a {\n  text-decoration: none;\n  cursor: pointer;\n}\n\n.title {\n  color: white;\n}\n\n.main-pick {\n  display: flex;\n  margin-top: 20px;\n  margin-bottom: 20px;\n  width: 100%;\n}\n.main-pick .sidebar-pick {\n  background-color: #2f2f2f;\n  color: #fff;\n  width: 15%;\n  min-height: 600px;\n}\n.main-pick .blank {\n  width: 5%;\n}\n.main-pick .pick {\n  color: #fff;\n  width: 75%;\n  height: 100%;\n}\n.main-pick .pick .pick-title {\n  display: flex;\n  max-height: 500px;\n}\n.main-pick .pick .pick-title .pick-img {\n  width: 65%;\n  height: 100%;\n}\n.main-pick .pick .pick-title .pick-img img {\n  width: 100%;\n}\n.main-pick .pick .pick-title .pickup-info {\n  margin-left: 5%;\n  display: flex;\n  flex-direction: column;\n  width: 30%;\n  height: 100%;\n}\n.main-pick .pick .pick-title .pickup-info .pickup-description {\n  font-weight: 700;\n  margin: 2.5%;\n}\n.main-pick .pick .pick-title .pickup-info .pickup-box {\n  height: 20%;\n  display: flex;\n  flex-direction: column;\n  margin-top: 5%;\n}\n.main-pick .pick .pick-title .pickup-info .pickup-box p {\n  display: inline-block;\n  margin: 1% 0 1% 0;\n}\n.main-pick .pick .pick-title .pickup-info .pickup-box div {\n  display: inline-block;\n  margin: 0;\n  height: 50px;\n}\n.main-pick .pick .pick-title .pickup-info .pickup-box div p {\n  margin: 0;\n}\n.main-pick .pick .pick-title .pickup-info .pickup-box div img {\n  width: 50px;\n  height: 50px;\n  margin-right: 10px;\n}\n.main-pick .pick .pick-menu {\n  display: flex;\n  flex-direction: column;\n  width: 100%;\n  margin-top: 10px;\n}\n.main-pick .pick .pick-menu .buttons {\n  display: flex;\n}\n.main-pick .pick .pick-menu .buttons .menu-button {\n  display: flex;\n  padding: 5px 12px;\n  border: 1px solid #446d88;\n  background: #58a linear-gradient(#77a0bb, #58a);\n  border-radius: 3px;\n  box-shadow: 0 0.8px 4px gray;\n  color: white;\n  text-shadow: 0 -0.8px 0.8px #335166;\n  font-size: 125%;\n  line-height: 1.5;\n  margin-left: 10px;\n  margin-right: 10px;\n}\n.main-pick .pick .pick-menu .pick-info {\n  display: flex;\n}\n.main-pick .pick .pick-menu .pick-info p {\n  margin-right: 20px;\n}\n\n.\\36  {\n  color: red;\n}\n\n.\\35  {\n  color: orange;\n}\n\n.\\34  {\n  color: mediumpurple;\n}\n\n.\\33  {\n  color: royalblue;\n}\n\n.img6 {\n  background-color: white;\n}\n\n.img5 {\n  background-color: white;\n}\n\n.img4 {\n  background-color: white;\n}\n\n/*\n.main {\n  display: flex;\n  .main-pick {\n    display: flex;\n    width: 100%;\n    min-height: 90%;\n    margin-top: 20px;\n    .sidebar-pick {\n      background-color: base.$bkg-bar-dark;\n      color: base.$font-dark;\n      width: 20%;\n      height: 90%;\n    }\n    .blank {\n      width: 5%;\n      height:90%;\n    }\n    .pick-container {\n      width: 70%;\n      height: 90%;\n      margin-right: 0;\n      background-color: base.$bkg-main-dark;\n    }\n  }\n  .pickContainer {\n    button {\n      display: flex;\n      padding: 5px 12px;\n      border: 1px solid #446d88;\n      background: #58a linear-gradient(#77a0bb,#58a);\n      border-radius: 3px;\n      box-shadow: 0 .8px 4px gray;\n      color: white;\n      text-shadow: 0 -.8px .8px #335166;\n      font-size: 125%;\n      line-height: 1.5;\n      margin-left: 10px;\n      margin-right: 10px;\n    }\n  }\n}\n\n.poolImgContainer {\n  img {\n    width: 50%;\n    height: 50%;\n  }\n}\n\n.showStone {\n  display: inline-block;\n  padding: 5px 12px;\n  background: transparent;\n  color: white;\n  text-shadow: 0 -.8px .8px #335166;\n  font-size: 125%;\n  line-height: 1.5;\n  margin-left: 10px;\n  margin-right: 10px;\n  img {\n    display: inline-block;\n    width: 30px;\n    height: 30px;\n    line-height: 1.5;\n  }\n  p {\n    display: inline-block;\n    font-size: 20px;\n    font-weight: 900;\n\n  }\n\n}\n\n.case {\n  display: inline-block;\n  margin: 10px;\n  p {\n    font-size: 25px;\n    font-weight: 900;\n  }\n  .card {\n    width: 120px;\n    height: 220px;\n  }\n}\n\n.calcResult {\n  font-size: 15px;\n  font-weight: 900;\n  color: azure;\n}\n*/", ""]);
 // Exports
 module.exports = exports;
 
@@ -5018,6 +5036,35 @@ module.exports = content.locals || {};
 
 /***/ }),
 
+/***/ "./src/sass/pages/pickcard.scss":
+/*!**************************************!*\
+  !*** ./src/sass/pages/pickcard.scss ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var api = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+            var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js!../../../node_modules/sass-loader/dist/cjs.js!./pickcard.scss */ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/sass/pages/pickcard.scss");
+
+            content = content.__esModule ? content.default : content;
+
+            if (typeof content === 'string') {
+              content = [[module.i, content, '']];
+            }
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = api(content, options);
+
+
+
+module.exports = content.locals || {};
+
+/***/ }),
+
 /***/ "./src/sass/pages/pools.scss":
 /*!***********************************!*\
   !*** ./src/sass/pages/pools.scss ***!
@@ -5096,7 +5143,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _pages_RegularPool_jsx__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./pages/RegularPool.jsx */ "./src/scripts/pages/RegularPool.jsx");
 /* harmony import */ var _pages_eventPool_jsx__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./pages/eventPool.jsx */ "./src/scripts/pages/eventPool.jsx");
 /* harmony import */ var _pages_limitPool_jsx__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./pages/limitPool.jsx */ "./src/scripts/pages/limitPool.jsx");
+/* harmony import */ var _pages_pickcard_jsx__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./pages/pickcard.jsx */ "./src/scripts/pages/pickcard.jsx");
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
 
 
 
@@ -5229,6 +5278,18 @@ class App extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       toEN_US: this.toEN_US,
       toJA_JP: this.toJA_JP
     })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
+      path: "/eventPool/unbound_reflux"
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_pages_pickcard_jsx__WEBPACK_IMPORTED_MODULE_9__["default"], {
+      language: this.state.language,
+      theme: this.state.theme,
+      toDarkTheme: this.toDarkTheme,
+      toLightTheme: this.toLightTheme,
+      toZH_CN: this.toZH_CN,
+      toEN_US: this.toEN_US,
+      toJA_JP: this.toJA_JP,
+      poolType: "eventPool",
+      poolName: "\u4E0D\u7F81\u9006\u6D41"
+    })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
       exact: true,
       path: "/limitPool"
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_pages_limitPool_jsx__WEBPACK_IMPORTED_MODULE_8__["default"], {
@@ -5256,39 +5317,7 @@ class App extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
 
 }
 
-react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render(
-/*#__PURE__*/
-
-/* <Router>
-    <Switch>
-        <Route exact path="/">
-            <Index language="zh-cn" />
-        </Route>
-        <Route exact path="/zh-cn">
-            <Index language="zh-cn" />
-        </Route>
-        <Route path="/zh-cn/*">
-            <TemplatePage language="zh-cn" />
-        </Route>
-        <Route exact path="/ja-jp">
-            <Index language="ja-jp"/>
-        </Route>
-        <Route path="/ja-jp/*">
-            <TemplatePage language="ja-jp" />
-        </Route>
-        <Route exact path="/en-us/">
-            <Index language="en-us"/>
-        </Route>
-        <Route path="/en-us/*">
-            <TemplatePage language="en-us" />
-        </Route>
-        <Route path="/404">
-            <_404 />
-        </Route>
-    </Switch>
-</Router>,
-*/
-react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(App, null), document.getElementById("react-root"));
+react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(App, null), document.getElementById("react-root"));
 
 /***/ }),
 
@@ -7043,7 +7072,7 @@ class EventPool extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           data: [{
             key: 0,
             href: "/eventPool/unbound_reflux",
-            img: "../images/pools/eventPool/21不羁逆流.jpg"
+            img: "../images/pools/eventPool/不羁逆流.jpg"
           }]
         }, {
           key: 20,
@@ -7052,7 +7081,7 @@ class EventPool extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           data: [{
             key: 0,
             href: "/eventPool/spiral_sinking",
-            img: "../images/pools/eventPool/20流沙涡旋.jpg"
+            img: "../images/pools/eventPool/流沙涡旋.jpg"
           }]
         }, {
           key: 19,
@@ -7061,7 +7090,7 @@ class EventPool extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           data: [{
             key: 0,
             href: "/eventPool/lisa_of_the_valley",
-            img: "../images/pools/eventPool/19君影轻灵.jpg"
+            img: "../images/pools/eventPool/君影轻灵.jpg"
           }]
         }, {
           key: 18,
@@ -7070,7 +7099,7 @@ class EventPool extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           data: [{
             key: 0,
             href: "/eventPool/snowfall_утро",
-            img: "../images/pools/eventPool/18雪落晨心.jpg"
+            img: "../images/pools/eventPool/雪落晨心.jpg"
           }]
         }, {
           key: 17,
@@ -7079,7 +7108,7 @@ class EventPool extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           data: [{
             key: 0,
             href: "/eventPool/misty_wild",
-            img: "../images/pools/eventPool/17雾漫荒林.jpg"
+            img: "../images/pools/eventPool/雾漫荒林.jpg"
           }]
         }, {
           key: 16,
@@ -7088,7 +7117,7 @@ class EventPool extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           data: [{
             key: 0,
             href: "/eventPool/united_operation_2",
-            img: "../images/pools/eventPool/16联合行动2.jpg"
+            img: "../images/pools/eventPool/联合行动2.jpg"
           }]
         }, {
           key: 15,
@@ -7097,7 +7126,7 @@ class EventPool extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           data: [{
             key: 0,
             href: "/eventPool/past_illusion",
-            img: "../images/pools/eventPool/15往日幻象.jpg"
+            img: "../images/pools/eventPool/往日幻象.jpg"
           }]
         }, {
           key: 14,
@@ -7106,7 +7135,7 @@ class EventPool extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           data: [{
             key: 0,
             href: "/eventPool/grassy_bagpipe",
-            img: "../images/pools/eventPool/14草垛上的风笛声.jpg"
+            img: "../images/pools/eventPool/草垛上的风笛声.jpg"
           }]
         }, {
           key: 13,
@@ -7115,7 +7144,7 @@ class EventPool extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           data: [{
             key: 0,
             href: "/eventPool/thousands_heads",
-            img: "../images/pools/eventPool/13百种兵器.jpg"
+            img: "../images/pools/eventPool/百种兵器.jpg"
           }]
         }, {
           key: 12,
@@ -7124,7 +7153,7 @@ class EventPool extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           data: [{
             key: 0,
             href: "/eventPool/enthusiasm_expansion_explosion",
-            img: "../images/pools/eventPool/12热情，膨胀，爆发！.jpg"
+            img: "../images/pools/eventPool/热情，膨胀，爆发！.jpg"
           }]
         }, {
           key: 11,
@@ -7133,7 +7162,7 @@ class EventPool extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           data: [{
             key: 0,
             href: "/eventPool/drill_electric",
-            img: "../images/pools/eventPool/11凝电之钻.jpg"
+            img: "../images/pools/eventPool/凝电之钻.jpg"
           }]
         }, {
           key: 10,
@@ -7142,7 +7171,7 @@ class EventPool extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           data: [{
             key: 0,
             href: "/eventPool/keeper_of_the_lock&keys",
-            img: "../images/pools/eventPool/10锁与匙的守卫者.jpg"
+            img: "../images/pools/eventPool/锁与匙的守卫者.jpg"
           }]
         }, {
           key: 9,
@@ -7151,7 +7180,7 @@ class EventPool extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           data: [{
             key: 0,
             href: "/eventPool/united_operation_1",
-            img: "../images/pools/eventPool/09联合行动1.jpg"
+            img: "../images/pools/eventPool/联合行动1.jpg"
           }]
         }, {
           key: 8,
@@ -7160,7 +7189,7 @@ class EventPool extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           data: [{
             key: 0,
             href: "/eventPool/frozen_land",
-            img: "../images/pools/eventPool/08冰封原野.jpg"
+            img: "../images/pools/eventPool/冰封原野.jpg"
           }]
         }, {
           key: 7,
@@ -7169,7 +7198,7 @@ class EventPool extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           data: [{
             key: 0,
             href: "/eventPool/dancing_lava",
-            img: "../images/pools/eventPool/07火舞之人.jpg"
+            img: "../images/pools/eventPool/火舞之人.jpg"
           }]
         }, {
           key: 6,
@@ -7178,7 +7207,7 @@ class EventPool extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           data: [{
             key: 0,
             href: "/eventPool/forging_steel",
-            img: "../images/pools/eventPool/06久铸尘铁.jpg"
+            img: "../images/pools/eventPool/久铸尘铁.jpg"
           }]
         }, {
           key: 5,
@@ -7187,7 +7216,7 @@ class EventPool extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           data: [{
             key: 0,
             href: "/eventPool/summer_guardians",
-            img: "../images/pools/eventPool/05深夏的守夜人.jpg"
+            img: "../images/pools/eventPool/深夏的守夜人.jpg"
           }]
         }, {
           key: 4,
@@ -7196,7 +7225,7 @@ class EventPool extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           data: [{
             key: 0,
             href: "/eventPool/lungmen_specoperators",
-            img: "../images/pools/eventPool/04龙门特别行动专员寻访.jpg"
+            img: "../images/pools/eventPool/龙门特别行动专员寻访.jpg"
           }]
         }, {
           key: 3,
@@ -7205,7 +7234,7 @@ class EventPool extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           data: [{
             key: 0,
             href: "/eventPool/the_crimson_hidden_dragon",
-            img: "../images/pools/eventPool/03鞘中赤红.jpg"
+            img: "../images/pools/eventPool/鞘中赤红.jpg"
           }]
         }, {
           key: 2,
@@ -7214,7 +7243,7 @@ class EventPool extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           data: [{
             key: 0,
             href: "/eventPool/treasure_knights",
-            img: "../images/pools/eventPool/02搅动潮汐之剑.jpg"
+            img: "../images/pools/eventPool/搅动潮汐之剑.jpg"
           }]
         }, {
           key: 1,
@@ -7223,7 +7252,7 @@ class EventPool extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           data: [{
             key: 0,
             href: "/eventPool/the_glory_of_sliverash",
-            img: "../images/pools/eventPool/01银灰色的荣耀.jpg"
+            img: "../images/pools/eventPool/银灰色的荣耀.jpg"
           }]
         }]
       },
@@ -7618,6 +7647,336 @@ class LimitPool extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (LimitPool);
+
+/***/ }),
+
+/***/ "./src/scripts/pages/pickcard.jsx":
+/*!****************************************!*\
+  !*** ./src/scripts/pages/pickcard.jsx ***!
+  \****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! axios */ "axios");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _components_Template_jsx__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Template.jsx */ "./src/scripts/components/Template.jsx");
+/* harmony import */ var _sass_pages_pickcard_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../sass/pages/pickcard.scss */ "./src/sass/pages/pickcard.scss");
+/* harmony import */ var _sass_pages_pickcard_scss__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_sass_pages_pickcard_scss__WEBPACK_IMPORTED_MODULE_3__);
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+
+
+
+
+
+class SideBar extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+  render() {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "sidebar-pick"
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "there are some words in here."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "there are some words in here."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "there are some words in here."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "there are some words in here."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "there are some words in here."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "there are some words in here."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "there are some words in here."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "there are some words in here."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "there are some words in here."));
+  }
+
+}
+
+class PickOne_Case extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+  render() {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "case"
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+      className: this.props.data.rare
+    }, " ", this.props.data.name, " "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+      className: "card",
+      src: `../../../images/character/half/${this.props.data.name}.png`,
+      alt: "card"
+    }));
+  }
+
+}
+
+class Case extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+  render() {
+    if (this.props.method === "pickOne") {
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(PickOne_Case, {
+        data: this.props.data
+      });
+    }
+    /*if(this.props.method === "pickTen") {
+        return (
+            <PickTen_Case input={ this.props.input } />
+        );
+    }
+    if(this.props.method === "calculate") {
+        return (
+            <Calculate_Case input={ this.props.input } />
+        );
+    } */
+
+
+    return null;
+  }
+
+}
+
+class PickImg extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+  render() {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "pick-img"
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+      alt: "",
+      src: `../../../images/pools/${this.props.poolType}/${this.props.poolName}.jpg`
+    }));
+  }
+
+}
+
+class PickUpInfo extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+  componentDidMount() {
+    this.props.getPickup();
+  }
+
+  render() {
+    const sixList = this.props.info.pickup.six.map(x => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      key: x
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+      className: "img6",
+      alt: " ",
+      src: `../../../images/character/icon/${x}.png`
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+      className: "6"
+    }, x)));
+    const fiveList = this.props.info.pickup.five.map(x => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      key: x
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+      className: "img5",
+      alt: " ",
+      src: `../../../images/character/icon/${x}.png`
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+      className: "5"
+    }, x)));
+    const fourList = this.props.info.pickup.four.map(x => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      key: x
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+      className: "img4",
+      alt: " ",
+      src: `../../../images/character/icon/${x}.png`
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+      className: "4"
+    }, x)));
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "pickup-info"
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+      className: "pickup-description"
+    }, "\u3010", this.props.poolName, "\u3011\u5BFB\u8BBF\u4E2D\u4EE5\u4E0B\u5E72\u5458\u83B7\u5F97\u6982\u7387\u63D0\u5347"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "pickup-box"
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+      className: "6"
+    }, "\u2605\u2605\u2605\u2605\u2605\u2605"), sixList, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "(\u53606\u2605\u51FA\u7387\u768450%)")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "pickup-box"
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+      className: "5"
+    }, "\u2605\u2605\u2605\u2605\u2605"), fiveList, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "(\u53605\u2605\u51FA\u7387\u768450%)")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "pickup-box"
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+      className: "4"
+    }, "\u2605\u2605\u2605\u2605"), fourList, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "(\u53604\u2605\u51FA\u7387\u768420%)")));
+  }
+
+}
+
+class PickTitle extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+  render() {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "pick-title"
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(PickImg, {
+      poolName: this.props.poolName,
+      poolType: this.props.poolType
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(PickUpInfo, {
+      poolName: this.props.poolName,
+      poolType: this.props.poolType,
+      info: this.props.info,
+      getPickup: this.props.getPickup
+    }));
+  }
+
+}
+
+class Buttons extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+  render() {
+    const buttonList = this.props.buttons.map(x => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+      key: x.key,
+      className: "menu-button",
+      onClick: x.func
+    }, x.name));
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "buttons"
+    }, buttonList);
+  }
+
+}
+
+class PickInfo extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+  render() {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "pick-info"
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u62BD\u53D6\u6B21\u6570:", this.props.info.pickNum), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u62BD\u52306\u661F\u7684\u6982\u7387:", `${Number(this.props.info.g) + 2} %`), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u82B1\u8D39\u7684\u5408\u6210\u7389: ", this.props.info.coin));
+  }
+
+}
+
+class PickMenu extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+  render() {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "pick-menu"
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Buttons, {
+      buttons: this.props.info.buttons
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(PickInfo, {
+      info: this.props.info
+    }));
+  }
+
+}
+
+class Pick extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+  render() {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "pick"
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(PickTitle, {
+      poolName: this.props.poolName,
+      poolType: this.props.poolType,
+      info: this.props.info,
+      getPickup: this.props.getPickup
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(PickMenu, {
+      poolName: this.props.poolName,
+      poolType: this.props.poolType,
+      info: this.props.info
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Case, null));
+  }
+
+}
+
+class Main extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+  render() {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "main-pick"
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SideBar, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "blank"
+    }, " "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Pick, {
+      poolName: this.props.poolName,
+      poolType: this.props.poolType,
+      info: this.props.info,
+      pickOne: this.props.pickOne,
+      pickTen: this.props.pickTen,
+      calc: this.props.calc,
+      getPickup: this.props.getPickup
+    }));
+  }
+
+}
+
+class Pickcard extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+  constructor(props) {
+    super(props);
+
+    _defineProperty(this, "getPickup", () => {
+      const data = {
+        params: {
+          type: "getPickup",
+          poolName: this.props.poolName
+        }
+      };
+      axios__WEBPACK_IMPORTED_MODULE_1___default.a.get("/getPickup", data).then(res => {
+        console.log(res.data);
+        this.setState({
+          pickup: res.data
+        });
+      });
+    });
+
+    _defineProperty(this, "pickOne", () => {
+      const data = {
+        params: {
+          type: "pick",
+          method: "pickOne",
+          poolName: this.props.poolName,
+          pickNum: this.state.pickNum
+        }
+      };
+      axios__WEBPACK_IMPORTED_MODULE_1___default.a.get("/pickOne", data).then(res => {
+        console.log(res.data);
+        this.setState({
+          pickNum: res.data.pickNum,
+          method: "pickOne",
+          data: res.data
+        });
+      });
+    });
+
+    _defineProperty(this, "pickTen", () => {});
+
+    _defineProperty(this, "calc", () => {});
+
+    this.state = {
+      buttons: [{
+        key: 0,
+        name: "寻访一次",
+        func: this.pickOne
+      }, {
+        key: 1,
+        name: "寻访十次",
+        func: this.pickTen
+      }, {
+        key: 2,
+        name: "结果计算",
+        func: this.calc
+      }],
+      coin: 6000,
+      //合成玉
+      coinUse: false,
+      coinUrl: "../../../images/materials/coin.png",
+      coinAlt: "orundum",
+      pickNum: 0,
+      g: 0,
+      pickup: {
+        six: [],
+        five: [],
+        four: []
+      },
+      method: "",
+      data: {}
+    };
+  }
+
+  componentDidMount() {
+    this.getPickup();
+  }
+
+  render() {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Template_jsx__WEBPACK_IMPORTED_MODULE_2__["default"], {
+      language: this.props.language,
+      theme: this.props.theme,
+      toDarkTheme: this.props.toDarkTheme,
+      toLightTheme: this.props.toLightTheme,
+      toZH_CN: this.props.toZH_CN,
+      toEN_US: this.props.toEN_US,
+      toJA_JP: this.props.toJA_JP
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Main, {
+      poolName: this.props.poolName,
+      poolType: this.props.poolType,
+      info: this.state,
+      pickOne: this.pickOne,
+      pickTen: this.pickTen,
+      calc: this.calc,
+      getPickup: this.getPickup
+    }));
+  }
+
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (Pickcard);
 
 /***/ }),
 

@@ -17,7 +17,7 @@ class EventPool extends React.Component {
                             {
                                 key: 0,
                                 href: "/eventPool/unbound_reflux",
-                                img: "../images/pools/eventPool/21不羁逆流.jpg"
+                                img: "../images/pools/eventPool/不羁逆流.jpg"
                             }
                         ],
                     },
@@ -29,7 +29,7 @@ class EventPool extends React.Component {
                             {
                                 key: 0,
                                 href: "/eventPool/spiral_sinking",
-                                img: "../images/pools/eventPool/20流沙涡旋.jpg"
+                                img: "../images/pools/eventPool/流沙涡旋.jpg"
                             }
                        ],
                     },
@@ -41,7 +41,7 @@ class EventPool extends React.Component {
                             {
                                 key: 0,
                                 href: "/eventPool/lisa_of_the_valley",
-                                img: "../images/pools/eventPool/19君影轻灵.jpg"
+                                img: "../images/pools/eventPool/君影轻灵.jpg"
                             }
                        ],
                     },
@@ -53,7 +53,7 @@ class EventPool extends React.Component {
                             {
                                 key: 0,
                                 href: "/eventPool/snowfall_утро",
-                                img: "../images/pools/eventPool/18雪落晨心.jpg"
+                                img: "../images/pools/eventPool/雪落晨心.jpg"
                             }
                        ],
                     },
@@ -65,7 +65,7 @@ class EventPool extends React.Component {
                             {
                                 key: 0,
                                 href: "/eventPool/misty_wild",
-                                img: "../images/pools/eventPool/17雾漫荒林.jpg"
+                                img: "../images/pools/eventPool/雾漫荒林.jpg"
                             }
                        ],
                     },
@@ -77,7 +77,7 @@ class EventPool extends React.Component {
                             {
                                 key: 0,
                                 href: "/eventPool/united_operation_2",
-                                img: "../images/pools/eventPool/16联合行动2.jpg"
+                                img: "../images/pools/eventPool/联合行动2.jpg"
                             }
                        ],
                     },
@@ -89,7 +89,7 @@ class EventPool extends React.Component {
                             {
                                 key: 0,
                                 href: "/eventPool/past_illusion",
-                                img: "../images/pools/eventPool/15往日幻象.jpg"
+                                img: "../images/pools/eventPool/往日幻象.jpg"
                             }
                        ],
                     },
@@ -101,7 +101,7 @@ class EventPool extends React.Component {
                             {
                                 key: 0,
                                 href: "/eventPool/grassy_bagpipe",
-                                img: "../images/pools/eventPool/14草垛上的风笛声.jpg"
+                                img: "../images/pools/eventPool/草垛上的风笛声.jpg"
                             }
                        ],
                     },
@@ -113,7 +113,7 @@ class EventPool extends React.Component {
                             {
                                 key: 0,
                                 href: "/eventPool/thousands_heads",
-                                img: "../images/pools/eventPool/13百种兵器.jpg"
+                                img: "../images/pools/eventPool/百种兵器.jpg"
                             }
                        ],
                     },
@@ -125,7 +125,7 @@ class EventPool extends React.Component {
                             {
                                 key: 0,
                                 href: "/eventPool/enthusiasm_expansion_explosion",
-                                img: "../images/pools/eventPool/12热情，膨胀，爆发！.jpg"
+                                img: "../images/pools/eventPool/热情，膨胀，爆发！.jpg"
                             }
                        ],
                     },
@@ -137,7 +137,7 @@ class EventPool extends React.Component {
                             {
                                 key: 0,
                                 href: "/eventPool/drill_electric",
-                                img: "../images/pools/eventPool/11凝电之钻.jpg"
+                                img: "../images/pools/eventPool/凝电之钻.jpg"
                             }
                        ],
                     },
@@ -149,7 +149,7 @@ class EventPool extends React.Component {
                             {
                                 key: 0,
                                 href: "/eventPool/keeper_of_the_lock&keys",
-                                img: "../images/pools/eventPool/10锁与匙的守卫者.jpg"
+                                img: "../images/pools/eventPool/锁与匙的守卫者.jpg"
                             }
                        ],
                     },
@@ -161,7 +161,7 @@ class EventPool extends React.Component {
                             {
                                 key: 0,
                                 href: "/eventPool/united_operation_1",
-                                img: "../images/pools/eventPool/09联合行动1.jpg"
+                                img: "../images/pools/eventPool/联合行动1.jpg"
                             }
                        ],
                     },
@@ -173,7 +173,7 @@ class EventPool extends React.Component {
                             {
                                 key: 0,
                                 href: "/eventPool/frozen_land",
-                                img: "../images/pools/eventPool/08冰封原野.jpg"
+                                img: "../images/pools/eventPool/冰封原野.jpg"
                             }
                        ],
                     },
@@ -185,7 +185,7 @@ class EventPool extends React.Component {
                             {
                                 key: 0,
                                 href: "/eventPool/dancing_lava",
-                                img: "../images/pools/eventPool/07火舞之人.jpg"
+                                img: "../images/pools/eventPool/火舞之人.jpg"
                             }
                        ],
                     },
@@ -197,7 +197,7 @@ class EventPool extends React.Component {
                             {
                                 key: 0,
                                 href: "/eventPool/forging_steel",
-                                img: "../images/pools/eventPool/06久铸尘铁.jpg"
+                                img: "../images/pools/eventPool/久铸尘铁.jpg"
                             }
                        ],
                     },
@@ -209,7 +209,7 @@ class EventPool extends React.Component {
                             {
                                 key: 0,
                                 href: "/eventPool/summer_guardians",
-                                img: "../images/pools/eventPool/05深夏的守夜人.jpg"
+                                img: "../images/pools/eventPool/深夏的守夜人.jpg"
                             }
                        ],
                     },
@@ -221,7 +221,7 @@ class EventPool extends React.Component {
                             {
                                 key: 0,
                                 href: "/eventPool/lungmen_specoperators",
-                                img: "../images/pools/eventPool/04龙门特别行动专员寻访.jpg"
+                                img: "../images/pools/eventPool/龙门特别行动专员寻访.jpg"
                             }
                        ],
                     },
@@ -233,7 +233,7 @@ class EventPool extends React.Component {
                             {
                                 key: 0,
                                 href: "/eventPool/the_crimson_hidden_dragon",
-                                img: "../images/pools/eventPool/03鞘中赤红.jpg"
+                                img: "../images/pools/eventPool/鞘中赤红.jpg"
                             }
                        ],
                     },
@@ -245,7 +245,7 @@ class EventPool extends React.Component {
                             {
                                 key: 0,
                                 href: "/eventPool/treasure_knights",
-                                img: "../images/pools/eventPool/02搅动潮汐之剑.jpg"
+                                img: "../images/pools/eventPool/搅动潮汐之剑.jpg"
                             }
                        ],
                     },
@@ -257,7 +257,7 @@ class EventPool extends React.Component {
                             {
                                 key: 0,
                                 href: "/eventPool/the_glory_of_sliverash",
-                                img: "../images/pools/eventPool/01银灰色的荣耀.jpg"
+                                img: "../images/pools/eventPool/银灰色的荣耀.jpg"
                             }
                        ],
                     },

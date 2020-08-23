@@ -1,12 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import {BrowserRouter as Router, Switch, Route,} from "react-router-dom";
+import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import Index from "./pages/index.jsx";
 import _404 from "./pages/404.jsx";
 import TemplatePage from "./pages/templatePage.jsx";
 import RegularPool from "./pages/RegularPool.jsx";
 import EventPool from "./pages/eventPool.jsx";
 import LimitPool from "./pages/limitPool.jsx";
+import Pickcard from "./pages/pickcard.jsx";
 
 function checkThemeCookie() {
     if(document.cookie.length === 0) {
@@ -126,6 +127,19 @@ class App extends React.Component {
                             toJA_JP = { this.toJA_JP }
                         />
                     </Route>
+                    <Route path="/eventPool/unbound_reflux">
+                        <Pickcard
+                            language = { this.state.language }
+                            theme = { this.state.theme }
+                            toDarkTheme = { this.toDarkTheme }
+                            toLightTheme = { this.toLightTheme }
+                            toZH_CN = { this.toZH_CN }
+                            toEN_US = { this.toEN_US }
+                            toJA_JP = { this.toJA_JP }
+                            poolType = "eventPool"
+                            poolName = "不羁逆流"
+                        />
+                    </Route>
                     <Route exact path="/limitPool">
                         <LimitPool
                             language = { this.state.language }
@@ -158,35 +172,6 @@ class App extends React.Component {
 }
 
 ReactDOM.render(
-    /* <Router>
-        <Switch>
-            <Route exact path="/">
-                <Index language="zh-cn" />
-            </Route>
-            <Route exact path="/zh-cn">
-                <Index language="zh-cn" />
-            </Route>
-            <Route path="/zh-cn/*">
-                <TemplatePage language="zh-cn" />
-            </Route>
-            <Route exact path="/ja-jp">
-                <Index language="ja-jp"/>
-            </Route>
-            <Route path="/ja-jp/*">
-                <TemplatePage language="ja-jp" />
-            </Route>
-            <Route exact path="/en-us/">
-                <Index language="en-us"/>
-            </Route>
-            <Route path="/en-us/*">
-                <TemplatePage language="en-us" />
-            </Route>
-            <Route path="/404">
-                <_404 />
-            </Route>
-        </Switch>
-    </Router>,
-    */
     <App />,
     document.getElementById("react-root")
 )
