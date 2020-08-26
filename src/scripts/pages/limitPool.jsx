@@ -16,8 +16,8 @@ class LimitPool extends React.Component {
                         data: [ 
                             {
                                 key: 0,
-                                href: "/limitPool/last_wish_cremation",
-                                img: "../images/pools/limitPool/[2020周年]遗愿焰火.jpg"
+                                href: "/limitPool/lastwish_cremation",
+                                img: "../images/pools/limitPool/遗愿焰火.jpg"
                             }
                          ],
                     },
@@ -29,7 +29,7 @@ class LimitPool extends React.Component {
                             {
                                 key: 0,
                                 href: "/limitPool/earthborn_metals",
-                                img: "../images/pools/limitPool/[2019春节]地生五金.jpg"
+                                img: "../images/pools/limitPool/地生五金.jpg"
                             }
                          ],
                     },

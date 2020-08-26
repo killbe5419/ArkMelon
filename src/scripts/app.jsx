@@ -8,38 +8,8 @@ import RegularPool from "./pages/RegularPool.jsx";
 import EventPool from "./pages/eventPool.jsx";
 import LimitPool from "./pages/limitPool.jsx";
 import Pickcard from "./pages/pickcard.jsx";
-
-function checkThemeCookie() {
-    if(document.cookie.length === 0) {
-        document.cookie = "theme=dark-theme;expires= Thu, 18 Dec 2043 12:00:00 GMT;path=/";
-        return "dark-theme";
-    } else {
-        let cookieArr = document.cookie.split(";");
-        for(let i=0;i<cookieArr.length;i++) {
-            if(cookieArr[i].split("=")[0].trim() === "theme") {
-                return cookieArr[i].split("=")[1];
-            }
-        }
-        document.cookie = "theme=dark-theme;expires= Thu, 18 Dec 2043 12:00:00 GMT;path=/";
-        return "dark-theme";
-    }
-}
-
-function checkLanguageCookie() {
-    if(document.cookie.length === 0) {
-        document.cookie = "language=zh-cn;expires= Thu, 18 Dec 2043 12:00:00 GMT;path=/";
-        return "zh-cn";
-    } else {
-        const cookieArr = document.cookie.split(";");
-        for(let i=0;i<cookieArr.length;i++) {
-            if(cookieArr[i].split("=")[0].trim() === "language") {
-                return cookieArr[i].split("=")[1];
-            }
-        }
-        document.cookie = "language=zh-cn;expires= Thu, 18 Dec 2043 12:00:00 GMT;path=/";
-        return "zh-cn";
-    }
-}
+import checkThemeCookie from "./tools/checkThemeCookie";
+import checkLanguageCookie from "./tools/checkLanguageCookie";
 
 class App extends React.Component {
     constructor(props) {
@@ -127,6 +97,19 @@ class App extends React.Component {
                             toJA_JP = { this.toJA_JP }
                         />
                     </Route>
+                    <Route path="/eventPool/spiral_sinking">
+                        <Pickcard
+                            language = { this.state.language }
+                            theme = { this.state.theme }
+                            toDarkTheme = { this.toDarkTheme }
+                            toLightTheme = { this.toLightTheme }
+                            toZH_CN = { this.toZH_CN }
+                            toEN_US = { this.toEN_US }
+                            toJA_JP = { this.toJA_JP }
+                            poolType = "eventPool"
+                            poolName = "流沙涡旋"
+                        />
+                    </Route>
                     <Route path="/eventPool/unbound_reflux">
                         <Pickcard
                             language = { this.state.language }
@@ -140,6 +123,19 @@ class App extends React.Component {
                             poolName = "不羁逆流"
                         />
                     </Route>
+                    <Route path="/eventPool/heart_of_steel_the_rage_ironhide">
+                        <Pickcard
+                            language = { this.state.language }
+                            theme = { this.state.theme }
+                            toDarkTheme = { this.toDarkTheme }
+                            toLightTheme = { this.toLightTheme }
+                            toZH_CN = { this.toZH_CN }
+                            toEN_US = { this.toEN_US }
+                            toJA_JP = { this.toJA_JP }
+                            poolType = "eventPool"
+                            poolName = "燃钢之心 暴躁铁皮"
+                        />
+                    </Route>
                     <Route exact path="/limitPool">
                         <LimitPool
                             language = { this.state.language }
@@ -149,6 +145,32 @@ class App extends React.Component {
                             toZH_CN = { this.toZH_CN }
                             toEN_US = { this.toEN_US }
                             toJA_JP = { this.toJA_JP }
+                        />
+                    </Route>
+                    <Route path="/limitPool/earthborn_metals">
+                        <Pickcard
+                            language = { this.state.language }
+                            theme = { this.state.theme }
+                            toDarkTheme = { this.toDarkTheme }
+                            toLightTheme = { this.toLightTheme }
+                            toZH_CN = { this.toZH_CN }
+                            toEN_US = { this.toEN_US }
+                            toJA_JP = { this.toJA_JP }
+                            poolType = "limitPool"
+                            poolName = "地生五金"
+                        />
+                    </Route>
+                    <Route path="/limitPool/lastwish_cremation">
+                        <Pickcard
+                            language = { this.state.language }
+                            theme = { this.state.theme }
+                            toDarkTheme = { this.toDarkTheme }
+                            toLightTheme = { this.toLightTheme }
+                            toZH_CN = { this.toZH_CN }
+                            toEN_US = { this.toEN_US }
+                            toJA_JP = { this.toJA_JP }
+                            poolType = "limitPool"
+                            poolName = "遗愿焰火"
                         />
                     </Route>
                     <Route path="/*">

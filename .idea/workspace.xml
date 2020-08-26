@@ -11,476 +11,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="607eec3e-89c1-47af-9f10-8be80260d6f9" name="Default Changelist" comment="add new things.">
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/W.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/临光.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/伊芙利特.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/傀影.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/克洛丝.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/凛冬.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/初雪.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/刻俄柏.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/刻刀.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/华法琳.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/卡缇.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/卡达.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/古米.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/可颂.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/史都华德.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/吽.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/地灵.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/塞雷娅.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/夜烟.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/夜莺.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/夜魔.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/天火.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/孑.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/守林人.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/安哲拉.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/安比尔.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/安洁莉娜.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/安赛尔.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/宴.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/崖心.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/巫恋.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/布洛卡.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/年.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/幽灵鲨.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/德克萨斯.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/惊蛰.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/慑砂.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/慕斯.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/拉普兰德.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/推进之王.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/斑点.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/断崖.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/斯卡蒂.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/早露.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/星极.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/星熊.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/普罗旺斯.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/暗索.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/月禾.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/月见夜.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/末药.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/杜宾.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/杰西卡.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/极境.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/格劳克斯.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/格雷伊.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/桃金娘.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/梅.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/梅尔.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/梓兰.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/棘刺.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/槐琥.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/泡普卡.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/波登可.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/流星.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/深海色.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/清道夫.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/温蒂.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/灰喉.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/炎熔.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/煌.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/狮蝎.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/猎蜂.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/玫兰莎.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/白金.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/白雪.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/白面鸮.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/真理.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/石棉.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/砾.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/空.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/空爆.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/米格鲁.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/红.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/红云.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/红豆.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/缠丸.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/翎羽.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/能天使.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/艾雅法拉.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/芙兰卡.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/芙蓉.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/芬.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/苇草.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/苏苏洛.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/莫斯提马.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/莱恩哈特.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/蓝毒.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/蛇屠箱.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/蜜蜡.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/角峰.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/诗怀雅.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/调香师.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/贾维.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/赫拉格.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/赫默.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/远山.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/送葬人.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/铃兰.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/银灰.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/闪灵.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/阿.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/阿消.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/陈.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/陨星.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/雷蛇.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/霜叶.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/风笛.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/食铁兽.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/香草.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/麦哲伦.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/half/黑.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/12F.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/Castle-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/Lancet-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/THRM-EX.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/W.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/临光.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/亚叶.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/伊桑.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/伊芙利特.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/傀影.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/克洛丝.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/凛冬.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/初雪.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/刻俄柏.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/刻刀.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/华法琳.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/卡缇.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/卡达.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/古米.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/可颂.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/史都华德.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/吽.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/嘉维尔.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/因陀罗.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/地灵.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/坚雷.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/塞雷娅.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/夜刀.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/夜烟.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/夜莺.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/夜魔.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/天火.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/孑.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/守林人.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/安哲拉.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/安德切尔.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/安比尔.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/安洁莉娜.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/安赛尔.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/宴.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/崖心.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/巡林者.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/巫恋.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/布洛卡.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/年.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/幽灵鲨.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/微风.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/德克萨斯.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/惊蛰.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/慑砂.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/慕斯.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/拉普兰德.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/拜松.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/推进之王.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/斑点.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/断崖.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/断罪者.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/斯卡蒂.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/早露.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/星极.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/星熊.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/普罗旺斯.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/暗索.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/暴行.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/月禾.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/月见夜.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/末药.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/杜宾.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/杜林.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/杰西卡.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/极境.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/柏喙.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/格劳克斯.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/格拉尼.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/格雷伊.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/桃金娘.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/梅.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/梅尔.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/梓兰.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/棘刺.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/槐琥.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/泡普卡.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/波登可.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/流星.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/深海色.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/清流.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/清道夫.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/温蒂.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/火神.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/灰喉.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/炎客.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/炎熔.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/煌.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/狮蝎.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/猎蜂.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/玫兰莎.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/白金.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/白雪.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/白面鸮.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/真理.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/石棉.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/砾.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/稀音.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/空.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/空爆.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/米格鲁.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/红.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/红云.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/红豆.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/缠丸.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/翎羽.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/能天使.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/艾丝黛尔.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/艾雅法拉.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/芙兰卡.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/芙蓉.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/芬.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/苇草.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/苏苏洛.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/苦艾.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/莫斯提马.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/莱恩哈特.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/蓝毒.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/蛇屠箱.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/蜜蜡.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/角峰.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/讯使.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/诗怀雅.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/调香师.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/贾维.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/赫拉格.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/赫默.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/远山.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/送葬人.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/铃兰.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/银灰.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/铸铁.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/锡兰.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/闪灵.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/阿.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/阿消.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/阿米娅.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/陈.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/陨星.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/雪雉.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/雷蛇.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/霜叶.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/风笛.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/食铁兽.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/香草.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/麦哲伦.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/黑.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/character/icon/黑角.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/materials/coin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/materials/coin_no.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/pools/eventPool/不羁逆流.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/pools/eventPool/久铸尘铁.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/pools/eventPool/冰封原野.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/pools/eventPool/凝电之钻.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/pools/eventPool/君影轻灵.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/pools/eventPool/往日幻象.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/pools/eventPool/搅动潮汐之剑.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/pools/eventPool/流沙涡旋.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/pools/eventPool/深夏的守夜人.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/pools/eventPool/火舞之人.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/pools/eventPool/热情，膨胀，爆发！.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/pools/eventPool/百种兵器.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/pools/eventPool/联合行动1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/pools/eventPool/联合行动2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/pools/eventPool/草垛上的风笛声.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/pools/eventPool/银灰色的荣耀.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/pools/eventPool/锁与匙的守卫者.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/pools/eventPool/雪落晨心.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/pools/eventPool/雾漫荒林.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/pools/eventPool/鞘中赤红.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/pools/eventPool/龙门特别行动专员寻访.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sass/pages/pickcard.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scripts/etc/dbTest.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scripts/pages/pickcard.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/character/half/森蚺.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/character/half/燧石.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/character/half/酸糖.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/character/icon/森蚺.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/character/icon/燧石.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/character/icon/特米米.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/character/icon/酸糖.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/pools/eventPool/燃钢之心_暴躁铁皮.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/pools/limitPool/地生五金.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/pools/limitPool/遗愿焰火.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scripts/tools/checkLanguageCookie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scripts/tools/checkThemeCookie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scripts/tools/gp.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dictionaries/yitian.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/yitian.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dist/app.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/dist/app.bundle.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dist/app.bundle.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/dist/app.bundle.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/12F.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/Castle-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/Lancet-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/THRM-EX.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/W.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/临光.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/伊桑.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/伊芙利特.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/傀影.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/克洛丝.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/凛冬.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/初雪.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/刻俄柏.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/刻刀.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/华法琳.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/卡缇.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/古米.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/可颂.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/史都华德.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/吽.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/嘉维尔.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/因陀罗.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/地灵.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/坚雷.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/塞雷娅.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/夜刀.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/夜烟.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/夜莺.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/夜魔.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/天火.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/守林人.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/安德切尔.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/安比尔.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/安洁莉娜.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/安赛尔.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/宴.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/崖心.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/巡林者.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/巫恋.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/布洛卡.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/年.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/幽灵鲨.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/微风.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/德克萨斯.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/惊蛰.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/慑砂.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/慕斯.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/拉普兰德.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/拜松.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/推进之王.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/斑点.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/断罪者.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/斯卡蒂.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/星极.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/星熊.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/普罗旺斯.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/暗索.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/暴行.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/月见夜.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/末药.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/杜宾.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/杜林.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/杰西卡.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/极境.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/柏喙.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/格劳克斯.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/格拉尼.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/格雷伊.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/桃金娘.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/梅.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/梅尔.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/梓兰.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/槐琥.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/泡普卡.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/流星.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/深海色.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/清流.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/清道夫.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/温蒂.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/火神.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/灰喉.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/炎客.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/炎熔.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/煌.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/狮蝎.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/猎蜂.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/玫兰莎.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/白金.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/白雪.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/白面鸮.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/真理.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/砾.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/空.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/空爆.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/米格鲁.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/红.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/红云.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/红豆.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/缠丸.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/翎羽.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/能天使.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/艾丝黛尔.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/艾雅法拉.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/芙兰卡.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/芙蓉.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/芬.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/苇草.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/苏苏洛-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/苏苏洛.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/莫斯提马.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/蓝毒.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/蛇屠箱.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/角峰.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/讯使.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/诗怀雅.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/调香师.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/赫拉格.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/赫默.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/远山.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/送葬人.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/银灰.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/铸铁.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/锡兰.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/闪灵.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/阿.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/阿消.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/阿米娅.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/陈.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/陨星.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/雪雉.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/雷蛇.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/霜叶.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/风笛.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/食铁兽.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/香草.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/麦哲伦.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/黑.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/character/ark-icon/黑角.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/pools/eventPool/01银灰色的荣耀.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/pools/eventPool/02搅动潮汐之剑.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/pools/eventPool/03鞘中赤红.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/pools/eventPool/04龙门特别行动专员寻访.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/pools/eventPool/05深夏的守夜人.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/pools/eventPool/06久铸尘铁.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/pools/eventPool/07火舞之人.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/pools/eventPool/08冰封原野.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/pools/eventPool/09联合行动1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/pools/eventPool/10锁与匙的守卫者.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/pools/eventPool/11凝电之钻.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/pools/eventPool/12热情，膨胀，爆发！.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/pools/eventPool/13百种兵器.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/pools/eventPool/14草垛上的风笛声.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/pools/eventPool/15往日幻象.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/pools/eventPool/16联合行动2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/pools/eventPool/17雾漫荒林.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/pools/eventPool/18雪落晨心.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/pools/eventPool/19君影轻灵.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/pools/eventPool/20流沙涡旋.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/pools/eventPool/21不羁逆流.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/modules/mainTemplate.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/modules/mainTemplate.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pools/limitPool/[2019春节]地生五金.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pools/limitPool/[2020周年]遗愿焰火.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/pages/pickcard.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/pages/pickcard.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scripts/app.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/app.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scripts/etc/dbTest.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/etc/dbTest.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scripts/pages/eventPool.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/pages/eventPool.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scripts/pages/limitPool.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/pages/limitPool.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scripts/pages/pickcard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/pages/pickcard.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -553,7 +109,7 @@
       <recent name="$PROJECT_DIR$/src/styles/components" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.watch">
+  <component name="RunManager" selected="npm.server">
     <configuration name="dbTest.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/scripts/etc/dbTest.js" working-dir="$PROJECT_DIR$/src/scripts/etc">
       <method v="2" />
     </configuration>
@@ -654,14 +210,9 @@
       <workItem from="1597899837987" duration="16852000" />
       <workItem from="1597991102645" duration="7932000" />
       <workItem from="1598076348042" duration="13652000" />
-      <workItem from="1598159893604" duration="20603000" />
-    </task>
-    <task id="LOCAL-00013" summary="add handleSearch function.">
-      <created>1591451542917</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1591451542917</updated>
+      <workItem from="1598159893604" duration="20640000" />
+      <workItem from="1598242470983" duration="24449000" />
+      <workItem from="1598424984869" duration="15736000" />
     </task>
     <task id="LOCAL-00014" summary="add 404 page.">
       <created>1591451556558</created>
@@ -999,7 +550,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597837979688</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="add new things.">
+      <created>1598186939401</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1598186939401</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1068,25 +626,25 @@
       <screen x="0" y="23" width="1680" height="981" />
     </state>
     <state width="251" height="195" key="DatabaseViewActions_Filter/0.23.1680.981@0.23.1680.981" timestamp="1589966524504" />
-    <state width="835" height="232" key="GridCell.Tab.0.bottom" timestamp="1598186127255">
+    <state width="802" height="283" key="GridCell.Tab.0.bottom" timestamp="1598445545055">
       <screen x="0" y="23" width="1680" height="970" />
     </state>
-    <state width="835" height="232" key="GridCell.Tab.0.bottom/0.23.1680.970@0.23.1680.970" timestamp="1598186127255" />
+    <state width="802" height="283" key="GridCell.Tab.0.bottom/0.23.1680.970@0.23.1680.970" timestamp="1598445545055" />
     <state width="929" height="186" key="GridCell.Tab.0.bottom/0.23.1680.981@0.23.1680.981" timestamp="1594215132334" />
-    <state width="835" height="232" key="GridCell.Tab.0.center" timestamp="1598186127254">
+    <state width="802" height="283" key="GridCell.Tab.0.center" timestamp="1598445545054">
       <screen x="0" y="23" width="1680" height="970" />
     </state>
-    <state width="835" height="232" key="GridCell.Tab.0.center/0.23.1680.970@0.23.1680.970" timestamp="1598186127254" />
+    <state width="802" height="283" key="GridCell.Tab.0.center/0.23.1680.970@0.23.1680.970" timestamp="1598445545054" />
     <state width="929" height="186" key="GridCell.Tab.0.center/0.23.1680.981@0.23.1680.981" timestamp="1594215132332" />
-    <state width="835" height="232" key="GridCell.Tab.0.left" timestamp="1598186127254">
+    <state width="802" height="283" key="GridCell.Tab.0.left" timestamp="1598445545054">
       <screen x="0" y="23" width="1680" height="970" />
     </state>
-    <state width="835" height="232" key="GridCell.Tab.0.left/0.23.1680.970@0.23.1680.970" timestamp="1598186127254" />
+    <state width="802" height="283" key="GridCell.Tab.0.left/0.23.1680.970@0.23.1680.970" timestamp="1598445545054" />
     <state width="929" height="186" key="GridCell.Tab.0.left/0.23.1680.981@0.23.1680.981" timestamp="1594215132323" />
-    <state width="835" height="232" key="GridCell.Tab.0.right" timestamp="1598186127254">
+    <state width="802" height="283" key="GridCell.Tab.0.right" timestamp="1598445545055">
       <screen x="0" y="23" width="1680" height="970" />
     </state>
-    <state width="835" height="232" key="GridCell.Tab.0.right/0.23.1680.970@0.23.1680.970" timestamp="1598186127254" />
+    <state width="802" height="283" key="GridCell.Tab.0.right/0.23.1680.970@0.23.1680.970" timestamp="1598445545055" />
     <state width="929" height="186" key="GridCell.Tab.0.right/0.23.1680.981@0.23.1680.981" timestamp="1594215132333" />
     <state width="952" height="235" key="GridCell.Tab.1.bottom" timestamp="1590830953179">
       <screen x="0" y="23" width="1680" height="981" />

@@ -262,7 +262,7 @@ module.exports = exports;
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, ":root {\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n  font-style: normal;\n  -webkit-font-smoothing: antialiased;\n}\n\n* input {\n  outline: none;\n  background: none;\n  border: none;\n}\n* button {\n  outline: none;\n  cursor: pointer;\n}\n* li {\n  list-style: none;\n}\n* a {\n  text-decoration: none;\n  cursor: pointer;\n}\n\n.title {\n  color: white;\n}\n\n.main-pick {\n  display: flex;\n  margin-top: 20px;\n  margin-bottom: 20px;\n  width: 100%;\n}\n.main-pick .sidebar-pick {\n  background-color: #2f2f2f;\n  color: #fff;\n  width: 15%;\n  min-height: 600px;\n}\n.main-pick .blank {\n  width: 5%;\n}\n.main-pick .pick {\n  color: #fff;\n  width: 75%;\n  height: 100%;\n}\n.main-pick .pick .pick-title {\n  display: flex;\n  max-height: 500px;\n}\n.main-pick .pick .pick-title .pick-img {\n  width: 65%;\n  height: 100%;\n}\n.main-pick .pick .pick-title .pick-img img {\n  width: 100%;\n}\n.main-pick .pick .pick-title .pickup-info {\n  margin-left: 5%;\n  display: flex;\n  flex-direction: column;\n  width: 30%;\n  height: 100%;\n}\n.main-pick .pick .pick-title .pickup-info .pickup-description {\n  font-weight: 700;\n  margin: 2.5%;\n}\n.main-pick .pick .pick-title .pickup-info .pickup-box {\n  height: 20%;\n  display: flex;\n  flex-direction: column;\n  margin-top: 5%;\n}\n.main-pick .pick .pick-title .pickup-info .pickup-box p {\n  display: inline-block;\n  margin: 1% 0 1% 0;\n}\n.main-pick .pick .pick-title .pickup-info .pickup-box div {\n  display: inline-block;\n  margin: 0;\n  height: 50px;\n}\n.main-pick .pick .pick-title .pickup-info .pickup-box div p {\n  margin: 0;\n}\n.main-pick .pick .pick-title .pickup-info .pickup-box div img {\n  width: 50px;\n  height: 50px;\n  margin-right: 10px;\n}\n.main-pick .pick .pick-menu {\n  display: flex;\n  flex-direction: column;\n  width: 100%;\n  margin-top: 10px;\n}\n.main-pick .pick .pick-menu .buttons {\n  display: flex;\n}\n.main-pick .pick .pick-menu .buttons .menu-button {\n  display: flex;\n  padding: 5px 12px;\n  border: 1px solid #446d88;\n  background: #58a linear-gradient(#77a0bb, #58a);\n  border-radius: 3px;\n  box-shadow: 0 0.8px 4px gray;\n  color: white;\n  text-shadow: 0 -0.8px 0.8px #335166;\n  font-size: 125%;\n  line-height: 1.5;\n  margin-left: 10px;\n  margin-right: 10px;\n}\n.main-pick .pick .pick-menu .pick-info {\n  display: flex;\n}\n.main-pick .pick .pick-menu .pick-info p {\n  margin-right: 20px;\n}\n\n.\\36  {\n  color: red;\n}\n\n.\\35  {\n  color: orange;\n}\n\n.\\34  {\n  color: mediumpurple;\n}\n\n.\\33  {\n  color: royalblue;\n}\n\n.img6 {\n  background-color: white;\n}\n\n.img5 {\n  background-color: white;\n}\n\n.img4 {\n  background-color: white;\n}\n\n/*\n.main {\n  display: flex;\n  .main-pick {\n    display: flex;\n    width: 100%;\n    min-height: 90%;\n    margin-top: 20px;\n    .sidebar-pick {\n      background-color: base.$bkg-bar-dark;\n      color: base.$font-dark;\n      width: 20%;\n      height: 90%;\n    }\n    .blank {\n      width: 5%;\n      height:90%;\n    }\n    .pick-container {\n      width: 70%;\n      height: 90%;\n      margin-right: 0;\n      background-color: base.$bkg-main-dark;\n    }\n  }\n  .pickContainer {\n    button {\n      display: flex;\n      padding: 5px 12px;\n      border: 1px solid #446d88;\n      background: #58a linear-gradient(#77a0bb,#58a);\n      border-radius: 3px;\n      box-shadow: 0 .8px 4px gray;\n      color: white;\n      text-shadow: 0 -.8px .8px #335166;\n      font-size: 125%;\n      line-height: 1.5;\n      margin-left: 10px;\n      margin-right: 10px;\n    }\n  }\n}\n\n.poolImgContainer {\n  img {\n    width: 50%;\n    height: 50%;\n  }\n}\n\n.showStone {\n  display: inline-block;\n  padding: 5px 12px;\n  background: transparent;\n  color: white;\n  text-shadow: 0 -.8px .8px #335166;\n  font-size: 125%;\n  line-height: 1.5;\n  margin-left: 10px;\n  margin-right: 10px;\n  img {\n    display: inline-block;\n    width: 30px;\n    height: 30px;\n    line-height: 1.5;\n  }\n  p {\n    display: inline-block;\n    font-size: 20px;\n    font-weight: 900;\n\n  }\n\n}\n\n.case {\n  display: inline-block;\n  margin: 10px;\n  p {\n    font-size: 25px;\n    font-weight: 900;\n  }\n  .card {\n    width: 120px;\n    height: 220px;\n  }\n}\n\n.calcResult {\n  font-size: 15px;\n  font-weight: 900;\n  color: azure;\n}\n*/", ""]);
+exports.push([module.i, ":root {\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n  font-style: normal;\n  -webkit-font-smoothing: antialiased;\n}\n\n* input {\n  outline: none;\n  background: none;\n  border: none;\n}\n* button {\n  outline: none;\n  cursor: pointer;\n}\n* li {\n  list-style: none;\n}\n* a {\n  text-decoration: none;\n  cursor: pointer;\n}\n\n.title {\n  color: white;\n}\n\n.main-pick {\n  display: flex;\n  margin-top: 20px;\n  margin-bottom: 20px;\n  width: 100%;\n}\n.main-pick .sidebar-pick {\n  background-color: #2f2f2f;\n  color: #fff;\n  width: 15%;\n  min-height: 1000px;\n}\n.main-pick .blank {\n  width: 5%;\n}\n.main-pick .pick {\n  color: #fff;\n  width: 75%;\n}\n.main-pick .pick .pick-title {\n  display: flex;\n  max-width: 1200px;\n  min-width: 800px;\n}\n.main-pick .pick .pick-title .pick-img {\n  width: 70%;\n  height: auto;\n}\n.main-pick .pick .pick-title .pick-img img {\n  width: 100%;\n}\n.main-pick .pick .pick-title .pickup-info {\n  margin-left: 5%;\n  display: flex;\n  flex-direction: column;\n  width: 25%;\n  height: 100%;\n}\n.main-pick .pick .pick-title .pickup-info .pickup-description {\n  font-weight: 700;\n  margin: 0;\n}\n.main-pick .pick .pick-title .pickup-info .pickup-box {\n  height: 20%;\n  width: 100%;\n  display: flex;\n  flex-direction: column;\n  margin-top: 5%;\n}\n.main-pick .pick .pick-title .pickup-info .pickup-box p {\n  display: inline-block;\n  margin: 1% 0 1% 0;\n}\n.main-pick .pick .pick-title .pickup-info .pickup-box .pickup-showcard {\n  display: flex;\n}\n.main-pick .pick .pick-title .pickup-info .pickup-box .pickup-showcard div {\n  display: flex;\n  margin: 0;\n  height: 10%;\n}\n.main-pick .pick .pick-title .pickup-info .pickup-box .pickup-showcard div p {\n  min-width: 100px;\n  margin: auto;\n  font-size: 20px;\n  font-weight: 900;\n}\n.main-pick .pick .pick-title .pickup-info .pickup-box .pickup-showcard div img {\n  width: 40px;\n  height: 40px;\n  margin-right: 1%;\n}\n.main-pick .pick .pick-menu {\n  display: flex;\n  flex-direction: column;\n  width: 100%;\n  margin-top: 10px;\n}\n.main-pick .pick .pick-menu .buttons {\n  display: flex;\n}\n.main-pick .pick .pick-menu .buttons .menu-button {\n  display: flex;\n  padding: 5px 12px;\n  border: 1px solid #446d88;\n  background: #58a linear-gradient(#77a0bb, #58a);\n  border-radius: 3px;\n  box-shadow: 0 0.8px 4px gray;\n  color: white;\n  text-shadow: 0 -0.8px 0.8px #335166;\n  font-size: 125%;\n  line-height: 1.5;\n  margin-left: 10px;\n  margin-right: 10px;\n}\n.main-pick .pick .pick-menu .pick-info {\n  display: flex;\n  margin: 0;\n}\n.main-pick .pick .pick-menu .pick-info p {\n  margin: 10px 0 0 20px;\n}\n.main-pick .pick .case {\n  display: inline-block;\n  margin: 10px;\n}\n.main-pick .pick .case p {\n  font-size: 100%;\n  font-weight: 900;\n  margin: 0 0 5px 0;\n}\n.main-pick .pick .case .card {\n  width: 90px;\n  height: 165px;\n}\n.main-pick .pick .record-container {\n  display: flex;\n  flex-direction: column;\n  margin: 50px 0 100px 0;\n  max-width: 100%;\n}\n.main-pick .pick .record-container .record {\n  display: flex;\n  max-width: 100%;\n  margin: 5px 0 0 0;\n}\n.main-pick .pick .record-container .record div {\n  font-size: 200%;\n}\n.main-pick .pick .record-container .record .pick-img-container {\n  display: inline-block;\n}\n.main-pick .pick .record-container .record .pick-img-container img {\n  border-radius: 3px;\n  width: 50px;\n  height: 50px;\n  margin: 0 5px 0 5px;\n}\n\n.\\36  {\n  color: red;\n}\n\n.\\35  {\n  color: orange;\n}\n\n.\\34  {\n  color: mediumpurple;\n}\n\n.\\33  {\n  color: royalblue;\n}\n\n.img {\n  background-color: white;\n}\n\n/*\n.main {\n  display: flex;\n  .main-pick {\n    display: flex;\n    width: 100%;\n    min-height: 90%;\n    margin-top: 20px;\n    .sidebar-pick {\n      background-color: base.$bkg-bar-dark;\n      color: base.$font-dark;\n      width: 20%;\n      height: 90%;\n    }\n    .blank {\n      width: 5%;\n      height:90%;\n    }\n    .pick-container {\n      width: 70%;\n      height: 90%;\n      margin-right: 0;\n      background-color: base.$bkg-main-dark;\n    }\n  }\n  .pickContainer {\n    button {\n      display: flex;\n      padding: 5px 12px;\n      border: 1px solid #446d88;\n      background: #58a linear-gradient(#77a0bb,#58a);\n      border-radius: 3px;\n      box-shadow: 0 .8px 4px gray;\n      color: white;\n      text-shadow: 0 -.8px .8px #335166;\n      font-size: 125%;\n      line-height: 1.5;\n      margin-left: 10px;\n      margin-right: 10px;\n    }\n  }\n}\n\n.poolImgContainer {\n  img {\n    width: 50%;\n    height: 50%;\n  }\n}\n\n.showStone {\n  display: inline-block;\n  padding: 5px 12px;\n  background: transparent;\n  color: white;\n  text-shadow: 0 -.8px .8px #335166;\n  font-size: 125%;\n  line-height: 1.5;\n  margin-left: 10px;\n  margin-right: 10px;\n  img {\n    display: inline-block;\n    width: 30px;\n    height: 30px;\n    line-height: 1.5;\n  }\n  p {\n    display: inline-block;\n    font-size: 20px;\n    font-weight: 900;\n\n  }\n\n}\n\n.case {\n  display: inline-block;\n  margin: 10px;\n  p {\n    font-size: 25px;\n    font-weight: 900;\n  }\n  .card {\n    width: 120px;\n    height: 220px;\n  }\n}\n\n.calcResult {\n  font-size: 15px;\n  font-weight: 900;\n  color: azure;\n}\n*/", ""]);
 // Exports
 module.exports = exports;
 
@@ -5144,6 +5144,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _pages_eventPool_jsx__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./pages/eventPool.jsx */ "./src/scripts/pages/eventPool.jsx");
 /* harmony import */ var _pages_limitPool_jsx__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./pages/limitPool.jsx */ "./src/scripts/pages/limitPool.jsx");
 /* harmony import */ var _pages_pickcard_jsx__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./pages/pickcard.jsx */ "./src/scripts/pages/pickcard.jsx");
+/* harmony import */ var _tools_checkThemeCookie__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./tools/checkThemeCookie */ "./src/scripts/tools/checkThemeCookie.js");
+/* harmony import */ var _tools_checkLanguageCookie__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./tools/checkLanguageCookie */ "./src/scripts/tools/checkLanguageCookie.js");
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
 
@@ -5157,41 +5159,7 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 
 
 
-function checkThemeCookie() {
-  if (document.cookie.length === 0) {
-    document.cookie = "theme=dark-theme;expires= Thu, 18 Dec 2043 12:00:00 GMT;path=/";
-    return "dark-theme";
-  } else {
-    let cookieArr = document.cookie.split(";");
 
-    for (let i = 0; i < cookieArr.length; i++) {
-      if (cookieArr[i].split("=")[0].trim() === "theme") {
-        return cookieArr[i].split("=")[1];
-      }
-    }
-
-    document.cookie = "theme=dark-theme;expires= Thu, 18 Dec 2043 12:00:00 GMT;path=/";
-    return "dark-theme";
-  }
-}
-
-function checkLanguageCookie() {
-  if (document.cookie.length === 0) {
-    document.cookie = "language=zh-cn;expires= Thu, 18 Dec 2043 12:00:00 GMT;path=/";
-    return "zh-cn";
-  } else {
-    const cookieArr = document.cookie.split(";");
-
-    for (let i = 0; i < cookieArr.length; i++) {
-      if (cookieArr[i].split("=")[0].trim() === "language") {
-        return cookieArr[i].split("=")[1];
-      }
-    }
-
-    document.cookie = "language=zh-cn;expires= Thu, 18 Dec 2043 12:00:00 GMT;path=/";
-    return "zh-cn";
-  }
-}
 
 class App extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
   constructor(props) {
@@ -5238,8 +5206,8 @@ class App extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
     });
 
     this.state = {
-      theme: checkThemeCookie(),
-      language: checkLanguageCookie()
+      theme: Object(_tools_checkThemeCookie__WEBPACK_IMPORTED_MODULE_10__["default"])(),
+      language: Object(_tools_checkLanguageCookie__WEBPACK_IMPORTED_MODULE_11__["default"])()
     };
   }
 
@@ -5278,6 +5246,18 @@ class App extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       toEN_US: this.toEN_US,
       toJA_JP: this.toJA_JP
     })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
+      path: "/eventPool/spiral_sinking"
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_pages_pickcard_jsx__WEBPACK_IMPORTED_MODULE_9__["default"], {
+      language: this.state.language,
+      theme: this.state.theme,
+      toDarkTheme: this.toDarkTheme,
+      toLightTheme: this.toLightTheme,
+      toZH_CN: this.toZH_CN,
+      toEN_US: this.toEN_US,
+      toJA_JP: this.toJA_JP,
+      poolType: "eventPool",
+      poolName: "\u6D41\u6C99\u6DA1\u65CB"
+    })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
       path: "/eventPool/unbound_reflux"
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_pages_pickcard_jsx__WEBPACK_IMPORTED_MODULE_9__["default"], {
       language: this.state.language,
@@ -5290,6 +5270,18 @@ class App extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       poolType: "eventPool",
       poolName: "\u4E0D\u7F81\u9006\u6D41"
     })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
+      path: "/eventPool/heart_of_steel_the_rage_ironhide"
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_pages_pickcard_jsx__WEBPACK_IMPORTED_MODULE_9__["default"], {
+      language: this.state.language,
+      theme: this.state.theme,
+      toDarkTheme: this.toDarkTheme,
+      toLightTheme: this.toLightTheme,
+      toZH_CN: this.toZH_CN,
+      toEN_US: this.toEN_US,
+      toJA_JP: this.toJA_JP,
+      poolType: "eventPool",
+      poolName: "\u71C3\u94A2\u4E4B\u5FC3 \u66B4\u8E81\u94C1\u76AE"
+    })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
       exact: true,
       path: "/limitPool"
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_pages_limitPool_jsx__WEBPACK_IMPORTED_MODULE_8__["default"], {
@@ -5300,6 +5292,30 @@ class App extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       toZH_CN: this.toZH_CN,
       toEN_US: this.toEN_US,
       toJA_JP: this.toJA_JP
+    })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
+      path: "/limitPool/earthborn_metals"
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_pages_pickcard_jsx__WEBPACK_IMPORTED_MODULE_9__["default"], {
+      language: this.state.language,
+      theme: this.state.theme,
+      toDarkTheme: this.toDarkTheme,
+      toLightTheme: this.toLightTheme,
+      toZH_CN: this.toZH_CN,
+      toEN_US: this.toEN_US,
+      toJA_JP: this.toJA_JP,
+      poolType: "limitPool",
+      poolName: "\u5730\u751F\u4E94\u91D1"
+    })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
+      path: "/limitPool/lastwish_cremation"
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_pages_pickcard_jsx__WEBPACK_IMPORTED_MODULE_9__["default"], {
+      language: this.state.language,
+      theme: this.state.theme,
+      toDarkTheme: this.toDarkTheme,
+      toLightTheme: this.toLightTheme,
+      toZH_CN: this.toZH_CN,
+      toEN_US: this.toEN_US,
+      toJA_JP: this.toJA_JP,
+      poolType: "limitPool",
+      poolName: "\u9057\u613F\u7130\u706B"
     })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
       path: "/*"
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_pages_templatePage_jsx__WEBPACK_IMPORTED_MODULE_5__["default"], {
@@ -7066,6 +7082,15 @@ class EventPool extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
     this.state = {
       zh_cn: {
         contents: [{
+          key: 22,
+          tag: "pool",
+          name: "燃钢之心 暴躁铁皮 [ 2020/08/25 ~ 2020/09/08 ] ",
+          data: [{
+            key: 0,
+            href: "/eventPool/heart_of_steel_the_rage_ironhide",
+            img: "../images/pools/eventPool/燃钢之心_暴躁铁皮.jpg"
+          }]
+        }, {
           key: 21,
           tag: "pool",
           name: "不羁逆流 [ 2020/08/11 ~ 2020/08/25 ] ",
@@ -7607,8 +7632,8 @@ class LimitPool extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           name: "遗愿焰火 [ 2020/05/01 ~ 2020/05/15 ] ",
           data: [{
             key: 0,
-            href: "/limitPool/last_wish_cremation",
-            img: "../images/pools/limitPool/[2020周年]遗愿焰火.jpg"
+            href: "/limitPool/lastwish_cremation",
+            img: "../images/pools/limitPool/遗愿焰火.jpg"
           }]
         }, {
           key: 1,
@@ -7617,7 +7642,7 @@ class LimitPool extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           data: [{
             key: 0,
             href: "/limitPool/earthborn_metals",
-            img: "../images/pools/limitPool/[2019春节]地生五金.jpg"
+            img: "../images/pools/limitPool/地生五金.jpg"
           }]
         }]
       },
@@ -7666,7 +7691,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_Template_jsx__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Template.jsx */ "./src/scripts/components/Template.jsx");
 /* harmony import */ var _sass_pages_pickcard_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../sass/pages/pickcard.scss */ "./src/sass/pages/pickcard.scss");
 /* harmony import */ var _sass_pages_pickcard_scss__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_sass_pages_pickcard_scss__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _tools_gp__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../tools/gp */ "./src/scripts/tools/gp.js");
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
 
 
 
@@ -7682,52 +7709,13 @@ class SideBar extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
 
 }
 
-class PickOne_Case extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
-  render() {
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "case"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-      className: this.props.data.rare
-    }, " ", this.props.data.name, " "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-      className: "card",
-      src: `../../../images/character/half/${this.props.data.name}.png`,
-      alt: "card"
-    }));
-  }
-
-}
-
-class Case extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
-  render() {
-    if (this.props.method === "pickOne") {
-      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(PickOne_Case, {
-        data: this.props.data
-      });
-    }
-    /*if(this.props.method === "pickTen") {
-        return (
-            <PickTen_Case input={ this.props.input } />
-        );
-    }
-    if(this.props.method === "calculate") {
-        return (
-            <Calculate_Case input={ this.props.input } />
-        );
-    } */
-
-
-    return null;
-  }
-
-}
-
 class PickImg extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
   render() {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: "pick-img"
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
       alt: "",
-      src: `../../../images/pools/${this.props.poolType}/${this.props.poolName}.jpg`
+      src: `../../../images/pools/${this.props.poolType}/${this.props.poolName.replace(/ /, "_")}.jpg`
     }));
   }
 
@@ -7739,50 +7727,76 @@ class PickUpInfo extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component 
   }
 
   render() {
-    const sixList = this.props.info.pickup.six.map(x => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      key: x
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-      className: "img6",
-      alt: " ",
-      src: `../../../images/character/icon/${x}.png`
-    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-      className: "6"
-    }, x)));
-    const fiveList = this.props.info.pickup.five.map(x => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      key: x
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-      className: "img5",
-      alt: " ",
-      src: `../../../images/character/icon/${x}.png`
-    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-      className: "5"
-    }, x)));
-    const fourList = this.props.info.pickup.four.map(x => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      key: x
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-      className: "img4",
-      alt: " ",
-      src: `../../../images/character/icon/${x}.png`
-    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-      className: "4"
-    }, x)));
+    let pickupBoxSix, pickupBoxFive, pickupBoxFour;
+
+    if (this.props.info.pickup.six.length !== 0) {
+      const sixList = this.props.info.pickup.six.map(x => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        key: x
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        className: "img",
+        alt: " ",
+        src: `../../../images/character/icon/${x}.png`
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+        className: "6"
+      }, x)));
+      pickupBoxSix = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "pickup-box"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+        className: "6"
+      }, "\u2605\u2605\u2605\u2605\u2605\u2605"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "pickup-showcard"
+      }, sixList), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "(\u53606\u2605\u51FA\u7387\u768450%)"));
+    } else {
+      pickupBoxSix = null;
+    }
+
+    if (this.props.info.pickup.five.length !== 0) {
+      const fiveList = this.props.info.pickup.five.map(x => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        key: x
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        className: "img",
+        alt: " ",
+        src: `../../../images/character/icon/${x}.png`
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+        className: "5"
+      }, x)));
+      pickupBoxFive = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "pickup-box"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+        className: "5"
+      }, "\u2605\u2605\u2605\u2605\u2605"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "pickup-showcard"
+      }, fiveList), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "(\u53605\u2605\u51FA\u7387\u768450%)"));
+    } else {
+      pickupBoxFive = null;
+    }
+
+    if (this.props.info.pickup.four.length !== 0) {
+      const fourList = this.props.info.pickup.four.map(x => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        key: x
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        className: "img",
+        alt: " ",
+        src: `../../../images/character/icon/${x}.png`
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+        className: "4"
+      }, x)));
+      pickupBoxFour = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "pickup-box"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+        className: "4"
+      }, "\u2605\u2605\u2605\u2605"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "pickup-showcard"
+      }, fourList), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "(\u53604\u2605\u51FA\u7387\u768420%)"));
+    } else {
+      pickupBoxFour = null;
+    }
+
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: "pickup-info"
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
       className: "pickup-description"
-    }, "\u3010", this.props.poolName, "\u3011\u5BFB\u8BBF\u4E2D\u4EE5\u4E0B\u5E72\u5458\u83B7\u5F97\u6982\u7387\u63D0\u5347"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "pickup-box"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-      className: "6"
-    }, "\u2605\u2605\u2605\u2605\u2605\u2605"), sixList, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "(\u53606\u2605\u51FA\u7387\u768450%)")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "pickup-box"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-      className: "5"
-    }, "\u2605\u2605\u2605\u2605\u2605"), fiveList, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "(\u53605\u2605\u51FA\u7387\u768450%)")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "pickup-box"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-      className: "4"
-    }, "\u2605\u2605\u2605\u2605"), fourList, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "(\u53604\u2605\u51FA\u7387\u768420%)")));
+    }, "\u3010", this.props.poolName, "\u3011\u5BFB\u8BBF\u4E2D\u4EE5\u4E0B\u5E72\u5458\u83B7\u5F97\u6982\u7387\u63D0\u5347"), pickupBoxSix, pickupBoxFive, pickupBoxFour);
   }
 
 }
@@ -7818,11 +7832,20 @@ class Buttons extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
 
 }
 
-class PickInfo extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+class PickInfo1 extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
   render() {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: "pick-info"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u62BD\u53D6\u6B21\u6570:", this.props.info.pickNum), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u62BD\u52306\u661F\u7684\u6982\u7387:", `${Number(this.props.info.g) + 2} %`), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u82B1\u8D39\u7684\u5408\u6210\u7389: ", this.props.info.coin));
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u62BD\u53D6\u6B21\u6570:", this.props.info.pickNum), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u6CA1\u6709\u62BD\u52306\u2605\u7684\u6B21\u6570: ", this.props.info.g), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u62BD\u52306\u2605\u7684\u6982\u7387:  ", `${Object(_tools_gp__WEBPACK_IMPORTED_MODULE_4__["default"])(Number(this.props.info.g)) + 2} %`), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u82B1\u8D39\u7684\u5408\u6210\u7389: ", this.props.info.coin), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u82B1\u8D39\u7684\u81F3\u7EAF\u6E90\u77F3: ", Math.round(this.props.info.coin / 180)));
+  }
+
+}
+
+class PickInfo2 extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+  render() {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "pick-info"
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u62BD\u52306\u2605\u4E2A\u6570: ", this.props.info.six.length, " "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u62BD\u52305\u2605\u4E2A\u6570: ", this.props.info.five.length, " "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u62BD\u52304\u2605\u4E2A\u6570: ", this.props.info.four.length, " "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u62BD\u52303\u2605\u4E2A\u6570: ", this.props.info.three.length, " "));
   }
 
 }
@@ -7833,9 +7856,132 @@ class PickMenu extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       className: "pick-menu"
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Buttons, {
       buttons: this.props.info.buttons
-    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(PickInfo, {
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(PickInfo1, {
+      info: this.props.info
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(PickInfo2, {
       info: this.props.info
     }));
+  }
+
+}
+
+class PickOne_Case extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+  render() {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "case",
+      key: this.props.data._id
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+      className: this.props.data.rare
+    }, " ", this.props.data.name, " "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+      className: "card img",
+      src: `../../../images/character/half/${this.props.data.name}.png`,
+      alt: "card"
+    }));
+  }
+
+}
+
+class PickTen_Case extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+  render() {
+    const list = this.props.data.map(x => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "case",
+      key: x.id
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+      className: x.rare
+    }, x.name), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+      className: "card img",
+      src: `../../../images/character/half/${x.name}.png`,
+      alt: "card"
+    })));
+    list.splice(5, 0, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+      key: "br"
+    }));
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "pickTenCase"
+    }, list);
+  }
+
+}
+
+class Case extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+  render() {
+    if (this.props.method === "pickOne") {
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(PickOne_Case, {
+        data: this.props.data
+      });
+    }
+
+    if (this.props.method === "pickTen") {
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(PickTen_Case, {
+        data: this.props.data
+      });
+    }
+    /*
+    if(this.props.method === "calculate") {
+        return (
+            <Calculate_Case input={ this.props.input } />
+        );
+    }
+    */
+
+
+    return null;
+  }
+
+}
+
+class Record extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+  render() {
+    if (this.props.data.length !== 0) {
+      const list = this.props.data.map(x => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        className: "img",
+        key: x.key,
+        alt: " ",
+        src: `../../../images/character/icon/${x.name}.png`
+      }));
+
+      for (let i = 0; i < list.length; i++) {
+        if (i % 10 === 0) {
+          list.splice(i, 0, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+            className: "br",
+            key: "br" + i
+          }));
+        }
+      }
+
+      list.shift();
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "record"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: this.props.rare
+      }, this.props.rare, "\u2605"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "pick-img-container"
+      }, list));
+    } else {
+      return null;
+    }
+  }
+
+}
+
+class RecordContainer extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+  render() {
+    if (this.props.info.six.length !== 0 || this.props.info.five.length !== 0 || this.props.info.four.length !== 0) {
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "record-container"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Record, {
+        data: this.props.info.six,
+        rare: "6"
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Record, {
+        data: this.props.info.five,
+        rare: "5"
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Record, {
+        data: this.props.info.four,
+        rare: "4"
+      }));
+    } else {
+      return null;
+    }
   }
 
 }
@@ -7853,7 +7999,12 @@ class Pick extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       poolName: this.props.poolName,
       poolType: this.props.poolType,
       info: this.props.info
-    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Case, null));
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Case, {
+      method: this.props.info.method,
+      data: this.props.info.data
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(RecordContainer, {
+      info: this.props.info
+    }));
   }
 
 }
@@ -7902,20 +8053,144 @@ class Pickcard extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           type: "pick",
           method: "pickOne",
           poolName: this.props.poolName,
-          pickNum: this.state.pickNum
+          g: this.state.g
         }
       };
       axios__WEBPACK_IMPORTED_MODULE_1___default.a.get("/pickOne", data).then(res => {
-        console.log(res.data);
         this.setState({
-          pickNum: res.data.pickNum,
+          g: res.data.g,
           method: "pickOne",
-          data: res.data
+          data: res.data,
+          pickNum: this.state.pickNum + 1,
+          coin: this.state.coin + 600
         });
+
+        if (res.data.rare === 6) {
+          alert(`哇！抽到了6★干员: ${res.data.name}`);
+          let arr = this.state.six;
+          const newObj = {
+            key: this.state.pickNum,
+            name: res.data.name
+          };
+          arr.push(newObj);
+          this.setState({
+            six: arr
+          });
+        } else if (res.data.rare === 5) {
+          let arr = this.state.five;
+          const newObj = {
+            key: this.state.pickNum,
+            name: res.data.name
+          };
+          arr.push(newObj);
+          this.setState({
+            five: arr
+          });
+        } else if (res.data.rare === 4) {
+          let arr = this.state.four;
+          const newObj = {
+            key: this.state.pickNum,
+            name: res.data.name
+          };
+          arr.push(newObj);
+          this.setState({
+            four: arr
+          });
+        } else {
+          let arr = this.state.three;
+          arr.push({
+            key: this.state.pickNum,
+            name: res.data.name
+          });
+          this.setState({
+            three: arr
+          });
+        }
+
+        console.log(this.state.six, this.state.five, this.state.four);
       });
     });
 
-    _defineProperty(this, "pickTen", () => {});
+    _defineProperty(this, "pickTen", () => {
+      const data = {
+        params: {
+          type: "pick",
+          method: "pickTen",
+          poolName: this.props.poolName,
+          g: this.state.g
+        }
+      };
+      axios__WEBPACK_IMPORTED_MODULE_1___default.a.get("/pickTen", data).then(res => {
+        console.log(res.data);
+        this.setState({
+          g: res.data.g,
+          method: "pickTen",
+          data: res.data.array,
+          pickNum: this.state.pickNum + 10,
+          coin: this.state.coin + 6000
+        });
+
+        for (let i = 0; i < res.data.array.length; i++) {
+          if (res.data.array[i].rare === 6) {
+            alert(`哇！抽到了6★干员: ${res.data.array[i].name}`);
+            let arr = this.state.six;
+            const newObj = {
+              key: `${this.state.pickNum} + ${res.data.array[i].id}`,
+              name: res.data.array[i].name
+            };
+            arr.push(newObj);
+            this.setState({
+              six: arr
+            });
+          } else if (res.data.array[i].rare === 5) {
+            let arr = this.state.five;
+            const newObj = {
+              key: `${this.state.pickNum} + ${res.data.array[i].id}`,
+              name: res.data.array[i].name
+            };
+            arr.push(newObj);
+            this.setState({
+              five: arr
+            });
+          } else if (res.data.array[i].rare === 4) {
+            let arr = this.state.four;
+            const newObj = {
+              key: `${this.state.pickNum} + ${res.data.array[i].id}`,
+              name: res.data.array[i].name
+            };
+            arr.push(newObj);
+            this.setState({
+              four: arr
+            });
+          } else {
+            let arr = this.state.three;
+            const newObj = {
+              key: `${this.state.pickNum} + ${res.data.array[i].id}`,
+              name: res.data.array[i].name
+            };
+            arr.push(newObj);
+            this.setState({
+              three: arr
+            });
+          }
+        }
+      });
+    });
+
+    _defineProperty(this, "clearRecord", () => {
+      this.setState({
+        coin: 0,
+        //合成玉
+        pickNum: 0,
+        g: 0,
+        six: [],
+        five: [],
+        four: [],
+        three: [],
+        method: "",
+        data: {}
+      });
+    });
 
     _defineProperty(this, "calc", () => {});
 
@@ -7930,21 +8205,28 @@ class Pickcard extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
         func: this.pickTen
       }, {
         key: 2,
-        name: "结果计算",
+        name: "清空记录",
+        func: this.clearRecord
+      }, {
+        key: 3,
+        name: "寻访计算",
         func: this.calc
       }],
-      coin: 6000,
-      //合成玉
-      coinUse: false,
-      coinUrl: "../../../images/materials/coin.png",
-      coinAlt: "orundum",
-      pickNum: 0,
-      g: 0,
       pickup: {
         six: [],
         five: [],
         four: []
       },
+      coin: 0,
+      //合成玉
+      coinUrl: "../../../images/materials/coin.png",
+      coinAlt: "orundum",
+      pickNum: 0,
+      g: 0,
+      six: [],
+      five: [],
+      four: [],
+      three: [],
       method: "",
       data: {}
     };
@@ -8014,6 +8296,82 @@ class TemplatePage extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Componen
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (TemplatePage);
+
+/***/ }),
+
+/***/ "./src/scripts/tools/checkLanguageCookie.js":
+/*!**************************************************!*\
+  !*** ./src/scripts/tools/checkLanguageCookie.js ***!
+  \**************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return checkLanguageCookie; });
+function checkLanguageCookie () {
+    if(document.cookie.length === 0) {
+        document.cookie = "language=zh-cn;expires= Thu, 18 Dec 2043 12:00:00 GMT;path=/";
+        return "zh-cn";
+    } else {
+        const cookieArr = document.cookie.split(";");
+        for(let i=0;i<cookieArr.length;i++) {
+            if(cookieArr[i].split("=")[0].trim() === "language") {
+                return cookieArr[i].split("=")[1];
+            }
+        }
+        document.cookie = "language=zh-cn;expires= Thu, 18 Dec 2043 12:00:00 GMT;path=/";
+        return "zh-cn";
+    }
+}
+
+/***/ }),
+
+/***/ "./src/scripts/tools/checkThemeCookie.js":
+/*!***********************************************!*\
+  !*** ./src/scripts/tools/checkThemeCookie.js ***!
+  \***********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return checkThemeCookie; });
+function checkThemeCookie() {
+    if(document.cookie.length === 0) {
+        document.cookie = "theme=dark-theme;expires= Thu, 18 Dec 2043 12:00:00 GMT;path=/";
+        return "dark-theme";
+    } else {
+        let cookieArr = document.cookie.split(";");
+        for(let i=0;i<cookieArr.length;i++) {
+            if(cookieArr[i].split("=")[0].trim() === "theme") {
+                return cookieArr[i].split("=")[1];
+            }
+        }
+        document.cookie = "theme=dark-theme;expires= Thu, 18 Dec 2043 12:00:00 GMT;path=/";
+        return "dark-theme";
+    }
+}
+
+/***/ }),
+
+/***/ "./src/scripts/tools/gp.js":
+/*!*********************************!*\
+  !*** ./src/scripts/tools/gp.js ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return gp; });
+function gp (g) {
+    if(g > 50) {
+        return (g - 50) * 2;
+    } else {
+        return 0;
+    }
+}
 
 /***/ }),
 

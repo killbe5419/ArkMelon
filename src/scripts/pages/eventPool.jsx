@@ -10,6 +10,18 @@ class EventPool extends React.Component {
             zh_cn: {
                 contents: [
                     {
+                        key: 22,
+                        tag: "pool",
+                        name: "燃钢之心 暴躁铁皮 [ 2020/08/25 ~ 2020/09/08 ] ",
+                        data: [
+                            {
+                                key: 0,
+                                href: "/eventPool/heart_of_steel_the_rage_ironhide",
+                                img: "../images/pools/eventPool/燃钢之心_暴躁铁皮.jpg"
+                            }
+                        ],
+                    },
+                    {
                         key: 21,
                         tag: "pool",
                         name: "不羁逆流 [ 2020/08/11 ~ 2020/08/25 ] ",
