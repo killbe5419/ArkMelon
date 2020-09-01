@@ -10,6 +10,7 @@ import LimitPool from "./pages/limitPool.jsx";
 import Pickcard from "./pages/pickcard.jsx";
 import checkThemeCookie from "./tools/checkThemeCookie";
 import checkLanguageCookie from "./tools/checkLanguageCookie";
+import Test from "./pages/test.jsx";
 
 class App extends React.Component {
     constructor(props) {
@@ -172,6 +173,9 @@ class App extends React.Component {
                             poolType = "limitPool"
                             poolName = "遗愿焰火"
                         />
+                    </Route>
+                    <Route path="/test">
+                        <Test />
                     </Route>
                     <Route path="/*">
                         <TemplatePage

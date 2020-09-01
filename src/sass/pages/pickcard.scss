@@ -1,4 +1,5 @@
 @use "src/sass/base";
+
 .title {
   color: white;
 }
@@ -133,11 +134,41 @@
           display: inline-block;
           img {
             border-radius: 3px;
-            width: 50px;
-            height: 50px;
+            width: 48px;
+            height: 48px;
             margin: 0 5px 0 5px;
           }
         }
+      }
+    }
+    .wait-calc {
+      position: fixed;
+      display: flex;
+      flex-direction: column;
+      left: 0;
+      top: 0;
+      z-index: 990;
+      .bkg-blur {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color:rgb(0,0,0,0.9);
+        z-index: 997;
+      }
+      .calc-icon-container {
+        position: absolute;
+        top: 30%;
+        left: 45%;
+        z-index: 998;
+        filter: blur(.5px);
+      }
+      .calc-description {
+        position: fixed;
+        top: 60%;
+        left: 45%;
+        font-size: 36px;
+        font-weight: 900;
+        z-index: 999;
       }
     }
   }
@@ -156,101 +187,11 @@
   color: royalblue;
 }
 
-
 .img {
   background-color: white;
-}
-/*
-.main {
-  display: flex;
-  .main-pick {
-    display: flex;
-    width: 100%;
-    min-height: 90%;
-    margin-top: 20px;
-    .sidebar-pick {
-      background-color: base.$bkg-bar-dark;
-      color: base.$font-dark;
-      width: 20%;
-      height: 90%;
-    }
-    .blank {
-      width: 5%;
-      height:90%;
-    }
-    .pick-container {
-      width: 70%;
-      height: 90%;
-      margin-right: 0;
-      background-color: base.$bkg-main-dark;
-    }
-  }
-  .pickContainer {
-    button {
-      display: flex;
-      padding: 5px 12px;
-      border: 1px solid #446d88;
-      background: #58a linear-gradient(#77a0bb,#58a);
-      border-radius: 3px;
-      box-shadow: 0 .8px 4px gray;
-      color: white;
-      text-shadow: 0 -.8px .8px #335166;
-      font-size: 125%;
-      line-height: 1.5;
-      margin-left: 10px;
-      margin-right: 10px;
-    }
-  }
+  border: transparent 2px solid;
 }
 
-.poolImgContainer {
-  img {
-    width: 50%;
-    height: 50%;
-  }
+.target {
+  border: greenyellow 2px solid;
 }
-
-.showStone {
-  display: inline-block;
-  padding: 5px 12px;
-  background: transparent;
-  color: white;
-  text-shadow: 0 -.8px .8px #335166;
-  font-size: 125%;
-  line-height: 1.5;
-  margin-left: 10px;
-  margin-right: 10px;
-  img {
-    display: inline-block;
-    width: 30px;
-    height: 30px;
-    line-height: 1.5;
-  }
-  p {
-    display: inline-block;
-    font-size: 20px;
-    font-weight: 900;
-
-  }
-
-}
-
-.case {
-  display: inline-block;
-  margin: 10px;
-  p {
-    font-size: 25px;
-    font-weight: 900;
-  }
-  .card {
-    width: 120px;
-    height: 220px;
-  }
-}
-
-.calcResult {
-  font-size: 15px;
-  font-weight: 900;
-  color: azure;
-}
-*/

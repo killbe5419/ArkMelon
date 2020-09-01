@@ -179,6 +179,42 @@ module.exports = exports;
 
 /***/ }),
 
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/sass/modules/icons/calcIcon.scss":
+/*!***************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/sass/modules/icons/calcIcon.scss ***!
+  \***************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+// Module
+exports.push([module.i, "@keyframes calc-icon-cube-1 {\n  0% {\n    left: 0;\n    top: 0;\n  }\n  25% {\n    left: 100px;\n    top: 25px;\n    width: 75px;\n    height: 75px;\n    border-radius: 50px;\n  }\n  50% {\n    left: 100px;\n    top: 100px;\n    width: 50px;\n    height: 50px;\n    border-radius: 10px;\n  }\n  75% {\n    left: 25px;\n    top: 100px;\n    width: 75px;\n    height: 75px;\n    border-radius: 50px;\n  }\n  100% {\n    left: 0;\n    top: 0;\n    width: 100px;\n    height: 100px;\n    border-radius: 10px;\n  }\n}\n@keyframes calc-icon-cube-2 {\n  0% {\n    left: 100px;\n    top: 0;\n    border-radius: 10px;\n  }\n  25% {\n    left: 100px;\n    top: 100px;\n    width: 75px;\n    height: 75px;\n    border-radius: 50px;\n  }\n  50% {\n    left: 50px;\n    top: 100px;\n    width: 50px;\n    height: 50px;\n    border-radius: 10px;\n  }\n  75% {\n    left: 25px;\n    top: 25px;\n    width: 75px;\n    height: 75px;\n    border-radius: 50px;\n  }\n  100% {\n    left: 100px;\n    top: 0;\n    width: 100px;\n    height: 100px;\n    border-radius: 10px;\n  }\n}\n@keyframes calc-icon-cube-3 {\n  0% {\n    left: 100px;\n    top: 100px;\n    border-radius: 10px;\n  }\n  25% {\n    left: 25px;\n    top: 100px;\n    width: 75px;\n    height: 75px;\n    border-radius: 50px;\n  }\n  50% {\n    left: 50px;\n    top: 50px;\n    width: 50px;\n    height: 50px;\n    border-radius: 10px;\n  }\n  75% {\n    left: 100px;\n    top: 25px;\n    width: 75px;\n    height: 75px;\n    border-radius: 50px;\n  }\n  100% {\n    left: 100px;\n    top: 100px;\n    width: 100px;\n    height: 100px;\n    border-radius: 10px;\n  }\n}\n@keyframes calc-icon-cube-4 {\n  0% {\n    left: 0;\n    top: 100px;\n    border-radius: 10px;\n  }\n  25% {\n    left: 25px;\n    top: 25px;\n    width: 75px;\n    height: 75px;\n    border-radius: 50px;\n  }\n  50% {\n    left: 100px;\n    top: 50px;\n    width: 50px;\n    height: 50px;\n    border-radius: 10px;\n  }\n  75% {\n    left: 100px;\n    top: 100px;\n    width: 75px;\n    height: 75px;\n    border-radius: 50px;\n  }\n  100% {\n    left: 0;\n    top: 100px;\n    width: 100px;\n    height: 100px;\n    border-radius: 10px;\n  }\n}\n.calc-icon {\n  width: 200px;\n  height: 200px;\n}\n.calc-icon .calc-icon-cube-1 {\n  width: 100px;\n  height: 100px;\n  left: 0;\n  top: 0;\n  background: red;\n  position: relative;\n  border-radius: 10px;\n  animation: calc-icon-cube-1 1.5s infinite;\n}\n.calc-icon .calc-icon-cube-2 {\n  width: 100px;\n  height: 100px;\n  left: 100px;\n  top: 0;\n  background: orange;\n  position: absolute;\n  border-radius: 10px;\n  animation: calc-icon-cube-2 1.5s infinite;\n}\n.calc-icon .calc-icon-cube-3 {\n  width: 100px;\n  height: 100px;\n  left: 100px;\n  top: 100px;\n  background: mediumpurple;\n  position: absolute;\n  border-radius: 10px;\n  animation: calc-icon-cube-3 1.5s infinite;\n}\n.calc-icon .calc-icon-cube-4 {\n  width: 100px;\n  height: 100px;\n  left: 0;\n  top: 100px;\n  background: royalblue;\n  position: absolute;\n  border-radius: 10px;\n  animation: calc-icon-cube-4 1.5s infinite;\n}", ""]);
+// Exports
+module.exports = exports;
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/sass/modules/icons/loadingIcon.scss":
+/*!******************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/sass/modules/icons/loadingIcon.scss ***!
+  \******************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+// Module
+exports.push([module.i, "@keyframes loading-icon-cube-1 {\n  0% {\n    background: red;\n    width: 50px;\n    height: 50px;\n  }\n  16.6% {\n    background: green;\n    transform: scale(0.875);\n  }\n  33.2% {\n    background: darkolivegreen;\n    transform: scale(0.75);\n  }\n  49.8% {\n    background: royalblue;\n    transform: scale(0.625);\n  }\n  66.4% {\n    background: mediumpurple;\n    transform: scale(0.75);\n  }\n  83% {\n    background: orange;\n    transform: scale(0.875);\n  }\n  100% {\n    background: red;\n    transform: scale(1);\n  }\n}\n@keyframes loading-icon-cube-2 {\n  0% {\n    background: orange;\n    width: 50px;\n    height: 50px;\n  }\n  16.6% {\n    background: mediumpurple;\n    transform: scale(0.875);\n  }\n  33.2% {\n    background: royalblue;\n    transform: scale(0.75);\n  }\n  49.8% {\n    background: darkolivegreen;\n    transform: scale(0.625);\n  }\n  66.4% {\n    background: green;\n    transform: scale(0.75);\n  }\n  83% {\n    background: red;\n    transform: scale(0.875);\n  }\n  100% {\n    background: orange;\n    transform: scale(1);\n  }\n}\n@keyframes loading-icon-cube-3 {\n  0% {\n    background: mediumpurple;\n    transform: scale(0.875);\n  }\n  16.6% {\n    background: royalblue;\n    transform: scale(0.75);\n  }\n  33.2% {\n    background: darkolivegreen;\n    transform: scale(0.625);\n  }\n  49.8% {\n    background: green;\n    transform: scale(0.75);\n  }\n  66.4% {\n    background: red;\n    transform: scale(0.875);\n  }\n  83% {\n    background: orange;\n    transform: scale(1);\n  }\n  100% {\n    background: mediumpurple;\n    width: 50px;\n    height: 50px;\n  }\n}\n@keyframes loading-icon-cube-4 {\n  0% {\n    background: royalblue;\n    transform: scale(0.875);\n  }\n  16.6% {\n    background: darkolivegreen;\n    transform: scale(0.75);\n  }\n  33.2% {\n    background: green;\n    transform: scale(0.625);\n  }\n  49.8% {\n    background: red;\n    transform: scale(0.75);\n  }\n  66.4% {\n    background: orange;\n    transform: scale(0.875);\n  }\n  83% {\n    background: mediumpurple;\n    transform: scale(1);\n  }\n  100% {\n    background: royalblue;\n    width: 50px;\n    height: 50px;\n  }\n}\n@keyframes loading-icon-cube-5 {\n  0% {\n    background: darkolivegreen;\n    transform: scale(0.875);\n  }\n  16.6% {\n    background: green;\n    transform: scale(0.75);\n  }\n  33.2% {\n    background: red;\n    transform: scale(0.625);\n  }\n  49.8% {\n    background: orange;\n    transform: scale(0.75);\n  }\n  66.4% {\n    background: mediumpurple;\n    transform: scale(0.875);\n  }\n  83% {\n    background: royalblue;\n    transform: scale(1);\n  }\n  100% {\n    background: darkolivegreen;\n    width: 50px;\n    height: 50px;\n  }\n}\n@keyframes loading-icon-cube-6 {\n  0% {\n    background: green;\n    transform: scale(0.875);\n  }\n  16.6% {\n    background: red;\n    transform: scale(0.75);\n  }\n  33.2% {\n    background: orange;\n    transform: scale(0.625);\n  }\n  49.8% {\n    background: mediumpurple;\n    transform: scale(0.75);\n  }\n  66.4% {\n    background: royalblue;\n    transform: scale(0.875);\n  }\n  83% {\n    background: darkolivegreen;\n    transform: scale(1);\n  }\n  100% {\n    background: green;\n    width: 50px;\n    height: 50px;\n  }\n}\n.loading-icon {\n  width: 200px;\n  height: 200px;\n}\n.loading-icon .loading-icon-cube-1 {\n  position: relative;\n  width: 50px;\n  height: 50px;\n  left: 50px;\n  top: 30px;\n  border-radius: 25px;\n  background: red;\n  animation: loading-icon-cube-1 0.8s infinite;\n}\n.loading-icon .loading-icon-cube-2 {\n  position: absolute;\n  width: 50px;\n  height: 50px;\n  left: 100px;\n  top: 30px;\n  border-radius: 25px;\n  background: orange;\n  animation: loading-icon-cube-2 0.8s infinite;\n}\n.loading-icon .loading-icon-cube-3 {\n  position: absolute;\n  width: 50px;\n  height: 50px;\n  left: 122.360679775px;\n  top: 74.72135955px;\n  border-radius: 50px;\n  background: mediumpurple;\n  animation: loading-icon-cube-3 0.8s infinite;\n}\n.loading-icon .loading-icon-cube-4 {\n  position: absolute;\n  width: 50px;\n  height: 50px;\n  left: 100px;\n  top: 119.4427191px;\n  border-radius: 50px;\n  background: royalblue;\n  animation: loading-icon-cube-4 0.8s infinite;\n}\n.loading-icon .loading-icon-cube-5 {\n  position: absolute;\n  width: 50px;\n  height: 50px;\n  left: 50px;\n  top: 119.4427191px;\n  border-radius: 50px;\n  background: darkolivegreen;\n  animation: loading-icon-cube-5 0.8s infinite;\n}\n.loading-icon .loading-icon-cube-6 {\n  position: absolute;\n  width: 50px;\n  height: 50px;\n  left: 27.639320225px;\n  top: 74.72135955px;\n  border-radius: 50px;\n  background: green;\n  animation: loading-icon-cube-6 0.8s infinite;\n}", ""]);
+// Exports
+module.exports = exports;
+
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/sass/modules/mainTemplate.scss":
 /*!*************************************************************************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/sass/modules/mainTemplate.scss ***!
@@ -262,7 +298,7 @@ module.exports = exports;
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, ":root {\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n  font-style: normal;\n  -webkit-font-smoothing: antialiased;\n}\n\n* input {\n  outline: none;\n  background: none;\n  border: none;\n}\n* button {\n  outline: none;\n  cursor: pointer;\n}\n* li {\n  list-style: none;\n}\n* a {\n  text-decoration: none;\n  cursor: pointer;\n}\n\n.title {\n  color: white;\n}\n\n.main-pick {\n  display: flex;\n  margin-top: 20px;\n  margin-bottom: 20px;\n  width: 100%;\n}\n.main-pick .sidebar-pick {\n  background-color: #2f2f2f;\n  color: #fff;\n  width: 15%;\n  min-height: 1000px;\n}\n.main-pick .blank {\n  width: 5%;\n}\n.main-pick .pick {\n  color: #fff;\n  width: 75%;\n}\n.main-pick .pick .pick-title {\n  display: flex;\n  max-width: 1200px;\n  min-width: 800px;\n}\n.main-pick .pick .pick-title .pick-img {\n  width: 70%;\n  height: auto;\n}\n.main-pick .pick .pick-title .pick-img img {\n  width: 100%;\n}\n.main-pick .pick .pick-title .pickup-info {\n  margin-left: 5%;\n  display: flex;\n  flex-direction: column;\n  width: 25%;\n  height: 100%;\n}\n.main-pick .pick .pick-title .pickup-info .pickup-description {\n  font-weight: 700;\n  margin: 0;\n}\n.main-pick .pick .pick-title .pickup-info .pickup-box {\n  height: 20%;\n  width: 100%;\n  display: flex;\n  flex-direction: column;\n  margin-top: 5%;\n}\n.main-pick .pick .pick-title .pickup-info .pickup-box p {\n  display: inline-block;\n  margin: 1% 0 1% 0;\n}\n.main-pick .pick .pick-title .pickup-info .pickup-box .pickup-showcard {\n  display: flex;\n}\n.main-pick .pick .pick-title .pickup-info .pickup-box .pickup-showcard div {\n  display: flex;\n  margin: 0;\n  height: 10%;\n}\n.main-pick .pick .pick-title .pickup-info .pickup-box .pickup-showcard div p {\n  min-width: 100px;\n  margin: auto;\n  font-size: 20px;\n  font-weight: 900;\n}\n.main-pick .pick .pick-title .pickup-info .pickup-box .pickup-showcard div img {\n  width: 40px;\n  height: 40px;\n  margin-right: 1%;\n}\n.main-pick .pick .pick-menu {\n  display: flex;\n  flex-direction: column;\n  width: 100%;\n  margin-top: 10px;\n}\n.main-pick .pick .pick-menu .buttons {\n  display: flex;\n}\n.main-pick .pick .pick-menu .buttons .menu-button {\n  display: flex;\n  padding: 5px 12px;\n  border: 1px solid #446d88;\n  background: #58a linear-gradient(#77a0bb, #58a);\n  border-radius: 3px;\n  box-shadow: 0 0.8px 4px gray;\n  color: white;\n  text-shadow: 0 -0.8px 0.8px #335166;\n  font-size: 125%;\n  line-height: 1.5;\n  margin-left: 10px;\n  margin-right: 10px;\n}\n.main-pick .pick .pick-menu .pick-info {\n  display: flex;\n  margin: 0;\n}\n.main-pick .pick .pick-menu .pick-info p {\n  margin: 10px 0 0 20px;\n}\n.main-pick .pick .case {\n  display: inline-block;\n  margin: 10px;\n}\n.main-pick .pick .case p {\n  font-size: 100%;\n  font-weight: 900;\n  margin: 0 0 5px 0;\n}\n.main-pick .pick .case .card {\n  width: 90px;\n  height: 165px;\n}\n.main-pick .pick .record-container {\n  display: flex;\n  flex-direction: column;\n  margin: 50px 0 100px 0;\n  max-width: 100%;\n}\n.main-pick .pick .record-container .record {\n  display: flex;\n  max-width: 100%;\n  margin: 5px 0 0 0;\n}\n.main-pick .pick .record-container .record div {\n  font-size: 200%;\n}\n.main-pick .pick .record-container .record .pick-img-container {\n  display: inline-block;\n}\n.main-pick .pick .record-container .record .pick-img-container img {\n  border-radius: 3px;\n  width: 50px;\n  height: 50px;\n  margin: 0 5px 0 5px;\n}\n\n.\\36  {\n  color: red;\n}\n\n.\\35  {\n  color: orange;\n}\n\n.\\34  {\n  color: mediumpurple;\n}\n\n.\\33  {\n  color: royalblue;\n}\n\n.img {\n  background-color: white;\n}\n\n/*\n.main {\n  display: flex;\n  .main-pick {\n    display: flex;\n    width: 100%;\n    min-height: 90%;\n    margin-top: 20px;\n    .sidebar-pick {\n      background-color: base.$bkg-bar-dark;\n      color: base.$font-dark;\n      width: 20%;\n      height: 90%;\n    }\n    .blank {\n      width: 5%;\n      height:90%;\n    }\n    .pick-container {\n      width: 70%;\n      height: 90%;\n      margin-right: 0;\n      background-color: base.$bkg-main-dark;\n    }\n  }\n  .pickContainer {\n    button {\n      display: flex;\n      padding: 5px 12px;\n      border: 1px solid #446d88;\n      background: #58a linear-gradient(#77a0bb,#58a);\n      border-radius: 3px;\n      box-shadow: 0 .8px 4px gray;\n      color: white;\n      text-shadow: 0 -.8px .8px #335166;\n      font-size: 125%;\n      line-height: 1.5;\n      margin-left: 10px;\n      margin-right: 10px;\n    }\n  }\n}\n\n.poolImgContainer {\n  img {\n    width: 50%;\n    height: 50%;\n  }\n}\n\n.showStone {\n  display: inline-block;\n  padding: 5px 12px;\n  background: transparent;\n  color: white;\n  text-shadow: 0 -.8px .8px #335166;\n  font-size: 125%;\n  line-height: 1.5;\n  margin-left: 10px;\n  margin-right: 10px;\n  img {\n    display: inline-block;\n    width: 30px;\n    height: 30px;\n    line-height: 1.5;\n  }\n  p {\n    display: inline-block;\n    font-size: 20px;\n    font-weight: 900;\n\n  }\n\n}\n\n.case {\n  display: inline-block;\n  margin: 10px;\n  p {\n    font-size: 25px;\n    font-weight: 900;\n  }\n  .card {\n    width: 120px;\n    height: 220px;\n  }\n}\n\n.calcResult {\n  font-size: 15px;\n  font-weight: 900;\n  color: azure;\n}\n*/", ""]);
+exports.push([module.i, ":root {\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n  font-style: normal;\n  -webkit-font-smoothing: antialiased;\n}\n\n* input {\n  outline: none;\n  background: none;\n  border: none;\n}\n* button {\n  outline: none;\n  cursor: pointer;\n}\n* li {\n  list-style: none;\n}\n* a {\n  text-decoration: none;\n  cursor: pointer;\n}\n\n.title {\n  color: white;\n}\n\n.main-pick {\n  display: flex;\n  margin-top: 20px;\n  margin-bottom: 20px;\n  width: 100%;\n}\n.main-pick .sidebar-pick {\n  background-color: #2f2f2f;\n  color: #fff;\n  width: 15%;\n  min-height: 1000px;\n}\n.main-pick .blank {\n  width: 5%;\n}\n.main-pick .pick {\n  color: #fff;\n  width: 75%;\n}\n.main-pick .pick .pick-title {\n  display: flex;\n  max-width: 1200px;\n  min-width: 800px;\n}\n.main-pick .pick .pick-title .pick-img {\n  width: 70%;\n  height: auto;\n}\n.main-pick .pick .pick-title .pick-img img {\n  width: 100%;\n}\n.main-pick .pick .pick-title .pickup-info {\n  margin-left: 5%;\n  display: flex;\n  flex-direction: column;\n  width: 25%;\n  height: 100%;\n}\n.main-pick .pick .pick-title .pickup-info .pickup-description {\n  font-weight: 700;\n  margin: 0;\n}\n.main-pick .pick .pick-title .pickup-info .pickup-box {\n  height: 20%;\n  width: 100%;\n  display: flex;\n  flex-direction: column;\n  margin-top: 5%;\n}\n.main-pick .pick .pick-title .pickup-info .pickup-box p {\n  display: inline-block;\n  margin: 1% 0 1% 0;\n}\n.main-pick .pick .pick-title .pickup-info .pickup-box .pickup-showcard {\n  display: flex;\n}\n.main-pick .pick .pick-title .pickup-info .pickup-box .pickup-showcard div {\n  display: flex;\n  margin: 0;\n  height: 10%;\n}\n.main-pick .pick .pick-title .pickup-info .pickup-box .pickup-showcard div p {\n  min-width: 100px;\n  margin: auto;\n  font-size: 20px;\n  font-weight: 900;\n}\n.main-pick .pick .pick-title .pickup-info .pickup-box .pickup-showcard div img {\n  width: 40px;\n  height: 40px;\n  margin-right: 1%;\n}\n.main-pick .pick .pick-menu {\n  display: flex;\n  flex-direction: column;\n  width: 100%;\n  margin-top: 10px;\n}\n.main-pick .pick .pick-menu .buttons {\n  display: flex;\n}\n.main-pick .pick .pick-menu .buttons .menu-button {\n  display: flex;\n  padding: 5px 12px;\n  border: 1px solid #446d88;\n  background: #58a linear-gradient(#77a0bb, #58a);\n  border-radius: 3px;\n  box-shadow: 0 0.8px 4px gray;\n  color: white;\n  text-shadow: 0 -0.8px 0.8px #335166;\n  font-size: 125%;\n  line-height: 1.5;\n  margin-left: 10px;\n  margin-right: 10px;\n}\n.main-pick .pick .pick-menu .pick-info {\n  display: flex;\n  margin: 0;\n}\n.main-pick .pick .pick-menu .pick-info p {\n  margin: 10px 0 0 20px;\n}\n.main-pick .pick .case {\n  display: inline-block;\n  margin: 10px;\n}\n.main-pick .pick .case p {\n  font-size: 100%;\n  font-weight: 900;\n  margin: 0 0 5px 0;\n}\n.main-pick .pick .case .card {\n  width: 90px;\n  height: 165px;\n}\n.main-pick .pick .record-container {\n  display: flex;\n  flex-direction: column;\n  margin: 50px 0 100px 0;\n  max-width: 100%;\n}\n.main-pick .pick .record-container .record {\n  display: flex;\n  max-width: 100%;\n  margin: 5px 0 0 0;\n}\n.main-pick .pick .record-container .record div {\n  font-size: 200%;\n}\n.main-pick .pick .record-container .record .pick-img-container {\n  display: inline-block;\n}\n.main-pick .pick .record-container .record .pick-img-container img {\n  border-radius: 3px;\n  width: 48px;\n  height: 48px;\n  margin: 0 5px 0 5px;\n}\n.main-pick .pick .wait-calc {\n  position: fixed;\n  display: flex;\n  flex-direction: column;\n  left: 0;\n  top: 0;\n  z-index: 990;\n}\n.main-pick .pick .wait-calc .bkg-blur {\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  background-color: rgba(0, 0, 0, 0.9);\n  z-index: 997;\n}\n.main-pick .pick .wait-calc .calc-icon-container {\n  position: absolute;\n  top: 30%;\n  left: 45%;\n  z-index: 998;\n  filter: blur(0.5px);\n}\n.main-pick .pick .wait-calc .calc-description {\n  position: fixed;\n  top: 60%;\n  left: 45%;\n  font-size: 36px;\n  font-weight: 900;\n  z-index: 999;\n}\n\n.\\36  {\n  color: red;\n}\n\n.\\35  {\n  color: orange;\n}\n\n.\\34  {\n  color: mediumpurple;\n}\n\n.\\33  {\n  color: royalblue;\n}\n\n.img {\n  background-color: white;\n  border: transparent 2px solid;\n}\n\n.target {\n  border: greenyellow 2px solid;\n}", ""]);
 // Exports
 module.exports = exports;
 
@@ -299,6 +335,24 @@ var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
 exports.push([module.i, ":root {\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n  font-style: normal;\n  -webkit-font-smoothing: antialiased;\n}\n\n* input {\n  outline: none;\n  background: none;\n  border: none;\n}\n* button {\n  outline: none;\n  cursor: pointer;\n}\n* li {\n  list-style: none;\n}\n* a {\n  text-decoration: none;\n  cursor: pointer;\n}\n\n.main-container {\n  display: flex;\n  flex-direction: column;\n  width: 70%;\n  height: 100%;\n  margin: auto;\n}\n.main-container.dark-theme * {\n  color: #fff;\n}\n.main-container.dark-theme .title-name {\n  color: #f08080;\n}\n.main-container.light-theme * {\n  color: #333;\n}\n.main-container.light-theme .title-name {\n  color: #f08080;\n}", ""]);
+// Exports
+module.exports = exports;
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/sass/pages/test.scss":
+/*!***************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/sass/pages/test.scss ***!
+  \***************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+// Module
+exports.push([module.i, ".loading-icon {\n  position: absolute;\n  top: 300px;\n  left: 700px;\n}\n\n.icon1-container {\n  position: absolute;\n  top: 300px;\n  left: 100px;\n  width: 200px;\n  height: 200px;\n}\n@keyframes wait-cube-1-1 {\n  0% {\n    background: red;\n    left: 0;\n    top: 0;\n    border-radius: 10px;\n  }\n  25% {\n    background: orange;\n    border-radius: 10px;\n    top: 0;\n    left: 100px;\n  }\n  50% {\n    background: mediumpurple;\n    border-radius: 50px;\n    top: 100px;\n    left: 100px;\n  }\n  75% {\n    background: royalblue;\n    border-radius: 50px;\n    top: 100px;\n    left: 0;\n  }\n  100% {\n    background: red;\n    border-radius: 10px;\n    top: 0;\n    left: 0;\n  }\n}\n@keyframes wait-cube-1-2 {\n  0% {\n    background: orange;\n    left: 100px;\n    top: 0;\n    border-radius: 50px;\n  }\n  25% {\n    background: mediumpurple;\n    border-radius: 50px;\n    top: 100px;\n    left: 100px;\n  }\n  50% {\n    background: royalblue;\n    border-radius: 10px;\n    top: 100px;\n    left: 0;\n  }\n  75% {\n    background: red;\n    border-radius: 10px;\n    top: 0;\n    left: 0;\n  }\n  100% {\n    background: orange;\n    border-radius: 50px;\n    top: 0;\n    left: 100px;\n  }\n}\n@keyframes wait-cube-1-3 {\n  0% {\n    background: mediumpurple;\n    left: 100px;\n    top: 100px;\n    border-radius: 10px;\n  }\n  25% {\n    background: royalblue;\n    border-radius: 10px;\n    top: 100px;\n    left: 0;\n  }\n  50% {\n    background: red;\n    border-radius: 50px;\n    top: 0;\n    left: 0;\n  }\n  75% {\n    background: orange;\n    border-radius: 50px;\n    top: 0;\n    left: 100px;\n  }\n  100% {\n    background: mediumpurple;\n    border-radius: 10px;\n    top: 100px;\n    left: 100px;\n  }\n}\n@keyframes wait-cube-1-4 {\n  0% {\n    background: royalblue;\n    left: 0;\n    top: 100px;\n    border-radius: 50px;\n  }\n  25% {\n    background: red;\n    border-radius: 50px;\n    top: 0;\n    left: 0;\n  }\n  50% {\n    background: orange;\n    border-radius: 10px;\n    top: 0;\n    left: 100px;\n  }\n  75% {\n    background: mediumpurple;\n    border-radius: 10px;\n    top: 100px;\n    left: 100px;\n  }\n  100% {\n    background: royalblue;\n    border-radius: 50px;\n    top: 100px;\n    left: 0;\n  }\n}\n.icon1-container .wait-cube-1-1 {\n  width: 100px;\n  height: 100px;\n  background: red;\n  position: relative;\n  border-radius: 10px;\n  animation: wait-cube-1-1 3s infinite;\n}\n.icon1-container .wait-cube-1-2 {\n  width: 100px;\n  height: 100px;\n  background: orange;\n  position: absolute;\n  border-radius: 10px;\n  top: 0;\n  left: 100px;\n  animation: wait-cube-1-2 3s infinite;\n}\n.icon1-container .wait-cube-1-3 {\n  width: 100px;\n  height: 100px;\n  background: mediumpurple;\n  position: absolute;\n  border-radius: 10px;\n  top: 100px;\n  left: 100px;\n  animation: wait-cube-1-3 3s infinite;\n}\n.icon1-container .wait-cube-1-4 {\n  width: 100px;\n  height: 100px;\n  background: royalblue;\n  position: absolute;\n  border-radius: 10px;\n  top: 100px;\n  left: 0;\n  animation: wait-cube-1-4 3s infinite;\n}", ""]);
 // Exports
 module.exports = exports;
 
@@ -4920,6 +4974,64 @@ module.exports = content.locals || {};
 
 /***/ }),
 
+/***/ "./src/sass/modules/icons/calcIcon.scss":
+/*!**********************************************!*\
+  !*** ./src/sass/modules/icons/calcIcon.scss ***!
+  \**********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var api = __webpack_require__(/*! ../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+            var content = __webpack_require__(/*! !../../../../node_modules/css-loader/dist/cjs.js!../../../../node_modules/sass-loader/dist/cjs.js!./calcIcon.scss */ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/sass/modules/icons/calcIcon.scss");
+
+            content = content.__esModule ? content.default : content;
+
+            if (typeof content === 'string') {
+              content = [[module.i, content, '']];
+            }
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = api(content, options);
+
+
+
+module.exports = content.locals || {};
+
+/***/ }),
+
+/***/ "./src/sass/modules/icons/loadingIcon.scss":
+/*!*************************************************!*\
+  !*** ./src/sass/modules/icons/loadingIcon.scss ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var api = __webpack_require__(/*! ../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+            var content = __webpack_require__(/*! !../../../../node_modules/css-loader/dist/cjs.js!../../../../node_modules/sass-loader/dist/cjs.js!./loadingIcon.scss */ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/sass/modules/icons/loadingIcon.scss");
+
+            content = content.__esModule ? content.default : content;
+
+            if (typeof content === 'string') {
+              content = [[module.i, content, '']];
+            }
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = api(content, options);
+
+
+
+module.exports = content.locals || {};
+
+/***/ }),
+
 /***/ "./src/sass/modules/mainTemplate.scss":
 /*!********************************************!*\
   !*** ./src/sass/modules/mainTemplate.scss ***!
@@ -5123,6 +5235,35 @@ module.exports = content.locals || {};
 
 /***/ }),
 
+/***/ "./src/sass/pages/test.scss":
+/*!**********************************!*\
+  !*** ./src/sass/pages/test.scss ***!
+  \**********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var api = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+            var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js!../../../node_modules/sass-loader/dist/cjs.js!./test.scss */ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/sass/pages/test.scss");
+
+            content = content.__esModule ? content.default : content;
+
+            if (typeof content === 'string') {
+              content = [[module.i, content, '']];
+            }
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = api(content, options);
+
+
+
+module.exports = content.locals || {};
+
+/***/ }),
+
 /***/ "./src/scripts/app.jsx":
 /*!*****************************!*\
   !*** ./src/scripts/app.jsx ***!
@@ -5146,7 +5287,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _pages_pickcard_jsx__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./pages/pickcard.jsx */ "./src/scripts/pages/pickcard.jsx");
 /* harmony import */ var _tools_checkThemeCookie__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./tools/checkThemeCookie */ "./src/scripts/tools/checkThemeCookie.js");
 /* harmony import */ var _tools_checkLanguageCookie__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./tools/checkLanguageCookie */ "./src/scripts/tools/checkLanguageCookie.js");
+/* harmony import */ var _pages_test_jsx__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./pages/test.jsx */ "./src/scripts/pages/test.jsx");
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
 
 
 
@@ -5317,6 +5460,8 @@ class App extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       poolType: "limitPool",
       poolName: "\u9057\u613F\u7130\u706B"
     })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
+      path: "/test"
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_pages_test_jsx__WEBPACK_IMPORTED_MODULE_12__["default"], null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
       path: "/*"
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_pages_templatePage_jsx__WEBPACK_IMPORTED_MODULE_5__["default"], {
       language: this.state.language,
@@ -6612,6 +6757,86 @@ class MainContents extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Componen
 
 /***/ }),
 
+/***/ "./src/scripts/components/icons/calcIcon.jsx":
+/*!***************************************************!*\
+  !*** ./src/scripts/components/icons/calcIcon.jsx ***!
+  \***************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _sass_modules_icons_calcIcon_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../sass/modules/icons/calcIcon.scss */ "./src/sass/modules/icons/calcIcon.scss");
+/* harmony import */ var _sass_modules_icons_calcIcon_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_sass_modules_icons_calcIcon_scss__WEBPACK_IMPORTED_MODULE_1__);
+
+
+
+class CalcIcon extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+  render() {
+    let list = Array(4);
+
+    for (let i = 0; i < list.length; i++) {
+      list[i] = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        key: i,
+        className: `calc-icon-cube-${i + 1}`
+      }, " ");
+    }
+
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: this.props.className
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: `calc-icon`
+    }, list));
+  }
+
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (CalcIcon);
+
+/***/ }),
+
+/***/ "./src/scripts/components/icons/loadingIcon.jsx":
+/*!******************************************************!*\
+  !*** ./src/scripts/components/icons/loadingIcon.jsx ***!
+  \******************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _sass_modules_icons_loadingIcon_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../sass/modules/icons/loadingIcon.scss */ "./src/sass/modules/icons/loadingIcon.scss");
+/* harmony import */ var _sass_modules_icons_loadingIcon_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_sass_modules_icons_loadingIcon_scss__WEBPACK_IMPORTED_MODULE_1__);
+
+
+
+class LoadingIcon extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+  render() {
+    let list = Array(6);
+
+    for (let i = 0; i < list.length; i++) {
+      list[i] = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        key: i,
+        className: `loading-icon-cube-${i + 1}`
+      }, " ");
+    }
+
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: this.props.className
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: `loading-icon`
+    }, list));
+  }
+
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (LoadingIcon);
+
+/***/ }),
+
 /***/ "./src/scripts/pages/404.jsx":
 /*!***********************************!*\
   !*** ./src/scripts/pages/404.jsx ***!
@@ -7689,10 +7914,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! axios */ "axios");
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _components_Template_jsx__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Template.jsx */ "./src/scripts/components/Template.jsx");
-/* harmony import */ var _sass_pages_pickcard_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../sass/pages/pickcard.scss */ "./src/sass/pages/pickcard.scss");
-/* harmony import */ var _sass_pages_pickcard_scss__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_sass_pages_pickcard_scss__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _tools_gp__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../tools/gp */ "./src/scripts/tools/gp.js");
+/* harmony import */ var _components_icons_calcIcon_jsx__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/icons/calcIcon.jsx */ "./src/scripts/components/icons/calcIcon.jsx");
+/* harmony import */ var _sass_pages_pickcard_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../sass/pages/pickcard.scss */ "./src/sass/pages/pickcard.scss");
+/* harmony import */ var _sass_pages_pickcard_scss__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_sass_pages_pickcard_scss__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _tools_gp__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../tools/gp */ "./src/scripts/tools/gp.js");
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
 
 
 
@@ -7722,10 +7949,6 @@ class PickImg extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
 }
 
 class PickUpInfo extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
-  componentDidMount() {
-    this.props.getPickup();
-  }
-
   render() {
     let pickupBoxSix, pickupBoxFive, pickupBoxFour;
 
@@ -7745,7 +7968,7 @@ class PickUpInfo extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component 
         className: "6"
       }, "\u2605\u2605\u2605\u2605\u2605\u2605"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "pickup-showcard"
-      }, sixList), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "(\u53606\u2605\u51FA\u7387\u768450%)"));
+      }, sixList), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, `(占6★出率的${this.props.info.pickup.type === "limit" ? 75 : 50}%)`));
     } else {
       pickupBoxSix = null;
     }
@@ -7832,20 +8055,37 @@ class Buttons extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
 
 }
 
-class PickInfo1 extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+class PickInfo extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
   render() {
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "pick-info"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u62BD\u53D6\u6B21\u6570:", this.props.info.pickNum), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u6CA1\u6709\u62BD\u52306\u2605\u7684\u6B21\u6570: ", this.props.info.g), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u62BD\u52306\u2605\u7684\u6982\u7387:  ", `${Object(_tools_gp__WEBPACK_IMPORTED_MODULE_4__["default"])(Number(this.props.info.g)) + 2} %`), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u82B1\u8D39\u7684\u5408\u6210\u7389: ", this.props.info.coin), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u82B1\u8D39\u7684\u81F3\u7EAF\u6E90\u77F3: ", Math.round(this.props.info.coin / 180)));
-  }
-
-}
-
-class PickInfo2 extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
-  render() {
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "pick-info"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u62BD\u52306\u2605\u4E2A\u6570: ", this.props.info.six.length, " "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u62BD\u52305\u2605\u4E2A\u6570: ", this.props.info.five.length, " "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u62BD\u52304\u2605\u4E2A\u6570: ", this.props.info.four.length, " "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u62BD\u52303\u2605\u4E2A\u6570: ", this.props.info.three.length, " "));
+    if (this.props.info.method === "calculation") {
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "pick-info"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u62BD\u53D6\u6B21\u6570: ", this.props.info.pickNum), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u62BD\u53D6\u76EE\u6807\u5E72\u5458\u7684\u6B21\u6570: ", this.props.info.count), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u62BD\u5230\u76EE\u6807\u5E72\u5458\u7684\u6982\u7387: ", `${(this.props.info.targetP * 100).toFixed(2)}%`, " "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u82B1\u8D39\u7684\u5408\u6210\u7389: ", this.props.info.coin), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u82B1\u8D39\u7684\u81F3\u7EAF\u6E90\u77F3: ", Math.round(this.props.info.coin / 180))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "pick-info"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u62BD\u5230", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "6"
+      }, "6\u2605"), "\u4E2A\u6570: ", this.props.info.six.num, " "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u62BD\u5230", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "5"
+      }, "5\u2605"), "\u4E2A\u6570: ", this.props.info.five.num, " "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u62BD\u5230", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "4"
+      }, "4\u2605"), "\u4E2A\u6570: ", this.props.info.four.num, " "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u62BD\u5230", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "3"
+      }, "3\u2605"), "\u4E2A\u6570: ", this.props.info.three.num, " ")));
+    } else {
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "pick-info"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u62BD\u53D6\u6B21\u6570:", this.props.info.pickNum), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u6CA1\u6709\u62BD\u52306\u2605\u7684\u6B21\u6570: ", this.props.info.g), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u62BD\u52306\u2605\u7684\u6982\u7387:  ", `${Object(_tools_gp__WEBPACK_IMPORTED_MODULE_5__["default"])(Number(this.props.info.g)) + 2} %`), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u82B1\u8D39\u7684\u5408\u6210\u7389: ", this.props.info.coin), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u82B1\u8D39\u7684\u81F3\u7EAF\u6E90\u77F3: ", Math.round(this.props.info.coin / 180))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "pick-info"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u62BD\u5230", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "6"
+      }, "6\u2605"), "\u4E2A\u6570: ", this.props.info.six.num, " "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u62BD\u5230", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "5"
+      }, "5\u2605"), "\u4E2A\u6570: ", this.props.info.five.num, " "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u62BD\u5230", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "4"
+      }, "4\u2605"), "\u4E2A\u6570: ", this.props.info.four.num, " "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u62BD\u5230", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "3"
+      }, "3\u2605"), "\u4E2A\u6570: ", this.props.info.three.num, " ")));
+    }
   }
 
 }
@@ -7856,9 +8096,7 @@ class PickMenu extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       className: "pick-menu"
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Buttons, {
       buttons: this.props.info.buttons
-    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(PickInfo1, {
-      info: this.props.info
-    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(PickInfo2, {
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(PickInfo, {
       info: this.props.info
     }));
   }
@@ -7916,26 +8154,71 @@ class Case extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
         data: this.props.data
       });
     }
-    /*
-    if(this.props.method === "calculate") {
-        return (
-            <Calculate_Case input={ this.props.input } />
-        );
-    }
-    */
 
+    if (this.props.method === "calculation") {
+      return null;
+    }
 
     return null;
   }
 
 }
 
+class CalcWaiter extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      point: ""
+    };
+  }
+
+  componentDidMount() {
+    this.timer = setInterval(() => {
+      if (this.state.point === "...") {
+        this.setState({
+          point: ""
+        });
+      } else {
+        this.setState({
+          point: this.state.point + "."
+        });
+      }
+    }, 1000);
+  }
+
+  componentWillUnmount() {
+    clearInterval(this.timer);
+  }
+
+  render() {
+    if (this.props.running) {
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "wait-calc",
+        style: {
+          width: window.innerWidth,
+          height: window.innerHeight
+        },
+        onWheel: e => e.preventDefault()
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "bkg-blur"
+      }, " "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_icons_calcIcon_jsx__WEBPACK_IMPORTED_MODULE_3__["default"], {
+        className: "calc-icon-container"
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+        className: "calc-description"
+      }, `计算中,请稍候${this.state.point}`));
+    } else {
+      return null;
+    }
+  }
+
+}
+
 class Record extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
   render() {
-    if (this.props.data.length !== 0) {
-      const list = this.props.data.map(x => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        className: "img",
-        key: x.key,
+    if (this.props.data.arr.length !== 0) {
+      const list = this.props.data.arr.map(x => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        className: `img ${x.name === this.props.targetName ? "target" : ""}`,
+        key: x.id,
         alt: " ",
         src: `../../../images/character/icon/${x.name}.png`
       }));
@@ -7966,17 +8249,20 @@ class Record extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
 
 class RecordContainer extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
   render() {
-    if (this.props.info.six.length !== 0 || this.props.info.five.length !== 0 || this.props.info.four.length !== 0) {
+    if (this.props.info.six.num !== 0 || this.props.info.five.num !== 0 || this.props.info.four.num !== 0) {
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "record-container"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Record, {
         data: this.props.info.six,
+        targetName: this.props.info.targetName,
         rare: "6"
       }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Record, {
         data: this.props.info.five,
+        targetName: this.props.info.targetName,
         rare: "5"
       }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Record, {
         data: this.props.info.four,
+        targetName: this.props.info.targetName,
         rare: "4"
       }));
     } else {
@@ -8004,6 +8290,8 @@ class Pick extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       data: this.props.info.data
     }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(RecordContainer, {
       info: this.props.info
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(CalcWaiter, {
+      running: this.props.info.runningCalc
     }));
   }
 
@@ -8019,9 +8307,6 @@ class Main extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       poolName: this.props.poolName,
       poolType: this.props.poolType,
       info: this.props.info,
-      pickOne: this.props.pickOne,
-      pickTen: this.props.pickTen,
-      calc: this.props.calc,
       getPickup: this.props.getPickup
     }));
   }
@@ -8047,6 +8332,123 @@ class Pickcard extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       });
     });
 
+    _defineProperty(this, "showRecord", () => {
+      const data = this.state.data;
+
+      if (this.state.method === "pickOne") {
+        if (data.rare === 6) {
+          alert(`哇！抽到了6★干员: ${data.name}`);
+          let arr = this.state.six.arr;
+          const newObj = {
+            id: this.state.pickNum,
+            name: data.name
+          };
+          arr.push(newObj);
+          this.setState({
+            six: {
+              num: arr.length,
+              arr
+            }
+          });
+        } else if (data.rare === 5) {
+          let arr = this.state.five.arr;
+          const newObj = {
+            id: this.state.pickNum,
+            name: data.name
+          };
+          arr.push(newObj);
+          this.setState({
+            five: {
+              num: arr.length,
+              arr
+            }
+          });
+        } else if (data.rare === 4) {
+          let arr = this.state.four.arr;
+          const newObj = {
+            id: this.state.pickNum,
+            name: data.name
+          };
+          arr.push(newObj);
+          this.setState({
+            four: {
+              num: arr.length,
+              arr
+            }
+          });
+        } else {
+          let arr = this.state.three.arr;
+          arr.push({
+            id: this.state.pickNum,
+            name: data.name
+          });
+          this.setState({
+            three: {
+              num: arr.length,
+              arr
+            }
+          });
+        }
+      } else {
+        for (let i = 0; i < data.length; i++) {
+          if (data[i].rare === 6) {
+            alert(`哇！抽到了6★干员: ${data[i].name}`);
+            let arr = this.state.six.arr;
+            const newObj = {
+              id: this.state.pickNum + i,
+              name: data[i].name
+            };
+            arr.push(newObj);
+            this.setState({
+              six: {
+                num: arr.length,
+                arr
+              }
+            });
+          } else if (data[i].rare === 5) {
+            let arr = this.state.five.arr;
+            const newObj = {
+              id: this.state.pickNum + i,
+              name: data[i].name
+            };
+            arr.push(newObj);
+            this.setState({
+              five: {
+                num: arr.length,
+                arr
+              }
+            });
+          } else if (data[i].rare === 4) {
+            let arr = this.state.four.arr;
+            const newObj = {
+              id: this.state.pickNum + i,
+              name: data[i].name
+            };
+            arr.push(newObj);
+            this.setState({
+              four: {
+                num: arr.length,
+                arr
+              }
+            });
+          } else {
+            let arr = this.state.three.arr;
+            const newObj = {
+              key: this.state.pickNum + i,
+              name: data[i].name
+            };
+            arr.push(newObj);
+            this.setState({
+              three: {
+                num: arr.length,
+                arr
+              }
+            });
+          }
+        }
+      }
+    });
+
     _defineProperty(this, "pickOne", () => {
       const data = {
         params: {
@@ -8057,6 +8459,13 @@ class Pickcard extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
         }
       };
       axios__WEBPACK_IMPORTED_MODULE_1___default.a.get("/pickOne", data).then(res => {
+        if (res.data === "refresh") {
+          alert("服务器已重置，已自动刷新页面");
+          location.reload();
+          return;
+        }
+
+        console.log(res.data);
         this.setState({
           g: res.data.g,
           method: "pickOne",
@@ -8064,50 +8473,7 @@ class Pickcard extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           pickNum: this.state.pickNum + 1,
           coin: this.state.coin + 600
         });
-
-        if (res.data.rare === 6) {
-          alert(`哇！抽到了6★干员: ${res.data.name}`);
-          let arr = this.state.six;
-          const newObj = {
-            key: this.state.pickNum,
-            name: res.data.name
-          };
-          arr.push(newObj);
-          this.setState({
-            six: arr
-          });
-        } else if (res.data.rare === 5) {
-          let arr = this.state.five;
-          const newObj = {
-            key: this.state.pickNum,
-            name: res.data.name
-          };
-          arr.push(newObj);
-          this.setState({
-            five: arr
-          });
-        } else if (res.data.rare === 4) {
-          let arr = this.state.four;
-          const newObj = {
-            key: this.state.pickNum,
-            name: res.data.name
-          };
-          arr.push(newObj);
-          this.setState({
-            four: arr
-          });
-        } else {
-          let arr = this.state.three;
-          arr.push({
-            key: this.state.pickNum,
-            name: res.data.name
-          });
-          this.setState({
-            three: arr
-          });
-        }
-
-        console.log(this.state.six, this.state.five, this.state.four);
+        this.showRecord();
       });
     });
 
@@ -8122,6 +8488,13 @@ class Pickcard extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       };
       axios__WEBPACK_IMPORTED_MODULE_1___default.a.get("/pickTen", data).then(res => {
         console.log(res.data);
+
+        if (res.data === "refresh") {
+          alert("服务器已重置，已自动刷新页面");
+          location.reload();
+          return;
+        }
+
         this.setState({
           g: res.data.g,
           method: "pickTen",
@@ -8129,49 +8502,106 @@ class Pickcard extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           pickNum: this.state.pickNum + 10,
           coin: this.state.coin + 6000
         });
+        this.showRecord();
+      });
+    });
 
-        for (let i = 0; i < res.data.array.length; i++) {
-          if (res.data.array[i].rare === 6) {
-            alert(`哇！抽到了6★干员: ${res.data.array[i].name}`);
-            let arr = this.state.six;
-            const newObj = {
-              key: `${this.state.pickNum} + ${res.data.array[i].id}`,
-              name: res.data.array[i].name
-            };
-            arr.push(newObj);
-            this.setState({
-              six: arr
-            });
-          } else if (res.data.array[i].rare === 5) {
-            let arr = this.state.five;
-            const newObj = {
-              key: `${this.state.pickNum} + ${res.data.array[i].id}`,
-              name: res.data.array[i].name
-            };
-            arr.push(newObj);
-            this.setState({
-              five: arr
-            });
-          } else if (res.data.array[i].rare === 4) {
-            let arr = this.state.four;
-            const newObj = {
-              key: `${this.state.pickNum} + ${res.data.array[i].id}`,
-              name: res.data.array[i].name
-            };
-            arr.push(newObj);
-            this.setState({
-              four: arr
-            });
+    _defineProperty(this, "calc", () => {
+      const input = {};
+      input.target = prompt("请输入干员名称(存在于该卡池中): ");
+      if (input.target === null) return;
+      const data = {
+        params: {
+          type: "search",
+          method: "searchName",
+          poolName: this.props.poolName,
+          name: input.target
+        }
+      };
+      axios__WEBPACK_IMPORTED_MODULE_1___default.a.get("/searchName", data).then(res => {
+        console.log(res.data);
+
+        if (!res.data) {
+          alert("请输入正确的干员名称！");
+        } else {
+          input.num = Number(prompt("请输入干员数量: "));
+          console.log(input.num);
+
+          if (Number.isNaN(input.num)) {
+            alert("请输入正确的干员数量！");
           } else {
-            let arr = this.state.three;
-            const newObj = {
-              key: `${this.state.pickNum} + ${res.data.array[i].id}`,
-              name: res.data.array[i].name
-            };
-            arr.push(newObj);
-            this.setState({
-              three: arr
-            });
+            if (input.num === 0) {
+              alert("请输入正确的干员数量！");
+            } else {
+              this.clearRecord();
+              this.setState({
+                runningCalc: true
+              });
+              const data = {
+                params: {
+                  type: "calculation",
+                  poolName: this.props.poolName,
+                  target: input.target,
+                  num: input.num
+                }
+              };
+              axios__WEBPACK_IMPORTED_MODULE_1___default.a.get("/calc", data).then(res => {
+                console.log(res.data);
+
+                if (res.data === "refresh") {
+                  alert("服务器已重置，已自动刷新页面");
+                  location.reload();
+                  return;
+                }
+
+                if (res.data.pickNum <= 1500) {
+                  this.setState({
+                    method: "calculation",
+                    targetName: input.target,
+                    targetNum: res.data.count,
+                    data: res.data.array,
+                    pickNum: res.data.pickNum,
+                    targetP: res.data.percentage,
+                    coin: res.data.pickNum * 600,
+                    count: res.data.count,
+                    six: res.data.six,
+                    five: res.data.five,
+                    four: res.data.four,
+                    three: res.data.three
+                  });
+                } else {
+                  alert(`由于抽取次数过多，仅显示数据结果`);
+                  this.setState({
+                    method: "calculation",
+                    targetName: input.target,
+                    targetNum: res.data.count,
+                    data: res.data.array,
+                    pickNum: res.data.pickNum,
+                    targetP: res.data.percentage,
+                    count: res.data.count,
+                    coin: res.data.pickNum * 600,
+                    six: {
+                      num: res.data.six.num,
+                      arr: []
+                    },
+                    five: {
+                      num: res.data.five.num,
+                      arr: []
+                    },
+                    four: {
+                      num: res.data.four.num,
+                      arr: []
+                    },
+                    three: {
+                      num: res.data.three.num,
+                      arr: []
+                    }
+                  });
+                }
+
+                if (res.data.overflow) alert(`已超过处理临界值 返回抽取${res.data.pickNum}次的结果`);
+              });
+            }
           }
         }
       });
@@ -8183,16 +8613,29 @@ class Pickcard extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
         //合成玉
         pickNum: 0,
         g: 0,
-        six: [],
-        five: [],
-        four: [],
-        three: [],
+        six: {
+          num: 0,
+          arr: []
+        },
+        five: {
+          num: 0,
+          arr: []
+        },
+        four: {
+          num: 0,
+          arr: []
+        },
+        three: {
+          num: 0,
+          arr: []
+        },
         method: "",
-        data: {}
+        data: {},
+        targetName: "",
+        targetNum: 0,
+        targetP: 0
       });
     });
-
-    _defineProperty(this, "calc", () => {});
 
     this.state = {
       buttons: [{
@@ -8213,6 +8656,7 @@ class Pickcard extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
         func: this.calc
       }],
       pickup: {
+        type: {},
         six: [],
         five: [],
         four: []
@@ -8222,18 +8666,40 @@ class Pickcard extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       coinUrl: "../../../images/materials/coin.png",
       coinAlt: "orundum",
       pickNum: 0,
+      count: 0,
       g: 0,
-      six: [],
-      five: [],
-      four: [],
-      three: [],
+      six: {
+        num: 0,
+        arr: []
+      },
+      five: {
+        num: 0,
+        arr: []
+      },
+      four: {
+        num: 0,
+        arr: []
+      },
+      three: {
+        num: 0,
+        arr: []
+      },
       method: "",
+      runningCalc: false,
       data: {}
     };
   }
 
   componentDidMount() {
     this.getPickup();
+  }
+
+  componentDidUpdate(prevProps, prevState, snapshot) {
+    if (this.state.data !== prevState.data) {
+      this.setState({
+        runningCalc: false
+      });
+    }
   }
 
   render() {
@@ -8296,6 +8762,72 @@ class TemplatePage extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Componen
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (TemplatePage);
+
+/***/ }),
+
+/***/ "./src/scripts/pages/test.jsx":
+/*!************************************!*\
+  !*** ./src/scripts/pages/test.jsx ***!
+  \************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _sass_pages_test_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../sass/pages/test.scss */ "./src/sass/pages/test.scss");
+/* harmony import */ var _sass_pages_test_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_sass_pages_test_scss__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _components_icons_loadingIcon_jsx__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/icons/loadingIcon.jsx */ "./src/scripts/components/icons/loadingIcon.jsx");
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+
+
+
+
+class Icon extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+  constructor(...args) {
+    super(...args);
+
+    _defineProperty(this, "showNum", () => {
+      console.log(`num: ${this.props.num} cubeNum: ${this.props.cubeNum}`);
+    });
+  }
+
+  render() {
+    this.showNum();
+    let list = Array(Number(this.props.cubeNum));
+
+    for (let i = 0; i < list.length; i++) {
+      list[i] = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        key: i,
+        className: `wait-cube-${this.props.num}-${i + 1}`
+      }, " ");
+    }
+
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: `icon${this.props.num}-container`
+    }, list);
+  }
+
+}
+
+class Test extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+  render() {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Icon, {
+      num: "1",
+      cubeNum: "4"
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Icon, {
+      num: "2",
+      cubeNum: "4"
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_icons_loadingIcon_jsx__WEBPACK_IMPORTED_MODULE_2__["default"], {
+      className: "loading-icon"
+    }));
+  }
+
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (Test);
 
 /***/ }),
 
