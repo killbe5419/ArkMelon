@@ -172,7 +172,7 @@ function _objectWithoutPropertiesLoose(source, excluded) {
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, ":root {\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n  font-style: normal;\n  -webkit-font-smoothing: antialiased;\n}\n\n* input {\n  outline: none;\n  background: none;\n  border: none;\n}\n* button {\n  outline: none;\n  cursor: pointer;\n}\n* li {\n  list-style: none;\n}\n* a {\n  text-decoration: none;\n  cursor: pointer;\n}\n\n.footer {\n  display: flex;\n}\n.footer a:hover {\n  color: #f08080;\n}\n.footer.dark-theme {\n  background-color: #2f2f2f;\n  color: #fff;\n}\n.footer.dark-theme * {\n  color: #fff;\n}\n.footer.light-theme {\n  background-color: #6495ED;\n  color: #fff;\n}\n.footer.light-theme * {\n  color: #fff;\n}\n\n.footer-contents {\n  display: flex;\n  flex-direction: column;\n  width: 90%;\n  margin: 20px 5% 20px 5%;\n}\n\n.footer-top {\n  display: flex;\n}\n.footer-top div * {\n  margin: auto;\n}\n\n.footer-top-left {\n  flex-direction: column;\n  display: flex;\n  width: 30%;\n  margin: auto;\n}\n\n.footer-top-middle {\n  flex-direction: column;\n  display: flex;\n  width: 30%;\n  margin: auto;\n}\n\n.footer-top-right {\n  flex-direction: column;\n  display: flex;\n  width: 30%;\n  margin: auto;\n}\n\n.footer-bottom {\n  display: flex;\n}\n\n.footer-bottom-middle {\n  width: 50%;\n  margin: auto;\n}\n\n.copyright {\n  display: flex;\n  flex-direction: column;\n  width: 300px;\n  margin: auto;\n}\n.copyright img {\n  width: 100px;\n  height: 100px;\n  margin: auto;\n}", ""]);
+exports.push([module.i, ":root {\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n  font-style: normal;\n  -webkit-font-smoothing: antialiased;\n}\n\n* input {\n  outline: none;\n  background: none;\n  border: none;\n}\n* button {\n  outline: none;\n  cursor: pointer;\n}\n* li {\n  list-style: none;\n}\n* a {\n  text-decoration: none;\n  cursor: pointer;\n  color: inherit;\n}\n\n.footer {\n  display: flex;\n}\n.footer a:hover {\n  color: #f08080;\n}\n.footer.dark-theme {\n  background-color: #2f2f2f;\n  color: #fff;\n}\n.footer.dark-theme * {\n  color: #fff;\n}\n.footer.light-theme {\n  background-color: #6495ED;\n  color: #fff;\n}\n.footer.light-theme * {\n  color: #fff;\n}\n\n.footer-contents {\n  display: flex;\n  flex-direction: column;\n  width: 90%;\n  margin: 20px 5% 20px 5%;\n}\n\n.footer-top {\n  display: flex;\n}\n.footer-top div * {\n  margin: auto;\n}\n\n.footer-top-left {\n  flex-direction: column;\n  display: flex;\n  width: 30%;\n  margin: auto;\n}\n\n.footer-top-middle {\n  flex-direction: column;\n  display: flex;\n  width: 30%;\n  margin: auto;\n}\n\n.footer-top-right {\n  flex-direction: column;\n  display: flex;\n  width: 30%;\n  margin: auto;\n}\n\n.footer-bottom {\n  display: flex;\n}\n\n.footer-bottom-middle {\n  width: 50%;\n  margin: auto;\n}\n\n.copyright {\n  display: flex;\n  flex-direction: column;\n  width: 300px;\n  margin: auto;\n}\n.copyright img {\n  width: 100px;\n  height: 100px;\n  margin: auto;\n}", ""]);
 // Exports
 module.exports = exports;
 
@@ -226,7 +226,7 @@ module.exports = exports;
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, ":root {\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n  font-style: normal;\n  -webkit-font-smoothing: antialiased;\n}\n\n* input {\n  outline: none;\n  background: none;\n  border: none;\n}\n* button {\n  outline: none;\n  cursor: pointer;\n}\n* li {\n  list-style: none;\n}\n* a {\n  text-decoration: none;\n  cursor: pointer;\n}\n\n.main {\n  display: flex;\n  margin-top: 50px;\n  min-height: 800px;\n  width: 100%;\n}\n.main.dark-theme {\n  background-color: #1f1f1f;\n}\n.main.light-theme {\n  background-color: #FDF5E6;\n}", ""]);
+exports.push([module.i, ":root {\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n  font-style: normal;\n  -webkit-font-smoothing: antialiased;\n}\n\n* input {\n  outline: none;\n  background: none;\n  border: none;\n}\n* button {\n  outline: none;\n  cursor: pointer;\n}\n* li {\n  list-style: none;\n}\n* a {\n  text-decoration: none;\n  cursor: pointer;\n  color: inherit;\n}\n\n.main {\n  display: flex;\n  margin-top: 50px;\n  min-height: 800px;\n  width: 100%;\n}\n.main.dark-theme {\n  background-color: #1f1f1f;\n}\n.main.light-theme {\n  background-color: #FDF5E6;\n}", ""]);
 // Exports
 module.exports = exports;
 
@@ -244,7 +244,7 @@ module.exports = exports;
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, ":root {\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n  font-style: normal;\n  -webkit-font-smoothing: antialiased;\n}\n\n* input {\n  outline: none;\n  background: none;\n  border: none;\n}\n* button {\n  outline: none;\n  cursor: pointer;\n}\n* li {\n  list-style: none;\n}\n* a {\n  text-decoration: none;\n  cursor: pointer;\n}\n\n.header {\n  position: fixed;\n  display: block;\n  top: 0;\n  left: 0;\n  z-index: 1;\n  width: 100%;\n  height: 50px;\n}\n.header.dark-theme {\n  background-color: #2f2f2f;\n}\n.header.dark-theme .nav * {\n  color: #fff;\n  background-color: #2f2f2f;\n}\n.header.dark-theme .nav *:hover {\n  color: #f08080;\n}\n.header.dark-theme .nav a:hover {\n  background-color: #696969;\n  color: #f08080;\n}\n.header.dark-theme .options * {\n  color: #fff;\n  background-color: #2f2f2f;\n}\n.header.dark-theme .options *:hover {\n  color: #f08080;\n}\n.header.dark-theme .options a:hover {\n  background-color: #696969;\n  color: #f08080;\n}\n.header.dark-theme .search-input input {\n  border: 2px solid #fff;\n  color: #fff;\n}\n.header.dark-theme .search-submit {\n  background-color: #2f2f2f;\n  color: #fff;\n}\n.header.dark-theme .search-cleaner {\n  background-color: #2f2f2f;\n  color: #fff;\n}\n.header.dark-theme .search-icon {\n  background-color: #2f2f2f;\n}\n.header.light-theme {\n  background-color: #6495ED;\n}\n.header.light-theme .nav * {\n  color: #fff;\n  background-color: #6495ED;\n}\n.header.light-theme .nav *:hover {\n  color: #f08080;\n}\n.header.light-theme .nav a:hover {\n  background-color: #B0C4DE;\n  color: #f08080;\n}\n.header.light-theme .options * {\n  color: #fff;\n  background-color: #6495ED;\n}\n.header.light-theme .options *:hover {\n  color: #f08080;\n}\n.header.light-theme .options a:hover {\n  background-color: #B0C4DE;\n  color: #f08080;\n}\n.header.light-theme .search-input input {\n  border: 2px solid #fff;\n  color: #fff;\n}\n.header.light-theme .search-input:focus {\n  border: 2px solid #f08080;\n}\n.header.light-theme .search-submit {\n  background-color: #6495ED;\n  color: #fff;\n}\n.header.light-theme .search-cleaner {\n  background-color: #6495ED;\n  color: #fff;\n}\n.header.light-theme .search-icon {\n  background-color: #6495ED;\n}\n\n.top-bar {\n  position: fixed;\n  display: flex;\n  padding-left: 20px;\n  padding-right: 20px;\n  margin-left: 40px;\n  margin-right: 40px;\n  height: 50px;\n  width: 90%;\n}\n\n.logo {\n  width: calc(100% / 6);\n  display: flex;\n  height: 100%;\n  text-decoration: none;\n  margin-right: 10px;\n}\n.logo img {\n  display: inline-block;\n  border-style: none;\n  margin: 10px 5px 10px 10px;\n  padding: 0;\n  border-radius: 8px;\n  height: 30px;\n  width: 30px;\n}\n.logo span {\n  text-align: center;\n  vertical-align: center;\n  font-weight: 700;\n  font-size: 20px;\n  margin: 15px 0 10px 5px;\n  overflow: no-display;\n  color: #f08080;\n}\n\n.nav {\n  display: flex;\n  height: 100%;\n  width: 40%;\n}\n\n.nav-container {\n  cursor: pointer;\n  display: flex;\n  flex-direction: column;\n  width: 100px;\n}\n\n.nav-contents {\n  height: 50px;\n  line-height: 50px;\n  text-align: center;\n}\n\n.dropdown {\n  display: flex;\n  flex-direction: column;\n  width: 100%;\n  font-weight: 400;\n  background-color: transparent;\n}\n.dropdown a {\n  width: 100%;\n  height: 40px;\n  line-height: 40px;\n  font-weight: 400;\n  text-align: center;\n}\n\n.search {\n  display: flex;\n  width: 30%;\n  height: 50px;\n  text-align: right;\n  justify-content: flex-end;\n  align-items: center;\n  margin-right: 40px;\n}\n\n.search-input {\n  display: flex;\n  width: 100%;\n}\n.search-input input {\n  display: flex;\n  width: 100%;\n  height: 26px;\n  background: transparent;\n  border-radius: 5px;\n  font-size: 14px;\n  padding: 0 10px 0 10px;\n}\n.search-input button:hover {\n  color: #f08080;\n}\n\n.search-submit {\n  position: relative;\n  right: 55px;\n  width: 30px;\n  height: 26px;\n  top: 2px;\n  border: none;\n  font-size: 14px;\n  font-weight: 500;\n  padding: 0;\n}\n\n.search-cleaner {\n  position: relative;\n  right: 55px;\n  width: 20px;\n  height: 26px;\n  top: 2px;\n  border: none;\n  font-size: 14px;\n  font-weight: 500;\n  padding: 0 20px 0 10px;\n}\n\n.search-icon {\n  float: right;\n  width: 30px;\n  height: 30px;\n  border-radius: 4px;\n  border: none;\n  padding: 0;\n}\n\n.options {\n  display: flex;\n}\n\n.opt-container {\n  cursor: pointer;\n  display: flex;\n  flex-direction: column;\n  width: 100px;\n}\n\n.opt-contents {\n  height: 50px;\n  line-height: 50px;\n  text-align: center;\n}\n\n.opt-contents:hover {\n  color: #f08080;\n}\n\n.language-container {\n  cursor: pointer;\n  display: flex;\n  flex-direction: column;\n  width: 100px;\n}\n\n.language-contents {\n  cursor: pointer;\n  height: 50px;\n  width: 50%;\n  line-height: 50px;\n  margin: 0 auto;\n}\n\n.language-icon {\n  height: 100%;\n  width: 25px;\n  margin: 0 20% 0 20%;\n}", ""]);
+exports.push([module.i, ":root {\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n  font-style: normal;\n  -webkit-font-smoothing: antialiased;\n}\n\n* input {\n  outline: none;\n  background: none;\n  border: none;\n}\n* button {\n  outline: none;\n  cursor: pointer;\n}\n* li {\n  list-style: none;\n}\n* a {\n  text-decoration: none;\n  cursor: pointer;\n  color: inherit;\n}\n\n.header {\n  position: fixed;\n  display: block;\n  top: 0;\n  left: 0;\n  z-index: 1;\n  width: 100%;\n  height: 50px;\n}\n.header.dark-theme {\n  background-color: #2f2f2f;\n}\n.header.dark-theme .nav * {\n  color: #fff;\n  background-color: #2f2f2f;\n}\n.header.dark-theme .nav *:hover {\n  color: #f08080;\n}\n.header.dark-theme .nav a:hover {\n  background-color: #696969;\n  color: #f08080;\n}\n.header.dark-theme .options * {\n  color: #fff;\n  background-color: #2f2f2f;\n}\n.header.dark-theme .options *:hover {\n  color: #f08080;\n}\n.header.dark-theme .options a:hover {\n  background-color: #696969;\n  color: #f08080;\n}\n.header.dark-theme .search-input input {\n  border: 2px solid #fff;\n  color: #fff;\n}\n.header.dark-theme .search-submit {\n  background-color: #2f2f2f;\n  color: #fff;\n}\n.header.dark-theme .search-cleaner {\n  background-color: #2f2f2f;\n  color: #fff;\n}\n.header.dark-theme .search-icon {\n  background-color: #2f2f2f;\n}\n.header.light-theme {\n  background-color: #6495ED;\n}\n.header.light-theme .nav * {\n  color: #fff;\n  background-color: #6495ED;\n}\n.header.light-theme .nav *:hover {\n  color: #f08080;\n}\n.header.light-theme .nav a:hover {\n  background-color: #B0C4DE;\n  color: #f08080;\n}\n.header.light-theme .options * {\n  color: #fff;\n  background-color: #6495ED;\n}\n.header.light-theme .options *:hover {\n  color: #f08080;\n}\n.header.light-theme .options a:hover {\n  background-color: #B0C4DE;\n  color: #f08080;\n}\n.header.light-theme .search-input input {\n  border: 2px solid #fff;\n  color: #fff;\n}\n.header.light-theme .search-input:focus {\n  border: 2px solid #f08080;\n}\n.header.light-theme .search-submit {\n  background-color: #6495ED;\n  color: #fff;\n}\n.header.light-theme .search-cleaner {\n  background-color: #6495ED;\n  color: #fff;\n}\n.header.light-theme .search-icon {\n  background-color: #6495ED;\n}\n\n.top-bar {\n  position: fixed;\n  display: flex;\n  padding-left: 20px;\n  padding-right: 20px;\n  margin-left: 40px;\n  margin-right: 40px;\n  height: 50px;\n  width: 90%;\n}\n\n.logo {\n  width: calc(100% / 6);\n  display: flex;\n  height: 100%;\n  text-decoration: none;\n  margin-right: 10px;\n}\n.logo img {\n  display: inline-block;\n  border-style: none;\n  margin: 10px 5px 10px 10px;\n  padding: 0;\n  border-radius: 8px;\n  height: 30px;\n  width: 30px;\n}\n.logo span {\n  text-align: center;\n  vertical-align: center;\n  font-weight: 700;\n  font-size: 20px;\n  margin: 15px 0 10px 5px;\n  overflow: no-display;\n  color: #f08080;\n}\n\n.nav {\n  display: flex;\n  height: 100%;\n  width: 40%;\n}\n\n.nav-container {\n  cursor: pointer;\n  display: flex;\n  flex-direction: column;\n  width: 100px;\n}\n\n.nav-contents {\n  height: 50px;\n  line-height: 50px;\n  text-align: center;\n}\n\n.dropdown {\n  display: flex;\n  flex-direction: column;\n  width: 100%;\n  font-weight: 400;\n  background-color: transparent;\n}\n.dropdown a {\n  width: 100%;\n  height: 40px;\n  line-height: 40px;\n  font-weight: 400;\n  text-align: center;\n}\n\n.search {\n  display: flex;\n  width: 30%;\n  height: 50px;\n  text-align: right;\n  justify-content: flex-end;\n  align-items: center;\n  margin-right: 40px;\n}\n\n.search-input {\n  display: flex;\n  width: 100%;\n}\n.search-input input {\n  display: flex;\n  width: 100%;\n  height: 26px;\n  background: transparent;\n  border-radius: 5px;\n  font-size: 14px;\n  padding: 0 10px 0 10px;\n}\n.search-input button:hover {\n  color: #f08080;\n}\n\n.search-submit {\n  position: relative;\n  right: 55px;\n  width: 30px;\n  height: 26px;\n  top: 2px;\n  border: none;\n  font-size: 14px;\n  font-weight: 500;\n  padding: 0;\n}\n\n.search-cleaner {\n  position: relative;\n  right: 55px;\n  width: 20px;\n  height: 26px;\n  top: 2px;\n  border: none;\n  font-size: 14px;\n  font-weight: 500;\n  padding: 0 20px 0 10px;\n}\n\n.search-icon {\n  float: right;\n  width: 30px;\n  height: 30px;\n  border-radius: 4px;\n  border: none;\n  padding: 0;\n}\n\n.options {\n  display: flex;\n}\n\n.opt-container {\n  cursor: pointer;\n  display: flex;\n  flex-direction: column;\n  width: 100px;\n}\n\n.opt-contents {\n  height: 50px;\n  line-height: 50px;\n  text-align: center;\n}\n\n.opt-contents:hover {\n  color: #f08080;\n}\n\n.language-container {\n  cursor: pointer;\n  display: flex;\n  flex-direction: column;\n  width: 100px;\n}\n\n.language-contents {\n  cursor: pointer;\n  height: 50px;\n  width: 50%;\n  line-height: 50px;\n  margin: 0 auto;\n}\n\n.language-icon {\n  height: 100%;\n  width: 25px;\n  margin: 0 20% 0 20%;\n}", ""]);
 // Exports
 module.exports = exports;
 
@@ -280,7 +280,7 @@ module.exports = exports;
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, ":root {\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n  font-style: normal;\n  -webkit-font-smoothing: antialiased;\n}\n\n* input {\n  outline: none;\n  background: none;\n  border: none;\n}\n* button {\n  outline: none;\n  cursor: pointer;\n}\n* li {\n  list-style: none;\n}\n* a {\n  text-decoration: none;\n  cursor: pointer;\n}\n\n.main-container {\n  display: flex;\n  flex-direction: column;\n  width: 70%;\n  height: 100%;\n  margin: auto;\n}\n.main-container.dark-theme * {\n  color: #fff;\n}\n.main-container.dark-theme .title-name {\n  color: #f08080;\n}\n.main-container.light-theme * {\n  color: #333;\n}\n.main-container.light-theme .title-name {\n  color: #f08080;\n}\n\n.main-top {\n  display: flex;\n  width: 100%;\n  height: 300px;\n}\n\n.title {\n  display: flex;\n  flex-direction: column;\n  margin: auto;\n  height: 100%;\n}\n\n.title-name {\n  font-size: 50px;\n  font-weight: 700;\n  margin: 40px 0 20px 0;\n}\n\n.title-description {\n  font-size: 20px;\n  font-weight: 500;\n}\n\n.main-contents {\n  display: flex;\n  flex-direction: column;\n  width: 100%;\n  min-height: 800px;\n}\n.main-contents div p {\n  border-bottom: currentColor 2px solid;\n  font-weight: 500;\n}\n\n.news-containers {\n  display: flex;\n  flex-direction: column;\n  margin-bottom: 30px;\n}\n\n.new-contents-v {\n  display: flex;\n  flex-direction: column;\n  width: 80%;\n}\n.new-contents-v img {\n  width: 100%;\n  margin: 20px 10% 20px 10%;\n}\n\n.new-contents-h {\n  display: flex;\n}\n.new-contents-h img {\n  width: 100px;\n  height: 100px;\n  margin: 0 20px 0 20px;\n}", ""]);
+exports.push([module.i, ":root {\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n  font-style: normal;\n  -webkit-font-smoothing: antialiased;\n}\n\n* input {\n  outline: none;\n  background: none;\n  border: none;\n}\n* button {\n  outline: none;\n  cursor: pointer;\n}\n* li {\n  list-style: none;\n}\n* a {\n  text-decoration: none;\n  cursor: pointer;\n  color: inherit;\n}\n\n.main-container {\n  display: flex;\n  flex-direction: column;\n  width: 70%;\n  height: 100%;\n  margin: auto;\n}\n.main-container.dark-theme * {\n  color: #fff;\n}\n.main-container.dark-theme .title-name {\n  color: #f08080;\n}\n.main-container.light-theme * {\n  color: #333;\n}\n.main-container.light-theme .title-name {\n  color: #f08080;\n}\n\n.main-top {\n  display: flex;\n  width: 100%;\n  height: 300px;\n}\n\n.title {\n  display: flex;\n  flex-direction: column;\n  margin: auto;\n  height: 100%;\n}\n\n.title-name {\n  font-size: 50px;\n  font-weight: 700;\n  margin: 40px 0 20px 0;\n}\n\n.title-description {\n  font-size: 20px;\n  font-weight: 500;\n}\n\n.main-contents {\n  display: flex;\n  flex-direction: column;\n  width: 100%;\n  min-height: 800px;\n}\n.main-contents div p {\n  border-bottom: currentColor 2px solid;\n  font-weight: 500;\n}\n\n.news-containers {\n  display: flex;\n  flex-direction: column;\n  margin-bottom: 30px;\n}\n\n.new-contents-v {\n  display: flex;\n  flex-direction: column;\n  width: 80%;\n}\n.new-contents-v img {\n  width: 100%;\n  margin: 20px 10% 20px 10%;\n}\n\n.new-contents-h {\n  display: flex;\n}\n.new-contents-h img {\n  width: 100px;\n  height: 100px;\n  margin: 0 20px 0 20px;\n}", ""]);
 // Exports
 module.exports = exports;
 
@@ -298,7 +298,7 @@ module.exports = exports;
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, ":root {\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n  font-style: normal;\n  -webkit-font-smoothing: antialiased;\n}\n\n* input {\n  outline: none;\n  background: none;\n  border: none;\n}\n* button {\n  outline: none;\n  cursor: pointer;\n}\n* li {\n  list-style: none;\n}\n* a {\n  text-decoration: none;\n  cursor: pointer;\n}\n\n.title {\n  color: white;\n}\n\n.main-pick {\n  display: flex;\n  margin-top: 20px;\n  margin-bottom: 20px;\n  width: 100%;\n}\n.main-pick .sidebar-pick {\n  background-color: #2f2f2f;\n  color: #fff;\n  width: 15%;\n  min-height: 1000px;\n}\n.main-pick .blank {\n  width: 5%;\n}\n.main-pick .pick {\n  color: #fff;\n  width: 75%;\n}\n.main-pick .pick .pick-title {\n  display: flex;\n  max-width: 1200px;\n  min-width: 800px;\n}\n.main-pick .pick .pick-title .pick-img {\n  width: 70%;\n  height: auto;\n}\n.main-pick .pick .pick-title .pick-img img {\n  width: 100%;\n}\n.main-pick .pick .pick-title .pickup-info {\n  margin-left: 5%;\n  display: flex;\n  flex-direction: column;\n  width: 25%;\n  height: 100%;\n}\n.main-pick .pick .pick-title .pickup-info .pickup-description {\n  font-weight: 700;\n  margin: 0;\n}\n.main-pick .pick .pick-title .pickup-info .pickup-box {\n  height: 20%;\n  width: 100%;\n  display: flex;\n  flex-direction: column;\n  margin-top: 5%;\n}\n.main-pick .pick .pick-title .pickup-info .pickup-box p {\n  display: inline-block;\n  margin: 1% 0 1% 0;\n}\n.main-pick .pick .pick-title .pickup-info .pickup-box .pickup-showcard {\n  display: flex;\n}\n.main-pick .pick .pick-title .pickup-info .pickup-box .pickup-showcard div {\n  display: flex;\n  margin: 0;\n  height: 10%;\n}\n.main-pick .pick .pick-title .pickup-info .pickup-box .pickup-showcard div p {\n  min-width: 100px;\n  margin: auto;\n  font-size: 20px;\n  font-weight: 900;\n}\n.main-pick .pick .pick-title .pickup-info .pickup-box .pickup-showcard div img {\n  width: 40px;\n  height: 40px;\n  margin-right: 1%;\n}\n.main-pick .pick .pick-menu {\n  display: flex;\n  flex-direction: column;\n  width: 100%;\n  margin-top: 10px;\n}\n.main-pick .pick .pick-menu .buttons {\n  display: flex;\n}\n.main-pick .pick .pick-menu .buttons .menu-button {\n  display: flex;\n  padding: 5px 12px;\n  border: 1px solid #446d88;\n  background: #58a linear-gradient(#77a0bb, #58a);\n  border-radius: 3px;\n  box-shadow: 0 0.8px 4px gray;\n  color: white;\n  text-shadow: 0 -0.8px 0.8px #335166;\n  font-size: 125%;\n  line-height: 1.5;\n  margin-left: 10px;\n  margin-right: 10px;\n}\n.main-pick .pick .pick-menu .pick-info {\n  display: flex;\n  margin: 0;\n}\n.main-pick .pick .pick-menu .pick-info p {\n  margin: 10px 0 0 20px;\n}\n.main-pick .pick .case {\n  display: inline-block;\n  margin: 10px;\n}\n.main-pick .pick .case p {\n  font-size: 100%;\n  font-weight: 900;\n  margin: 0 0 5px 0;\n}\n.main-pick .pick .case .card {\n  width: 90px;\n  height: 165px;\n}\n.main-pick .pick .record-container {\n  display: flex;\n  flex-direction: column;\n  margin: 50px 0 100px 0;\n  max-width: 100%;\n}\n.main-pick .pick .record-container .record {\n  display: flex;\n  max-width: 100%;\n  margin: 5px 0 0 0;\n}\n.main-pick .pick .record-container .record div {\n  font-size: 200%;\n}\n.main-pick .pick .record-container .record .pick-img-container {\n  display: inline-block;\n}\n.main-pick .pick .record-container .record .pick-img-container img {\n  border-radius: 3px;\n  width: 48px;\n  height: 48px;\n  margin: 0 5px 0 5px;\n}\n.main-pick .pick .wait-calc {\n  position: fixed;\n  display: flex;\n  flex-direction: column;\n  left: 0;\n  top: 0;\n  z-index: 990;\n}\n.main-pick .pick .wait-calc .bkg-blur {\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  background-color: rgba(0, 0, 0, 0.9);\n  z-index: 997;\n}\n.main-pick .pick .wait-calc .calc-icon-container {\n  position: absolute;\n  top: 30%;\n  left: 45%;\n  z-index: 998;\n  filter: blur(0.5px);\n}\n.main-pick .pick .wait-calc .calc-description {\n  position: fixed;\n  top: 60%;\n  left: 45%;\n  font-size: 36px;\n  font-weight: 900;\n  z-index: 999;\n}\n\n.\\36  {\n  color: red;\n}\n\n.\\35  {\n  color: orange;\n}\n\n.\\34  {\n  color: mediumpurple;\n}\n\n.\\33  {\n  color: royalblue;\n}\n\n.img {\n  background-color: white;\n  border: transparent 2px solid;\n}\n\n.target {\n  border: greenyellow 2px solid;\n}", ""]);
+exports.push([module.i, ":root {\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n  font-style: normal;\n  -webkit-font-smoothing: antialiased;\n}\n\n* input {\n  outline: none;\n  background: none;\n  border: none;\n}\n* button {\n  outline: none;\n  cursor: pointer;\n}\n* li {\n  list-style: none;\n}\n* a {\n  text-decoration: none;\n  cursor: pointer;\n  color: inherit;\n}\n\n.title {\n  color: white;\n}\n\n.main-pick {\n  display: flex;\n  margin-top: 20px;\n  margin-bottom: 20px;\n  width: 100%;\n}\n.main-pick .sidebar-pick {\n  background-color: #2f2f2f;\n  color: #fff;\n  width: 15%;\n  min-width: 185px;\n  min-height: 1000px;\n}\n.main-pick .sidebar-pick .sidebar-menu {\n  width: 80%;\n  margin: 15% 5% 15% 5%;\n}\n.main-pick .sidebar-pick .sidebar-menu .sidebar-menu-title {\n  display: flex;\n  height: 30px;\n}\n.main-pick .sidebar-pick .sidebar-menu .sidebar-menu-title .menu-icon-container {\n  cursor: pointer;\n  width: 20%;\n  height: 100%;\n}\n.main-pick .sidebar-pick .sidebar-menu .sidebar-menu-title .menu-icon-container .menu-icon-hide {\n  position: relative;\n  margin: 0 10px 10px 0;\n  width: 20px;\n  height: 20px;\n  background-color: wheat;\n}\n.main-pick .sidebar-pick .sidebar-menu .sidebar-menu-title .menu-icon-container .menu-icon-hide::before {\n  content: \"\";\n  position: absolute;\n  left: 10%;\n  top: 40%;\n  width: 80%;\n  height: 20%;\n  background: green;\n}\n.main-pick .sidebar-pick .sidebar-menu .sidebar-menu-title .menu-icon-container .menu-icon-hide::after {\n  content: \"\";\n  position: absolute;\n  left: 40%;\n  top: 10%;\n  width: 20%;\n  height: 80%;\n  background: green;\n}\n.main-pick .sidebar-pick .sidebar-menu .sidebar-menu-title .menu-icon-container .menu-icon-show {\n  position: relative;\n  margin: 0 10px 10px 0;\n  width: 20px;\n  height: 20px;\n  background-color: wheat;\n  /*&::after {\n    content: \"\";\n    position: absolute;\n    left: 40%;\n    top: 10%;\n    width: 20%;\n    height: 80%;\n    background: green;\n  }*/\n}\n.main-pick .sidebar-pick .sidebar-menu .sidebar-menu-title .menu-icon-container .menu-icon-show::before {\n  content: \"\";\n  position: absolute;\n  left: 10%;\n  top: 40%;\n  width: 80%;\n  height: 20%;\n  background: green;\n}\n.main-pick .sidebar-pick .sidebar-menu .sidebar-menu-title .menu-text-container {\n  width: 80%;\n  height: 100%;\n}\n.main-pick .sidebar-pick .sidebar-menu .sidebar-menu-title .menu-text-container p {\n  font-size: 120%;\n  font-weight: 900;\n  height: 100%;\n  margin: 0;\n}\n.main-pick .sidebar-pick .sidebar-menu .sidebar-menu-dropdown {\n  display: flex;\n  flex-direction: column;\n  border-left: white 3px solid;\n}\n.main-pick .sidebar-pick .sidebar-menu .sidebar-menu-dropdown a {\n  margin: 5%;\n  font-size: 90%;\n  font-weight: 500;\n}\n.main-pick .sidebar-pick .sidebar-menu .sidebar-menu-dropdown a:hover {\n  color: #f08080;\n}\n.main-pick .blank {\n  width: 5%;\n}\n.main-pick .pick {\n  color: #fff;\n  width: 75%;\n}\n.main-pick .pick .pick-title {\n  display: flex;\n  width: 100%;\n  max-width: 1200px;\n  min-width: 600px;\n}\n.main-pick .pick .pick-title .pool-img {\n  width: 70%;\n  height: auto;\n}\n.main-pick .pick .pick-title .pool-img img {\n  width: 100%;\n}\n.main-pick .pick .pick-title .pickup-info {\n  margin-left: 5%;\n  display: flex;\n  flex-direction: column;\n  width: 25%;\n  height: 100%;\n}\n.main-pick .pick .pick-title .pickup-info .pickup-description {\n  font-weight: 700;\n  margin: 0;\n}\n.main-pick .pick .pick-title .pickup-info .pickup-box {\n  height: 20%;\n  width: 100%;\n  display: flex;\n  flex-direction: column;\n  margin-top: 5%;\n}\n.main-pick .pick .pick-title .pickup-info .pickup-box p {\n  display: inline-block;\n  margin: 1% 0 1% 0;\n}\n.main-pick .pick .pick-title .pickup-info .pickup-box .pickup-showcard {\n  display: flex;\n}\n.main-pick .pick .pick-title .pickup-info .pickup-box .pickup-showcard div {\n  display: flex;\n  margin-right: 5%;\n  height: 10%;\n  max-width: 50%;\n}\n.main-pick .pick .pick-title .pickup-info .pickup-box .pickup-showcard div p {\n  width: 60%;\n  margin: auto;\n  font-size: 105%;\n  font-weight: 900;\n}\n.main-pick .pick .pick-title .pickup-info .pickup-box .pickup-showcard div img {\n  width: 40%;\n  height: 40%;\n  margin-right: 1%;\n}\n.main-pick .pick .pick-menu {\n  display: flex;\n  flex-direction: column;\n  width: 100%;\n  margin-top: 10px;\n}\n.main-pick .pick .pick-menu .buttons {\n  display: flex;\n}\n.main-pick .pick .pick-menu .buttons .menu-button {\n  display: flex;\n  padding: 5px 12px;\n  border: 1px solid #446d88;\n  background: #58a linear-gradient(#77a0bb, #58a);\n  border-radius: 3px;\n  box-shadow: 0 0.8px 4px gray;\n  color: white;\n  text-shadow: 0 -0.8px 0.8px #335166;\n  font-size: 125%;\n  line-height: 1.5;\n  margin-left: 10px;\n  margin-right: 10px;\n}\n.main-pick .pick .pick-menu .pick-info {\n  display: flex;\n  margin: 0;\n}\n.main-pick .pick .pick-menu .pick-info p {\n  margin: 10px 0 0 20px;\n}\n.main-pick .pick .case {\n  display: inline-block;\n  margin: 10px;\n}\n.main-pick .pick .case p {\n  font-size: 100%;\n  font-weight: 900;\n  margin: 0 0 5px 0;\n}\n.main-pick .pick .case .pick-img {\n  position: relative;\n}\n.main-pick .pick .case .pick-img .card {\n  width: 90px;\n  height: 165px;\n}\n.main-pick .pick .case .pick-img .class-icon {\n  position: absolute;\n  left: 0;\n  top: 0;\n  width: 25px;\n  height: 25px;\n}\n.main-pick .pick .case .pick-img .rare-icon {\n  position: absolute;\n  bottom: 0;\n  right: 0;\n}\n.main-pick .pick .record-container {\n  display: flex;\n  flex-direction: column;\n  margin: 50px 0 100px 0;\n  max-width: 100%;\n}\n.main-pick .pick .record-container .record {\n  display: flex;\n  max-width: 100%;\n  margin: 5px 0 0 0;\n}\n.main-pick .pick .record-container .record div {\n  font-size: 200%;\n}\n.main-pick .pick .record-container .record .pick-img-container {\n  display: inline-block;\n}\n.main-pick .pick .record-container .record .pick-img-container img {\n  border-radius: 3px;\n  width: 48px;\n  height: 48px;\n  margin: 0 5px 0 5px;\n}\n.main-pick .pick .wait-calc {\n  position: fixed;\n  display: flex;\n  flex-direction: column;\n  left: 0;\n  top: 0;\n  z-index: 990;\n}\n.main-pick .pick .wait-calc .bkg-blur {\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  background-color: rgba(0, 0, 0, 0.9);\n  z-index: 997;\n}\n.main-pick .pick .wait-calc .calc-icon-container {\n  position: absolute;\n  top: 30%;\n  left: 45%;\n  z-index: 998;\n  filter: blur(0.5px);\n}\n.main-pick .pick .wait-calc .calc-description {\n  position: fixed;\n  top: 60%;\n  left: 45%;\n  font-size: 36px;\n  font-weight: 900;\n  z-index: 999;\n}\n\n.\\36  {\n  color: red;\n}\n\n.\\35  {\n  color: orange;\n}\n\n.\\34  {\n  color: mediumpurple;\n}\n\n.\\33  {\n  color: royalblue;\n}\n\n.img {\n  background-color: white;\n  border: transparent 2px solid;\n}\n\n.img6 {\n  background: linear-gradient(red, white);\n}\n\n.img5 {\n  background: linear-gradient(orange, white);\n}\n\n.img4 {\n  background: linear-gradient(mediumpurple, white);\n}\n\n.img3 {\n  background: linear-gradient(royalblue, white);\n}\n\n.target {\n  border: greenyellow 2px solid;\n}\n\n.sidebar-target {\n  font-weight: 900;\n  color: greenyellow;\n}", ""]);
 // Exports
 module.exports = exports;
 
@@ -316,7 +316,7 @@ module.exports = exports;
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, ":root {\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n  font-style: normal;\n  -webkit-font-smoothing: antialiased;\n}\n\n* input {\n  outline: none;\n  background: none;\n  border: none;\n}\n* button {\n  outline: none;\n  cursor: pointer;\n}\n* li {\n  list-style: none;\n}\n* a {\n  text-decoration: none;\n  cursor: pointer;\n}\n\n.main-container {\n  display: flex;\n  flex-direction: column;\n  width: 70%;\n  height: 100%;\n  margin: auto;\n}\n.main-container.dark-theme * {\n  color: #fff;\n}\n.main-container.dark-theme .title-name {\n  color: #f08080;\n}\n.main-container.light-theme * {\n  color: #333;\n}\n.main-container.light-theme .title-name {\n  color: #f08080;\n}\n\n.main-top {\n  display: flex;\n  width: 100%;\n  height: 300px;\n}\n\n.title {\n  display: flex;\n  flex-direction: column;\n  margin: auto;\n  height: 100%;\n}\n\n.title-name {\n  font-size: 50px;\n  font-weight: 700;\n  margin: 40px 0 20px 0;\n}\n\n.title-description {\n  font-size: 20px;\n  font-weight: 500;\n}\n\n.main-contents {\n  display: flex;\n  flex-direction: column;\n  width: 100%;\n  min-height: 800px;\n}\n.main-contents div p {\n  border-bottom: currentColor 2px solid;\n  font-weight: 500;\n}\n\n.news-containers {\n  display: flex;\n  flex-direction: column;\n  margin-bottom: 30px;\n}\n\n.new-contents-v {\n  display: flex;\n  flex-direction: column;\n  width: 80%;\n}\n.new-contents-v img {\n  width: 100%;\n  margin: 20px 10% 20px 10%;\n}\n\n.new-contents-h {\n  display: flex;\n}\n.new-contents-h img {\n  width: 100px;\n  height: 100px;\n  margin: 0 20px 0 20px;\n}", ""]);
+exports.push([module.i, ":root {\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n  font-style: normal;\n  -webkit-font-smoothing: antialiased;\n}\n\n* input {\n  outline: none;\n  background: none;\n  border: none;\n}\n* button {\n  outline: none;\n  cursor: pointer;\n}\n* li {\n  list-style: none;\n}\n* a {\n  text-decoration: none;\n  cursor: pointer;\n  color: inherit;\n}\n\n.main-container {\n  display: flex;\n  flex-direction: column;\n  width: 70%;\n  height: 100%;\n  margin: auto;\n}\n.main-container.dark-theme * {\n  color: #fff;\n}\n.main-container.dark-theme .title-name {\n  color: #f08080;\n}\n.main-container.light-theme * {\n  color: #333;\n}\n.main-container.light-theme .title-name {\n  color: #f08080;\n}\n\n.main-top {\n  display: flex;\n  width: 100%;\n  height: 300px;\n}\n\n.title {\n  display: flex;\n  flex-direction: column;\n  margin: auto;\n  height: 100%;\n}\n\n.title-name {\n  font-size: 50px;\n  font-weight: 700;\n  margin: 40px 0 20px 0;\n}\n\n.title-description {\n  font-size: 20px;\n  font-weight: 500;\n}\n\n.main-contents {\n  display: flex;\n  flex-direction: column;\n  width: 100%;\n  min-height: 800px;\n}\n.main-contents div p {\n  border-bottom: currentColor 2px solid;\n  font-weight: 500;\n}\n\n.news-containers {\n  display: flex;\n  flex-direction: column;\n  margin-bottom: 30px;\n}\n\n.new-contents-v {\n  display: flex;\n  flex-direction: column;\n  width: 80%;\n}\n.new-contents-v img {\n  width: 100%;\n  margin: 20px 10% 20px 10%;\n}\n\n.new-contents-h {\n  display: flex;\n}\n.new-contents-h img {\n  width: 100px;\n  height: 100px;\n  margin: 0 20px 0 20px;\n}", ""]);
 // Exports
 module.exports = exports;
 
@@ -334,7 +334,7 @@ module.exports = exports;
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, ":root {\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n  font-style: normal;\n  -webkit-font-smoothing: antialiased;\n}\n\n* input {\n  outline: none;\n  background: none;\n  border: none;\n}\n* button {\n  outline: none;\n  cursor: pointer;\n}\n* li {\n  list-style: none;\n}\n* a {\n  text-decoration: none;\n  cursor: pointer;\n}\n\n.main-container {\n  display: flex;\n  flex-direction: column;\n  width: 70%;\n  height: 100%;\n  margin: auto;\n}\n.main-container.dark-theme * {\n  color: #fff;\n}\n.main-container.dark-theme .title-name {\n  color: #f08080;\n}\n.main-container.light-theme * {\n  color: #333;\n}\n.main-container.light-theme .title-name {\n  color: #f08080;\n}", ""]);
+exports.push([module.i, ":root {\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n  font-style: normal;\n  -webkit-font-smoothing: antialiased;\n}\n\n* input {\n  outline: none;\n  background: none;\n  border: none;\n}\n* button {\n  outline: none;\n  cursor: pointer;\n}\n* li {\n  list-style: none;\n}\n* a {\n  text-decoration: none;\n  cursor: pointer;\n  color: inherit;\n}\n\n.main-container {\n  display: flex;\n  flex-direction: column;\n  width: 70%;\n  height: 100%;\n  margin: auto;\n}\n.main-container.dark-theme * {\n  color: #fff;\n}\n.main-container.dark-theme .title-name {\n  color: #f08080;\n}\n.main-container.light-theme * {\n  color: #333;\n}\n.main-container.light-theme .title-name {\n  color: #f08080;\n}", ""]);
 // Exports
 module.exports = exports;
 
@@ -352,7 +352,7 @@ module.exports = exports;
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, ".loading-icon {\n  position: absolute;\n  top: 300px;\n  left: 700px;\n}\n\n.icon1-container {\n  position: absolute;\n  top: 300px;\n  left: 100px;\n  width: 200px;\n  height: 200px;\n}\n@keyframes wait-cube-1-1 {\n  0% {\n    background: red;\n    left: 0;\n    top: 0;\n    border-radius: 10px;\n  }\n  25% {\n    background: orange;\n    border-radius: 10px;\n    top: 0;\n    left: 100px;\n  }\n  50% {\n    background: mediumpurple;\n    border-radius: 50px;\n    top: 100px;\n    left: 100px;\n  }\n  75% {\n    background: royalblue;\n    border-radius: 50px;\n    top: 100px;\n    left: 0;\n  }\n  100% {\n    background: red;\n    border-radius: 10px;\n    top: 0;\n    left: 0;\n  }\n}\n@keyframes wait-cube-1-2 {\n  0% {\n    background: orange;\n    left: 100px;\n    top: 0;\n    border-radius: 50px;\n  }\n  25% {\n    background: mediumpurple;\n    border-radius: 50px;\n    top: 100px;\n    left: 100px;\n  }\n  50% {\n    background: royalblue;\n    border-radius: 10px;\n    top: 100px;\n    left: 0;\n  }\n  75% {\n    background: red;\n    border-radius: 10px;\n    top: 0;\n    left: 0;\n  }\n  100% {\n    background: orange;\n    border-radius: 50px;\n    top: 0;\n    left: 100px;\n  }\n}\n@keyframes wait-cube-1-3 {\n  0% {\n    background: mediumpurple;\n    left: 100px;\n    top: 100px;\n    border-radius: 10px;\n  }\n  25% {\n    background: royalblue;\n    border-radius: 10px;\n    top: 100px;\n    left: 0;\n  }\n  50% {\n    background: red;\n    border-radius: 50px;\n    top: 0;\n    left: 0;\n  }\n  75% {\n    background: orange;\n    border-radius: 50px;\n    top: 0;\n    left: 100px;\n  }\n  100% {\n    background: mediumpurple;\n    border-radius: 10px;\n    top: 100px;\n    left: 100px;\n  }\n}\n@keyframes wait-cube-1-4 {\n  0% {\n    background: royalblue;\n    left: 0;\n    top: 100px;\n    border-radius: 50px;\n  }\n  25% {\n    background: red;\n    border-radius: 50px;\n    top: 0;\n    left: 0;\n  }\n  50% {\n    background: orange;\n    border-radius: 10px;\n    top: 0;\n    left: 100px;\n  }\n  75% {\n    background: mediumpurple;\n    border-radius: 10px;\n    top: 100px;\n    left: 100px;\n  }\n  100% {\n    background: royalblue;\n    border-radius: 50px;\n    top: 100px;\n    left: 0;\n  }\n}\n.icon1-container .wait-cube-1-1 {\n  width: 100px;\n  height: 100px;\n  background: red;\n  position: relative;\n  border-radius: 10px;\n  animation: wait-cube-1-1 3s infinite;\n}\n.icon1-container .wait-cube-1-2 {\n  width: 100px;\n  height: 100px;\n  background: orange;\n  position: absolute;\n  border-radius: 10px;\n  top: 0;\n  left: 100px;\n  animation: wait-cube-1-2 3s infinite;\n}\n.icon1-container .wait-cube-1-3 {\n  width: 100px;\n  height: 100px;\n  background: mediumpurple;\n  position: absolute;\n  border-radius: 10px;\n  top: 100px;\n  left: 100px;\n  animation: wait-cube-1-3 3s infinite;\n}\n.icon1-container .wait-cube-1-4 {\n  width: 100px;\n  height: 100px;\n  background: royalblue;\n  position: absolute;\n  border-radius: 10px;\n  top: 100px;\n  left: 0;\n  animation: wait-cube-1-4 3s infinite;\n}", ""]);
+exports.push([module.i, ".loading-icon {\n  position: absolute;\n  top: 300px;\n  left: 700px;\n}\n\n.icon1-container {\n  position: absolute;\n  top: 300px;\n  left: 100px;\n  width: 200px;\n  height: 200px;\n}\n@keyframes wait-cube-1-1 {\n  0% {\n    background: red;\n    left: 0;\n    top: 0;\n    border-radius: 10px;\n  }\n  25% {\n    background: orange;\n    border-radius: 10px;\n    top: 0;\n    left: 100px;\n  }\n  50% {\n    background: mediumpurple;\n    border-radius: 50px;\n    top: 100px;\n    left: 100px;\n  }\n  75% {\n    background: royalblue;\n    border-radius: 50px;\n    top: 100px;\n    left: 0;\n  }\n  100% {\n    background: red;\n    border-radius: 10px;\n    top: 0;\n    left: 0;\n  }\n}\n@keyframes wait-cube-1-2 {\n  0% {\n    background: orange;\n    left: 100px;\n    top: 0;\n    border-radius: 50px;\n  }\n  25% {\n    background: mediumpurple;\n    border-radius: 50px;\n    top: 100px;\n    left: 100px;\n  }\n  50% {\n    background: royalblue;\n    border-radius: 10px;\n    top: 100px;\n    left: 0;\n  }\n  75% {\n    background: red;\n    border-radius: 10px;\n    top: 0;\n    left: 0;\n  }\n  100% {\n    background: orange;\n    border-radius: 50px;\n    top: 0;\n    left: 100px;\n  }\n}\n@keyframes wait-cube-1-3 {\n  0% {\n    background: mediumpurple;\n    left: 100px;\n    top: 100px;\n    border-radius: 10px;\n  }\n  25% {\n    background: royalblue;\n    border-radius: 10px;\n    top: 100px;\n    left: 0;\n  }\n  50% {\n    background: red;\n    border-radius: 50px;\n    top: 0;\n    left: 0;\n  }\n  75% {\n    background: orange;\n    border-radius: 50px;\n    top: 0;\n    left: 100px;\n  }\n  100% {\n    background: mediumpurple;\n    border-radius: 10px;\n    top: 100px;\n    left: 100px;\n  }\n}\n@keyframes wait-cube-1-4 {\n  0% {\n    background: royalblue;\n    left: 0;\n    top: 100px;\n    border-radius: 50px;\n  }\n  25% {\n    background: red;\n    border-radius: 50px;\n    top: 0;\n    left: 0;\n  }\n  50% {\n    background: orange;\n    border-radius: 10px;\n    top: 0;\n    left: 100px;\n  }\n  75% {\n    background: mediumpurple;\n    border-radius: 10px;\n    top: 100px;\n    left: 100px;\n  }\n  100% {\n    background: royalblue;\n    border-radius: 50px;\n    top: 100px;\n    left: 0;\n  }\n}\n.icon1-container .wait-cube-1-1 {\n  width: 100px;\n  height: 100px;\n  background: red;\n  position: relative;\n  border-radius: 10px;\n  animation: wait-cube-1-1 3s infinite;\n}\n.icon1-container .wait-cube-1-2 {\n  width: 100px;\n  height: 100px;\n  background: orange;\n  position: absolute;\n  border-radius: 10px;\n  top: 0;\n  left: 100px;\n  animation: wait-cube-1-2 3s infinite;\n}\n.icon1-container .wait-cube-1-3 {\n  width: 100px;\n  height: 100px;\n  background: mediumpurple;\n  position: absolute;\n  border-radius: 10px;\n  top: 100px;\n  left: 100px;\n  animation: wait-cube-1-3 3s infinite;\n}\n.icon1-container .wait-cube-1-4 {\n  width: 100px;\n  height: 100px;\n  background: royalblue;\n  position: absolute;\n  border-radius: 10px;\n  top: 100px;\n  left: 0;\n  animation: wait-cube-1-4 3s infinite;\n}\n\n.plus-icon {\n  position: absolute;\n  width: 100px;\n  height: 100px;\n  top: 300px;\n  border: black 5px solid;\n  left: 500px;\n}\n.plus-icon::before {\n  content: \"\";\n  position: absolute;\n  left: 10%;\n  top: 40%;\n  width: 80%;\n  height: 20%;\n  background: black;\n}\n.plus-icon::after {\n  content: \"\";\n  position: absolute;\n  left: 40%;\n  top: 10%;\n  width: 20%;\n  height: 80%;\n  background: black;\n}\n.plus-icon:hover::before {\n  animation: animation2 0.5s;\n  background: red;\n}\n.plus-icon:hover::after {\n  animation: animation1 0.5s;\n  background: transparent;\n}\n\n@keyframes animation1 {\n  from {\n    background: black;\n  }\n  to {\n    background: transparent;\n  }\n}\n@keyframes animation2 {\n  from {\n    background: black;\n  }\n  to {\n    background: red;\n  }\n}", ""]);
 // Exports
 module.exports = exports;
 
@@ -7927,19 +7927,98 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 
 
 
-class SideBar extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+class SideBarMenuDropdown extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
   render() {
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "sidebar-pick"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "there are some words in here."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "there are some words in here."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "there are some words in here."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "there are some words in here."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "there are some words in here."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "there are some words in here."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "there are some words in here."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "there are some words in here."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "there are some words in here."));
+    if (this.props.display) {
+      const list = this.props.data.contents.map(x => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        className: x.name === this.props.poolName ? "sidebar-target" : "",
+        key: x.key,
+        href: x.url
+      }, x.name));
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "sidebar-menu-dropdown"
+      }, list);
+    } else {
+      return null;
+    }
   }
 
 }
 
-class PickImg extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+class SideBarMenu extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+  constructor(props) {
+    super(props);
+
+    _defineProperty(this, "checkPool", () => {
+      console.log(`in checkPool ${this.props.data.name}`);
+      console.log(`   poolType:${this.props.poolType} \n   dataType:${this.props.data.type}`);
+
+      if (this.props.poolType === this.props.data.type) {
+        this.setState({
+          display: true
+        });
+      }
+    });
+
+    _defineProperty(this, "showMenu", () => {
+      this.setState({
+        display: !this.state.display
+      });
+    });
+
+    this.state = {
+      display: false,
+      status: "hide"
+    };
+  }
+
+  componentDidUpdate(prevProps, prevState, snapshot) {
+    if (prevProps.poolType !== this.props.poolType) {
+      this.checkPool();
+    }
+  }
+
   render() {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "pick-img"
+      className: "sidebar-menu"
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "sidebar-menu-title"
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "menu-icon-container"
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: `menu-icon${this.state.display ? "-show" : "-hide"}`,
+      onClick: () => this.showMenu()
+    }, " ")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "menu-text-container"
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, this.props.data.name))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SideBarMenuDropdown, {
+      data: this.props.data,
+      display: this.state.display,
+      showMenu: this.showMenu,
+      poolName: this.props.poolName
+    }));
+  }
+
+}
+
+class SideBar extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+  render() {
+    const list = this.props.data.map(x => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SideBarMenu, {
+      key: x.key,
+      data: x,
+      poolType: this.props.poolType,
+      poolName: this.props.poolName
+    }));
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "sidebar-pick"
+    }, list);
+  }
+
+}
+
+class PoolImg extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+  render() {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "pool-img"
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
       alt: "",
       src: `../../../images/pools/${this.props.poolType}/${this.props.poolName.replace(/ /, "_")}.jpg`
@@ -7968,7 +8047,9 @@ class PickUpInfo extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component 
         className: "6"
       }, "\u2605\u2605\u2605\u2605\u2605\u2605"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "pickup-showcard"
-      }, sixList), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, `(占6★出率的${this.props.info.pickup.type === "limit" ? 75 : 50}%)`));
+      }, sixList), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "(\u5360", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "6"
+      }, "6\u2605"), "\u51FA\u7387\u7684 ", this.props.info.pickup.type === "limit" ? 75 : 50, "%)"));
     } else {
       pickupBoxSix = null;
     }
@@ -7989,7 +8070,9 @@ class PickUpInfo extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component 
         className: "5"
       }, "\u2605\u2605\u2605\u2605\u2605"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "pickup-showcard"
-      }, fiveList), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "(\u53605\u2605\u51FA\u7387\u768450%)"));
+      }, fiveList), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "(\u5360", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "5"
+      }, "5\u2605"), "\u51FA\u7387\u768450%)"));
     } else {
       pickupBoxFive = null;
     }
@@ -8010,7 +8093,9 @@ class PickUpInfo extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component 
         className: "4"
       }, "\u2605\u2605\u2605\u2605"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "pickup-showcard"
-      }, fourList), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "(\u53604\u2605\u51FA\u7387\u768420%)"));
+      }, fourList), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "(\u5360", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "4"
+      }, "4\u2605"), "\u51FA\u7387\u768420%)"));
     } else {
       pickupBoxFour = null;
     }
@@ -8028,7 +8113,7 @@ class PickTitle extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
   render() {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: "pick-title"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(PickImg, {
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(PoolImg, {
       poolName: this.props.poolName,
       poolType: this.props.poolType
     }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(PickUpInfo, {
@@ -8110,11 +8195,21 @@ class PickOne_Case extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Componen
       key: this.props.data._id
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
       className: this.props.data.rare
-    }, " ", this.props.data.name, " "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-      className: "card img",
+    }, " ", this.props.data.name, " "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "pick-img"
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+      className: `card img${this.props.data.rare}`,
       src: `../../../images/character/half/${this.props.data.name}.png`,
       alt: "card"
-    }));
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+      className: `class-icon`,
+      src: `../../../images/class/${this.props.data.class}.png`,
+      alt: "class-icon"
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+      className: `rare-icon`,
+      src: `../../../images/rare/${this.props.data.rare}.png`,
+      alt: "rare-icon"
+    })));
   }
 
 }
@@ -8126,11 +8221,21 @@ class PickTen_Case extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Componen
       key: x.id
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
       className: x.rare
-    }, x.name), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-      className: "card img",
+    }, x.name), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "pick-img"
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+      className: `card img${x.rare}`,
       src: `../../../images/character/half/${x.name}.png`,
       alt: "card"
-    })));
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+      className: `class-icon`,
+      src: `../../../images/class/${x.class}.png`,
+      alt: "class-icon"
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+      className: `rare-icon`,
+      src: `../../../images/rare/${x.rare}.png`,
+      alt: "rare-icon"
+    }))));
     list.splice(5, 0, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
       key: "br"
     }));
@@ -8301,7 +8406,11 @@ class Main extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
   render() {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: "main-pick"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SideBar, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SideBar, {
+      data: this.props.info.sidebar,
+      poolType: this.props.info.poolType,
+      poolName: this.props.poolName
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: "blank"
     }, " "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Pick, {
       poolName: this.props.poolName,
@@ -8329,6 +8438,12 @@ class Pickcard extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
         this.setState({
           pickup: res.data
         });
+      });
+    });
+
+    _defineProperty(this, "getPoolType", () => {
+      this.setState({
+        poolType: window.location.href.split("//")[1].split("/")[1]
       });
     });
 
@@ -8638,6 +8753,42 @@ class Pickcard extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
     });
 
     this.state = {
+      sidebar: [{
+        key: 0,
+        name: "活动寻访",
+        type: "eventPool",
+        contents: [{
+          key: 0,
+          name: "燃钢之心 暴躁铁皮",
+          url: "/eventPool/heart_of_steel_the_rage_ironhide"
+        }, {
+          key: 1,
+          name: "不羁逆流",
+          url: "/eventPool/unbound_reflux"
+        }, {
+          key: 2,
+          name: "流沙涡旋",
+          url: "/eventPool/spiral_sinking"
+        }]
+      }, {
+        key: 1,
+        name: "限定寻访",
+        type: "limitPool",
+        contents: [{
+          key: 0,
+          name: "地生五金",
+          url: "/limitPool/earthborn_metals"
+        }]
+      }, {
+        key: 2,
+        name: "常驻标准寻访",
+        type: "regularPool",
+        contents: [{
+          key: 0,
+          name: "常驻寻访第35期",
+          url: "/regularPool/35"
+        }]
+      }],
       buttons: [{
         key: 0,
         name: "寻访一次",
@@ -8661,6 +8812,7 @@ class Pickcard extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
         five: [],
         four: []
       },
+      poolType: "",
       coin: 0,
       //合成玉
       coinUrl: "../../../images/materials/coin.png",
@@ -8691,6 +8843,7 @@ class Pickcard extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
   }
 
   componentDidMount() {
+    this.getPoolType();
     this.getPickup();
   }
 
@@ -8822,6 +8975,8 @@ class Test extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       cubeNum: "4"
     }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_icons_loadingIcon_jsx__WEBPACK_IMPORTED_MODULE_2__["default"], {
       className: "loading-icon"
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "plus-icon"
     }));
   }
 

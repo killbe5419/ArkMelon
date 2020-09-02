@@ -10,23 +10,31 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="607eec3e-89c1-47af-9f10-8be80260d6f9" name="Default Changelist" comment="update README.md">
-      <change afterPath="$PROJECT_DIR$/src/images/testBkg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sass/modules/icons/calcIcon.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sass/modules/icons/loadingIcon.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sass/pages/test.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scripts/components/icons/calcIcon.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scripts/components/icons/loadingIcon.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scripts/etc/codeTest.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scripts/pages/test.jsx" afterDir="false" />
+    <list default="true" id="607eec3e-89c1-47af-9f10-8be80260d6f9" name="Default Changelist" comment="add new things.">
+      <change afterPath="$PROJECT_DIR$/src/images/class/先锋.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/class/医疗.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/class/术师.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/class/特种.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/class/狙击.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/class/辅助.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/class/近卫.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/class/重装.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/rare/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/rare/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/rare/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/rare/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/rare/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/rare/6.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dist/app.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/dist/app.bundle.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dist/app.bundle.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/dist/app.bundle.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/event.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/githubQR.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/base.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sass/pages/pickcard.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/pages/pickcard.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scripts/app.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/app.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scripts/etc/dbTest.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/etc/dbTest.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/pages/test.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/pages/test.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scripts/pages/pickcard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/pages/pickcard.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scripts/pages/test.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/pages/test.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +108,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.server">
+  <component name="RunManager" selected="npm.watch">
     <configuration name="codeTest.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/scripts/etc/codeTest.js" working-dir="$PROJECT_DIR$/src/scripts/etc">
       <method v="2" />
     </configuration>
@@ -214,14 +222,8 @@
       <workItem from="1598854412721" duration="19487000" />
       <workItem from="1598937685211" duration="13725000" />
       <workItem from="1598953960816" duration="158000" />
-      <workItem from="1598954128145" duration="5950000" />
-    </task>
-    <task id="LOCAL-00016" summary="add changes.">
-      <created>1591451614248</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1591451614248</updated>
+      <workItem from="1598954128145" duration="6514000" />
+      <workItem from="1599029835876" duration="18128000" />
     </task>
     <task id="LOCAL-00017" summary="add MIT LICENSE.">
       <created>1591874043887</created>
@@ -559,7 +561,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598446467200</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="add new things.">
+      <created>1598962910770</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1598962910770</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -602,9 +611,9 @@
     <MESSAGE value="added [change theme] function." />
     <MESSAGE value="added change theme function." />
     <MESSAGE value="add changes." />
-    <MESSAGE value="add new things." />
     <MESSAGE value="update README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="update README.md" />
+    <MESSAGE value="add new things." />
+    <option name="LAST_COMMIT_MESSAGE" value="add new things." />
   </component>
   <component name="WindowStateProjectService">
     <state x="253" y="197" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597904636875">
@@ -621,25 +630,25 @@
       <screen x="0" y="23" width="1680" height="970" />
     </state>
     <state x="620" y="263" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1680.970@0.23.1680.970" timestamp="1598774972920" />
-    <state width="809" height="278" key="GridCell.Tab.0.bottom" timestamp="1598962487061">
+    <state width="809" height="278" key="GridCell.Tab.0.bottom" timestamp="1599050261877">
       <screen x="0" y="23" width="1680" height="970" />
     </state>
-    <state width="809" height="278" key="GridCell.Tab.0.bottom/0.23.1680.970@0.23.1680.970" timestamp="1598962487061" />
+    <state width="809" height="278" key="GridCell.Tab.0.bottom/0.23.1680.970@0.23.1680.970" timestamp="1599050261877" />
     <state width="929" height="186" key="GridCell.Tab.0.bottom/0.23.1680.981@0.23.1680.981" timestamp="1594215132334" />
-    <state width="809" height="278" key="GridCell.Tab.0.center" timestamp="1598962487060">
+    <state width="809" height="278" key="GridCell.Tab.0.center" timestamp="1599050261876">
       <screen x="0" y="23" width="1680" height="970" />
     </state>
-    <state width="809" height="278" key="GridCell.Tab.0.center/0.23.1680.970@0.23.1680.970" timestamp="1598962487060" />
+    <state width="809" height="278" key="GridCell.Tab.0.center/0.23.1680.970@0.23.1680.970" timestamp="1599050261876" />
     <state width="929" height="186" key="GridCell.Tab.0.center/0.23.1680.981@0.23.1680.981" timestamp="1594215132332" />
-    <state width="809" height="278" key="GridCell.Tab.0.left" timestamp="1598962487058">
+    <state width="809" height="278" key="GridCell.Tab.0.left" timestamp="1599050261876">
       <screen x="0" y="23" width="1680" height="970" />
     </state>
-    <state width="809" height="278" key="GridCell.Tab.0.left/0.23.1680.970@0.23.1680.970" timestamp="1598962487058" />
+    <state width="809" height="278" key="GridCell.Tab.0.left/0.23.1680.970@0.23.1680.970" timestamp="1599050261876" />
     <state width="929" height="186" key="GridCell.Tab.0.left/0.23.1680.981@0.23.1680.981" timestamp="1594215132323" />
-    <state width="809" height="278" key="GridCell.Tab.0.right" timestamp="1598962487061">
+    <state width="809" height="278" key="GridCell.Tab.0.right" timestamp="1599050261876">
       <screen x="0" y="23" width="1680" height="970" />
     </state>
-    <state width="809" height="278" key="GridCell.Tab.0.right/0.23.1680.970@0.23.1680.970" timestamp="1598962487061" />
+    <state width="809" height="278" key="GridCell.Tab.0.right/0.23.1680.970@0.23.1680.970" timestamp="1599050261876" />
     <state width="929" height="186" key="GridCell.Tab.0.right/0.23.1680.981@0.23.1680.981" timestamp="1594215132333" />
     <state width="1114" height="317" key="GridCell.Tab.1.bottom" timestamp="1598862650010">
       <screen x="0" y="23" width="1680" height="970" />
@@ -701,6 +710,10 @@
     </state>
     <state width="1114" height="317" key="GridCell.Tab.3.right/0.23.1680.970@0.23.1680.970" timestamp="1598862649108" />
     <state width="952" height="235" key="GridCell.Tab.3.right/0.23.1680.981@0.23.1680.981" timestamp="1590830953183" />
+    <state x="529" y="295" key="IDE.errors.dialog" timestamp="1599030827886">
+      <screen x="0" y="23" width="1680" height="970" />
+    </state>
+    <state x="529" y="295" key="IDE.errors.dialog/0.23.1680.970@0.23.1680.970" timestamp="1599030827886" />
     <state x="286" y="91" key="RollbackChangesDialog" timestamp="1593760995144">
       <screen x="0" y="23" width="1680" height="981" />
     </state>
@@ -714,10 +727,10 @@
       <screen x="0" y="23" width="1680" height="981" />
     </state>
     <state x="961" y="367" key="VCS.EditChangelistDialog/0.23.1680.981@0.23.1680.981" timestamp="1591165011540" />
-    <state x="742" y="187" key="Vcs.Push.Dialog.v2" timestamp="1598446476004">
+    <state x="742" y="187" key="Vcs.Push.Dialog.v2" timestamp="1598962941711">
       <screen x="0" y="23" width="1680" height="970" />
     </state>
-    <state x="742" y="187" key="Vcs.Push.Dialog.v2/0.23.1680.970@0.23.1680.970" timestamp="1598446476004" />
+    <state x="742" y="187" key="Vcs.Push.Dialog.v2/0.23.1680.970@0.23.1680.970" timestamp="1598962941711" />
     <state x="742" y="189" key="Vcs.Push.Dialog.v2/0.23.1680.981@0.23.1680.981" timestamp="1594109673979" />
     <state x="398" y="321" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1591164901115">
       <screen x="0" y="23" width="1680" height="981" />

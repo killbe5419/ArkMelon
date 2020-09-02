@@ -5,28 +5,102 @@ import CalcIcon from "../components/icons/calcIcon.jsx";
 import "../../sass/pages/pickcard.scss";
 import gp from "../tools/gp";
 
-class SideBar extends React.Component {
+class SideBarMenuDropdown extends React.Component {
+    render() {
+        if(this.props.display) {
+            const list = this.props.data.contents.map( x =>
+                <a className={ x.name === this.props.poolName ? "sidebar-target" : ""} key={ x.key } href={ x.url }>{ x.name }</a>
+            )
+            return (
+                <div className="sidebar-menu-dropdown">
+                    { list }
+                </div>
+            )
+        } else {
+            return null;
+        }
+    }
+}
+
+class SideBarMenu extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            display: false,
+            status: "hide"
+        }
+    }
+
+    componentDidUpdate(prevProps, prevState, snapshot) {
+        if(prevProps.poolType !== this.props.poolType) {
+            this.checkPool();
+        }
+    }
+
+    checkPool = () => {
+        console.log(`in checkPool ${this.props.data.name}`);
+        console.log(`   poolType:${this.props.poolType} \n   dataType:${this.props.data.type}`);
+        if(this.props.poolType === this.props.data.type) {
+            this.setState({
+                display: true,
+            })
+        }
+    }
+
+    showMenu = () => {
+        this.setState({
+            display: !this.state.display,
+        })
+    }
+
     render() {
         return (
-            <div className="sidebar-pick">
-                <p>there are some words in here.</p>
-                <p>there are some words in here.</p>
-                <p>there are some words in here.</p>
-                <p>there are some words in here.</p>
-                <p>there are some words in here.</p>
-                <p>there are some words in here.</p>
-                <p>there are some words in here.</p>
-                <p>there are some words in here.</p>
-                <p>there are some words in here.</p>
+            <div className="sidebar-menu">
+                <div className="sidebar-menu-title">
+                    <div className="menu-icon-container">
+                        <div
+                            className={`menu-icon${this.state.display ? "-show": "-hide"}`}
+                            onClick={ () => this.showMenu() }
+                        > </div>
+                    </div>
+                    <div className="menu-text-container">
+                        <p>{ this.props.data.name }</p>
+                    </div>
+                </div>
+                <SideBarMenuDropdown
+                    data={ this.props.data }
+                    display={ this.state.display }
+                    showMenu={ this.showMenu }
+                    poolName={ this.props.poolName }
+                />
             </div>
         );
     }
 }
 
-class PickImg extends React.Component {
+class SideBar extends React.Component {
+    render() {
+        const list = this.props.data.map( x =>
+            <SideBarMenu
+                key={x.key}
+                data={ x }
+                poolType={ this.props.poolType }
+                poolName={ this.props.poolName }
+            />
+        )
+
+        return (
+            <div className="sidebar-pick">
+                { list }
+            </div>
+        );
+    }
+}
+
+class PoolImg extends React.Component {
     render() {
         return (
-            <div className="pick-img">
+            <div className="pool-img">
                 <img alt="" src={`../../../images/pools/${this.props.poolType}/${this.props.poolName.replace(/ /,"_")}.jpg` } />
             </div>
         );
@@ -48,7 +122,7 @@ class PickUpInfo extends React.Component {
                 <div className="pickup-box">
                     <p className="6">★★★★★★</p>
                     <div className="pickup-showcard">{ sixList }</div>
-                    <p>{`(占6★出率的${this.props.info.pickup.type === "limit" ? 75 : 50}%)`}</p>
+                    <p>(占<span className="6">6★</span>出率的 { this.props.info.pickup.type === "limit" ? 75 : 50 }%)</p>
                 </div>
         } else {
             pickupBoxSix = null;
@@ -65,7 +139,7 @@ class PickUpInfo extends React.Component {
                 <div className="pickup-box">
                     <p className="5">★★★★★</p>
                     <div className="pickup-showcard">{ fiveList }</div>
-                    <p>(占5★出率的50%)</p>
+                    <p>(占<span className="5">5★</span>出率的50%)</p>
                 </div>
             )
         } else {
@@ -83,7 +157,7 @@ class PickUpInfo extends React.Component {
                 <div className="pickup-box">
                     <p className="4">★★★★</p>
                     <div className="pickup-showcard">{ fourList }</div>
-                    <p>(占4★出率的20%)</p>
+                    <p>(占<span className="4">4★</span>出率的20%)</p>
                 </div>
             )
         } else {
@@ -105,7 +179,7 @@ class PickTitle extends React.Component {
     render() {
         return (
             <div className="pick-title">
-                <PickImg poolName={ this.props.poolName } poolType={ this.props.poolType }/>
+                <PoolImg poolName={ this.props.poolName } poolType={ this.props.poolType }/>
                 <PickUpInfo
                     poolName={ this.props.poolName }
                     poolType={ this.props.poolType }
@@ -192,7 +266,11 @@ class PickOne_Case extends React.Component {
         return (
             <div className="case" key={ this.props.data._id }>
                 <p className={ this.props.data.rare }> { this.props.data.name } </p>
-                <img className="card img"  src={ `../../../images/character/half/${ this.props.data.name }.png` } alt="card"/>
+                <div className="pick-img">
+                    <img className={`card img${this.props.data.rare}`}  src={ `../../../images/character/half/${ this.props.data.name }.png` } alt="card"/>
+                    <img className={`class-icon`} src={ `../../../images/class/${ this.props.data.class }.png` } alt="class-icon" />
+                    <img className={`rare-icon`} src={ `../../../images/rare/${ this.props.data.rare }.png` } alt="rare-icon" />
+                </div>
             </div>
         );
     }
@@ -203,7 +281,12 @@ class PickTen_Case extends React.Component {
         const list = this.props.data.map( x =>
             <div className="case" key={ x.id } >
                 <p className={ x.rare }>{ x.name }</p>
-                <img className="card img" src={ `../../../images/character/half/${ x.name }.png` } alt="card" />
+                <div className="pick-img">
+                    <img className={`card img${x.rare}`} src={ `../../../images/character/half/${ x.name }.png` } alt="card" />
+                    <img className={`class-icon`} src={ `../../../images/class/${ x.class }.png` } alt="class-icon" />
+                    <img className={`rare-icon`} src={ `../../../images/rare/${ x.rare }.png` } alt="rare-icon" />
+                </div>
+
             </div>
         );
 
@@ -353,7 +436,11 @@ class Main extends React.Component {
     render() {
         return (
             <div className="main-pick">
-                <SideBar />
+                <SideBar
+                    data={ this.props.info.sidebar }
+                    poolType={ this.props.info.poolType }
+                    poolName={ this.props.poolName }
+                />
                 <div className="blank"> </div>
                 <Pick
                     poolName={ this.props.poolName }
@@ -370,6 +457,55 @@ class Pickcard extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
+            sidebar: [
+                {
+                    key: 0,
+                    name: "活动寻访",
+                    type: "eventPool",
+                    contents: [
+                        {
+                            key:0,
+                            name: "燃钢之心 暴躁铁皮",
+                            url: "/eventPool/heart_of_steel_the_rage_ironhide"
+                        },
+                        {
+                            key:1,
+                            name: "不羁逆流",
+                            url: "/eventPool/unbound_reflux"
+                        },
+                        {
+                            key:2,
+                            name: "流沙涡旋",
+                            url: "/eventPool/spiral_sinking"
+                        },
+
+                    ]
+                },
+                {
+                    key: 1,
+                    name: "限定寻访",
+                    type: "limitPool",
+                    contents: [
+                        {
+                            key:0,
+                            name: "地生五金",
+                            url: "/limitPool/earthborn_metals"
+                        }
+                    ]
+                },
+                {
+                    key: 2,
+                    name: "常驻标准寻访",
+                    type: "regularPool",
+                    contents: [
+                        {
+                            key:0,
+                            name: "常驻寻访第35期",
+                            url: "/regularPool/35"
+                        }
+                    ]
+                }
+            ],
             buttons: [
                 {
                     key: 0,
@@ -393,6 +529,7 @@ class Pickcard extends React.Component {
                 }
             ],
             pickup: {type: {}, six:[], five:[], four:[],},
+            poolType: "",
             coin: 0, //合成玉
             coinUrl: "../../../images/materials/coin.png",
             coinAlt: "orundum",
@@ -410,6 +547,7 @@ class Pickcard extends React.Component {
     }
 
     componentDidMount() {
+        this.getPoolType();
         this.getPickup();
     }
 
@@ -435,6 +573,12 @@ class Pickcard extends React.Component {
                     pickup: res.data
                 })
             })
+    }
+
+    getPoolType = () => {
+        this.setState({
+            poolType: window.location.href.split("//")[1].split("/")[1]
+        })
     }
 
     showRecord = () => {

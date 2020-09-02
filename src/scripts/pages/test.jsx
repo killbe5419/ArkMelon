@@ -28,6 +28,7 @@ class Test extends React.Component {
                 <Icon num="1" cubeNum="4"/>
                 <Icon num="2" cubeNum="4"/>
                 <LoadingIcon className="loading-icon"/>
+                <div className="plus-icon"> </div>
             </div>
         )
     }

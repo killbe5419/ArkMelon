@@ -184,8 +184,60 @@
   }
 }
 
+.plus-icon {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top:300px;
+  border: black 5px solid;
+  left: 500px;
+  &::before {
+    content: "";
+    position: absolute;
+    left: 10%;
+    top: 40%;
+    width: 80%;
+    height: 20%;
+    background: black;
+  }
+  &::after {
+    content: "";
+    position: absolute;
+    left: 40%;
+    top: 10%;
+    width: 20%;
+    height: 80%;
+    background: black;
+  }
+  &:hover {
+    &::before {
+      animation: animation2 0.5s;
+      background: red;
+    }
+    &::after{
+      animation: animation1 0.5s;
+      background: transparent;
+    }
+  }
+}
 
+@keyframes animation1 {
+  from {
+    background: black;
+  }
+  to {
+    background: transparent;
+  }
+}
 
+@keyframes animation2 {
+  from {
+    background: black;
+  }
+  to {
+    background: red;
+  }
+}
 
 
 
