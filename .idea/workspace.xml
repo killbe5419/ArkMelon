@@ -11,29 +11,138 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="607eec3e-89c1-47af-9f10-8be80260d6f9" name="Default Changelist" comment="add new things.">
-      <change afterPath="$PROJECT_DIR$/src/images/class/先锋.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/class/医疗.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/class/术师.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/class/特种.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/class/狙击.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/class/辅助.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/class/近卫.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/class/重装.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/rare/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/rare/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/rare/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/rare/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/rare/5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/rare/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/cards_info.numbers" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/cards_new.numbers" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/cards_pool.numbers" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/csv/pools_csv/eventPools/不羁逆流.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/csv/pools_csv/eventPools/久铸尘铁.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/csv/pools_csv/eventPools/冰封原野.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/csv/pools_csv/eventPools/凝电之钻.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/csv/pools_csv/eventPools/君影轻灵.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/csv/pools_csv/eventPools/往日幻象.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/csv/pools_csv/eventPools/搅动潮汐之剑.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/csv/pools_csv/eventPools/流沙涡旋.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/csv/pools_csv/eventPools/深夏的守夜人.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/csv/pools_csv/eventPools/火舞之人.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/csv/pools_csv/eventPools/热情，膨胀，爆发！.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/csv/pools_csv/eventPools/燃钢之心 暴躁铁皮.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/csv/pools_csv/eventPools/百种兵器.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/csv/pools_csv/eventPools/联合行动1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/csv/pools_csv/eventPools/联合行动2.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/csv/pools_csv/eventPools/草垛上的风笛声.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/csv/pools_csv/eventPools/银灰色的荣耀.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/csv/pools_csv/eventPools/锁与匙的守卫者.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/csv/pools_csv/eventPools/雪落晨心.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/csv/pools_csv/eventPools/雾漫荒林.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/csv/pools_csv/eventPools/鞘中赤红.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/csv/pools_csv/eventPools/龙门特别行动专员.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/csv/pools_csv/limitPools/地生五金.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/csv/pools_csv/limitPools/遗愿焰火.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/eventPools.numbers" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/pickTotal_cn.numbers" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/poolList.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/poolList.numbers" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/pools/eventPool/不羁逆流.numbers" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/pools/eventPool/君影轻灵.numbers" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/pools/eventPool/流沙涡旋.numbers" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/pools/eventPool/燃钢之心 暴躁铁皮.numbers" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/pools/limitPool/地生五金.numbers" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/pools/limitPool/遗愿焰火.numbers" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/templet.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/pools/eventPool/燃钢之心 暴躁铁皮.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/pools/eventPool/龙门特别行动专员.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/pools/regularPool/常驻标准寻访1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/pools/regularPool/常驻标准寻访10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/pools/regularPool/常驻标准寻访11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/pools/regularPool/常驻标准寻访12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/pools/regularPool/常驻标准寻访13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/pools/regularPool/常驻标准寻访14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/pools/regularPool/常驻标准寻访15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/pools/regularPool/常驻标准寻访16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/pools/regularPool/常驻标准寻访17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/pools/regularPool/常驻标准寻访18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/pools/regularPool/常驻标准寻访19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/pools/regularPool/常驻标准寻访2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/pools/regularPool/常驻标准寻访20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/pools/regularPool/常驻标准寻访21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/pools/regularPool/常驻标准寻访22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/pools/regularPool/常驻标准寻访23.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/pools/regularPool/常驻标准寻访24.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/pools/regularPool/常驻标准寻访25.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/pools/regularPool/常驻标准寻访26.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/pools/regularPool/常驻标准寻访27.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/pools/regularPool/常驻标准寻访28.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/pools/regularPool/常驻标准寻访29.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/pools/regularPool/常驻标准寻访3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/pools/regularPool/常驻标准寻访30.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/pools/regularPool/常驻标准寻访31.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/pools/regularPool/常驻标准寻访32.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/pools/regularPool/常驻标准寻访33.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/pools/regularPool/常驻标准寻访34.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/pools/regularPool/常驻标准寻访35.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/pools/regularPool/常驻标准寻访36.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/pools/regularPool/常驻标准寻访4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/pools/regularPool/常驻标准寻访5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/pools/regularPool/常驻标准寻访6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/pools/regularPool/常驻标准寻访7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/pools/regularPool/常驻标准寻访8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/pools/regularPool/常驻标准寻访9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sass/modules/sidebarPick.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scripts/components/SideBarPick.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scripts/etc/test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/yitian.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/yitian.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dist/app.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/dist/app.bundle.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dist/app.bundle.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/dist/app.bundle.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/event.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/githubQR.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pools/eventPool/燃钢之心_暴躁铁皮.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pools/eventPool/龙门特别行动专员寻访.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pools/regularPool/regular01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pools/regularPool/regular02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pools/regularPool/regular03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pools/regularPool/regular04.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pools/regularPool/regular05.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pools/regularPool/regular06.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pools/regularPool/regular07.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pools/regularPool/regular08.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pools/regularPool/regular09.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pools/regularPool/regular10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pools/regularPool/regular11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pools/regularPool/regular12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pools/regularPool/regular13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pools/regularPool/regular14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pools/regularPool/regular15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pools/regularPool/regular16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pools/regularPool/regular17.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pools/regularPool/regular18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pools/regularPool/regular19.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pools/regularPool/regular20.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pools/regularPool/regular21.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pools/regularPool/regular22.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pools/regularPool/regular23.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pools/regularPool/regular24.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pools/regularPool/regular25.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pools/regularPool/regular26.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pools/regularPool/regular27.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pools/regularPool/regular28.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pools/regularPool/regular29.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pools/regularPool/regular30.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pools/regularPool/regular31.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pools/regularPool/regular32.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pools/regularPool/regular33.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pools/regularPool/regular34.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pools/regularPool/regular35.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sass/base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/base.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sass/pages/pickcard.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/pages/pickcard.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/pages/test.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/pages/test.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scripts/app.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/app.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scripts/etc/codeTest.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/etc/codeTest.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scripts/etc/dbTest.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/etc/dbTest.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scripts/pages/eventPool.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/pages/showPool.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scripts/pages/limitPool.jsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scripts/pages/pickcard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/pages/pickcard.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scripts/pages/regularPool.jsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scripts/pages/test.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/pages/test.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -91,7 +200,7 @@
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
@@ -108,11 +217,14 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.watch">
+  <component name="RunManager" selected="Node.js.codeTest.js">
     <configuration name="codeTest.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/scripts/etc/codeTest.js" working-dir="$PROJECT_DIR$/src/scripts/etc">
       <method v="2" />
     </configuration>
     <configuration name="dbTest.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/scripts/etc/dbTest.js" working-dir="$PROJECT_DIR$/src/scripts/etc">
+      <method v="2" />
+    </configuration>
+    <configuration name="test.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/scripts/etc/test.js" working-dir="$PROJECT_DIR$/src/scripts/etc">
       <method v="2" />
     </configuration>
     <configuration name="server" type="js.build_tools.npm" nameIsGenerated="true">
@@ -138,6 +250,7 @@
     <list>
       <item itemvalue="Node.js.dbTest.js" />
       <item itemvalue="Node.js.codeTest.js" />
+      <item itemvalue="Node.js.test.js" />
       <item itemvalue="npm.server" />
       <item itemvalue="npm.watch" />
     </list>
@@ -145,6 +258,7 @@
       <list>
         <item itemvalue="Node.js.codeTest.js" />
         <item itemvalue="Node.js.dbTest.js" />
+        <item itemvalue="Node.js.test.js" />
       </list>
     </recent_temporary>
   </component>
@@ -224,13 +338,12 @@
       <workItem from="1598953960816" duration="158000" />
       <workItem from="1598954128145" duration="6514000" />
       <workItem from="1599029835876" duration="18128000" />
-    </task>
-    <task id="LOCAL-00017" summary="add MIT LICENSE.">
-      <created>1591874043887</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1591874043887</updated>
+      <workItem from="1599050266301" duration="45000" />
+      <workItem from="1599109282866" duration="18033000" />
+      <workItem from="1599197990223" duration="14228000" />
+      <workItem from="1599215102953" duration="14583000" />
+      <workItem from="1599231608137" duration="3000" />
+      <workItem from="1599288212318" duration="17979000" />
     </task>
     <task id="LOCAL-00018" summary="add MIT LICENSE.">
       <created>1591874128222</created>
@@ -568,7 +681,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598962910770</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="add new things.">
+      <created>1599050306940</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1599050306940</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -621,34 +741,34 @@
     </state>
     <state x="253" y="197" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.970@0.23.1680.970" timestamp="1597904636875" />
     <state x="253" y="199" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.981@0.23.1680.981" timestamp="1593753012021" />
-    <state x="921" y="321" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598954215261">
+    <state x="921" y="321" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599116868680">
       <screen x="0" y="23" width="1680" height="970" />
     </state>
-    <state x="921" y="321" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.970@0.23.1680.970" timestamp="1598954215261" />
+    <state x="921" y="321" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.970@0.23.1680.970" timestamp="1599116868680" />
     <state x="921" y="324" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.981@0.23.1680.981" timestamp="1592388511902" />
     <state x="620" y="263" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1598774972920">
       <screen x="0" y="23" width="1680" height="970" />
     </state>
     <state x="620" y="263" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1680.970@0.23.1680.970" timestamp="1598774972920" />
-    <state width="809" height="278" key="GridCell.Tab.0.bottom" timestamp="1599050261877">
+    <state width="1056" height="259" key="GridCell.Tab.0.bottom" timestamp="1599310623739">
       <screen x="0" y="23" width="1680" height="970" />
     </state>
-    <state width="809" height="278" key="GridCell.Tab.0.bottom/0.23.1680.970@0.23.1680.970" timestamp="1599050261877" />
+    <state width="1056" height="259" key="GridCell.Tab.0.bottom/0.23.1680.970@0.23.1680.970" timestamp="1599310623739" />
     <state width="929" height="186" key="GridCell.Tab.0.bottom/0.23.1680.981@0.23.1680.981" timestamp="1594215132334" />
-    <state width="809" height="278" key="GridCell.Tab.0.center" timestamp="1599050261876">
+    <state width="1056" height="259" key="GridCell.Tab.0.center" timestamp="1599310623738">
       <screen x="0" y="23" width="1680" height="970" />
     </state>
-    <state width="809" height="278" key="GridCell.Tab.0.center/0.23.1680.970@0.23.1680.970" timestamp="1599050261876" />
+    <state width="1056" height="259" key="GridCell.Tab.0.center/0.23.1680.970@0.23.1680.970" timestamp="1599310623738" />
     <state width="929" height="186" key="GridCell.Tab.0.center/0.23.1680.981@0.23.1680.981" timestamp="1594215132332" />
-    <state width="809" height="278" key="GridCell.Tab.0.left" timestamp="1599050261876">
+    <state width="1056" height="259" key="GridCell.Tab.0.left" timestamp="1599310623737">
       <screen x="0" y="23" width="1680" height="970" />
     </state>
-    <state width="809" height="278" key="GridCell.Tab.0.left/0.23.1680.970@0.23.1680.970" timestamp="1599050261876" />
+    <state width="1056" height="259" key="GridCell.Tab.0.left/0.23.1680.970@0.23.1680.970" timestamp="1599310623737" />
     <state width="929" height="186" key="GridCell.Tab.0.left/0.23.1680.981@0.23.1680.981" timestamp="1594215132323" />
-    <state width="809" height="278" key="GridCell.Tab.0.right" timestamp="1599050261876">
+    <state width="1056" height="259" key="GridCell.Tab.0.right" timestamp="1599310623738">
       <screen x="0" y="23" width="1680" height="970" />
     </state>
-    <state width="809" height="278" key="GridCell.Tab.0.right/0.23.1680.970@0.23.1680.970" timestamp="1599050261876" />
+    <state width="1056" height="259" key="GridCell.Tab.0.right/0.23.1680.970@0.23.1680.970" timestamp="1599310623738" />
     <state width="929" height="186" key="GridCell.Tab.0.right/0.23.1680.981@0.23.1680.981" timestamp="1594215132333" />
     <state width="1114" height="317" key="GridCell.Tab.1.bottom" timestamp="1598862650010">
       <screen x="0" y="23" width="1680" height="970" />
@@ -718,10 +838,10 @@
       <screen x="0" y="23" width="1680" height="981" />
     </state>
     <state x="286" y="91" key="RollbackChangesDialog/0.23.1680.981@0.23.1680.981" timestamp="1593760995144" />
-    <state x="299" y="144" key="SettingsEditor" timestamp="1597641816939">
+    <state x="299" y="144" key="SettingsEditor" timestamp="1599215089430">
       <screen x="0" y="23" width="1680" height="970" />
     </state>
-    <state x="299" y="144" key="SettingsEditor/0.23.1680.970@0.23.1680.970" timestamp="1597641816939" />
+    <state x="299" y="144" key="SettingsEditor/0.23.1680.970@0.23.1680.970" timestamp="1599215089430" />
     <state x="352" y="125" key="SettingsEditor/0.23.1680.981@0.23.1680.981" timestamp="1592389591364" />
     <state x="961" y="367" key="VCS.EditChangelistDialog" timestamp="1591165011540">
       <screen x="0" y="23" width="1680" height="981" />
