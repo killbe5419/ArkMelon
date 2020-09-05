@@ -1,177 +1,119 @@
 import React from "react";
 import axios from "axios";
 import Template from "../components/Template.jsx";
+import SideBarPick from "../components/SideBarPick.jsx";
 import CalcIcon from "../components/icons/calcIcon.jsx";
 import "../../sass/pages/pickcard.scss";
 import gp from "../tools/gp";
 
-class SideBarMenuDropdown extends React.Component {
+class PoolImg extends React.Component {
     render() {
-        if(this.props.display) {
-            const list = this.props.data.contents.map( x =>
-                <a className={ x.name === this.props.poolName ? "sidebar-target" : ""} key={ x.key } href={ x.url }>{ x.name }</a>
-            )
+        return (
+            <div className="pool-img">
+                <img alt="" src={`../../../images/pools/${this.props.poolType}/${this.props.poolName}.jpg` } />
+            </div>
+        );
+    }
+}
+
+class PickupContainer extends React.Component {
+    render() {
+        if(this.props.hasOwnProperty("name")) {
             return (
-                <div className="sidebar-menu-dropdown">
-                    { list }
+                <div className="pickup-container" >
+                    <div className="pickup-img-container">
+                        <img  className="img" alt=" " src={`../../../images/character/icon/${this.props.name}.png`} />
+                    </div>
+                    <div className="pickup-name-container">
+                        <p className={ this.props.rare }>{ this.props.name }</p>
+                    </div>
                 </div>
-            )
+            );
         } else {
             return null;
         }
     }
 }
 
-class SideBarMenu extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            display: false,
-            status: "hide"
-        }
-    }
-
-    componentDidUpdate(prevProps, prevState, snapshot) {
-        if(prevProps.poolType !== this.props.poolType) {
-            this.checkPool();
-        }
-    }
-
-    checkPool = () => {
-        console.log(`in checkPool ${this.props.data.name}`);
-        console.log(`   poolType:${this.props.poolType} \n   dataType:${this.props.data.type}`);
-        if(this.props.poolType === this.props.data.type) {
-            this.setState({
-                display: true,
-            })
-        }
-    }
-
-    showMenu = () => {
-        this.setState({
-            display: !this.state.display,
-        })
-    }
-
+class PickupInfoContent extends React.Component {
     render() {
-        return (
-            <div className="sidebar-menu">
-                <div className="sidebar-menu-title">
-                    <div className="menu-icon-container">
-                        <div
-                            className={`menu-icon${this.state.display ? "-show": "-hide"}`}
-                            onClick={ () => this.showMenu() }
-                        > </div>
-                    </div>
-                    <div className="menu-text-container">
-                        <p>{ this.props.data.name }</p>
+        if(this.props.data.length !== 0) {
+            const list = this.props.data.map(x =>
+                <PickupContainer key={ x } name={ x } rare={ this.props.rare }/>
+            )
+            return (
+                <div className="pickup-showcard">
+                    { list }
+                </div>
+            );
+        } else {
+            return null;
+        }
+    }
+}
+
+class PickupInfoContainer extends React.Component {
+    render() {
+        if(this.props.data.length !== 0) {
+            let list = [];
+            for(let i=0;i<this.props.data.length;i+=2) {
+                list.push(
+                    <PickupInfoContent
+                        key={i/2}
+                        data={ this.props.data[i+1] !== undefined
+                            ? [this.props.data[i],this.props.data[i+1]]
+                            : [this.props.data[i]]}
+                        rare={ this.props.rare }
+                    />
+                );
+            }
+            return (
+                <div>
+                    <div className="pickup-box">
+                        <p className={ this.props.rare }>{ this.props.star }</p>
+                        { list }
+                        <p>(占<span className={this.props.rare}>{ this.props.rare }★</span>出率的 { this.props.rate }%)</p>
                     </div>
                 </div>
-                <SideBarMenuDropdown
-                    data={ this.props.data }
-                    display={ this.state.display }
-                    showMenu={ this.showMenu }
-                    poolName={ this.props.poolName }
-                />
-            </div>
-        );
-    }
-}
-
-class SideBar extends React.Component {
-    render() {
-        const list = this.props.data.map( x =>
-            <SideBarMenu
-                key={x.key}
-                data={ x }
-                poolType={ this.props.poolType }
-                poolName={ this.props.poolName }
-            />
-        )
-
-        return (
-            <div className="sidebar-pick">
-                { list }
-            </div>
-        );
-    }
-}
-
-class PoolImg extends React.Component {
-    render() {
-        return (
-            <div className="pool-img">
-                <img alt="" src={`../../../images/pools/${this.props.poolType}/${this.props.poolName.replace(/ /,"_")}.jpg` } />
-            </div>
-        );
+            );
+        } else {
+            return null;
+        }
     }
 }
 
 class PickUpInfo extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            star: {six: "★★★★★★", five: "★★★★★", four: "★★★★", three: "★★★", two: "★★", one: "★"}
+        }
+    }
 
     render() {
-        let pickupBoxSix,pickupBoxFive,pickupBoxFour;
-        if(this.props.info.pickup.six.length !== 0) {
-            const sixList = this.props.info.pickup.six.map(x =>
-                <div key={x}>
-                    <img  className="img" alt=" " src={`../../../images/character/icon/${x}.png`} />
-                    <p className="6">{ x }</p>
-                </div>
-            )
-            pickupBoxSix =
-                <div className="pickup-box">
-                    <p className="6">★★★★★★</p>
-                    <div className="pickup-showcard">{ sixList }</div>
-                    <p>(占<span className="6">6★</span>出率的 { this.props.info.pickup.type === "limit" ? 75 : 50 }%)</p>
-                </div>
-        } else {
-            pickupBoxSix = null;
-        }
-
-        if(this.props.info.pickup.five.length !== 0) {
-            const fiveList = this.props.info.pickup.five.map(x =>
-                <div key={x}>
-                    <img  className="img" alt=" " src={`../../../images/character/icon/${x}.png`} />
-                    <p className="5">{ x }</p>
-                </div>
-            )
-            pickupBoxFive = (
-                <div className="pickup-box">
-                    <p className="5">★★★★★</p>
-                    <div className="pickup-showcard">{ fiveList }</div>
-                    <p>(占<span className="5">5★</span>出率的50%)</p>
-                </div>
-            )
-        } else {
-            pickupBoxFive = null;
-        }
-
-        if(this.props.info.pickup.four.length !== 0) {
-            const fourList = this.props.info.pickup.four.map(x =>
-                <div key={x}>
-                    <img  className="img" alt=" " src={`../../../images/character/icon/${x}.png`} />
-                    <p className="4">{ x }</p>
-                </div>
-            )
-            pickupBoxFour = (
-                <div className="pickup-box">
-                    <p className="4">★★★★</p>
-                    <div className="pickup-showcard">{ fourList }</div>
-                    <p>(占<span className="4">4★</span>出率的20%)</p>
-                </div>
-            )
-        } else {
-            pickupBoxFour = null;
-        }
-
         return (
             <div className="pickup-info">
                 <p className="pickup-description">【{ this.props.poolName }】寻访中以下干员获得概率提升</p>
-                { pickupBoxSix }
-                { pickupBoxFive }
-                { pickupBoxFour }
+                <PickupInfoContainer
+                    data={ this.props.data.six }
+                    star={ this.state.star.six }
+                    rare="6"
+                    rate={this.props.data.type === "limit" ? 75 : 50}
+                />
+                <PickupInfoContainer
+                    data={ this.props.data.five }
+                    star={ this.state.star.five }
+                    rare="5"
+                    rate="50"
+                />
+                <PickupInfoContainer
+                    data={ this.props.data.four }
+                    star={ this.state.star.four }
+                    rare="4"
+                    rate="20"
+                />
             </div>
-        );
+        )
     }
 }
 
@@ -183,8 +125,7 @@ class PickTitle extends React.Component {
                 <PickUpInfo
                     poolName={ this.props.poolName }
                     poolType={ this.props.poolType }
-                    info={ this.props.info }
-                    getPickup={ this.props.getPickup }
+                    data={ this.props.info.pickup }
                 />
             </div>
         );
@@ -261,7 +202,7 @@ class PickMenu extends React.Component {
     }
 }
 
-class PickOne_Case extends React.Component {
+class PickOneCase extends React.Component {
     render() {
         return (
             <div className="case" key={ this.props.data._id }>
@@ -276,7 +217,7 @@ class PickOne_Case extends React.Component {
     }
 }
 
-class PickTen_Case extends React.Component {
+class PickTenCase extends React.Component {
     render() {
         const list = this.props.data.map( x =>
             <div className="case" key={ x.id } >
@@ -304,13 +245,13 @@ class Case extends React.Component {
     render() {
         if(this.props.method === "pickOne") {
             return (
-                <PickOne_Case data={ this.props.data }/>
+                <PickOneCase data={ this.props.data }/>
             );
         }
 
         if(this.props.method === "pickTen") {
             return (
-                <PickTen_Case data={ this.props.data } />
+                <PickTenCase data={ this.props.data } />
             );
         }
 
@@ -412,12 +353,11 @@ class RecordContainer extends React.Component {
 class Pick extends React.Component {
     render() {
         return (
-            <div className="pick">
+            <div className={`pick ${ this.props.theme }`}>
                 <PickTitle
                     poolName={ this.props.poolName }
                     poolType={ this.props.poolType }
                     info={ this.props.info }
-                    getPickup={ this.props.getPickup }
                 />
                 <PickMenu
                     poolName={ this.props.poolName }
@@ -435,11 +375,12 @@ class Pick extends React.Component {
 class Main extends React.Component {
     render() {
         return (
-            <div className="main-pick">
-                <SideBar
+            <div className={`main-pick ${ this.props.theme }`}>
+                <SideBarPick
                     data={ this.props.info.sidebar }
                     poolType={ this.props.info.poolType }
                     poolName={ this.props.poolName }
+                    theme={ this.props.theme }
                 />
                 <div className="blank"> </div>
                 <Pick
@@ -447,6 +388,7 @@ class Main extends React.Component {
                     poolType={ this.props.poolType }
                     info={ this.props.info }
                     getPickup={ this.props.getPickup }
+                    theme={ this.props.theme }
                 />
             </div>
         );
@@ -457,55 +399,8 @@ class Pickcard extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            sidebar: [
-                {
-                    key: 0,
-                    name: "活动寻访",
-                    type: "eventPool",
-                    contents: [
-                        {
-                            key:0,
-                            name: "燃钢之心 暴躁铁皮",
-                            url: "/eventPool/heart_of_steel_the_rage_ironhide"
-                        },
-                        {
-                            key:1,
-                            name: "不羁逆流",
-                            url: "/eventPool/unbound_reflux"
-                        },
-                        {
-                            key:2,
-                            name: "流沙涡旋",
-                            url: "/eventPool/spiral_sinking"
-                        },
-
-                    ]
-                },
-                {
-                    key: 1,
-                    name: "限定寻访",
-                    type: "limitPool",
-                    contents: [
-                        {
-                            key:0,
-                            name: "地生五金",
-                            url: "/limitPool/earthborn_metals"
-                        }
-                    ]
-                },
-                {
-                    key: 2,
-                    name: "常驻标准寻访",
-                    type: "regularPool",
-                    contents: [
-                        {
-                            key:0,
-                            name: "常驻寻访第35期",
-                            url: "/regularPool/35"
-                        }
-                    ]
-                }
-            ],
+            handlePoolList: false,
+            sidebar: [],
             buttons: [
                 {
                     key: 0,
@@ -528,8 +423,9 @@ class Pickcard extends React.Component {
                     func: this.calc
                 }
             ],
-            pickup: {type: {}, six:[], five:[], four:[],},
+            pickup: {six:[], five:[], four:[], type:""},
             poolType: "",
+            poolCode: "",
             coin: 0, //合成玉
             coinUrl: "../../../images/materials/coin.png",
             coinAlt: "orundum",
@@ -547,8 +443,9 @@ class Pickcard extends React.Component {
     }
 
     componentDidMount() {
-        this.getPoolType();
+        this.getPoolInfo();
         this.getPickup();
+        this.getPoolList();
     }
 
     componentDidUpdate(prevProps,prevState,snapshot) {
@@ -557,12 +454,18 @@ class Pickcard extends React.Component {
                 runningCalc: false
             })
         }
+        if(this.state.poolCode !== "" && this.state.sidebar.length !== 0) {
+            if(this.state.handlePoolList !== true) {
+                this.handlePoolList();
+            }
+        }
     }
 
     getPickup = () => {
         const data = {
             params: {
-                type: "getPickup",
+                type: "search",
+                method: "getPickup",
                 poolName: this.props.poolName
             }
         }
@@ -575,10 +478,71 @@ class Pickcard extends React.Component {
             })
     }
 
-    getPoolType = () => {
+    getPoolInfo = () => {
+        const str = window.location.href;
+        const poolType = str.split("//")[1].split("/")[1];
+        const poolCode = str.split("//")[1].split("/")[2];
         this.setState({
-            poolType: window.location.href.split("//")[1].split("/")[1]
+            poolType,
+            poolCode
         })
+    }
+
+
+    handlePoolList = () => {
+        const arrSidebar = this.state.sidebar;
+        if(Array.isArray(arrSidebar)) {
+            arrSidebar.forEach( x => {
+                if(Array.isArray(x.contents)) {
+                    x.contents.forEach( (y, j, arrY) => {
+                        if(y.url.split("/")[2] === this.state.poolCode) {
+                            arrY.splice(j,1);
+                            arrY.unshift(y);
+                            this.setState({
+                                handlePoolList: true
+                            })
+                        }
+                    })
+                }
+            })
+        }
+    }
+
+    getPoolList = () => {
+        const data = {
+            params: {
+                type: "search",
+                method: "getPoolList",
+                poolType: "all"
+            }
+        }
+        axios.get("/getPoolList",data)
+            .then(res => {
+                console.log(res.data);
+                const tmp = [
+                    {
+                        key: "event",
+                        name: "活动寻访",
+                        type: "eventPool",
+                        contents: res.data.event.reverse()
+                    },
+                    {
+                        key: "limit",
+                        name: "限定寻访",
+                        type: "limitPool",
+                        contents: res.data.limit.reverse()
+                    },
+                    {
+                        key: "regular",
+                        name: "常驻标准寻访",
+                        type: "regularPool",
+                        contents: res.data.regular.reverse()
+                    }
+                ];
+                this.setState({
+                    sidebar: tmp
+                })
+            })
     }
 
     showRecord = () => {
@@ -885,6 +849,7 @@ class Pickcard extends React.Component {
                    poolName={ this.props.poolName }
                    poolType={ this.props.poolType }
                    info={ this.state }
+                   theme={ this.props.theme }
                    pickOne={ this.pickOne }
                    pickTen={ this.pickTen }
                    calc={ this.calc }

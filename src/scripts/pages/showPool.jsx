@@ -1,43 +1,21 @@
 import React from "react";
+import axios from "axios";
 import { MainContents } from "../components/basic.jsx";
 import "../../sass/pages/pools.scss";
 import Template from "../components/Template.jsx";
 
-class LimitPool extends React.Component {
+class ShowPool extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            zh_cn: {
-                contents :[ 
-                    {
-                        key: 2,
-                        tag: "pool",
-                        name: "遗愿焰火 [ 2020/05/01 ~ 2020/05/15 ] ",
-                        data: [ 
-                            {
-                                key: 0,
-                                href: "/limitPool/lastwish_cremation",
-                                img: "../images/pools/limitPool/遗愿焰火.jpg"
-                            }
-                         ],
-                    },
-                    {
-                        key: 1,
-                        tag: "pool",
-                        name: "地生五金 [ 2020/01/16 ~ 2020/01/30 ] ",
-                        data: [ 
-                            {
-                                key: 0,
-                                href: "/limitPool/earthborn_metals",
-                                img: "../images/pools/limitPool/地生五金.jpg"
-                            }
-                         ],
-                    },
-                 ]
-            },
+            zh_cn: {},
             ja_jp: {},
-            en_us: {}
+            en_us: {},
         }
+    }
+
+    componentDidMount() {
+        this.getPoolList();
     }
 
     checkLanguage = () => {
@@ -54,6 +32,40 @@ class LimitPool extends React.Component {
         }
     }
 
+    getPoolList = () => {
+        const data = {
+            params: {
+                type: "search",
+                method: "getPoolList",
+                poolType: this.props.poolType
+            }
+        };
+        axios.get("/getPoolList", data)
+            .then(res => {
+                console.log(res.data);
+                let arr = [];
+                res.data.forEach( x => {
+                    arr.unshift({
+                        key: x.type + x.code,
+                        tag: "pool",
+                        name: `${x.name} [ ${x.date} ] `,
+                        data: [
+                            {
+                                key: 0,
+                                href: x.url,
+                                img: `../images/pools/${ this.props.poolType }/${ x.name }.jpg`
+                            }
+                        ],
+                    })
+                })
+                this.setState({
+                    zh_cn:{
+                        contents: arr
+                    }
+                })
+            })
+    }
+
     render() {
         let language = this.checkLanguage();
 
@@ -68,7 +80,6 @@ class LimitPool extends React.Component {
                 toJA_JP = { this.props.toJA_JP }
             >
                 <div className={`main-container ${this.props.theme}`} >
-
                     <MainContents contents={ language.contents } theme={ this.props.theme } />
                 </div>
             </Template>
@@ -76,4 +87,4 @@ class LimitPool extends React.Component {
     }
 }
 
-export default LimitPool;
+export default ShowPool;

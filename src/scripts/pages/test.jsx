@@ -1,4 +1,5 @@
 import React from "react";
+import axios from "axios";
 import "../../sass/pages/test.scss";
 import LoadingIcon from "../components/icons/loadingIcon.jsx";
 class Icon extends React.Component {
@@ -22,6 +23,20 @@ class Icon extends React.Component {
 }
 
 class Test extends React.Component {
+
+    try = () => {
+        const data = {
+            params:{
+                type: "search",
+                method: "findAll"
+            }
+        };
+        axios.get("/findAll",data)
+            .then(res => {
+                console.log(res.data);
+            })
+    }
+
     render() {
         return (
             <div>
@@ -29,6 +44,7 @@ class Test extends React.Component {
                 <Icon num="2" cubeNum="4"/>
                 <LoadingIcon className="loading-icon"/>
                 <div className="plus-icon"> </div>
+                <button onClick={ () => this.try() }>click!</button>
             </div>
         )
     }

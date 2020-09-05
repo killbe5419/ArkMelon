@@ -1,15 +1,78 @@
+const fs = require("fs");
+const csvtojson = require("csvtojson");
+const path = require("path");
 const MongoClient = require("mongodb");
 
-MongoClient.connect("mongodb://localhost:27017", {useNewUrlParser: true}, (err,client) => {
-    if(err) throw err;
-    const data = {
-        name: "森蚺",
-    }
-    const targetDB =  client.db("Arknights");
-    targetDB.collection("燃钢之心 暴躁铁皮").find(data).toArray((err,result) => {
-        if(err) throw err;
-        console.log(result.length);
+const dirPath = "../../../data/csv/pools_csv/eventPools";
+const mongoUrl = "mongodb://localhost:27017/";
+const mongoOptions = { useUnifiedTopology: true };
+const dbName = "Arknights_pools(zh-cn)";
 
+function getName ( dirPath ) {
+    return new Promise((resolve,reject) => {
+        fs.readdir(dirPath,{},((err, files) => {
+            if(err) reject(err);
+            files.shift();
+            resolve(files);
+        }))
     })
-    client.close().catch(err => console.log(err));
-})
+}
+
+async function csv2json ( dirPath, nameArray ) {
+    let unit = [];
+    for await (const x of nameArray) {
+        let tmp = await csvtojson().fromFile(path.join(dirPath, x));
+        await unit.push({
+            name: x.split(".")[0],
+            arr: tmp
+        });
+    }
+    return unit;
+}
+
+async function dataProcess(array) {
+    for await(const x of array) {
+        x.rare = Number(x.rare);
+        x.pickup = x.pickup !== "FALSE";
+    }
+}
+
+function insertToDb (data) {
+    return new Promise((resolve, reject) =>  {
+        MongoClient.connect(mongoUrl,mongoOptions)
+            .then(client => {
+                if(data.hasOwnProperty("name")) {
+                    client.db(dbName)
+                        .collection(data.name)
+                        .insertMany(data.arr,{},(err,res) => {
+                            if(err) reject(err);
+                            resolve(res.insertedCount);
+                            client.close();
+                        })
+                } else {
+                    client.close();
+                }
+            })
+    })
+}
+
+async function mongoInsert(dataGroup) {
+    let count = 0;
+    for await (const x of dataGroup) {
+        const num = await insertToDb(x);
+        count += num;
+    }
+    return count;
+}
+
+async function f( dirPath ) {
+    const nameArray = await getName(dirPath);
+    const unit = await csv2json(dirPath, nameArray);
+    for await (const x of unit) {
+        await dataProcess(x.arr);
+    }
+    const insert = await mongoInsert(unit);
+    return insert;
+}
+
+f(dirPath).then(console.log).catch(console.error);

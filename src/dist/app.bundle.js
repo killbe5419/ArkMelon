@@ -172,7 +172,7 @@ function _objectWithoutPropertiesLoose(source, excluded) {
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, ":root {\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n  font-style: normal;\n  -webkit-font-smoothing: antialiased;\n}\n\n* input {\n  outline: none;\n  background: none;\n  border: none;\n}\n* button {\n  outline: none;\n  cursor: pointer;\n}\n* li {\n  list-style: none;\n}\n* a {\n  text-decoration: none;\n  cursor: pointer;\n  color: inherit;\n}\n\n.footer {\n  display: flex;\n}\n.footer a:hover {\n  color: #f08080;\n}\n.footer.dark-theme {\n  background-color: #2f2f2f;\n  color: #fff;\n}\n.footer.dark-theme * {\n  color: #fff;\n}\n.footer.light-theme {\n  background-color: #6495ED;\n  color: #fff;\n}\n.footer.light-theme * {\n  color: #fff;\n}\n\n.footer-contents {\n  display: flex;\n  flex-direction: column;\n  width: 90%;\n  margin: 20px 5% 20px 5%;\n}\n\n.footer-top {\n  display: flex;\n}\n.footer-top div * {\n  margin: auto;\n}\n\n.footer-top-left {\n  flex-direction: column;\n  display: flex;\n  width: 30%;\n  margin: auto;\n}\n\n.footer-top-middle {\n  flex-direction: column;\n  display: flex;\n  width: 30%;\n  margin: auto;\n}\n\n.footer-top-right {\n  flex-direction: column;\n  display: flex;\n  width: 30%;\n  margin: auto;\n}\n\n.footer-bottom {\n  display: flex;\n}\n\n.footer-bottom-middle {\n  width: 50%;\n  margin: auto;\n}\n\n.copyright {\n  display: flex;\n  flex-direction: column;\n  width: 300px;\n  margin: auto;\n}\n.copyright img {\n  width: 100px;\n  height: 100px;\n  margin: auto;\n}", ""]);
+exports.push([module.i, ":root {\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n  font-style: normal;\n  -webkit-font-smoothing: antialiased;\n}\n\n* input {\n  outline: none;\n  background: none;\n  border: none;\n}\n* button {\n  outline: none;\n  cursor: pointer;\n}\n* li {\n  list-style: none;\n}\n* a {\n  text-decoration: none;\n  cursor: pointer;\n  color: inherit;\n}\n\n.footer {\n  display: flex;\n}\n.footer a:hover {\n  color: #f08080;\n}\n.footer.dark-theme {\n  background-color: #2f2f2f;\n  color: #fff;\n}\n.footer.dark-theme * {\n  color: #fff;\n}\n.footer.light-theme {\n  background-color: #6495ED;\n  color: #FDF5E6;\n}\n.footer.light-theme * {\n  color: #FDF5E6;\n}\n\n.footer-contents {\n  display: flex;\n  flex-direction: column;\n  width: 90%;\n  margin: 20px 5% 20px 5%;\n}\n\n.footer-top {\n  display: flex;\n}\n.footer-top div * {\n  margin: auto;\n}\n\n.footer-top-left {\n  flex-direction: column;\n  display: flex;\n  width: 30%;\n  margin: auto;\n}\n\n.footer-top-middle {\n  flex-direction: column;\n  display: flex;\n  width: 30%;\n  margin: auto;\n}\n\n.footer-top-right {\n  flex-direction: column;\n  display: flex;\n  width: 30%;\n  margin: auto;\n}\n\n.footer-bottom {\n  display: flex;\n}\n\n.footer-bottom-middle {\n  width: 50%;\n  margin: auto;\n}\n\n.copyright {\n  display: flex;\n  flex-direction: column;\n  width: 300px;\n  margin: auto;\n}\n.copyright img {\n  width: 100px;\n  height: 100px;\n  margin: auto;\n}", ""]);
 // Exports
 module.exports = exports;
 
@@ -233,6 +233,24 @@ module.exports = exports;
 
 /***/ }),
 
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/sass/modules/sidebarPick.scss":
+/*!************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/sass/modules/sidebarPick.scss ***!
+  \************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+// Module
+exports.push([module.i, ":root {\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n  font-style: normal;\n  -webkit-font-smoothing: antialiased;\n}\n\n* input {\n  outline: none;\n  background: none;\n  border: none;\n}\n* button {\n  outline: none;\n  cursor: pointer;\n}\n* li {\n  list-style: none;\n}\n* a {\n  text-decoration: none;\n  cursor: pointer;\n  color: inherit;\n}\n\n.sidebar-pick {\n  color: #fff;\n  width: 15%;\n  min-width: 185px;\n  min-height: 1000px;\n}\n.sidebar-pick.dark-theme {\n  background-color: #2f2f2f;\n  color: #fff;\n}\n.sidebar-pick.light-theme {\n  background-color: #6495ED;\n  color: #FDF5E6;\n}\n.sidebar-pick .sidebar-menu {\n  width: 80%;\n  margin: 15% 5% 15% 5%;\n}\n.sidebar-pick .sidebar-menu .sidebar-menu-title {\n  display: flex;\n  height: 30px;\n}\n.sidebar-pick .sidebar-menu .sidebar-menu-title .menu-icon-container {\n  cursor: pointer;\n  width: 20%;\n  height: 100%;\n}\n.sidebar-pick .sidebar-menu .sidebar-menu-title .menu-icon-container .menu-icon-hide {\n  position: relative;\n  margin: 0 10px 10px 0;\n  width: 20px;\n  height: 20px;\n  background-color: transparent;\n}\n.sidebar-pick .sidebar-menu .sidebar-menu-title .menu-icon-container .menu-icon-hide.light-theme {\n  border: #FDF5E6 1px solid;\n}\n.sidebar-pick .sidebar-menu .sidebar-menu-title .menu-icon-container .menu-icon-hide.light-theme::before {\n  background: #FDF5E6;\n}\n.sidebar-pick .sidebar-menu .sidebar-menu-title .menu-icon-container .menu-icon-hide.light-theme::after {\n  background: #FDF5E6;\n}\n.sidebar-pick .sidebar-menu .sidebar-menu-title .menu-icon-container .menu-icon-hide.dark-theme {\n  border: #fff 1px solid;\n}\n.sidebar-pick .sidebar-menu .sidebar-menu-title .menu-icon-container .menu-icon-hide.dark-theme::before {\n  background: #fff;\n}\n.sidebar-pick .sidebar-menu .sidebar-menu-title .menu-icon-container .menu-icon-hide.dark-theme::after {\n  background: #fff;\n}\n.sidebar-pick .sidebar-menu .sidebar-menu-title .menu-icon-container .menu-icon-hide:hover {\n  border: 1px #f08080 solid;\n}\n.sidebar-pick .sidebar-menu .sidebar-menu-title .menu-icon-container .menu-icon-hide:hover::before {\n  background: #f08080;\n}\n.sidebar-pick .sidebar-menu .sidebar-menu-title .menu-icon-container .menu-icon-hide:hover::after {\n  background: #f08080;\n}\n.sidebar-pick .sidebar-menu .sidebar-menu-title .menu-icon-container .menu-icon-hide::before {\n  content: \"\";\n  position: absolute;\n  left: 10%;\n  top: 40%;\n  width: 80%;\n  height: 20%;\n}\n.sidebar-pick .sidebar-menu .sidebar-menu-title .menu-icon-container .menu-icon-hide::after {\n  content: \"\";\n  position: absolute;\n  left: 40%;\n  top: 10%;\n  width: 20%;\n  height: 80%;\n}\n.sidebar-pick .sidebar-menu .sidebar-menu-title .menu-icon-container .menu-icon-show {\n  position: relative;\n  margin: 0 10px 10px 0;\n  width: 20px;\n  height: 20px;\n  background-color: transparent;\n  border: 1px white solid;\n}\n.sidebar-pick .sidebar-menu .sidebar-menu-title .menu-icon-container .menu-icon-show.light-theme {\n  border: #FDF5E6 1px solid;\n}\n.sidebar-pick .sidebar-menu .sidebar-menu-title .menu-icon-container .menu-icon-show.light-theme::before {\n  background: #FDF5E6;\n}\n.sidebar-pick .sidebar-menu .sidebar-menu-title .menu-icon-container .menu-icon-show.dark-theme {\n  border: #fff 1px solid;\n}\n.sidebar-pick .sidebar-menu .sidebar-menu-title .menu-icon-container .menu-icon-show.dark-theme::before {\n  background: #fff;\n}\n.sidebar-pick .sidebar-menu .sidebar-menu-title .menu-icon-container .menu-icon-show:hover {\n  border: 1px #f08080 solid;\n}\n.sidebar-pick .sidebar-menu .sidebar-menu-title .menu-icon-container .menu-icon-show:hover::before {\n  background: #f08080;\n}\n.sidebar-pick .sidebar-menu .sidebar-menu-title .menu-icon-container .menu-icon-show::before {\n  content: \"\";\n  position: absolute;\n  left: 10%;\n  top: 40%;\n  width: 80%;\n  height: 20%;\n  background: white;\n}\n.sidebar-pick .sidebar-menu .sidebar-menu-title .menu-text-container {\n  width: 80%;\n  height: 100%;\n}\n.sidebar-pick .sidebar-menu .sidebar-menu-title .menu-text-container p {\n  font-size: 120%;\n  font-weight: 900;\n  height: 100%;\n  margin: 0;\n}\n.sidebar-pick .sidebar-menu .sidebar-menu-dropdown {\n  display: flex;\n  flex-direction: column;\n}\n.sidebar-pick .sidebar-menu .sidebar-menu-dropdown.light-theme {\n  border-left: #FDF5E6 3px solid;\n}\n.sidebar-pick .sidebar-menu .sidebar-menu-dropdown.dark-theme {\n  border-left: #fff 3px solid;\n}\n.sidebar-pick .sidebar-menu .sidebar-menu-dropdown a {\n  margin: 5%;\n  font-size: 90%;\n  font-weight: 500;\n}\n.sidebar-pick .sidebar-menu .sidebar-menu-dropdown a:hover {\n  color: #f08080;\n}", ""]);
+// Exports
+module.exports = exports;
+
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/sass/modules/topbar.scss":
 /*!*******************************************************************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/sass/modules/topbar.scss ***!
@@ -244,7 +262,7 @@ module.exports = exports;
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, ":root {\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n  font-style: normal;\n  -webkit-font-smoothing: antialiased;\n}\n\n* input {\n  outline: none;\n  background: none;\n  border: none;\n}\n* button {\n  outline: none;\n  cursor: pointer;\n}\n* li {\n  list-style: none;\n}\n* a {\n  text-decoration: none;\n  cursor: pointer;\n  color: inherit;\n}\n\n.header {\n  position: fixed;\n  display: block;\n  top: 0;\n  left: 0;\n  z-index: 1;\n  width: 100%;\n  height: 50px;\n}\n.header.dark-theme {\n  background-color: #2f2f2f;\n}\n.header.dark-theme .nav * {\n  color: #fff;\n  background-color: #2f2f2f;\n}\n.header.dark-theme .nav *:hover {\n  color: #f08080;\n}\n.header.dark-theme .nav a:hover {\n  background-color: #696969;\n  color: #f08080;\n}\n.header.dark-theme .options * {\n  color: #fff;\n  background-color: #2f2f2f;\n}\n.header.dark-theme .options *:hover {\n  color: #f08080;\n}\n.header.dark-theme .options a:hover {\n  background-color: #696969;\n  color: #f08080;\n}\n.header.dark-theme .search-input input {\n  border: 2px solid #fff;\n  color: #fff;\n}\n.header.dark-theme .search-submit {\n  background-color: #2f2f2f;\n  color: #fff;\n}\n.header.dark-theme .search-cleaner {\n  background-color: #2f2f2f;\n  color: #fff;\n}\n.header.dark-theme .search-icon {\n  background-color: #2f2f2f;\n}\n.header.light-theme {\n  background-color: #6495ED;\n}\n.header.light-theme .nav * {\n  color: #fff;\n  background-color: #6495ED;\n}\n.header.light-theme .nav *:hover {\n  color: #f08080;\n}\n.header.light-theme .nav a:hover {\n  background-color: #B0C4DE;\n  color: #f08080;\n}\n.header.light-theme .options * {\n  color: #fff;\n  background-color: #6495ED;\n}\n.header.light-theme .options *:hover {\n  color: #f08080;\n}\n.header.light-theme .options a:hover {\n  background-color: #B0C4DE;\n  color: #f08080;\n}\n.header.light-theme .search-input input {\n  border: 2px solid #fff;\n  color: #fff;\n}\n.header.light-theme .search-input:focus {\n  border: 2px solid #f08080;\n}\n.header.light-theme .search-submit {\n  background-color: #6495ED;\n  color: #fff;\n}\n.header.light-theme .search-cleaner {\n  background-color: #6495ED;\n  color: #fff;\n}\n.header.light-theme .search-icon {\n  background-color: #6495ED;\n}\n\n.top-bar {\n  position: fixed;\n  display: flex;\n  padding-left: 20px;\n  padding-right: 20px;\n  margin-left: 40px;\n  margin-right: 40px;\n  height: 50px;\n  width: 90%;\n}\n\n.logo {\n  width: calc(100% / 6);\n  display: flex;\n  height: 100%;\n  text-decoration: none;\n  margin-right: 10px;\n}\n.logo img {\n  display: inline-block;\n  border-style: none;\n  margin: 10px 5px 10px 10px;\n  padding: 0;\n  border-radius: 8px;\n  height: 30px;\n  width: 30px;\n}\n.logo span {\n  text-align: center;\n  vertical-align: center;\n  font-weight: 700;\n  font-size: 20px;\n  margin: 15px 0 10px 5px;\n  overflow: no-display;\n  color: #f08080;\n}\n\n.nav {\n  display: flex;\n  height: 100%;\n  width: 40%;\n}\n\n.nav-container {\n  cursor: pointer;\n  display: flex;\n  flex-direction: column;\n  width: 100px;\n}\n\n.nav-contents {\n  height: 50px;\n  line-height: 50px;\n  text-align: center;\n}\n\n.dropdown {\n  display: flex;\n  flex-direction: column;\n  width: 100%;\n  font-weight: 400;\n  background-color: transparent;\n}\n.dropdown a {\n  width: 100%;\n  height: 40px;\n  line-height: 40px;\n  font-weight: 400;\n  text-align: center;\n}\n\n.search {\n  display: flex;\n  width: 30%;\n  height: 50px;\n  text-align: right;\n  justify-content: flex-end;\n  align-items: center;\n  margin-right: 40px;\n}\n\n.search-input {\n  display: flex;\n  width: 100%;\n}\n.search-input input {\n  display: flex;\n  width: 100%;\n  height: 26px;\n  background: transparent;\n  border-radius: 5px;\n  font-size: 14px;\n  padding: 0 10px 0 10px;\n}\n.search-input button:hover {\n  color: #f08080;\n}\n\n.search-submit {\n  position: relative;\n  right: 55px;\n  width: 30px;\n  height: 26px;\n  top: 2px;\n  border: none;\n  font-size: 14px;\n  font-weight: 500;\n  padding: 0;\n}\n\n.search-cleaner {\n  position: relative;\n  right: 55px;\n  width: 20px;\n  height: 26px;\n  top: 2px;\n  border: none;\n  font-size: 14px;\n  font-weight: 500;\n  padding: 0 20px 0 10px;\n}\n\n.search-icon {\n  float: right;\n  width: 30px;\n  height: 30px;\n  border-radius: 4px;\n  border: none;\n  padding: 0;\n}\n\n.options {\n  display: flex;\n}\n\n.opt-container {\n  cursor: pointer;\n  display: flex;\n  flex-direction: column;\n  width: 100px;\n}\n\n.opt-contents {\n  height: 50px;\n  line-height: 50px;\n  text-align: center;\n}\n\n.opt-contents:hover {\n  color: #f08080;\n}\n\n.language-container {\n  cursor: pointer;\n  display: flex;\n  flex-direction: column;\n  width: 100px;\n}\n\n.language-contents {\n  cursor: pointer;\n  height: 50px;\n  width: 50%;\n  line-height: 50px;\n  margin: 0 auto;\n}\n\n.language-icon {\n  height: 100%;\n  width: 25px;\n  margin: 0 20% 0 20%;\n}", ""]);
+exports.push([module.i, ":root {\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n  font-style: normal;\n  -webkit-font-smoothing: antialiased;\n}\n\n* input {\n  outline: none;\n  background: none;\n  border: none;\n}\n* button {\n  outline: none;\n  cursor: pointer;\n}\n* li {\n  list-style: none;\n}\n* a {\n  text-decoration: none;\n  cursor: pointer;\n  color: inherit;\n}\n\n.header {\n  position: fixed;\n  display: block;\n  top: 0;\n  left: 0;\n  z-index: 1;\n  width: 100%;\n  height: 50px;\n}\n.header.dark-theme {\n  background-color: #2f2f2f;\n}\n.header.dark-theme .nav * {\n  color: #fff;\n  background-color: #2f2f2f;\n}\n.header.dark-theme .nav *:hover {\n  color: #f08080;\n}\n.header.dark-theme .nav a:hover {\n  background-color: #696969;\n  color: #f08080;\n}\n.header.dark-theme .options * {\n  color: #fff;\n  background-color: #2f2f2f;\n}\n.header.dark-theme .options *:hover {\n  color: #f08080;\n}\n.header.dark-theme .options a:hover {\n  background-color: #696969;\n  color: #f08080;\n}\n.header.dark-theme .search-input input {\n  border: 2px solid #fff;\n  color: #fff;\n}\n.header.dark-theme .search-submit {\n  background-color: #2f2f2f;\n  color: #fff;\n}\n.header.dark-theme .search-cleaner {\n  background-color: #2f2f2f;\n  color: #fff;\n}\n.header.dark-theme .search-icon {\n  background-color: #2f2f2f;\n}\n.header.light-theme {\n  background-color: #6495ED;\n}\n.header.light-theme .nav * {\n  color: #FDF5E6;\n  background-color: #6495ED;\n}\n.header.light-theme .nav *:hover {\n  color: #f08080;\n}\n.header.light-theme .nav a:hover {\n  background-color: #B0C4DE;\n  color: #f08080;\n}\n.header.light-theme .options * {\n  color: #FDF5E6;\n  background-color: #6495ED;\n}\n.header.light-theme .options *:hover {\n  color: #f08080;\n}\n.header.light-theme .options a:hover {\n  background-color: #B0C4DE;\n  color: #f08080;\n}\n.header.light-theme .search-input input {\n  border: 2px solid #FDF5E6;\n  color: #FDF5E6;\n}\n.header.light-theme .search-input:focus {\n  border: 2px solid #f08080;\n}\n.header.light-theme .search-submit {\n  background-color: #6495ED;\n  color: #FDF5E6;\n}\n.header.light-theme .search-cleaner {\n  background-color: #6495ED;\n  color: #FDF5E6;\n}\n.header.light-theme .search-icon {\n  background-color: #6495ED;\n}\n\n.top-bar {\n  position: fixed;\n  display: flex;\n  padding-left: 20px;\n  padding-right: 20px;\n  margin-left: 40px;\n  margin-right: 40px;\n  height: 50px;\n  width: 90%;\n}\n\n.logo {\n  width: calc(100% / 6);\n  display: flex;\n  height: 100%;\n  text-decoration: none;\n  margin-right: 10px;\n}\n.logo img {\n  display: inline-block;\n  border-style: none;\n  margin: 10px 5px 10px 10px;\n  padding: 0;\n  border-radius: 8px;\n  height: 30px;\n  width: 30px;\n}\n.logo span {\n  text-align: center;\n  vertical-align: center;\n  font-weight: 700;\n  font-size: 20px;\n  margin: 15px 0 10px 5px;\n  overflow: no-display;\n  color: #f08080;\n}\n\n.nav {\n  display: flex;\n  height: 100%;\n  width: 40%;\n}\n\n.nav-container {\n  cursor: pointer;\n  display: flex;\n  flex-direction: column;\n  width: 100px;\n}\n\n.nav-contents {\n  height: 50px;\n  line-height: 50px;\n  text-align: center;\n}\n\n.dropdown {\n  display: flex;\n  flex-direction: column;\n  width: 100%;\n  font-weight: 400;\n  background-color: transparent;\n}\n.dropdown a {\n  width: 100%;\n  height: 40px;\n  line-height: 40px;\n  font-weight: 400;\n  text-align: center;\n}\n\n.search {\n  display: flex;\n  width: 30%;\n  height: 50px;\n  text-align: right;\n  justify-content: flex-end;\n  align-items: center;\n  margin-right: 40px;\n}\n\n.search-input {\n  display: flex;\n  width: 100%;\n}\n.search-input input {\n  display: flex;\n  width: 100%;\n  height: 26px;\n  background: transparent;\n  border-radius: 5px;\n  font-size: 14px;\n  padding: 0 10px 0 10px;\n}\n.search-input button:hover {\n  color: #f08080;\n}\n\n.search-submit {\n  position: relative;\n  right: 55px;\n  width: 30px;\n  height: 26px;\n  top: 2px;\n  border: none;\n  font-size: 14px;\n  font-weight: 500;\n  padding: 0;\n}\n\n.search-cleaner {\n  position: relative;\n  right: 55px;\n  width: 20px;\n  height: 26px;\n  top: 2px;\n  border: none;\n  font-size: 14px;\n  font-weight: 500;\n  padding: 0 20px 0 10px;\n}\n\n.search-icon {\n  float: right;\n  width: 30px;\n  height: 30px;\n  border-radius: 4px;\n  border: none;\n  padding: 0;\n}\n\n.options {\n  display: flex;\n}\n\n.opt-container {\n  cursor: pointer;\n  display: flex;\n  flex-direction: column;\n  width: 100px;\n}\n\n.opt-contents {\n  height: 50px;\n  line-height: 50px;\n  text-align: center;\n}\n\n.opt-contents:hover {\n  color: #f08080;\n}\n\n.language-container {\n  cursor: pointer;\n  display: flex;\n  flex-direction: column;\n  width: 100px;\n}\n\n.language-contents {\n  cursor: pointer;\n  height: 50px;\n  width: 50%;\n  line-height: 50px;\n  margin: 0 auto;\n}\n\n.language-icon {\n  height: 100%;\n  width: 25px;\n  margin: 0 20% 0 20%;\n}", ""]);
 // Exports
 module.exports = exports;
 
@@ -298,7 +316,7 @@ module.exports = exports;
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, ":root {\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n  font-style: normal;\n  -webkit-font-smoothing: antialiased;\n}\n\n* input {\n  outline: none;\n  background: none;\n  border: none;\n}\n* button {\n  outline: none;\n  cursor: pointer;\n}\n* li {\n  list-style: none;\n}\n* a {\n  text-decoration: none;\n  cursor: pointer;\n  color: inherit;\n}\n\n.title {\n  color: white;\n}\n\n.main-pick {\n  display: flex;\n  margin-top: 20px;\n  margin-bottom: 20px;\n  width: 100%;\n}\n.main-pick .sidebar-pick {\n  background-color: #2f2f2f;\n  color: #fff;\n  width: 15%;\n  min-width: 185px;\n  min-height: 1000px;\n}\n.main-pick .sidebar-pick .sidebar-menu {\n  width: 80%;\n  margin: 15% 5% 15% 5%;\n}\n.main-pick .sidebar-pick .sidebar-menu .sidebar-menu-title {\n  display: flex;\n  height: 30px;\n}\n.main-pick .sidebar-pick .sidebar-menu .sidebar-menu-title .menu-icon-container {\n  cursor: pointer;\n  width: 20%;\n  height: 100%;\n}\n.main-pick .sidebar-pick .sidebar-menu .sidebar-menu-title .menu-icon-container .menu-icon-hide {\n  position: relative;\n  margin: 0 10px 10px 0;\n  width: 20px;\n  height: 20px;\n  background-color: wheat;\n}\n.main-pick .sidebar-pick .sidebar-menu .sidebar-menu-title .menu-icon-container .menu-icon-hide::before {\n  content: \"\";\n  position: absolute;\n  left: 10%;\n  top: 40%;\n  width: 80%;\n  height: 20%;\n  background: green;\n}\n.main-pick .sidebar-pick .sidebar-menu .sidebar-menu-title .menu-icon-container .menu-icon-hide::after {\n  content: \"\";\n  position: absolute;\n  left: 40%;\n  top: 10%;\n  width: 20%;\n  height: 80%;\n  background: green;\n}\n.main-pick .sidebar-pick .sidebar-menu .sidebar-menu-title .menu-icon-container .menu-icon-show {\n  position: relative;\n  margin: 0 10px 10px 0;\n  width: 20px;\n  height: 20px;\n  background-color: wheat;\n  /*&::after {\n    content: \"\";\n    position: absolute;\n    left: 40%;\n    top: 10%;\n    width: 20%;\n    height: 80%;\n    background: green;\n  }*/\n}\n.main-pick .sidebar-pick .sidebar-menu .sidebar-menu-title .menu-icon-container .menu-icon-show::before {\n  content: \"\";\n  position: absolute;\n  left: 10%;\n  top: 40%;\n  width: 80%;\n  height: 20%;\n  background: green;\n}\n.main-pick .sidebar-pick .sidebar-menu .sidebar-menu-title .menu-text-container {\n  width: 80%;\n  height: 100%;\n}\n.main-pick .sidebar-pick .sidebar-menu .sidebar-menu-title .menu-text-container p {\n  font-size: 120%;\n  font-weight: 900;\n  height: 100%;\n  margin: 0;\n}\n.main-pick .sidebar-pick .sidebar-menu .sidebar-menu-dropdown {\n  display: flex;\n  flex-direction: column;\n  border-left: white 3px solid;\n}\n.main-pick .sidebar-pick .sidebar-menu .sidebar-menu-dropdown a {\n  margin: 5%;\n  font-size: 90%;\n  font-weight: 500;\n}\n.main-pick .sidebar-pick .sidebar-menu .sidebar-menu-dropdown a:hover {\n  color: #f08080;\n}\n.main-pick .blank {\n  width: 5%;\n}\n.main-pick .pick {\n  color: #fff;\n  width: 75%;\n}\n.main-pick .pick .pick-title {\n  display: flex;\n  width: 100%;\n  max-width: 1200px;\n  min-width: 600px;\n}\n.main-pick .pick .pick-title .pool-img {\n  width: 70%;\n  height: auto;\n}\n.main-pick .pick .pick-title .pool-img img {\n  width: 100%;\n}\n.main-pick .pick .pick-title .pickup-info {\n  margin-left: 5%;\n  display: flex;\n  flex-direction: column;\n  width: 25%;\n  height: 100%;\n}\n.main-pick .pick .pick-title .pickup-info .pickup-description {\n  font-weight: 700;\n  margin: 0;\n}\n.main-pick .pick .pick-title .pickup-info .pickup-box {\n  height: 20%;\n  width: 100%;\n  display: flex;\n  flex-direction: column;\n  margin-top: 5%;\n}\n.main-pick .pick .pick-title .pickup-info .pickup-box p {\n  display: inline-block;\n  margin: 1% 0 1% 0;\n}\n.main-pick .pick .pick-title .pickup-info .pickup-box .pickup-showcard {\n  display: flex;\n}\n.main-pick .pick .pick-title .pickup-info .pickup-box .pickup-showcard div {\n  display: flex;\n  margin-right: 5%;\n  height: 10%;\n  max-width: 50%;\n}\n.main-pick .pick .pick-title .pickup-info .pickup-box .pickup-showcard div p {\n  width: 60%;\n  margin: auto;\n  font-size: 105%;\n  font-weight: 900;\n}\n.main-pick .pick .pick-title .pickup-info .pickup-box .pickup-showcard div img {\n  width: 40%;\n  height: 40%;\n  margin-right: 1%;\n}\n.main-pick .pick .pick-menu {\n  display: flex;\n  flex-direction: column;\n  width: 100%;\n  margin-top: 10px;\n}\n.main-pick .pick .pick-menu .buttons {\n  display: flex;\n}\n.main-pick .pick .pick-menu .buttons .menu-button {\n  display: flex;\n  padding: 5px 12px;\n  border: 1px solid #446d88;\n  background: #58a linear-gradient(#77a0bb, #58a);\n  border-radius: 3px;\n  box-shadow: 0 0.8px 4px gray;\n  color: white;\n  text-shadow: 0 -0.8px 0.8px #335166;\n  font-size: 125%;\n  line-height: 1.5;\n  margin-left: 10px;\n  margin-right: 10px;\n}\n.main-pick .pick .pick-menu .pick-info {\n  display: flex;\n  margin: 0;\n}\n.main-pick .pick .pick-menu .pick-info p {\n  margin: 10px 0 0 20px;\n}\n.main-pick .pick .case {\n  display: inline-block;\n  margin: 10px;\n}\n.main-pick .pick .case p {\n  font-size: 100%;\n  font-weight: 900;\n  margin: 0 0 5px 0;\n}\n.main-pick .pick .case .pick-img {\n  position: relative;\n}\n.main-pick .pick .case .pick-img .card {\n  width: 90px;\n  height: 165px;\n}\n.main-pick .pick .case .pick-img .class-icon {\n  position: absolute;\n  left: 0;\n  top: 0;\n  width: 25px;\n  height: 25px;\n}\n.main-pick .pick .case .pick-img .rare-icon {\n  position: absolute;\n  bottom: 0;\n  right: 0;\n}\n.main-pick .pick .record-container {\n  display: flex;\n  flex-direction: column;\n  margin: 50px 0 100px 0;\n  max-width: 100%;\n}\n.main-pick .pick .record-container .record {\n  display: flex;\n  max-width: 100%;\n  margin: 5px 0 0 0;\n}\n.main-pick .pick .record-container .record div {\n  font-size: 200%;\n}\n.main-pick .pick .record-container .record .pick-img-container {\n  display: inline-block;\n}\n.main-pick .pick .record-container .record .pick-img-container img {\n  border-radius: 3px;\n  width: 48px;\n  height: 48px;\n  margin: 0 5px 0 5px;\n}\n.main-pick .pick .wait-calc {\n  position: fixed;\n  display: flex;\n  flex-direction: column;\n  left: 0;\n  top: 0;\n  z-index: 990;\n}\n.main-pick .pick .wait-calc .bkg-blur {\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  background-color: rgba(0, 0, 0, 0.9);\n  z-index: 997;\n}\n.main-pick .pick .wait-calc .calc-icon-container {\n  position: absolute;\n  top: 30%;\n  left: 45%;\n  z-index: 998;\n  filter: blur(0.5px);\n}\n.main-pick .pick .wait-calc .calc-description {\n  position: fixed;\n  top: 60%;\n  left: 45%;\n  font-size: 36px;\n  font-weight: 900;\n  z-index: 999;\n}\n\n.\\36  {\n  color: red;\n}\n\n.\\35  {\n  color: orange;\n}\n\n.\\34  {\n  color: mediumpurple;\n}\n\n.\\33  {\n  color: royalblue;\n}\n\n.img {\n  background-color: white;\n  border: transparent 2px solid;\n}\n\n.img6 {\n  background: linear-gradient(red, white);\n}\n\n.img5 {\n  background: linear-gradient(orange, white);\n}\n\n.img4 {\n  background: linear-gradient(mediumpurple, white);\n}\n\n.img3 {\n  background: linear-gradient(royalblue, white);\n}\n\n.target {\n  border: greenyellow 2px solid;\n}\n\n.sidebar-target {\n  font-weight: 900;\n  color: greenyellow;\n}", ""]);
+exports.push([module.i, ":root {\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n  font-style: normal;\n  -webkit-font-smoothing: antialiased;\n}\n\n* input {\n  outline: none;\n  background: none;\n  border: none;\n}\n* button {\n  outline: none;\n  cursor: pointer;\n}\n* li {\n  list-style: none;\n}\n* a {\n  text-decoration: none;\n  cursor: pointer;\n  color: inherit;\n}\n\n.main-pick {\n  display: flex;\n  margin-top: 20px;\n  margin-bottom: 20px;\n  width: 100%;\n}\n.main-pick .blank {\n  width: 5%;\n}\n.main-pick .pick {\n  width: 75%;\n}\n.main-pick .pick.dark-theme {\n  color: #fff;\n}\n.main-pick .pick.light-theme {\n  color: #333;\n}\n.main-pick .pick .pick-title {\n  display: flex;\n  width: 100%;\n  max-width: 1200px;\n  min-width: 600px;\n}\n.main-pick .pick .pick-title .pool-img {\n  width: 70%;\n  height: auto;\n}\n.main-pick .pick .pick-title .pool-img img {\n  width: 100%;\n}\n.main-pick .pick .pick-title .pickup-info {\n  margin-left: 5%;\n  display: flex;\n  flex-direction: column;\n  width: 25%;\n  height: 100%;\n}\n.main-pick .pick .pick-title .pickup-info .pickup-description {\n  font-weight: 700;\n  margin: 0;\n}\n.main-pick .pick .pick-title .pickup-info .pickup-box {\n  height: 20%;\n  width: 100%;\n  display: flex;\n  flex-direction: column;\n  margin-top: 5%;\n}\n.main-pick .pick .pick-title .pickup-info .pickup-box p {\n  height: 25%;\n  width: 100%;\n  display: inline-block;\n  margin: 1% 0 1% 0;\n}\n.main-pick .pick .pick-title .pickup-info .pickup-box .pickup-showcard {\n  display: flex;\n  margin: 2px 0 2px 0;\n}\n.main-pick .pick .pick-title .pickup-info .pickup-box .pickup-showcard .pickup-container {\n  width: 45%;\n  min-width: 130px;\n  display: flex;\n  height: 50px;\n  margin-right: 5%;\n  /*\n   div {\n    display: flex;\n    margin-right: 5%;\n    height: 100%;\n    max-width: 50%;\n    p {\n      width: 60%;\n      height: 10%;\n      margin: 0;\n      font-size: 100%;\n      font-weight: 500;\n    }\n    img{\n      width: 40%;\n      height: 40%;\n      margin-right: 1%;\n    }\n\n  }\n  */\n}\n.main-pick .pick .pick-title .pickup-info .pickup-box .pickup-showcard .pickup-container .pickup-img-container {\n  height: 100%;\n  width: 50px;\n}\n.main-pick .pick .pick-title .pickup-info .pickup-box .pickup-showcard .pickup-container .pickup-img-container img {\n  height: 46px;\n  width: 46px;\n}\n.main-pick .pick .pick-title .pickup-info .pickup-box .pickup-showcard .pickup-container .pickup-name-container {\n  height: 100%;\n  display: flex;\n  align-items: center;\n}\n.main-pick .pick .pick-title .pickup-info .pickup-box .pickup-showcard .pickup-container .pickup-name-container p {\n  margin: 0 0 0 5px;\n  height: 20px;\n  min-width: 80px;\n  font-size: 110%;\n  font-weight: 700;\n}\n.main-pick .pick .pick-menu {\n  display: flex;\n  flex-direction: column;\n  width: 100%;\n  margin-top: 10px;\n}\n.main-pick .pick .pick-menu .buttons {\n  display: flex;\n}\n.main-pick .pick .pick-menu .buttons .menu-button {\n  display: flex;\n  padding: 5px 12px;\n  border: 1px solid #446d88;\n  background: #58a linear-gradient(#77a0bb, #58a);\n  border-radius: 3px;\n  box-shadow: 0 0.8px 4px gray;\n  color: white;\n  text-shadow: 0 -0.8px 0.8px #335166;\n  font-size: 125%;\n  line-height: 1.5;\n  margin-left: 10px;\n  margin-right: 10px;\n}\n.main-pick .pick .pick-menu .pick-info {\n  display: flex;\n  margin: 0;\n}\n.main-pick .pick .pick-menu .pick-info p {\n  margin: 10px 0 0 20px;\n}\n.main-pick .pick .case {\n  display: inline-block;\n  margin: 10px;\n}\n.main-pick .pick .case p {\n  font-size: 100%;\n  font-weight: 900;\n  margin: 0 0 5px 0;\n}\n.main-pick .pick .case .pick-img {\n  position: relative;\n}\n.main-pick .pick .case .pick-img .card {\n  width: 90px;\n  height: 165px;\n}\n.main-pick .pick .case .pick-img .class-icon {\n  position: absolute;\n  left: 0;\n  top: 0;\n  width: 25px;\n  height: 25px;\n}\n.main-pick .pick .case .pick-img .rare-icon {\n  position: absolute;\n  bottom: 0;\n  right: 0;\n}\n.main-pick .pick .record-container {\n  display: flex;\n  flex-direction: column;\n  margin: 50px 0 100px 0;\n  max-width: 100%;\n}\n.main-pick .pick .record-container .record {\n  display: flex;\n  max-width: 100%;\n  margin: 5px 0 0 0;\n}\n.main-pick .pick .record-container .record div {\n  font-size: 200%;\n}\n.main-pick .pick .record-container .record .pick-img-container {\n  display: inline-block;\n}\n.main-pick .pick .record-container .record .pick-img-container img {\n  border-radius: 3px;\n  width: 48px;\n  height: 48px;\n  margin: 0 5px 0 5px;\n}\n.main-pick .pick .wait-calc {\n  position: fixed;\n  display: flex;\n  flex-direction: column;\n  left: 0;\n  top: 0;\n  z-index: 990;\n}\n.main-pick .pick .wait-calc .bkg-blur {\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  background-color: rgba(0, 0, 0, 0.9);\n  z-index: 997;\n}\n.main-pick .pick .wait-calc .calc-icon-container {\n  position: absolute;\n  top: 30%;\n  left: 45%;\n  z-index: 998;\n  filter: blur(0.5px);\n}\n.main-pick .pick .wait-calc .calc-description {\n  position: fixed;\n  top: 60%;\n  left: 45%;\n  font-size: 36px;\n  font-weight: 900;\n  z-index: 999;\n}\n\n.\\36  {\n  color: red;\n}\n\n.\\35  {\n  color: orange;\n}\n\n.\\34  {\n  color: mediumpurple;\n}\n\n.\\33  {\n  color: royalblue;\n}\n\n.img {\n  background-color: white;\n  border: transparent 2px solid;\n}\n\n.img6 {\n  background: linear-gradient(red, white);\n}\n\n.img5 {\n  background: linear-gradient(orange, white);\n}\n\n.img4 {\n  background: linear-gradient(mediumpurple, white);\n}\n\n.img3 {\n  background: linear-gradient(royalblue, white);\n}\n\n.target {\n  border: greenyellow 2px solid;\n}\n\n.sidebar-target {\n  font-weight: 900;\n  color: greenyellow;\n}", ""]);
 // Exports
 module.exports = exports;
 
@@ -5061,6 +5079,35 @@ module.exports = content.locals || {};
 
 /***/ }),
 
+/***/ "./src/sass/modules/sidebarPick.scss":
+/*!*******************************************!*\
+  !*** ./src/sass/modules/sidebarPick.scss ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var api = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+            var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js!../../../node_modules/sass-loader/dist/cjs.js!./sidebarPick.scss */ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/sass/modules/sidebarPick.scss");
+
+            content = content.__esModule ? content.default : content;
+
+            if (typeof content === 'string') {
+              content = [[module.i, content, '']];
+            }
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = api(content, options);
+
+
+
+module.exports = content.locals || {};
+
+/***/ }),
+
 /***/ "./src/sass/modules/topbar.scss":
 /*!**************************************!*\
   !*** ./src/sass/modules/topbar.scss ***!
@@ -5278,16 +5325,16 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ "react-dom");
 /* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
-/* harmony import */ var _pages_index_jsx__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./pages/index.jsx */ "./src/scripts/pages/index.jsx");
-/* harmony import */ var _pages_404_jsx__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./pages/404.jsx */ "./src/scripts/pages/404.jsx");
-/* harmony import */ var _pages_templatePage_jsx__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./pages/templatePage.jsx */ "./src/scripts/pages/templatePage.jsx");
-/* harmony import */ var _pages_RegularPool_jsx__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./pages/RegularPool.jsx */ "./src/scripts/pages/RegularPool.jsx");
-/* harmony import */ var _pages_eventPool_jsx__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./pages/eventPool.jsx */ "./src/scripts/pages/eventPool.jsx");
-/* harmony import */ var _pages_limitPool_jsx__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./pages/limitPool.jsx */ "./src/scripts/pages/limitPool.jsx");
-/* harmony import */ var _pages_pickcard_jsx__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./pages/pickcard.jsx */ "./src/scripts/pages/pickcard.jsx");
-/* harmony import */ var _tools_checkThemeCookie__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./tools/checkThemeCookie */ "./src/scripts/tools/checkThemeCookie.js");
-/* harmony import */ var _tools_checkLanguageCookie__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./tools/checkLanguageCookie */ "./src/scripts/tools/checkLanguageCookie.js");
-/* harmony import */ var _pages_test_jsx__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./pages/test.jsx */ "./src/scripts/pages/test.jsx");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! axios */ "axios");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _pages_index_jsx__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./pages/index.jsx */ "./src/scripts/pages/index.jsx");
+/* harmony import */ var _pages_404_jsx__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./pages/404.jsx */ "./src/scripts/pages/404.jsx");
+/* harmony import */ var _pages_templatePage_jsx__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./pages/templatePage.jsx */ "./src/scripts/pages/templatePage.jsx");
+/* harmony import */ var _pages_showPool_jsx__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./pages/showPool.jsx */ "./src/scripts/pages/showPool.jsx");
+/* harmony import */ var _pages_pickcard_jsx__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./pages/pickcard.jsx */ "./src/scripts/pages/pickcard.jsx");
+/* harmony import */ var _tools_checkThemeCookie__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./tools/checkThemeCookie */ "./src/scripts/tools/checkThemeCookie.js");
+/* harmony import */ var _tools_checkLanguageCookie__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./tools/checkLanguageCookie */ "./src/scripts/tools/checkLanguageCookie.js");
+/* harmony import */ var _pages_test_jsx__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./pages/test.jsx */ "./src/scripts/pages/test.jsx");
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
 
@@ -5303,6 +5350,162 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 
 
 
+class SimulationRouter extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+  render() {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
+      path: this.props.poolUrl
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_pages_pickcard_jsx__WEBPACK_IMPORTED_MODULE_8__["default"], {
+      language: this.props.language,
+      theme: this.props.theme,
+      toDarkTheme: this.props.toDarkTheme,
+      toLightTheme: this.props.toLightTheme,
+      toZH_CN: this.props.toZH_CN,
+      toEN_US: this.props.toEN_US,
+      toJA_JP: this.props.toJA_JP,
+      poolType: this.props.poolType,
+      poolName: this.props.poolName
+    }));
+  }
+
+}
+
+class SimulationRouterContainer extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+  render() {
+    const list = this.props.data.map(x => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SimulationRouter, {
+      key: x.type + x.code,
+      language: this.props.language,
+      theme: this.props.theme,
+      toDarkTheme: this.props.toDarkTheme,
+      toLightTheme: this.props.toLightTheme,
+      toZH_CN: this.props.toZH_CN,
+      toEN_US: this.props.toEN_US,
+      toJA_JP: this.props.toJA_JP,
+      poolType: x.poolType,
+      poolName: x.poolName,
+      poolUrl: x.url
+    }));
+    return {
+      list
+    };
+  }
+
+}
+
+class PickRouter extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+  render() {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SimulationRouterContainer, {
+      language: this.props.language,
+      theme: this.props.theme,
+      toDarkTheme: this.props.toDarkTheme,
+      toLightTheme: this.props.toLightTheme,
+      toZH_CN: this.props.toZH_CN,
+      toEN_US: this.props.toEN_US,
+      toJA_JP: this.props.toJA_JP,
+      data: this.props.data.event
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SimulationRouterContainer, {
+      language: this.props.language,
+      theme: this.props.theme,
+      toDarkTheme: this.props.toDarkTheme,
+      toLightTheme: this.props.toLightTheme,
+      toZH_CN: this.props.toZH_CN,
+      toEN_US: this.props.toEN_US,
+      toJA_JP: this.props.toJA_JP,
+      data: this.props.data.limit
+    }));
+  }
+
+}
+
+class MainRouter extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+  constructor(...args) {
+    super(...args);
+
+    _defineProperty(this, "makeRouter", array => {
+      return array.map(x => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
+        path: x.url,
+        key: `${x.type}${x.code}`
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_pages_pickcard_jsx__WEBPACK_IMPORTED_MODULE_8__["default"], {
+        language: this.props.language,
+        theme: this.props.theme,
+        toDarkTheme: this.props.toDarkTheme,
+        toLightTheme: this.props.toLightTheme,
+        toZH_CN: this.props.toZH_CN,
+        toEN_US: this.props.toEN_US,
+        toJA_JP: this.props.toJA_JP,
+        poolType: x.type,
+        poolName: x.name
+      })));
+    });
+  }
+
+  render() {
+    let poolArray = this.props.pickSimu.event.concat(this.props.pickSimu.limit);
+    const list = this.makeRouter(poolArray);
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["BrowserRouter"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Switch"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
+      exact: true,
+      path: "/"
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_pages_index_jsx__WEBPACK_IMPORTED_MODULE_4__["default"], {
+      language: this.props.language,
+      theme: this.props.theme,
+      toDarkTheme: this.props.toDarkTheme,
+      toLightTheme: this.props.toLightTheme,
+      toZH_CN: this.props.toZH_CN,
+      toEN_US: this.props.toEN_US,
+      toJA_JP: this.props.toJA_JP
+    })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
+      exact: true,
+      path: "/regularPool"
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_pages_showPool_jsx__WEBPACK_IMPORTED_MODULE_7__["default"], {
+      language: this.props.language,
+      theme: this.props.theme,
+      toDarkTheme: this.props.toDarkTheme,
+      toLightTheme: this.props.toLightTheme,
+      toZH_CN: this.props.toZH_CN,
+      toEN_US: this.props.toEN_US,
+      toJA_JP: this.props.toJA_JP,
+      poolType: "regularPool"
+    })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
+      exact: true,
+      path: "/eventPool"
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_pages_showPool_jsx__WEBPACK_IMPORTED_MODULE_7__["default"], {
+      language: this.props.language,
+      theme: this.props.theme,
+      toDarkTheme: this.props.toDarkTheme,
+      toLightTheme: this.props.toLightTheme,
+      toZH_CN: this.props.toZH_CN,
+      toEN_US: this.props.toEN_US,
+      toJA_JP: this.props.toJA_JP,
+      poolType: "eventPool"
+    })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
+      exact: true,
+      path: "/limitPool"
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_pages_showPool_jsx__WEBPACK_IMPORTED_MODULE_7__["default"], {
+      language: this.props.language,
+      theme: this.props.theme,
+      toDarkTheme: this.props.toDarkTheme,
+      toLightTheme: this.props.toLightTheme,
+      toZH_CN: this.props.toZH_CN,
+      toEN_US: this.props.toEN_US,
+      toJA_JP: this.props.toJA_JP,
+      poolType: "limitPool"
+    })), list, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
+      path: "/test"
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_pages_test_jsx__WEBPACK_IMPORTED_MODULE_11__["default"], null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
+      path: "/*"
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_pages_templatePage_jsx__WEBPACK_IMPORTED_MODULE_6__["default"], {
+      language: this.props.language,
+      theme: this.props.theme,
+      toDarkTheme: this.props.toDarkTheme,
+      toLightTheme: this.props.toLightTheme,
+      toZH_CN: this.props.toZH_CN,
+      toEN_US: this.props.toEN_US,
+      toJA_JP: this.props.toJA_JP
+    })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
+      path: "/404"
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_pages_404_jsx__WEBPACK_IMPORTED_MODULE_5__["default"], null))));
+  }
+
+}
 
 class App extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
   constructor(props) {
@@ -5348,49 +5551,46 @@ class App extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       });
     });
 
+    _defineProperty(this, "getSimulationRouter", () => {
+      const data = {
+        params: {
+          type: "search",
+          method: "getPoolList",
+          poolType: "all"
+        }
+      };
+      axios__WEBPACK_IMPORTED_MODULE_3___default.a.get("/getPoolList", data).then(res => {
+        //console.log(this.state.pickSimu);
+        res.data.update = true;
+        this.setState({
+          pickSimu: res.data
+        }); //console.log(this.state.pickSimu);
+      });
+    });
+
     this.state = {
-      theme: Object(_tools_checkThemeCookie__WEBPACK_IMPORTED_MODULE_10__["default"])(),
-      language: Object(_tools_checkLanguageCookie__WEBPACK_IMPORTED_MODULE_11__["default"])()
+      theme: Object(_tools_checkThemeCookie__WEBPACK_IMPORTED_MODULE_9__["default"])(),
+      language: Object(_tools_checkLanguageCookie__WEBPACK_IMPORTED_MODULE_10__["default"])(),
+      pickSimu: {
+        event: [],
+        limit: [],
+        regular: [],
+        update: false
+      }
     };
   }
 
+  componentDidMount() {
+    if (!this.state.pickSimu.update) {
+      console.log("init");
+      this.getSimulationRouter();
+    } else {
+      console.log("up to date!");
+    }
+  }
+
   render() {
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["BrowserRouter"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Switch"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
-      exact: true,
-      path: "/"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_pages_index_jsx__WEBPACK_IMPORTED_MODULE_3__["default"], {
-      language: this.state.language,
-      theme: this.state.theme,
-      toDarkTheme: this.toDarkTheme,
-      toLightTheme: this.toLightTheme,
-      toZH_CN: this.toZH_CN,
-      toEN_US: this.toEN_US,
-      toJA_JP: this.toJA_JP
-    })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
-      exact: true,
-      path: "/regularPool"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_pages_RegularPool_jsx__WEBPACK_IMPORTED_MODULE_6__["default"], {
-      language: this.state.language,
-      theme: this.state.theme,
-      toDarkTheme: this.toDarkTheme,
-      toLightTheme: this.toLightTheme,
-      toZH_CN: this.toZH_CN,
-      toEN_US: this.toEN_US,
-      toJA_JP: this.toJA_JP
-    })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
-      exact: true,
-      path: "/eventPool"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_pages_eventPool_jsx__WEBPACK_IMPORTED_MODULE_7__["default"], {
-      language: this.state.language,
-      theme: this.state.theme,
-      toDarkTheme: this.toDarkTheme,
-      toLightTheme: this.toLightTheme,
-      toZH_CN: this.toZH_CN,
-      toEN_US: this.toEN_US,
-      toJA_JP: this.toJA_JP
-    })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
-      path: "/eventPool/spiral_sinking"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_pages_pickcard_jsx__WEBPACK_IMPORTED_MODULE_9__["default"], {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(MainRouter, {
       language: this.state.language,
       theme: this.state.theme,
       toDarkTheme: this.toDarkTheme,
@@ -5398,82 +5598,8 @@ class App extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       toZH_CN: this.toZH_CN,
       toEN_US: this.toEN_US,
       toJA_JP: this.toJA_JP,
-      poolType: "eventPool",
-      poolName: "\u6D41\u6C99\u6DA1\u65CB"
-    })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
-      path: "/eventPool/unbound_reflux"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_pages_pickcard_jsx__WEBPACK_IMPORTED_MODULE_9__["default"], {
-      language: this.state.language,
-      theme: this.state.theme,
-      toDarkTheme: this.toDarkTheme,
-      toLightTheme: this.toLightTheme,
-      toZH_CN: this.toZH_CN,
-      toEN_US: this.toEN_US,
-      toJA_JP: this.toJA_JP,
-      poolType: "eventPool",
-      poolName: "\u4E0D\u7F81\u9006\u6D41"
-    })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
-      path: "/eventPool/heart_of_steel_the_rage_ironhide"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_pages_pickcard_jsx__WEBPACK_IMPORTED_MODULE_9__["default"], {
-      language: this.state.language,
-      theme: this.state.theme,
-      toDarkTheme: this.toDarkTheme,
-      toLightTheme: this.toLightTheme,
-      toZH_CN: this.toZH_CN,
-      toEN_US: this.toEN_US,
-      toJA_JP: this.toJA_JP,
-      poolType: "eventPool",
-      poolName: "\u71C3\u94A2\u4E4B\u5FC3 \u66B4\u8E81\u94C1\u76AE"
-    })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
-      exact: true,
-      path: "/limitPool"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_pages_limitPool_jsx__WEBPACK_IMPORTED_MODULE_8__["default"], {
-      language: this.state.language,
-      theme: this.state.theme,
-      toDarkTheme: this.toDarkTheme,
-      toLightTheme: this.toLightTheme,
-      toZH_CN: this.toZH_CN,
-      toEN_US: this.toEN_US,
-      toJA_JP: this.toJA_JP
-    })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
-      path: "/limitPool/earthborn_metals"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_pages_pickcard_jsx__WEBPACK_IMPORTED_MODULE_9__["default"], {
-      language: this.state.language,
-      theme: this.state.theme,
-      toDarkTheme: this.toDarkTheme,
-      toLightTheme: this.toLightTheme,
-      toZH_CN: this.toZH_CN,
-      toEN_US: this.toEN_US,
-      toJA_JP: this.toJA_JP,
-      poolType: "limitPool",
-      poolName: "\u5730\u751F\u4E94\u91D1"
-    })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
-      path: "/limitPool/lastwish_cremation"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_pages_pickcard_jsx__WEBPACK_IMPORTED_MODULE_9__["default"], {
-      language: this.state.language,
-      theme: this.state.theme,
-      toDarkTheme: this.toDarkTheme,
-      toLightTheme: this.toLightTheme,
-      toZH_CN: this.toZH_CN,
-      toEN_US: this.toEN_US,
-      toJA_JP: this.toJA_JP,
-      poolType: "limitPool",
-      poolName: "\u9057\u613F\u7130\u706B"
-    })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
-      path: "/test"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_pages_test_jsx__WEBPACK_IMPORTED_MODULE_12__["default"], null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
-      path: "/*"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_pages_templatePage_jsx__WEBPACK_IMPORTED_MODULE_5__["default"], {
-      language: this.state.language,
-      theme: this.state.theme,
-      toDarkTheme: this.toDarkTheme,
-      toLightTheme: this.toLightTheme,
-      toZH_CN: this.toZH_CN,
-      toEN_US: this.toEN_US,
-      toJA_JP: this.toJA_JP
-    })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
-      path: "/404"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_pages_404_jsx__WEBPACK_IMPORTED_MODULE_4__["default"], null))));
+      pickSimu: this.state.pickSimu
+    });
   }
 
 }
@@ -5612,6 +5738,113 @@ class MainTemplate extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Componen
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (MainTemplate);
+
+/***/ }),
+
+/***/ "./src/scripts/components/SideBarPick.jsx":
+/*!************************************************!*\
+  !*** ./src/scripts/components/SideBarPick.jsx ***!
+  \************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _sass_modules_sidebarPick_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../sass/modules/sidebarPick.scss */ "./src/sass/modules/sidebarPick.scss");
+/* harmony import */ var _sass_modules_sidebarPick_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_sass_modules_sidebarPick_scss__WEBPACK_IMPORTED_MODULE_1__);
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+
+
+
+class SideBarMenuDropdown extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+  render() {
+    if (this.props.display) {
+      const list = this.props.data.contents.map(x => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        className: x.name === this.props.poolName ? "sidebar-target" : "",
+        key: x._id,
+        href: x.url
+      }, x.name));
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: `sidebar-menu-dropdown ${this.props.theme}`
+      }, list);
+    } else {
+      return null;
+    }
+  }
+
+}
+
+class SideBarMenu extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+  constructor(props) {
+    super(props);
+
+    _defineProperty(this, "checkPool", () => {
+      if (this.props.poolType === this.props.data.type) {
+        this.setState({
+          display: true
+        });
+      }
+    });
+
+    _defineProperty(this, "showMenu", () => {
+      this.setState({
+        display: !this.state.display
+      });
+    });
+
+    this.state = {
+      display: false,
+      status: "hide"
+    };
+  }
+
+  componentDidMount() {
+    this.checkPool();
+  }
+
+  render() {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "sidebar-menu"
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "sidebar-menu-title"
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "menu-icon-container"
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: `menu-icon${this.state.display ? "-show" : "-hide"} ${this.props.theme}`,
+      onClick: () => this.showMenu()
+    }, " ")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: `menu-text-container ${this.props.theme}`
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, this.props.data.name))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SideBarMenuDropdown, {
+      data: this.props.data,
+      display: this.state.display,
+      showMenu: this.showMenu,
+      poolName: this.props.poolName,
+      theme: this.props.theme
+    }));
+  }
+
+}
+
+class SideBarPick extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+  render() {
+    const list = this.props.data.map(x => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SideBarMenu, {
+      key: x.key,
+      data: x,
+      poolType: this.props.poolType,
+      poolName: this.props.poolName,
+      theme: this.props.theme
+    }));
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: `sidebar-pick ${this.props.theme}`
+    }, list);
+  }
+
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (SideBarPick);
 
 /***/ }),
 
@@ -6880,661 +7113,6 @@ class _404 extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
 
 /***/ }),
 
-/***/ "./src/scripts/pages/RegularPool.jsx":
-/*!*******************************************!*\
-  !*** ./src/scripts/pages/RegularPool.jsx ***!
-  \*******************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _components_basic_jsx__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/basic.jsx */ "./src/scripts/components/basic.jsx");
-/* harmony import */ var _sass_pages_pools_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../sass/pages/pools.scss */ "./src/sass/pages/pools.scss");
-/* harmony import */ var _sass_pages_pools_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_sass_pages_pools_scss__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _components_Template_jsx__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Template.jsx */ "./src/scripts/components/Template.jsx");
-function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-
-
-
-
-
-
-class RegularPool extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
-  constructor(props) {
-    super(props);
-
-    _defineProperty(this, "checkLanguage", () => {
-      if (this.props.language === "zh-cn") {
-        return this.state.zh_cn;
-      } else if (this.props.language === "ja-jp") {
-        return this.state.ja_jp;
-      } else if (this.props.language === "en-us") {
-        return this.state.en_us;
-      } else {
-        return this.state.zh_cn;
-      }
-    });
-
-    this.state = {
-      zh_cn: {
-        contents: [{
-          key: 35,
-          tag: "pool",
-          name: "常驻标准寻访35期 [ 2020/08/20 ~ 2020/09/03 ]",
-          data: [{
-            key: 0,
-            href: "/regularPool/35",
-            img: "../images/pools/regularPool/regular35.jpg"
-          }]
-        }, {
-          key: 34,
-          tag: "pool",
-          name: "常驻标准寻访34期 [ 2020/08/06 ~ 2020/08/20 ]",
-          data: [{
-            key: 0,
-            href: "/regularPool/34",
-            img: "../images/pools/regularPool/regular34.jpg"
-          }]
-        }, {
-          key: 33,
-          tag: "pool",
-          name: "常驻标准寻访33期 [ 2020/07/23 ~ 2020/08/06 ]",
-          data: [{
-            key: 0,
-            href: "/regularPool/33",
-            img: "../images/pools/regularPool/regular33.jpg"
-          }]
-        }, {
-          key: 32,
-          tag: "pool",
-          name: "常驻标准寻访32期 [ 2020/07/09 ~ 2020/07/23 ]",
-          data: [{
-            key: 0,
-            href: "/regularPool/32",
-            img: "../images/pools/regularPool/regular32.jpg"
-          }]
-        }, {
-          key: 31,
-          tag: "pool",
-          name: "常驻标准寻访31期 [ 2020/06/25 ~ 2020/07/09 ]",
-          data: [{
-            key: 0,
-            href: "/regularPool/31",
-            img: "../images/pools/regularPool/regular31.jpg"
-          }]
-        }, {
-          key: 30,
-          tag: "pool",
-          name: "常驻标准寻访30期 [ 2020/06/11 ~ 2020/06/25 ]",
-          data: [{
-            key: 0,
-            href: "/regularPool/30",
-            img: "../images/pools/regularPool/regular30.jpg"
-          }]
-        }, {
-          key: 29,
-          tag: "pool",
-          name: "常驻标准寻访29期 [ 2020/05/28 ~ 2020/06/11 ]",
-          data: [{
-            key: 0,
-            href: "/regularPool/29",
-            img: "../images/pools/regularPool/regular29.jpg"
-          }]
-        }, {
-          key: 28,
-          tag: "pool",
-          name: "常驻标准寻访28期 [ 2020/05/14 ~ 2020/05/28 ]",
-          data: [{
-            key: 0,
-            href: "/regularPool/28",
-            img: "../images/pools/regularPool/regular28.jpg"
-          }]
-        }, {
-          key: 27,
-          tag: "pool",
-          name: "常驻标准寻访27期 [ 2020/04/30 ~ 2020/05/14 ]",
-          data: [{
-            key: 0,
-            href: "/regularPool/27",
-            img: "../images/pools/regularPool/regular27.jpg"
-          }]
-        }, {
-          key: 26,
-          tag: "pool",
-          name: "常驻标准寻访26期 [ 2020/04/16 ~ 2020/04/30 ]",
-          data: [{
-            key: 0,
-            href: "/regularPool/26",
-            img: "../images/pools/regularPool/regular26.jpg"
-          }]
-        }, {
-          key: 25,
-          tag: "pool",
-          name: "常驻标准寻访25期 [ 2020/04/02 ~ 2020/04/16 ]",
-          data: [{
-            key: 0,
-            href: "/regularPool/25",
-            img: "../images/pools/regularPool/regular25.jpg"
-          }]
-        }, {
-          key: 24,
-          tag: "pool",
-          name: "常驻标准寻访24期 [ 2020/03/19 ~ 2020/04/02 ]",
-          data: [{
-            key: 0,
-            href: "/regularPool/24",
-            img: "../images/pools/regularPool/regular24.jpg"
-          }]
-        }, {
-          key: 23,
-          tag: "pool",
-          name: "常驻标准寻访23期 [ 2020/03/05 ~ 2020/03/19 ]",
-          data: [{
-            key: 0,
-            href: "/regularPool/23",
-            img: "../images/pools/regularPool/regular23.jpg"
-          }]
-        }, {
-          key: 22,
-          tag: "pool",
-          name: "常驻标准寻访22期 [ 2020/02/20 ~ 2020/03/05 ]",
-          data: [{
-            key: 0,
-            href: "/regularPool/22",
-            img: "../images/pools/regularPool/regular22.jpg"
-          }]
-        }, {
-          key: 21,
-          tag: "pool",
-          name: "常驻标准寻访21期 [ 2020/02/06 ~ 2020/02/20 ]",
-          data: [{
-            key: 0,
-            href: "/regularPool/21",
-            img: "../images/pools/regularPool/regular21.jpg"
-          }]
-        }, {
-          key: 20,
-          tag: "pool",
-          name: "常驻标准寻访20期 [ 2020/01/23 ~ 2020/02/06 ]",
-          data: [{
-            key: 0,
-            href: "/regularPool/20",
-            img: "../images/pools/regularPool/regular20.jpg"
-          }]
-        }, {
-          key: 19,
-          tag: "pool",
-          name: "常驻标准寻访19期 [ 2020/01/09 ~ 2020/01/23 ]",
-          data: [{
-            key: 0,
-            href: "/regularPool/19",
-            img: "../images/pools/regularPool/regular19.jpg"
-          }]
-        }, {
-          key: 18,
-          tag: "pool",
-          name: "常驻标准寻访18期 [ 2019/12/26 ~ 2020/01/09 ]",
-          data: [{
-            key: 0,
-            href: "/regularPool/18",
-            img: "../images/pools/regularPool/regular18.jpg"
-          }]
-        }, {
-          key: 17,
-          tag: "pool",
-          name: "常驻标准寻访17期 [ 2019/12/12 ~ 2020/12/26 ]",
-          data: [{
-            key: 0,
-            href: "/regularPool/17",
-            img: "../images/pools/regularPool/regular17.jpg"
-          }]
-        }, {
-          key: 16,
-          tag: "pool",
-          name: "常驻标准寻访16期 [ 2019/11/28 ~ 2019/12/12 ]",
-          data: [{
-            key: 0,
-            href: "/regularPool/16",
-            img: "../images/pools/regularPool/regular16.jpg"
-          }]
-        }, {
-          key: 15,
-          tag: "pool",
-          name: "常驻标准寻访15期 [ 2019/11/14 ~ 2019/11/28 ]",
-          data: [{
-            key: 0,
-            href: "/regularPool/15",
-            img: "../images/pools/regularPool/regular15.jpg"
-          }]
-        }, {
-          key: 0,
-          tag: "pool",
-          name: "常驻标准寻访14期 [ 2019/10/31 ~ 2019/11/14 ]",
-          data: [{
-            key: 0,
-            href: "/regularPool/14",
-            img: "../images/pools/regularPool/regular14.jpg"
-          }]
-        }, {
-          key: 13,
-          tag: "pool",
-          name: "常驻标准寻访13期 [ 2019/10/17 ~ 2019/10/31 ]",
-          data: [{
-            key: 0,
-            href: "/regularPool/13",
-            img: "../images/pools/regularPool/regular13.jpg"
-          }]
-        }, {
-          key: 12,
-          tag: "pool",
-          name: "常驻标准寻访12期 [ 2019/10/03 ~ 2019/10/17 ]",
-          data: [{
-            key: 0,
-            href: "/regularPool/12",
-            img: "../images/pools/regularPool/regular12.jpg"
-          }]
-        }, {
-          key: 11,
-          tag: "pool",
-          name: "常驻标准寻访11期 [ 2019/09/19 ~ 2019/10/03 ]",
-          data: [{
-            key: 0,
-            href: "/regularPool/11",
-            img: "../images/pools/regularPool/regular11.jpg"
-          }]
-        }, {
-          key: 10,
-          tag: "pool",
-          name: "常驻标准寻访10期 [ 2019/09/05 ~ 2019/09/19 ]",
-          data: [{
-            key: 0,
-            href: "/regularPool/10",
-            img: "../images/pools/regularPool/regular10.jpg"
-          }]
-        }, {
-          key: 9,
-          tag: "pool",
-          name: "常驻标准寻访09期 [ 2019/08/22 ~ 2019/09/05 ]",
-          data: [{
-            key: 0,
-            href: "/regularPool/09",
-            img: "../images/pools/regularPool/regular09.jpg"
-          }]
-        }, {
-          key: 8,
-          tag: "pool",
-          name: "常驻标准寻访08期 [ 2019/08/08 ~ 2019/08/22 ]",
-          data: [{
-            key: 0,
-            href: "/regularPool/08",
-            img: "../images/pools/regularPool/regular08.jpg"
-          }]
-        }, {
-          key: 7,
-          tag: "pool",
-          name: "常驻标准寻访07期 [ 2019/07/25 ~ 2019/08/08 ]",
-          data: [{
-            key: 0,
-            href: "/regularPool/07",
-            img: "../images/pools/regularPool/regular07.jpg"
-          }]
-        }, {
-          key: 6,
-          tag: "pool",
-          name: "常驻标准寻访06期 [ 2019/07/11 ~ 2019/07/25 ]",
-          data: [{
-            key: 0,
-            href: "/regularPool/06",
-            img: "../images/pools/regularPool/regular06.jpg"
-          }]
-        }, {
-          key: 5,
-          tag: "pool",
-          name: "常驻标准寻访05期 [ 2019/06/27 ~ 2019/07/11 ]",
-          data: [{
-            key: 0,
-            href: "/regularPool/05",
-            img: "../images/pools/regularPool/regular05.jpg"
-          }]
-        }, {
-          key: 4,
-          tag: "pool",
-          name: "常驻标准寻访04期 [ 2019/06/13 ~ 2019/06/27 ]",
-          data: [{
-            key: 0,
-            href: "/regularPool/04",
-            img: "../images/pools/regularPool/regular04.jpg"
-          }]
-        }, {
-          key: 3,
-          tag: "pool",
-          name: "常驻标准寻访03期 [ 2019/05/30 ~ 2019/06/13 ]",
-          data: [{
-            key: 0,
-            href: "/regularPool/03",
-            img: "../images/pools/regularPool/regular03.jpg"
-          }]
-        }, {
-          key: 2,
-          tag: "pool",
-          name: "常驻标准寻访02期 [ 2019/05/16 ~ 2019/05/30 ]",
-          data: [{
-            key: 0,
-            href: "/regularPool/02",
-            img: "../images/pools/regularPool/regular02.jpg"
-          }]
-        }, {
-          key: 1,
-          tag: "pool",
-          name: "常驻标准寻访01期 [ 2019/04/30 ~ 2019/05/16 ]",
-          data: [{
-            key: 0,
-            href: "/regularPool/01",
-            img: "../images/pools/regularPool/regular01.jpg"
-          }]
-        }]
-      },
-      ja_jp: {},
-      en_us: {}
-    };
-  }
-
-  render() {
-    let language = this.checkLanguage();
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Template_jsx__WEBPACK_IMPORTED_MODULE_3__["default"], {
-      language: this.props.language,
-      theme: this.props.theme,
-      toDarkTheme: this.props.toDarkTheme,
-      toLightTheme: this.props.toLightTheme,
-      toZH_CN: this.props.toZH_CN,
-      toEN_US: this.props.toEN_US,
-      toJA_JP: this.props.toJA_JP
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: `main-container ${this.props.theme}`
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_basic_jsx__WEBPACK_IMPORTED_MODULE_1__["MainContents"], {
-      contents: language.contents,
-      theme: this.props.theme
-    })));
-  }
-
-}
-
-/* harmony default export */ __webpack_exports__["default"] = (RegularPool);
-
-/***/ }),
-
-/***/ "./src/scripts/pages/eventPool.jsx":
-/*!*****************************************!*\
-  !*** ./src/scripts/pages/eventPool.jsx ***!
-  \*****************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _components_basic_jsx__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/basic.jsx */ "./src/scripts/components/basic.jsx");
-/* harmony import */ var _sass_pages_pools_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../sass/pages/pools.scss */ "./src/sass/pages/pools.scss");
-/* harmony import */ var _sass_pages_pools_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_sass_pages_pools_scss__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _components_Template_jsx__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Template.jsx */ "./src/scripts/components/Template.jsx");
-function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-
-
-
-
-
-
-class EventPool extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
-  constructor(props) {
-    super(props);
-
-    _defineProperty(this, "checkLanguage", () => {
-      if (this.props.language === "zh-cn") {
-        return this.state.zh_cn;
-      } else if (this.props.language === "ja-jp") {
-        return this.state.ja_jp;
-      } else if (this.props.language === "en-us") {
-        return this.state.en_us;
-      } else {
-        return this.state.zh_cn;
-      }
-    });
-
-    this.state = {
-      zh_cn: {
-        contents: [{
-          key: 22,
-          tag: "pool",
-          name: "燃钢之心 暴躁铁皮 [ 2020/08/25 ~ 2020/09/08 ] ",
-          data: [{
-            key: 0,
-            href: "/eventPool/heart_of_steel_the_rage_ironhide",
-            img: "../images/pools/eventPool/燃钢之心_暴躁铁皮.jpg"
-          }]
-        }, {
-          key: 21,
-          tag: "pool",
-          name: "不羁逆流 [ 2020/08/11 ~ 2020/08/25 ] ",
-          data: [{
-            key: 0,
-            href: "/eventPool/unbound_reflux",
-            img: "../images/pools/eventPool/不羁逆流.jpg"
-          }]
-        }, {
-          key: 20,
-          tag: "pool",
-          name: "流沙涡旋 [2020/07/28 ~ 2020/08/11] ",
-          data: [{
-            key: 0,
-            href: "/eventPool/spiral_sinking",
-            img: "../images/pools/eventPool/流沙涡旋.jpg"
-          }]
-        }, {
-          key: 19,
-          tag: "pool",
-          name: "君影轻灵 [2020/07/09 ~ 2020/07/23] ",
-          data: [{
-            key: 0,
-            href: "/eventPool/lisa_of_the_valley",
-            img: "../images/pools/eventPool/君影轻灵.jpg"
-          }]
-        }, {
-          key: 18,
-          tag: "pool",
-          name: "雪落晨心 [2020/06/18 ~ 2020/07/02] ",
-          data: [{
-            key: 0,
-            href: "/eventPool/snowfall_утро",
-            img: "../images/pools/eventPool/雪落晨心.jpg"
-          }]
-        }, {
-          key: 17,
-          tag: "pool",
-          name: "雾漫荒林 [2020/06/02 ~ 2020/06/16] ",
-          data: [{
-            key: 0,
-            href: "/eventPool/misty_wild",
-            img: "../images/pools/eventPool/雾漫荒林.jpg"
-          }]
-        }, {
-          key: 16,
-          tag: "pool",
-          name: "联合行动 [2020/05/15 ~ 2020/05/29] ",
-          data: [{
-            key: 0,
-            href: "/eventPool/united_operation_2",
-            img: "../images/pools/eventPool/联合行动2.jpg"
-          }]
-        }, {
-          key: 15,
-          tag: "pool",
-          name: "往日幻像 [2020/04/21 ~ 2020/05/05] ",
-          data: [{
-            key: 0,
-            href: "/eventPool/past_illusion",
-            img: "../images/pools/eventPool/往日幻象.jpg"
-          }]
-        }, {
-          key: 14,
-          tag: "pool",
-          name: "草垛上的风笛声 [2020/03/17 ~ 2020/03/31] ",
-          data: [{
-            key: 0,
-            href: "/eventPool/grassy_bagpipe",
-            img: "../images/pools/eventPool/草垛上的风笛声.jpg"
-          }]
-        }, {
-          key: 13,
-          tag: "pool",
-          name: "百种兵器 [2020/02/25 ~ 2020/03/10] ",
-          data: [{
-            key: 0,
-            href: "/eventPool/thousands_heads",
-            img: "../images/pools/eventPool/百种兵器.jpg"
-          }]
-        }, {
-          key: 12,
-          tag: "pool",
-          name: "热情，膨胀，爆发！ [2019/12/24 ~ 2020/01/07] ",
-          data: [{
-            key: 0,
-            href: "/eventPool/enthusiasm_expansion_explosion",
-            img: "../images/pools/eventPool/热情，膨胀，爆发！.jpg"
-          }]
-        }, {
-          key: 11,
-          tag: "pool",
-          name: "凝电之钻 [2019/12/10 ~ 2019/12/24] ",
-          data: [{
-            key: 0,
-            href: "/eventPool/drill_electric",
-            img: "../images/pools/eventPool/凝电之钻.jpg"
-          }]
-        }, {
-          key: 10,
-          tag: "pool",
-          name: "锁与匙的守卫者 [ 2019/11/19 ~ 2019/12/03 ] ",
-          data: [{
-            key: 0,
-            href: "/eventPool/keeper_of_the_lock&keys",
-            img: "../images/pools/eventPool/锁与匙的守卫者.jpg"
-          }]
-        }, {
-          key: 9,
-          tag: "pool",
-          name: "联合行动 [2019/11/01 ~ 2019/11/15] ",
-          data: [{
-            key: 0,
-            href: "/eventPool/united_operation_1",
-            img: "../images/pools/eventPool/联合行动1.jpg"
-          }]
-        }, {
-          key: 8,
-          tag: "pool",
-          name: "冰封原野 [2019/10/15 ~ 2019/10/29] ",
-          data: [{
-            key: 0,
-            href: "/eventPool/frozen_land",
-            img: "../images/pools/eventPool/冰封原野.jpg"
-          }]
-        }, {
-          key: 7,
-          tag: "pool",
-          name: "火舞之人 [2019/10/01 ~ 2019/10/11] ",
-          data: [{
-            key: 0,
-            href: "/eventPool/dancing_lava",
-            img: "../images/pools/eventPool/火舞之人.jpg"
-          }]
-        }, {
-          key: 6,
-          tag: "pool",
-          name: "久铸尘铁 [2019/09/10 ~ 2019/09/24] ",
-          data: [{
-            key: 0,
-            href: "/eventPool/forging_steel",
-            img: "../images/pools/eventPool/久铸尘铁.jpg"
-          }]
-        }, {
-          key: 5,
-          tag: "pool",
-          name: "深夏的守夜人 [2019/08/27 ~ 2019/09/10] ",
-          data: [{
-            key: 0,
-            href: "/eventPool/summer_guardians",
-            img: "../images/pools/eventPool/深夏的守夜人.jpg"
-          }]
-        }, {
-          key: 4,
-          tag: "pool",
-          name: "龙门特别行动专员寻访 [2019/07/22 ~ 2019/08/05] ",
-          data: [{
-            key: 0,
-            href: "/eventPool/lungmen_specoperators",
-            img: "../images/pools/eventPool/龙门特别行动专员寻访.jpg"
-          }]
-        }, {
-          key: 3,
-          tag: "pool",
-          name: "鞘中赤红 [2019/07/29 ~ 2019/07/22] ",
-          data: [{
-            key: 0,
-            href: "/eventPool/the_crimson_hidden_dragon",
-            img: "../images/pools/eventPool/鞘中赤红.jpg"
-          }]
-        }, {
-          key: 2,
-          tag: "pool",
-          name: "搅动潮汐之剑 [2019/05/30 ~ 2019/06/13] ",
-          data: [{
-            key: 0,
-            href: "/eventPool/treasure_knights",
-            img: "../images/pools/eventPool/搅动潮汐之剑.jpg"
-          }]
-        }, {
-          key: 1,
-          tag: "pool",
-          name: "银灰色的荣耀 [2019/05/23 ~ 2019/05/30] ",
-          data: [{
-            key: 0,
-            href: "/eventPool/the_glory_of_sliverash",
-            img: "../images/pools/eventPool/银灰色的荣耀.jpg"
-          }]
-        }]
-      },
-      ja_jp: {},
-      en_us: {}
-    };
-  }
-
-  render() {
-    let language = this.checkLanguage();
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Template_jsx__WEBPACK_IMPORTED_MODULE_3__["default"], {
-      language: this.props.language,
-      theme: this.props.theme,
-      toDarkTheme: this.props.toDarkTheme,
-      toLightTheme: this.props.toLightTheme,
-      toZH_CN: this.props.toZH_CN,
-      toEN_US: this.props.toEN_US,
-      toJA_JP: this.props.toJA_JP
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: `main-container ${this.props.theme}`
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_basic_jsx__WEBPACK_IMPORTED_MODULE_1__["MainContents"], {
-      contents: language.contents,
-      theme: this.props.theme
-    })));
-  }
-
-}
-
-/* harmony default export */ __webpack_exports__["default"] = (EventPool);
-
-/***/ }),
-
 /***/ "./src/scripts/pages/index.jsx":
 /*!*************************************!*\
   !*** ./src/scripts/pages/index.jsx ***!
@@ -7811,95 +7389,6 @@ class Index extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
 
 /***/ }),
 
-/***/ "./src/scripts/pages/limitPool.jsx":
-/*!*****************************************!*\
-  !*** ./src/scripts/pages/limitPool.jsx ***!
-  \*****************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _components_basic_jsx__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/basic.jsx */ "./src/scripts/components/basic.jsx");
-/* harmony import */ var _sass_pages_pools_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../sass/pages/pools.scss */ "./src/sass/pages/pools.scss");
-/* harmony import */ var _sass_pages_pools_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_sass_pages_pools_scss__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _components_Template_jsx__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Template.jsx */ "./src/scripts/components/Template.jsx");
-function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-
-
-
-
-
-
-class LimitPool extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
-  constructor(props) {
-    super(props);
-
-    _defineProperty(this, "checkLanguage", () => {
-      if (this.props.language === "zh-cn") {
-        return this.state.zh_cn;
-      } else if (this.props.language === "ja-jp") {
-        return this.state.ja_jp;
-      } else if (this.props.language === "en-us") {
-        return this.state.en_us;
-      } else {
-        return this.state.zh_cn;
-      }
-    });
-
-    this.state = {
-      zh_cn: {
-        contents: [{
-          key: 2,
-          tag: "pool",
-          name: "遗愿焰火 [ 2020/05/01 ~ 2020/05/15 ] ",
-          data: [{
-            key: 0,
-            href: "/limitPool/lastwish_cremation",
-            img: "../images/pools/limitPool/遗愿焰火.jpg"
-          }]
-        }, {
-          key: 1,
-          tag: "pool",
-          name: "地生五金 [ 2020/01/16 ~ 2020/01/30 ] ",
-          data: [{
-            key: 0,
-            href: "/limitPool/earthborn_metals",
-            img: "../images/pools/limitPool/地生五金.jpg"
-          }]
-        }]
-      },
-      ja_jp: {},
-      en_us: {}
-    };
-  }
-
-  render() {
-    let language = this.checkLanguage();
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Template_jsx__WEBPACK_IMPORTED_MODULE_3__["default"], {
-      language: this.props.language,
-      theme: this.props.theme,
-      toDarkTheme: this.props.toDarkTheme,
-      toLightTheme: this.props.toLightTheme,
-      toZH_CN: this.props.toZH_CN,
-      toEN_US: this.props.toEN_US,
-      toJA_JP: this.props.toJA_JP
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: `main-container ${this.props.theme}`
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_basic_jsx__WEBPACK_IMPORTED_MODULE_1__["MainContents"], {
-      contents: language.contents,
-      theme: this.props.theme
-    })));
-  }
-
-}
-
-/* harmony default export */ __webpack_exports__["default"] = (LimitPool);
-
-/***/ }),
-
 /***/ "./src/scripts/pages/pickcard.jsx":
 /*!****************************************!*\
   !*** ./src/scripts/pages/pickcard.jsx ***!
@@ -7914,10 +7403,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! axios */ "axios");
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _components_Template_jsx__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Template.jsx */ "./src/scripts/components/Template.jsx");
-/* harmony import */ var _components_icons_calcIcon_jsx__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/icons/calcIcon.jsx */ "./src/scripts/components/icons/calcIcon.jsx");
-/* harmony import */ var _sass_pages_pickcard_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../sass/pages/pickcard.scss */ "./src/sass/pages/pickcard.scss");
-/* harmony import */ var _sass_pages_pickcard_scss__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_sass_pages_pickcard_scss__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _tools_gp__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../tools/gp */ "./src/scripts/tools/gp.js");
+/* harmony import */ var _components_SideBarPick_jsx__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/SideBarPick.jsx */ "./src/scripts/components/SideBarPick.jsx");
+/* harmony import */ var _components_icons_calcIcon_jsx__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/icons/calcIcon.jsx */ "./src/scripts/components/icons/calcIcon.jsx");
+/* harmony import */ var _sass_pages_pickcard_scss__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../sass/pages/pickcard.scss */ "./src/sass/pages/pickcard.scss");
+/* harmony import */ var _sass_pages_pickcard_scss__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_sass_pages_pickcard_scss__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _tools_gp__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../tools/gp */ "./src/scripts/tools/gp.js");
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
 
@@ -7927,16 +7417,52 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 
 
 
-class SideBarMenuDropdown extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+
+class PoolImg extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
   render() {
-    if (this.props.display) {
-      const list = this.props.data.contents.map(x => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        className: x.name === this.props.poolName ? "sidebar-target" : "",
-        key: x.key,
-        href: x.url
-      }, x.name));
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "pool-img"
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+      alt: "",
+      src: `../../../images/pools/${this.props.poolType}/${this.props.poolName}.jpg`
+    }));
+  }
+
+}
+
+class PickupContainer extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+  render() {
+    if (this.props.hasOwnProperty("name")) {
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "sidebar-menu-dropdown"
+        className: "pickup-container"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "pickup-img-container"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        className: "img",
+        alt: " ",
+        src: `../../../images/character/icon/${this.props.name}.png`
+      })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "pickup-name-container"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+        className: this.props.rare
+      }, this.props.name)));
+    } else {
+      return null;
+    }
+  }
+
+}
+
+class PickupInfoContent extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+  render() {
+    if (this.props.data.length !== 0) {
+      const list = this.props.data.map(x => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(PickupContainer, {
+        key: x,
+        name: x,
+        rare: this.props.rare
+      }));
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "pickup-showcard"
       }, list);
     } else {
       return null;
@@ -7945,166 +7471,69 @@ class SideBarMenuDropdown extends react__WEBPACK_IMPORTED_MODULE_0___default.a.C
 
 }
 
-class SideBarMenu extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
-  constructor(props) {
-    super(props);
+class PickupInfoContainer extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+  render() {
+    if (this.props.data.length !== 0) {
+      let list = [];
 
-    _defineProperty(this, "checkPool", () => {
-      console.log(`in checkPool ${this.props.data.name}`);
-      console.log(`   poolType:${this.props.poolType} \n   dataType:${this.props.data.type}`);
-
-      if (this.props.poolType === this.props.data.type) {
-        this.setState({
-          display: true
-        });
+      for (let i = 0; i < this.props.data.length; i += 2) {
+        list.push( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(PickupInfoContent, {
+          key: i / 2,
+          data: this.props.data[i + 1] !== undefined ? [this.props.data[i], this.props.data[i + 1]] : [this.props.data[i]],
+          rare: this.props.rare
+        }));
       }
-    });
 
-    _defineProperty(this, "showMenu", () => {
-      this.setState({
-        display: !this.state.display
-      });
-    });
-
-    this.state = {
-      display: false,
-      status: "hide"
-    };
-  }
-
-  componentDidUpdate(prevProps, prevState, snapshot) {
-    if (prevProps.poolType !== this.props.poolType) {
-      this.checkPool();
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "pickup-box"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+        className: this.props.rare
+      }, this.props.star), list, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "(\u5360", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: this.props.rare
+      }, this.props.rare, "\u2605"), "\u51FA\u7387\u7684 ", this.props.rate, "%)")));
+    } else {
+      return null;
     }
-  }
-
-  render() {
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "sidebar-menu"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "sidebar-menu-title"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "menu-icon-container"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: `menu-icon${this.state.display ? "-show" : "-hide"}`,
-      onClick: () => this.showMenu()
-    }, " ")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "menu-text-container"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, this.props.data.name))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SideBarMenuDropdown, {
-      data: this.props.data,
-      display: this.state.display,
-      showMenu: this.showMenu,
-      poolName: this.props.poolName
-    }));
-  }
-
-}
-
-class SideBar extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
-  render() {
-    const list = this.props.data.map(x => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SideBarMenu, {
-      key: x.key,
-      data: x,
-      poolType: this.props.poolType,
-      poolName: this.props.poolName
-    }));
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "sidebar-pick"
-    }, list);
-  }
-
-}
-
-class PoolImg extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
-  render() {
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "pool-img"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-      alt: "",
-      src: `../../../images/pools/${this.props.poolType}/${this.props.poolName.replace(/ /, "_")}.jpg`
-    }));
   }
 
 }
 
 class PickUpInfo extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      star: {
+        six: "★★★★★★",
+        five: "★★★★★",
+        four: "★★★★",
+        three: "★★★",
+        two: "★★",
+        one: "★"
+      }
+    };
+  }
+
   render() {
-    let pickupBoxSix, pickupBoxFive, pickupBoxFour;
-
-    if (this.props.info.pickup.six.length !== 0) {
-      const sixList = this.props.info.pickup.six.map(x => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        key: x
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        className: "img",
-        alt: " ",
-        src: `../../../images/character/icon/${x}.png`
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-        className: "6"
-      }, x)));
-      pickupBoxSix = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "pickup-box"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-        className: "6"
-      }, "\u2605\u2605\u2605\u2605\u2605\u2605"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "pickup-showcard"
-      }, sixList), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "(\u5360", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-        className: "6"
-      }, "6\u2605"), "\u51FA\u7387\u7684 ", this.props.info.pickup.type === "limit" ? 75 : 50, "%)"));
-    } else {
-      pickupBoxSix = null;
-    }
-
-    if (this.props.info.pickup.five.length !== 0) {
-      const fiveList = this.props.info.pickup.five.map(x => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        key: x
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        className: "img",
-        alt: " ",
-        src: `../../../images/character/icon/${x}.png`
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-        className: "5"
-      }, x)));
-      pickupBoxFive = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "pickup-box"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-        className: "5"
-      }, "\u2605\u2605\u2605\u2605\u2605"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "pickup-showcard"
-      }, fiveList), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "(\u5360", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-        className: "5"
-      }, "5\u2605"), "\u51FA\u7387\u768450%)"));
-    } else {
-      pickupBoxFive = null;
-    }
-
-    if (this.props.info.pickup.four.length !== 0) {
-      const fourList = this.props.info.pickup.four.map(x => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        key: x
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        className: "img",
-        alt: " ",
-        src: `../../../images/character/icon/${x}.png`
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-        className: "4"
-      }, x)));
-      pickupBoxFour = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "pickup-box"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-        className: "4"
-      }, "\u2605\u2605\u2605\u2605"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "pickup-showcard"
-      }, fourList), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "(\u5360", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-        className: "4"
-      }, "4\u2605"), "\u51FA\u7387\u768420%)"));
-    } else {
-      pickupBoxFour = null;
-    }
-
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: "pickup-info"
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
       className: "pickup-description"
-    }, "\u3010", this.props.poolName, "\u3011\u5BFB\u8BBF\u4E2D\u4EE5\u4E0B\u5E72\u5458\u83B7\u5F97\u6982\u7387\u63D0\u5347"), pickupBoxSix, pickupBoxFive, pickupBoxFour);
+    }, "\u3010", this.props.poolName, "\u3011\u5BFB\u8BBF\u4E2D\u4EE5\u4E0B\u5E72\u5458\u83B7\u5F97\u6982\u7387\u63D0\u5347"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(PickupInfoContainer, {
+      data: this.props.data.six,
+      star: this.state.star.six,
+      rare: "6",
+      rate: this.props.data.type === "limit" ? 75 : 50
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(PickupInfoContainer, {
+      data: this.props.data.five,
+      star: this.state.star.five,
+      rare: "5",
+      rate: "50"
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(PickupInfoContainer, {
+      data: this.props.data.four,
+      star: this.state.star.four,
+      rare: "4",
+      rate: "20"
+    }));
   }
 
 }
@@ -8119,8 +7548,7 @@ class PickTitle extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
     }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(PickUpInfo, {
       poolName: this.props.poolName,
       poolType: this.props.poolType,
-      info: this.props.info,
-      getPickup: this.props.getPickup
+      data: this.props.info.pickup
     }));
   }
 
@@ -8159,7 +7587,7 @@ class PickInfo extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
     } else {
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "pick-info"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u62BD\u53D6\u6B21\u6570:", this.props.info.pickNum), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u6CA1\u6709\u62BD\u52306\u2605\u7684\u6B21\u6570: ", this.props.info.g), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u62BD\u52306\u2605\u7684\u6982\u7387:  ", `${Object(_tools_gp__WEBPACK_IMPORTED_MODULE_5__["default"])(Number(this.props.info.g)) + 2} %`), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u82B1\u8D39\u7684\u5408\u6210\u7389: ", this.props.info.coin), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u82B1\u8D39\u7684\u81F3\u7EAF\u6E90\u77F3: ", Math.round(this.props.info.coin / 180))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u62BD\u53D6\u6B21\u6570:", this.props.info.pickNum), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u6CA1\u6709\u62BD\u52306\u2605\u7684\u6B21\u6570: ", this.props.info.g), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u62BD\u52306\u2605\u7684\u6982\u7387:  ", `${Object(_tools_gp__WEBPACK_IMPORTED_MODULE_6__["default"])(Number(this.props.info.g)) + 2} %`), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u82B1\u8D39\u7684\u5408\u6210\u7389: ", this.props.info.coin), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u82B1\u8D39\u7684\u81F3\u7EAF\u6E90\u77F3: ", Math.round(this.props.info.coin / 180))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "pick-info"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u62BD\u5230", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
         className: "6"
@@ -8188,7 +7616,7 @@ class PickMenu extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
 
 }
 
-class PickOne_Case extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+class PickOneCase extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
   render() {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: "case",
@@ -8214,7 +7642,7 @@ class PickOne_Case extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Componen
 
 }
 
-class PickTen_Case extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+class PickTenCase extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
   render() {
     const list = this.props.data.map(x => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: "case",
@@ -8249,13 +7677,13 @@ class PickTen_Case extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Componen
 class Case extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
   render() {
     if (this.props.method === "pickOne") {
-      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(PickOne_Case, {
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(PickOneCase, {
         data: this.props.data
       });
     }
 
     if (this.props.method === "pickTen") {
-      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(PickTen_Case, {
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(PickTenCase, {
         data: this.props.data
       });
     }
@@ -8306,7 +7734,7 @@ class CalcWaiter extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component 
         onWheel: e => e.preventDefault()
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "bkg-blur"
-      }, " "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_icons_calcIcon_jsx__WEBPACK_IMPORTED_MODULE_3__["default"], {
+      }, " "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_icons_calcIcon_jsx__WEBPACK_IMPORTED_MODULE_4__["default"], {
         className: "calc-icon-container"
       }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
         className: "calc-description"
@@ -8380,12 +7808,11 @@ class RecordContainer extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Compo
 class Pick extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
   render() {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "pick"
+      className: `pick ${this.props.theme}`
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(PickTitle, {
       poolName: this.props.poolName,
       poolType: this.props.poolType,
-      info: this.props.info,
-      getPickup: this.props.getPickup
+      info: this.props.info
     }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(PickMenu, {
       poolName: this.props.poolName,
       poolType: this.props.poolType,
@@ -8405,18 +7832,20 @@ class Pick extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
 class Main extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
   render() {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "main-pick"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SideBar, {
+      className: `main-pick ${this.props.theme}`
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_SideBarPick_jsx__WEBPACK_IMPORTED_MODULE_3__["default"], {
       data: this.props.info.sidebar,
       poolType: this.props.info.poolType,
-      poolName: this.props.poolName
+      poolName: this.props.poolName,
+      theme: this.props.theme
     }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: "blank"
     }, " "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Pick, {
       poolName: this.props.poolName,
       poolType: this.props.poolType,
       info: this.props.info,
-      getPickup: this.props.getPickup
+      getPickup: this.props.getPickup,
+      theme: this.props.theme
     }));
   }
 
@@ -8429,7 +7858,8 @@ class Pickcard extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
     _defineProperty(this, "getPickup", () => {
       const data = {
         params: {
-          type: "getPickup",
+          type: "search",
+          method: "getPickup",
           poolName: this.props.poolName
         }
       };
@@ -8441,9 +7871,65 @@ class Pickcard extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       });
     });
 
-    _defineProperty(this, "getPoolType", () => {
+    _defineProperty(this, "getPoolInfo", () => {
+      const str = window.location.href;
+      const poolType = str.split("//")[1].split("/")[1];
+      const poolCode = str.split("//")[1].split("/")[2];
       this.setState({
-        poolType: window.location.href.split("//")[1].split("/")[1]
+        poolType,
+        poolCode
+      });
+    });
+
+    _defineProperty(this, "handlePoolList", () => {
+      const arrSidebar = this.state.sidebar;
+
+      if (Array.isArray(arrSidebar)) {
+        arrSidebar.forEach(x => {
+          if (Array.isArray(x.contents)) {
+            x.contents.forEach((y, j, arrY) => {
+              if (y.url.split("/")[2] === this.state.poolCode) {
+                arrY.splice(j, 1);
+                arrY.unshift(y);
+                this.setState({
+                  handlePoolList: true
+                });
+              }
+            });
+          }
+        });
+      }
+    });
+
+    _defineProperty(this, "getPoolList", () => {
+      const data = {
+        params: {
+          type: "search",
+          method: "getPoolList",
+          poolType: "all"
+        }
+      };
+      axios__WEBPACK_IMPORTED_MODULE_1___default.a.get("/getPoolList", data).then(res => {
+        console.log(res.data);
+        const tmp = [{
+          key: "event",
+          name: "活动寻访",
+          type: "eventPool",
+          contents: res.data.event.reverse()
+        }, {
+          key: "limit",
+          name: "限定寻访",
+          type: "limitPool",
+          contents: res.data.limit.reverse()
+        }, {
+          key: "regular",
+          name: "常驻标准寻访",
+          type: "regularPool",
+          contents: res.data.regular.reverse()
+        }];
+        this.setState({
+          sidebar: tmp
+        });
       });
     });
 
@@ -8753,42 +8239,8 @@ class Pickcard extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
     });
 
     this.state = {
-      sidebar: [{
-        key: 0,
-        name: "活动寻访",
-        type: "eventPool",
-        contents: [{
-          key: 0,
-          name: "燃钢之心 暴躁铁皮",
-          url: "/eventPool/heart_of_steel_the_rage_ironhide"
-        }, {
-          key: 1,
-          name: "不羁逆流",
-          url: "/eventPool/unbound_reflux"
-        }, {
-          key: 2,
-          name: "流沙涡旋",
-          url: "/eventPool/spiral_sinking"
-        }]
-      }, {
-        key: 1,
-        name: "限定寻访",
-        type: "limitPool",
-        contents: [{
-          key: 0,
-          name: "地生五金",
-          url: "/limitPool/earthborn_metals"
-        }]
-      }, {
-        key: 2,
-        name: "常驻标准寻访",
-        type: "regularPool",
-        contents: [{
-          key: 0,
-          name: "常驻寻访第35期",
-          url: "/regularPool/35"
-        }]
-      }],
+      handlePoolList: false,
+      sidebar: [],
       buttons: [{
         key: 0,
         name: "寻访一次",
@@ -8807,12 +8259,13 @@ class Pickcard extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
         func: this.calc
       }],
       pickup: {
-        type: {},
         six: [],
         five: [],
-        four: []
+        four: [],
+        type: ""
       },
       poolType: "",
+      poolCode: "",
       coin: 0,
       //合成玉
       coinUrl: "../../../images/materials/coin.png",
@@ -8843,8 +8296,9 @@ class Pickcard extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
   }
 
   componentDidMount() {
-    this.getPoolType();
+    this.getPoolInfo();
     this.getPickup();
+    this.getPoolList();
   }
 
   componentDidUpdate(prevProps, prevState, snapshot) {
@@ -8852,6 +8306,12 @@ class Pickcard extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       this.setState({
         runningCalc: false
       });
+    }
+
+    if (this.state.poolCode !== "" && this.state.sidebar.length !== 0) {
+      if (this.state.handlePoolList !== true) {
+        this.handlePoolList();
+      }
     }
   }
 
@@ -8868,6 +8328,7 @@ class Pickcard extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       poolName: this.props.poolName,
       poolType: this.props.poolType,
       info: this.state,
+      theme: this.props.theme,
       pickOne: this.pickOne,
       pickTen: this.pickTen,
       calc: this.calc,
@@ -8878,6 +8339,113 @@ class Pickcard extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (Pickcard);
+
+/***/ }),
+
+/***/ "./src/scripts/pages/showPool.jsx":
+/*!****************************************!*\
+  !*** ./src/scripts/pages/showPool.jsx ***!
+  \****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! axios */ "axios");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _components_basic_jsx__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/basic.jsx */ "./src/scripts/components/basic.jsx");
+/* harmony import */ var _sass_pages_pools_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../sass/pages/pools.scss */ "./src/sass/pages/pools.scss");
+/* harmony import */ var _sass_pages_pools_scss__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_sass_pages_pools_scss__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _components_Template_jsx__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/Template.jsx */ "./src/scripts/components/Template.jsx");
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+
+
+
+
+
+
+class ShowPool extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+  constructor(props) {
+    super(props);
+
+    _defineProperty(this, "checkLanguage", () => {
+      if (this.props.language === "zh-cn") {
+        return this.state.zh_cn;
+      } else if (this.props.language === "ja-jp") {
+        return this.state.ja_jp;
+      } else if (this.props.language === "en-us") {
+        return this.state.en_us;
+      } else {
+        return this.state.zh_cn;
+      }
+    });
+
+    _defineProperty(this, "getPoolList", () => {
+      const data = {
+        params: {
+          type: "search",
+          method: "getPoolList",
+          poolType: this.props.poolType
+        }
+      };
+      axios__WEBPACK_IMPORTED_MODULE_1___default.a.get("/getPoolList", data).then(res => {
+        console.log(res.data);
+        let arr = [];
+        res.data.forEach(x => {
+          arr.unshift({
+            key: x.type + x.code,
+            tag: "pool",
+            name: `${x.name} [ ${x.date} ] `,
+            data: [{
+              key: 0,
+              href: x.url,
+              img: `../images/pools/${this.props.poolType}/${x.name}.jpg`
+            }]
+          });
+        });
+        this.setState({
+          zh_cn: {
+            contents: arr
+          }
+        });
+      });
+    });
+
+    this.state = {
+      zh_cn: {},
+      ja_jp: {},
+      en_us: {}
+    };
+  }
+
+  componentDidMount() {
+    this.getPoolList();
+  }
+
+  render() {
+    let language = this.checkLanguage();
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Template_jsx__WEBPACK_IMPORTED_MODULE_4__["default"], {
+      language: this.props.language,
+      theme: this.props.theme,
+      toDarkTheme: this.props.toDarkTheme,
+      toLightTheme: this.props.toLightTheme,
+      toZH_CN: this.props.toZH_CN,
+      toEN_US: this.props.toEN_US,
+      toJA_JP: this.props.toJA_JP
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: `main-container ${this.props.theme}`
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_basic_jsx__WEBPACK_IMPORTED_MODULE_2__["MainContents"], {
+      contents: language.contents,
+      theme: this.props.theme
+    })));
+  }
+
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (ShowPool);
 
 /***/ }),
 
@@ -8929,10 +8497,13 @@ class TemplatePage extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Componen
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _sass_pages_test_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../sass/pages/test.scss */ "./src/sass/pages/test.scss");
-/* harmony import */ var _sass_pages_test_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_sass_pages_test_scss__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _components_icons_loadingIcon_jsx__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/icons/loadingIcon.jsx */ "./src/scripts/components/icons/loadingIcon.jsx");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! axios */ "axios");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _sass_pages_test_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../sass/pages/test.scss */ "./src/sass/pages/test.scss");
+/* harmony import */ var _sass_pages_test_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_sass_pages_test_scss__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _components_icons_loadingIcon_jsx__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/icons/loadingIcon.jsx */ "./src/scripts/components/icons/loadingIcon.jsx");
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
 
 
 
@@ -8966,6 +8537,22 @@ class Icon extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
 }
 
 class Test extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+  constructor(...args) {
+    super(...args);
+
+    _defineProperty(this, "try", () => {
+      const data = {
+        params: {
+          type: "search",
+          method: "findAll"
+        }
+      };
+      axios__WEBPACK_IMPORTED_MODULE_1___default.a.get("/findAll", data).then(res => {
+        console.log(res.data);
+      });
+    });
+  }
+
   render() {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Icon, {
       num: "1",
@@ -8973,11 +8560,13 @@ class Test extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
     }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Icon, {
       num: "2",
       cubeNum: "4"
-    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_icons_loadingIcon_jsx__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_icons_loadingIcon_jsx__WEBPACK_IMPORTED_MODULE_3__["default"], {
       className: "loading-icon"
     }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: "plus-icon"
-    }));
+    }, " "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+      onClick: () => this.try()
+    }, "click!"));
   }
 
 }

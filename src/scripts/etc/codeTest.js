@@ -1,3 +1,7 @@
-let arr = Array(4);
 
-console.log(arr);
+const arr = [`a`,`b`,`c`];
+
+
+arr.forEach((v, i, arr) => {
+    console.log(v,i,arr);
+})
