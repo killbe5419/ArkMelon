@@ -1,0 +1,194 @@
+{
+  "FileNo": "AA01",
+  "Codename": {
+    "cn": "斯卡蒂",
+    "en": "Skadi",
+    "jp": "スカジ"
+  },
+  "Class": {
+    "cn": "近卫",
+    "en": "GUARD"
+  },
+  "Rare": 6,
+  "Status": {
+    "basic": {
+      "E0":{
+        "min": {
+          "HP": 1442,
+          "ATK":415,
+          "DEF":116
+        },
+        "max": {
+          "HP":2060,
+          "ATK":611,
+          "DEF":167
+        }
+      },
+      "E1":{
+        "max": {
+          "HP":2785,
+          "ATK":774,
+          "DEF":220
+
+        }
+      },
+      "E2":{
+        "max": {
+          "HP":3665,
+          "ATK":933,
+          "DEF":263
+
+        }
+      },
+      "RES": 0,
+      "RDPC": 70,
+      "COST": 17,
+      "BLK": 1,
+      "ASPD": 1.5
+    },
+    "talents": {
+      "1": {
+        "name": "深海掠食者",
+        "descriptions": {
+          "E1P0": "编入队伍时，所有【深海猎人】干员的攻击力+7%",
+          "E1P5": "编入队伍时，所有【深海猎人】干员的攻击力+9%",
+          "E2P0": "编入队伍时，所有【深海猎人】干员的攻击力+14%",
+          "E2P5": "编入队伍时，所有【深海猎人】干员的攻击力+16%"
+        }
+      },
+      "2": {
+        "name": "迅捷出击",
+        "descriptions": {
+          "E2": "自身再部署时间-10秒"
+        }
+      }
+    },
+    "potentials": {
+      "0":"no effect",
+      "1":"COST-1",
+      "2":"RDPC-4",
+      "3":"ATK+33",
+      "4":"Talent1 Effect up",
+      "5":"COST-1"
+    }
+  },
+  "Gender": "F",
+  "Label": "深海猎人",
+  "Height": 166,
+  "Birthday": "03-07",
+  "Birthplace": "阿戈尔",
+  "Team": "深海猎人",
+  "Infected": false,
+  "Race": "非公开",
+  "Implementation": {
+    "event": {
+      "cn":"骑兵与猎人",
+      "en":"Grani And The Treasure of Knights"
+    },
+    "type": "sidestory",
+    "date": "2009-05-30~2009-06-13"
+  },
+  "Skills": {
+    "combat":{
+      "Skill_1": {
+        "name": "迅捷打击·γ型",
+        "Level": {
+          "1": {
+            "description":"攻击力+20%，攻击速度+20",
+            "start":0,
+            "spend": 45,
+            "sustain": 35
+          },
+          "2": {
+            "description":"攻击力+22%，攻击速度+20",
+            "start":0,
+            "spend": 44,
+            "sustain": 35
+          },
+          "3": {
+            "description":"攻击力+24%，攻击速度+20",
+            "start":0,
+            "spend": 43,
+            "sustain": 35
+          },
+          "4": {
+            "description":"攻击力+27%，攻击速度+25",
+            "start":5,
+            "spend": 42,
+            "sustain": 35
+          },
+          "5": {
+            "description":"攻击力+29%，攻击速度+25",
+            "start":5,
+            "spend": 41,
+            "sustain": 35
+          },
+          "6": {
+            "description":"攻击力+31%，攻击速度+25",
+            "start":5,
+            "spend": 40,
+            "sustain": 35
+          },
+          "7": {
+            "description":"攻击力+34%，攻击速度+35",
+            "start":10,
+            "spend": 39,
+            "sustain": 35
+          },
+          "8": {
+            "description":"攻击力+37%，攻击速度+35",
+            "start":10,
+            "spend": 38,
+            "sustain": 35
+          },
+          "9": {
+            "description":"攻击力+40%，攻击速度+35",
+            "start":10,
+            "spend": 37,
+            "sustain": 35
+          },
+          "10": {
+            "description":"攻击力+45%，攻击速度+45",
+            "start":15,
+            "spend": 35,
+            "sustain": 35
+          }
+        }
+      },
+      "Skill_2": {
+        "name": "越浪击",
+        "description": ""
+      },
+      "Skill_3": {
+        "name": "涌潮悲歌",
+        "description": ""
+      }
+    },
+    "base": {
+      "Skill_1": {
+        "name": "独处",
+        "condition": "精英0",
+        "place": "宿舍",
+        "description": "进驻宿舍时，自身心情每小时恢复+0.7"
+      },
+      "Skill_2": {
+        "name": "悲歌",
+        "condition": "精英2",
+        "place": "宿舍",
+        "description": "进驻宿舍时，自身心情每小时恢复+1"
+      }
+    }
+  },
+  "Tags": ["输出","生存","近战位"],
+  "Illustrator": "alchemaniac",
+  "CV": "佐藤利奈",
+  "ImgData": {
+    "icon": "",
+    "avatar": "",
+    "illust": {
+      "E0": "",
+      "E1": "",
+      "E2": ""
+    }
+  }
+}
