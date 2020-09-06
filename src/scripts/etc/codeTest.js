@@ -1,7 +1,11 @@
+const a = {
+    a: 1,
+    b: 2,
+    c: 3
+}
 
-const arr = [`a`,`b`,`c`];
+const b =  new Object(a);
+delete b.a;
 
-
-arr.forEach((v, i, arr) => {
-    console.log(v,i,arr);
-})
+const str = "eventPool";
+console.log(str.split("Pool")[0]);

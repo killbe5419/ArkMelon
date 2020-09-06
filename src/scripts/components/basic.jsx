@@ -4,7 +4,7 @@ class ImgA extends React.Component {
     render() {
         const span = this.props.input.name ? (<span>{ this.props.input.name }</span>) : null;
         return (
-            <a className={ this.props.className } href={ this.props.input.href } >
+            <a className={ this.props.className } target="_blank" href={ this.props.input.href } >
                 <img alt={ this.props.tag + this.props.input.key } src={ this.props.input.img } />
                 { span }
             </a>

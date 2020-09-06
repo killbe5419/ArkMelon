@@ -23,13 +23,28 @@ class Index extends React.Component {
                         data: [
                             {
                                 key: 0,
-                                href: "/",
-                                img: "../images/index/zh-cn/event1.jpg"
+                                href: "https://ak.hypergryph.com/news/2020087452.html",
+                                img: "../images/index/zh-cn/event0.jpg"
                             },
                             {
                                 key: 1,
-                                href: "/",
+                                href: "https://ak.hypergryph.com/news/2020087452.html",
+                                img: "../images/index/zh-cn/event1.jpg"
+                            },
+                            {
+                                key: 2,
+                                href: "https://ak.hypergryph.com/news/2020087452.html",
                                 img: "../images/index/zh-cn/event2.jpg"
+                            },
+                            {
+                                key: 3,
+                                href: "https://ak.hypergryph.com/news/2020087452.html",
+                                img: "../images/index/zh-cn/event3.jpg"
+                            },
+                            {
+                                key: 4,
+                                href: "https://ak.hypergryph.com/news/2020087452.html",
+                                img: "../images/index/zh-cn/event4.jpg"
                             },
                         ],
                     },
@@ -40,8 +55,8 @@ class Index extends React.Component {
                         data:[
                             {
                                 key: 0,
-                                href: "/",
-                                img: "../images/index/zh-cn/pool1.jpg"
+                                href: "https://ak.hypergryph.com/news/2020087452.html",
+                                img: "../images/index/zh-cn/pool0.jpg"
                             },
                         ],
                     },
@@ -52,8 +67,8 @@ class Index extends React.Component {
                         data: [
                             {
                                 key: 0,
-                                href: "/",
-                                img: "../images/index/zh-cn/operator1.jpg"
+                                href: "https://ak.hypergryph.com/news/2020087452.html",
+                                img: "../images/index/zh-cn/operator0.png"
                             },
                         ],
                     },
@@ -64,8 +79,23 @@ class Index extends React.Component {
                         data: [
                             {
                                 key: 0,
-                                href: "/",
+                                href: "https://ak.hypergryph.com/news/2020087452.html",
+                                img: "../images/index/zh-cn/cloth0.jpg"
+                            },
+                            {
+                                key: 1,
+                                href: "https://ak.hypergryph.com/news/2020087452.html",
                                 img: "../images/index/zh-cn/cloth1.jpg"
+                            },
+                            {
+                                key: 2,
+                                href: "https://ak.hypergryph.com/news/2020087452.html",
+                                img: "../images/index/zh-cn/cloth2.jpg"
+                            },
+                            {
+                                key: 3,
+                                href: "https://ak.hypergryph.com/news/2020087452.html",
+                                img: "../images/index/zh-cn/cloth3.jpg"
                             },
                         ],
                     },
@@ -76,20 +106,8 @@ class Index extends React.Component {
                         data: [
                             {
                                 key: 0,
-                                href: "/",
-                                img: "../images/index/zh-cn/theme1.jpg"
-                            },
-                        ],
-                    },
-                    {
-                        key: 5,
-                        tag: "stage",
-                        name: "新增关卡",
-                        data:[
-                            {
-                                key: 0,
-                                href: "/",
-                                img: "../images/index/zh-cn/stage1.jpg"
+                                href: "https://ak.hypergryph.com/news/2020087452.html",
+                                img: "../images/index/zh-cn/theme0.jpg"
                             },
                         ],
                     },

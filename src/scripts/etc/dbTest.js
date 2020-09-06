@@ -3,7 +3,7 @@ const csvtojson = require("csvtojson");
 const path = require("path");
 const MongoClient = require("mongodb");
 
-const dirPath = "../../../data/csv/pools_csv/eventPools";
+const dirPath = "../../../data/csv/pools_csv/regularPools";
 const mongoUrl = "mongodb://localhost:27017/";
 const mongoOptions = { useUnifiedTopology: true };
 const dbName = "Arknights_pools(zh-cn)";
@@ -48,7 +48,7 @@ function insertToDb (data) {
                             if(err) reject(err);
                             resolve(res.insertedCount);
                             client.close();
-                        })
+                        }).catch()
                 } else {
                     client.close();
                 }
@@ -71,8 +71,7 @@ async function f( dirPath ) {
     for await (const x of unit) {
         await dataProcess(x.arr);
     }
-    const insert = await mongoInsert(unit);
-    return insert;
+    return await mongoInsert(unit);
 }
 
 f(dirPath).then(console.log).catch(console.error);

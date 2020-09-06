@@ -378,16 +378,18 @@ class Main extends React.Component {
             <div className={`main-pick ${ this.props.theme }`}>
                 <SideBarPick
                     data={ this.props.info.sidebar }
-                    poolType={ this.props.info.poolType }
+                    poolType={ this.props.poolType }
                     poolName={ this.props.poolName }
+                    poolCode={ this.props.poolCode }
+                    poolList={ this.props.poolList }
                     theme={ this.props.theme }
                 />
                 <div className="blank"> </div>
                 <Pick
                     poolName={ this.props.poolName }
                     poolType={ this.props.poolType }
+                    poolCode={ this.props.poolCode }
                     info={ this.props.info }
-                    getPickup={ this.props.getPickup }
                     theme={ this.props.theme }
                 />
             </div>
@@ -424,8 +426,6 @@ class Pickcard extends React.Component {
                 }
             ],
             pickup: {six:[], five:[], four:[], type:""},
-            poolType: "",
-            poolCode: "",
             coin: 0, //合成玉
             coinUrl: "../../../images/materials/coin.png",
             coinAlt: "orundum",
@@ -443,9 +443,7 @@ class Pickcard extends React.Component {
     }
 
     componentDidMount() {
-        this.getPoolInfo();
         this.getPickup();
-        this.getPoolList();
     }
 
     componentDidUpdate(prevProps,prevState,snapshot) {
@@ -453,11 +451,6 @@ class Pickcard extends React.Component {
             this.setState({
                 runningCalc: false
             })
-        }
-        if(this.state.poolCode !== "" && this.state.sidebar.length !== 0) {
-            if(this.state.handlePoolList !== true) {
-                this.handlePoolList();
-            }
         }
     }
 
@@ -474,73 +467,6 @@ class Pickcard extends React.Component {
                 console.log(res.data);
                 this.setState({
                     pickup: res.data
-                })
-            })
-    }
-
-    getPoolInfo = () => {
-        const str = window.location.href;
-        const poolType = str.split("//")[1].split("/")[1];
-        const poolCode = str.split("//")[1].split("/")[2];
-        this.setState({
-            poolType,
-            poolCode
-        })
-    }
-
-
-    handlePoolList = () => {
-        const arrSidebar = this.state.sidebar;
-        if(Array.isArray(arrSidebar)) {
-            arrSidebar.forEach( x => {
-                if(Array.isArray(x.contents)) {
-                    x.contents.forEach( (y, j, arrY) => {
-                        if(y.url.split("/")[2] === this.state.poolCode) {
-                            arrY.splice(j,1);
-                            arrY.unshift(y);
-                            this.setState({
-                                handlePoolList: true
-                            })
-                        }
-                    })
-                }
-            })
-        }
-    }
-
-    getPoolList = () => {
-        const data = {
-            params: {
-                type: "search",
-                method: "getPoolList",
-                poolType: "all"
-            }
-        }
-        axios.get("/getPoolList",data)
-            .then(res => {
-                console.log(res.data);
-                const tmp = [
-                    {
-                        key: "event",
-                        name: "活动寻访",
-                        type: "eventPool",
-                        contents: res.data.event.reverse()
-                    },
-                    {
-                        key: "limit",
-                        name: "限定寻访",
-                        type: "limitPool",
-                        contents: res.data.limit.reverse()
-                    },
-                    {
-                        key: "regular",
-                        name: "常驻标准寻访",
-                        type: "regularPool",
-                        contents: res.data.regular.reverse()
-                    }
-                ];
-                this.setState({
-                    sidebar: tmp
                 })
             })
     }
@@ -848,12 +774,13 @@ class Pickcard extends React.Component {
                <Main
                    poolName={ this.props.poolName }
                    poolType={ this.props.poolType }
+                   poolCode={ this.props.poolCode }
+                   poolList={ this.props.poolList }
                    info={ this.state }
                    theme={ this.props.theme }
                    pickOne={ this.pickOne }
                    pickTen={ this.pickTen }
                    calc={ this.calc }
-                   getPickup={ this.getPickup }
                />
             </Template>
         );

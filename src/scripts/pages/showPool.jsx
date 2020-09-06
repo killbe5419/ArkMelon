@@ -1,5 +1,4 @@
 import React from "react";
-import axios from "axios";
 import { MainContents } from "../components/basic.jsx";
 import "../../sass/pages/pools.scss";
 import Template from "../components/Template.jsx";
@@ -14,8 +13,10 @@ class ShowPool extends React.Component {
         }
     }
 
-    componentDidMount() {
-        this.getPoolList();
+    componentDidUpdate(prevProps, prevState, snapshot) {
+        if(this.props.poolList !== prevProps.poolList) {
+            this.handlePoolList();
+        }
     }
 
     checkLanguage = () => {
@@ -32,43 +33,32 @@ class ShowPool extends React.Component {
         }
     }
 
-    getPoolList = () => {
-        const data = {
-            params: {
-                type: "search",
-                method: "getPoolList",
-                poolType: this.props.poolType
-            }
-        };
-        axios.get("/getPoolList", data)
-            .then(res => {
-                console.log(res.data);
-                let arr = [];
-                res.data.forEach( x => {
-                    arr.unshift({
-                        key: x.type + x.code,
-                        tag: "pool",
-                        name: `${x.name} [ ${x.date} ] `,
-                        data: [
-                            {
-                                key: 0,
-                                href: x.url,
-                                img: `../images/pools/${ this.props.poolType }/${ x.name }.jpg`
-                            }
-                        ],
-                    })
-                })
-                this.setState({
-                    zh_cn:{
-                        contents: arr
+    handlePoolList = () => {
+        const poolList = this.props.poolList[this.props.poolType.split("Pool")[0]].reverse();
+        let arr = [];
+        poolList.forEach( x => {
+            arr.push({
+                key: x.type + x.code,
+                tag: "pool",
+                name: `${x.name} [ ${x.date} ] `,
+                data: [
+                    {
+                        key: 0,
+                        href: x.url,
+                        img: `../images/pools/${ this.props.poolType }/${ x.name }.jpg`
                     }
-                })
+                ],
             })
+        })
+        this.setState({
+            zh_cn:{
+                contents: arr
+            }
+        })
     }
 
     render() {
         let language = this.checkLanguage();
-
         return (
             <Template
                 language={ this.props.language }

@@ -4,8 +4,8 @@ import "../../sass/modules/sidebarPick.scss";
 class SideBarMenuDropdown extends React.Component {
     render() {
         if(this.props.display) {
-            const list = this.props.data.contents.map( x =>
-                <a className={ x.name === this.props.poolName ? "sidebar-target" : ""} key={ x._id } href={ x.url }>{ x.name }</a>
+            const list = this.props.data.map( x =>
+                <a className={ x.name === this.props.poolName ? "sidebar-target" : ""} key={ x.name } href={ x.url }>{ x.name }</a>
             )
             return (
                 <div className={`sidebar-menu-dropdown ${ this.props.theme }`}>
@@ -32,7 +32,8 @@ class SideBarMenu extends React.Component {
     }
 
     checkPool = () => {
-        if(this.props.poolType === this.props.data.type) {
+        console.log(this.props.poolType, this.props.type);
+        if(this.props.poolType === this.props.type) {
             this.setState({
                 display: true,
             })
@@ -56,13 +57,12 @@ class SideBarMenu extends React.Component {
                         > </div>
                     </div>
                     <div className={`menu-text-container ${ this.props.theme }`}>
-                        <p>{ this.props.data.name }</p>
+                        <p>{ this.props.title }</p>
                     </div>
                 </div>
                 <SideBarMenuDropdown
                     data={ this.props.data }
                     display={ this.state.display }
-                    showMenu={ this.showMenu }
                     poolName={ this.props.poolName }
                     theme={ this.props.theme }
                 />
@@ -72,13 +72,55 @@ class SideBarMenu extends React.Component {
 }
 
 class SideBarPick extends React.Component {
+
+    constructor(props) {
+        super(props);
+        this.state = {
+            poolList: []
+        }
+    }
+
+    componentDidMount() {
+        this.handlePoolList();
+    }
+
+    handlePoolList = () => {
+        const poolList = this.props.poolList;
+        delete poolList.update;
+        let out = [];
+
+        Object.keys(poolList).forEach( x => {
+            let title;
+            if( x === "event") title = "活动寻访";
+            else if( x === "limit") title = "限定寻访";
+            else title = "常驻标准寻访";
+            poolList[x].forEach((y,i,arr) => {
+                if(y.name === this.props.poolName) {
+                    arr.splice(i, 1);
+                    arr.push(y);
+                }
+            })
+            out.push({
+                type: `${x}Pool`,
+                title,
+                arr: poolList[x].reverse()
+            })
+        })
+        this.setState({
+            poolList: out
+        })
+    }
+
     render() {
-        const list = this.props.data.map( x =>
+        const list = this.state.poolList.map( x =>
             <SideBarMenu
-                key={x.key}
-                data={ x }
+                key={ x.type }
+                type={ x.type }
+                title={ x.title }
+                data={ x.arr }
                 poolType={ this.props.poolType }
                 poolName={ this.props.poolName }
+                poolCode={ this.props.poolCode }
                 theme={ this.props.theme }
             />
         )

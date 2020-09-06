@@ -479,9 +479,10 @@ async function getPoolList (poolType) {
                         if(err) reject(err);
                         if(poolType === "all") {
                             const tmp = {
-                                regular: [],
+                                event: [],
                                 limit: [],
-                                event: []
+                                regular: [],
+
                             };
                             result.forEach( x => {
                                 if(x.type === "eventPool") {

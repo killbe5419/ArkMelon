@@ -11,84 +11,8 @@ import checkThemeCookie from "./tools/checkThemeCookie";
 import checkLanguageCookie from "./tools/checkLanguageCookie";
 import Test from "./pages/test.jsx";
 
-
-
-class SimulationRouter extends React.Component {
-    render() {
-        return (
-            <Route path={ this.props.poolUrl } >
-                <Pickcard
-                    language = { this.props.language }
-                    theme = { this.props.theme }
-                    toDarkTheme = { this.props.toDarkTheme }
-                    toLightTheme = { this.props.toLightTheme }
-                    toZH_CN = { this.props.toZH_CN }
-                    toEN_US = { this.props.toEN_US }
-                    toJA_JP = { this.props.toJA_JP }
-                    poolType = { this.props.poolType }
-                    poolName = { this.props.poolName }
-                />
-            </Route>
-        );
-    }
-}
-
-class SimulationRouterContainer extends React.Component {
-    render() {
-        const list = this.props.data.map( x =>
-            <SimulationRouter
-                key={ x.type + x.code }
-                language = { this.props.language }
-                theme = { this.props.theme }
-                toDarkTheme = { this.props.toDarkTheme }
-                toLightTheme = { this.props.toLightTheme }
-                toZH_CN = { this.props.toZH_CN }
-                toEN_US = { this.props.toEN_US }
-                toJA_JP = { this.props.toJA_JP }
-                poolType = { x.poolType }
-                poolName = { x.poolName }
-                poolUrl = { x.url }
-            />
-        )
-        return (
-            { list }
-        );
-    }
-}
-
-class PickRouter extends React.Component {
-    render() {
-        return (
-            <div>
-                <SimulationRouterContainer
-                    language = { this.props.language }
-                    theme = { this.props.theme }
-                    toDarkTheme = { this.props.toDarkTheme }
-                    toLightTheme = { this.props.toLightTheme }
-                    toZH_CN = { this.props.toZH_CN }
-                    toEN_US = { this.props.toEN_US }
-                    toJA_JP = { this.props.toJA_JP }
-                    data={ this.props.data.event }
-                />
-                <SimulationRouterContainer
-                    language = { this.props.language }
-                    theme = { this.props.theme }
-                    toDarkTheme = { this.props.toDarkTheme }
-                    toLightTheme = { this.props.toLightTheme }
-                    toZH_CN = { this.props.toZH_CN }
-                    toEN_US = { this.props.toEN_US }
-                    toJA_JP = { this.props.toJA_JP }
-                    data={ this.props.data.limit }
-                />
-            </div>
-        );
-    }
-}
-
-
-
 class MainRouter extends React.Component {
-    makeRouter = (array) => {
+    makePickSimuRouter = (array) => {
         return array.map(x =>
             <Route path={ x.url } key={`${x.type}${x.code}`}>
                 <Pickcard
@@ -101,6 +25,26 @@ class MainRouter extends React.Component {
                     toJA_JP = { this.props.toJA_JP }
                     poolType = { x.type }
                     poolName = { x.name }
+                    poolCode = { x.url.split("/")[2] }
+                    poolList = { this.props.poolList }
+                />
+            </Route>
+        )
+    }
+
+    makePickSimuRootRouter = (array) => {
+        return array.map (x =>
+            <Route exact path={`/${ x }`} key={ x }>
+                <ShowPool
+                    language = { this.props.language }
+                    theme = { this.props.theme }
+                    toDarkTheme = { this.props.toDarkTheme }
+                    toLightTheme = { this.props.toLightTheme }
+                    toZH_CN = { this.props.toZH_CN }
+                    toEN_US = { this.props.toEN_US }
+                    toJA_JP = { this.props.toJA_JP }
+                    poolList = { this.props.poolList }
+                    poolType= { x }
                 />
             </Route>
         )
@@ -108,8 +52,10 @@ class MainRouter extends React.Component {
 
 
     render() {
-        let poolArray = this.props.pickSimu.event.concat(this.props.pickSimu.limit);
-        const list = this.makeRouter(poolArray);
+        const pickSimuPoolArray = this.props.poolList.event.concat(this.props.poolList.limit).concat(this.props.poolList.regular);
+        const pickSimuPoolList = this.makePickSimuRouter(pickSimuPoolArray);
+        const pickSimuRootArray = ["regularPool","limitPool","eventPool"];
+        const pickSimuRootList = this.makePickSimuRootRouter(pickSimuRootArray);
         return (
             <Router>
                 <Switch>
@@ -124,43 +70,8 @@ class MainRouter extends React.Component {
                             toJA_JP = { this.props.toJA_JP }
                         />
                     </Route>
-                    <Route exact path="/regularPool">
-                        <ShowPool
-                            language = { this.props.language }
-                            theme = { this.props.theme }
-                            toDarkTheme = { this.props.toDarkTheme }
-                            toLightTheme = { this.props.toLightTheme }
-                            toZH_CN = { this.props.toZH_CN }
-                            toEN_US = { this.props.toEN_US }
-                            toJA_JP = { this.props.toJA_JP }
-                            poolType="regularPool"
-                        />
-                    </Route>
-                    <Route exact path="/eventPool">
-                        <ShowPool
-                            language = { this.props.language }
-                            theme = { this.props.theme }
-                            toDarkTheme = { this.props.toDarkTheme }
-                            toLightTheme = { this.props.toLightTheme }
-                            toZH_CN = { this.props.toZH_CN }
-                            toEN_US = { this.props.toEN_US }
-                            toJA_JP = { this.props.toJA_JP }
-                            poolType="eventPool"
-                        />
-                    </Route>
-                    <Route exact path="/limitPool">
-                        <ShowPool
-                            language = { this.props.language }
-                            theme = { this.props.theme }
-                            toDarkTheme = { this.props.toDarkTheme }
-                            toLightTheme = { this.props.toLightTheme }
-                            toZH_CN = { this.props.toZH_CN }
-                            toEN_US = { this.props.toEN_US }
-                            toJA_JP = { this.props.toJA_JP }
-                            poolType="limitPool"
-                        />
-                    </Route>
-                    { list }
+                    { pickSimuRootList }
+                    { pickSimuPoolList }
                     <Route path="/test">
                         <Test />
                     </Route>
@@ -190,23 +101,23 @@ class App extends React.Component {
         this.state = {
             theme: checkThemeCookie(),
             language: checkLanguageCookie(),
-            pickSimu: {
+            poolListUpdated: false,
+            poolList: {
                 event: [],
                 limit: [],
                 regular: [],
-                update: false,
             }
         }
     }
 
     componentDidMount() {
-        if(!this.state.pickSimu.update) {
-            console.log("init");
-            this.getSimulationRouter();
-        } else {
+        if(!this.state.poolListUpdated) {
+            console.log("init...");
+            this.getPoolList();
             console.log("up to date!");
         }
     }
+
 
     toDarkTheme = () => {
         console.log("to-dark");
@@ -244,7 +155,7 @@ class App extends React.Component {
         })
     }
 
-    getSimulationRouter = () => {
+    getPoolList = () => {
         const data = {
             params: {
                 type: "search",
@@ -254,12 +165,10 @@ class App extends React.Component {
         };
         axios.get("/getPoolList",data)
             .then(res => {
-                //console.log(this.state.pickSimu);
                 res.data.update = true;
                 this.setState({
-                    pickSimu: res.data
+                    poolList: res.data
                 })
-                //console.log(this.state.pickSimu);
             })
     }
 
@@ -273,7 +182,7 @@ class App extends React.Component {
                 toZH_CN = { this.toZH_CN }
                 toEN_US = { this.toEN_US }
                 toJA_JP = { this.toJA_JP }
-                pickSimu = { this.state.pickSimu }
+                poolList = { this.state.poolList }
             />
         );
     }

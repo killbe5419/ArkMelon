@@ -5350,77 +5350,11 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 
 
 
-class SimulationRouter extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
-  render() {
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
-      path: this.props.poolUrl
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_pages_pickcard_jsx__WEBPACK_IMPORTED_MODULE_8__["default"], {
-      language: this.props.language,
-      theme: this.props.theme,
-      toDarkTheme: this.props.toDarkTheme,
-      toLightTheme: this.props.toLightTheme,
-      toZH_CN: this.props.toZH_CN,
-      toEN_US: this.props.toEN_US,
-      toJA_JP: this.props.toJA_JP,
-      poolType: this.props.poolType,
-      poolName: this.props.poolName
-    }));
-  }
-
-}
-
-class SimulationRouterContainer extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
-  render() {
-    const list = this.props.data.map(x => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SimulationRouter, {
-      key: x.type + x.code,
-      language: this.props.language,
-      theme: this.props.theme,
-      toDarkTheme: this.props.toDarkTheme,
-      toLightTheme: this.props.toLightTheme,
-      toZH_CN: this.props.toZH_CN,
-      toEN_US: this.props.toEN_US,
-      toJA_JP: this.props.toJA_JP,
-      poolType: x.poolType,
-      poolName: x.poolName,
-      poolUrl: x.url
-    }));
-    return {
-      list
-    };
-  }
-
-}
-
-class PickRouter extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
-  render() {
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SimulationRouterContainer, {
-      language: this.props.language,
-      theme: this.props.theme,
-      toDarkTheme: this.props.toDarkTheme,
-      toLightTheme: this.props.toLightTheme,
-      toZH_CN: this.props.toZH_CN,
-      toEN_US: this.props.toEN_US,
-      toJA_JP: this.props.toJA_JP,
-      data: this.props.data.event
-    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SimulationRouterContainer, {
-      language: this.props.language,
-      theme: this.props.theme,
-      toDarkTheme: this.props.toDarkTheme,
-      toLightTheme: this.props.toLightTheme,
-      toZH_CN: this.props.toZH_CN,
-      toEN_US: this.props.toEN_US,
-      toJA_JP: this.props.toJA_JP,
-      data: this.props.data.limit
-    }));
-  }
-
-}
-
 class MainRouter extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
   constructor(...args) {
     super(...args);
 
-    _defineProperty(this, "makeRouter", array => {
+    _defineProperty(this, "makePickSimuRouter", array => {
       return array.map(x => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
         path: x.url,
         key: `${x.type}${x.code}`
@@ -5433,14 +5367,36 @@ class MainRouter extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component 
         toEN_US: this.props.toEN_US,
         toJA_JP: this.props.toJA_JP,
         poolType: x.type,
-        poolName: x.name
+        poolName: x.name,
+        poolCode: x.url.split("/")[2],
+        poolList: this.props.poolList
+      })));
+    });
+
+    _defineProperty(this, "makePickSimuRootRouter", array => {
+      return array.map(x => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
+        exact: true,
+        path: `/${x}`,
+        key: x
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_pages_showPool_jsx__WEBPACK_IMPORTED_MODULE_7__["default"], {
+        language: this.props.language,
+        theme: this.props.theme,
+        toDarkTheme: this.props.toDarkTheme,
+        toLightTheme: this.props.toLightTheme,
+        toZH_CN: this.props.toZH_CN,
+        toEN_US: this.props.toEN_US,
+        toJA_JP: this.props.toJA_JP,
+        poolList: this.props.poolList,
+        poolType: x
       })));
     });
   }
 
   render() {
-    let poolArray = this.props.pickSimu.event.concat(this.props.pickSimu.limit);
-    const list = this.makeRouter(poolArray);
+    const pickSimuPoolArray = this.props.poolList.event.concat(this.props.poolList.limit).concat(this.props.poolList.regular);
+    const pickSimuPoolList = this.makePickSimuRouter(pickSimuPoolArray);
+    const pickSimuRootArray = ["regularPool", "limitPool", "eventPool"];
+    const pickSimuRootList = this.makePickSimuRootRouter(pickSimuRootArray);
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["BrowserRouter"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Switch"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
       exact: true,
       path: "/"
@@ -5452,43 +5408,7 @@ class MainRouter extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component 
       toZH_CN: this.props.toZH_CN,
       toEN_US: this.props.toEN_US,
       toJA_JP: this.props.toJA_JP
-    })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
-      exact: true,
-      path: "/regularPool"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_pages_showPool_jsx__WEBPACK_IMPORTED_MODULE_7__["default"], {
-      language: this.props.language,
-      theme: this.props.theme,
-      toDarkTheme: this.props.toDarkTheme,
-      toLightTheme: this.props.toLightTheme,
-      toZH_CN: this.props.toZH_CN,
-      toEN_US: this.props.toEN_US,
-      toJA_JP: this.props.toJA_JP,
-      poolType: "regularPool"
-    })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
-      exact: true,
-      path: "/eventPool"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_pages_showPool_jsx__WEBPACK_IMPORTED_MODULE_7__["default"], {
-      language: this.props.language,
-      theme: this.props.theme,
-      toDarkTheme: this.props.toDarkTheme,
-      toLightTheme: this.props.toLightTheme,
-      toZH_CN: this.props.toZH_CN,
-      toEN_US: this.props.toEN_US,
-      toJA_JP: this.props.toJA_JP,
-      poolType: "eventPool"
-    })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
-      exact: true,
-      path: "/limitPool"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_pages_showPool_jsx__WEBPACK_IMPORTED_MODULE_7__["default"], {
-      language: this.props.language,
-      theme: this.props.theme,
-      toDarkTheme: this.props.toDarkTheme,
-      toLightTheme: this.props.toLightTheme,
-      toZH_CN: this.props.toZH_CN,
-      toEN_US: this.props.toEN_US,
-      toJA_JP: this.props.toJA_JP,
-      poolType: "limitPool"
-    })), list, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
+    })), pickSimuRootList, pickSimuPoolList, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
       path: "/test"
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_pages_test_jsx__WEBPACK_IMPORTED_MODULE_11__["default"], null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
       path: "/*"
@@ -5551,7 +5471,7 @@ class App extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       });
     });
 
-    _defineProperty(this, "getSimulationRouter", () => {
+    _defineProperty(this, "getPoolList", () => {
       const data = {
         params: {
           type: "search",
@@ -5560,31 +5480,29 @@ class App extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
         }
       };
       axios__WEBPACK_IMPORTED_MODULE_3___default.a.get("/getPoolList", data).then(res => {
-        //console.log(this.state.pickSimu);
         res.data.update = true;
         this.setState({
-          pickSimu: res.data
-        }); //console.log(this.state.pickSimu);
+          poolList: res.data
+        });
       });
     });
 
     this.state = {
       theme: Object(_tools_checkThemeCookie__WEBPACK_IMPORTED_MODULE_9__["default"])(),
       language: Object(_tools_checkLanguageCookie__WEBPACK_IMPORTED_MODULE_10__["default"])(),
-      pickSimu: {
+      poolListUpdated: false,
+      poolList: {
         event: [],
         limit: [],
-        regular: [],
-        update: false
+        regular: []
       }
     };
   }
 
   componentDidMount() {
-    if (!this.state.pickSimu.update) {
-      console.log("init");
-      this.getSimulationRouter();
-    } else {
+    if (!this.state.poolListUpdated) {
+      console.log("init...");
+      this.getPoolList();
       console.log("up to date!");
     }
   }
@@ -5598,7 +5516,7 @@ class App extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       toZH_CN: this.toZH_CN,
       toEN_US: this.toEN_US,
       toJA_JP: this.toJA_JP,
-      pickSimu: this.state.pickSimu
+      poolList: this.state.poolList
     });
   }
 
@@ -5762,9 +5680,9 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 class SideBarMenuDropdown extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
   render() {
     if (this.props.display) {
-      const list = this.props.data.contents.map(x => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+      const list = this.props.data.map(x => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         className: x.name === this.props.poolName ? "sidebar-target" : "",
-        key: x._id,
+        key: x.name,
         href: x.url
       }, x.name));
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -5782,7 +5700,9 @@ class SideBarMenu extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component
     super(props);
 
     _defineProperty(this, "checkPool", () => {
-      if (this.props.poolType === this.props.data.type) {
+      console.log(this.props.poolType, this.props.type);
+
+      if (this.props.poolType === this.props.type) {
         this.setState({
           display: true
         });
@@ -5817,10 +5737,9 @@ class SideBarMenu extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component
       onClick: () => this.showMenu()
     }, " ")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: `menu-text-container ${this.props.theme}`
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, this.props.data.name))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SideBarMenuDropdown, {
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, this.props.title))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SideBarMenuDropdown, {
       data: this.props.data,
       display: this.state.display,
-      showMenu: this.showMenu,
       poolName: this.props.poolName,
       theme: this.props.theme
     }));
@@ -5829,12 +5748,51 @@ class SideBarMenu extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component
 }
 
 class SideBarPick extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+  constructor(props) {
+    super(props);
+
+    _defineProperty(this, "handlePoolList", () => {
+      const poolList = this.props.poolList;
+      delete poolList.update;
+      let out = [];
+      Object.keys(poolList).forEach(x => {
+        let title;
+        if (x === "event") title = "活动寻访";else if (x === "limit") title = "限定寻访";else title = "常驻标准寻访";
+        poolList[x].forEach((y, i, arr) => {
+          if (y.name === this.props.poolName) {
+            arr.splice(i, 1);
+            arr.push(y);
+          }
+        });
+        out.push({
+          type: `${x}Pool`,
+          title,
+          arr: poolList[x].reverse()
+        });
+      });
+      this.setState({
+        poolList: out
+      });
+    });
+
+    this.state = {
+      poolList: []
+    };
+  }
+
+  componentDidMount() {
+    this.handlePoolList();
+  }
+
   render() {
-    const list = this.props.data.map(x => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SideBarMenu, {
-      key: x.key,
-      data: x,
+    const list = this.state.poolList.map(x => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SideBarMenu, {
+      key: x.type,
+      type: x.type,
+      title: x.title,
+      data: x.arr,
       poolType: this.props.poolType,
       poolName: this.props.poolName,
+      poolCode: this.props.poolCode,
       theme: this.props.theme
     }));
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -6864,6 +6822,7 @@ class ImgA extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
     const span = this.props.input.name ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, this.props.input.name) : null;
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
       className: this.props.className,
+      target: "_blank",
       href: this.props.input.href
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
       alt: this.props.tag + this.props.input.key,
@@ -7164,12 +7123,24 @@ class Index extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           name: "最新活动",
           data: [{
             key: 0,
-            href: "/",
-            img: "../images/index/zh-cn/event1.jpg"
+            href: "https://ak.hypergryph.com/news/2020087452.html",
+            img: "../images/index/zh-cn/event0.jpg"
           }, {
             key: 1,
-            href: "/",
+            href: "https://ak.hypergryph.com/news/2020087452.html",
+            img: "../images/index/zh-cn/event1.jpg"
+          }, {
+            key: 2,
+            href: "https://ak.hypergryph.com/news/2020087452.html",
             img: "../images/index/zh-cn/event2.jpg"
+          }, {
+            key: 3,
+            href: "https://ak.hypergryph.com/news/2020087452.html",
+            img: "../images/index/zh-cn/event3.jpg"
+          }, {
+            key: 4,
+            href: "https://ak.hypergryph.com/news/2020087452.html",
+            img: "../images/index/zh-cn/event4.jpg"
           }]
         }, {
           key: 1,
@@ -7177,8 +7148,8 @@ class Index extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           name: "新增卡池",
           data: [{
             key: 0,
-            href: "/",
-            img: "../images/index/zh-cn/pool1.jpg"
+            href: "https://ak.hypergryph.com/news/2020087452.html",
+            img: "../images/index/zh-cn/pool0.jpg"
           }]
         }, {
           key: 2,
@@ -7186,8 +7157,8 @@ class Index extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           name: "新增干员",
           data: [{
             key: 0,
-            href: "/",
-            img: "../images/index/zh-cn/operator1.jpg"
+            href: "https://ak.hypergryph.com/news/2020087452.html",
+            img: "../images/index/zh-cn/operator0.png"
           }]
         }, {
           key: 3,
@@ -7195,8 +7166,20 @@ class Index extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           name: "新增服装",
           data: [{
             key: 0,
-            href: "/",
+            href: "https://ak.hypergryph.com/news/2020087452.html",
+            img: "../images/index/zh-cn/cloth0.jpg"
+          }, {
+            key: 1,
+            href: "https://ak.hypergryph.com/news/2020087452.html",
             img: "../images/index/zh-cn/cloth1.jpg"
+          }, {
+            key: 2,
+            href: "https://ak.hypergryph.com/news/2020087452.html",
+            img: "../images/index/zh-cn/cloth2.jpg"
+          }, {
+            key: 3,
+            href: "https://ak.hypergryph.com/news/2020087452.html",
+            img: "../images/index/zh-cn/cloth3.jpg"
           }]
         }, {
           key: 4,
@@ -7204,17 +7187,8 @@ class Index extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           name: "新增家具",
           data: [{
             key: 0,
-            href: "/",
-            img: "../images/index/zh-cn/theme1.jpg"
-          }]
-        }, {
-          key: 5,
-          tag: "stage",
-          name: "新增关卡",
-          data: [{
-            key: 0,
-            href: "/",
-            img: "../images/index/zh-cn/stage1.jpg"
+            href: "https://ak.hypergryph.com/news/2020087452.html",
+            img: "../images/index/zh-cn/theme0.jpg"
           }]
         }]
       },
@@ -7835,16 +7809,18 @@ class Main extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       className: `main-pick ${this.props.theme}`
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_SideBarPick_jsx__WEBPACK_IMPORTED_MODULE_3__["default"], {
       data: this.props.info.sidebar,
-      poolType: this.props.info.poolType,
+      poolType: this.props.poolType,
       poolName: this.props.poolName,
+      poolCode: this.props.poolCode,
+      poolList: this.props.poolList,
       theme: this.props.theme
     }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: "blank"
     }, " "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Pick, {
       poolName: this.props.poolName,
       poolType: this.props.poolType,
+      poolCode: this.props.poolCode,
       info: this.props.info,
-      getPickup: this.props.getPickup,
       theme: this.props.theme
     }));
   }
@@ -7867,68 +7843,6 @@ class Pickcard extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
         console.log(res.data);
         this.setState({
           pickup: res.data
-        });
-      });
-    });
-
-    _defineProperty(this, "getPoolInfo", () => {
-      const str = window.location.href;
-      const poolType = str.split("//")[1].split("/")[1];
-      const poolCode = str.split("//")[1].split("/")[2];
-      this.setState({
-        poolType,
-        poolCode
-      });
-    });
-
-    _defineProperty(this, "handlePoolList", () => {
-      const arrSidebar = this.state.sidebar;
-
-      if (Array.isArray(arrSidebar)) {
-        arrSidebar.forEach(x => {
-          if (Array.isArray(x.contents)) {
-            x.contents.forEach((y, j, arrY) => {
-              if (y.url.split("/")[2] === this.state.poolCode) {
-                arrY.splice(j, 1);
-                arrY.unshift(y);
-                this.setState({
-                  handlePoolList: true
-                });
-              }
-            });
-          }
-        });
-      }
-    });
-
-    _defineProperty(this, "getPoolList", () => {
-      const data = {
-        params: {
-          type: "search",
-          method: "getPoolList",
-          poolType: "all"
-        }
-      };
-      axios__WEBPACK_IMPORTED_MODULE_1___default.a.get("/getPoolList", data).then(res => {
-        console.log(res.data);
-        const tmp = [{
-          key: "event",
-          name: "活动寻访",
-          type: "eventPool",
-          contents: res.data.event.reverse()
-        }, {
-          key: "limit",
-          name: "限定寻访",
-          type: "limitPool",
-          contents: res.data.limit.reverse()
-        }, {
-          key: "regular",
-          name: "常驻标准寻访",
-          type: "regularPool",
-          contents: res.data.regular.reverse()
-        }];
-        this.setState({
-          sidebar: tmp
         });
       });
     });
@@ -8264,8 +8178,6 @@ class Pickcard extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
         four: [],
         type: ""
       },
-      poolType: "",
-      poolCode: "",
       coin: 0,
       //合成玉
       coinUrl: "../../../images/materials/coin.png",
@@ -8296,9 +8208,7 @@ class Pickcard extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
   }
 
   componentDidMount() {
-    this.getPoolInfo();
     this.getPickup();
-    this.getPoolList();
   }
 
   componentDidUpdate(prevProps, prevState, snapshot) {
@@ -8306,12 +8216,6 @@ class Pickcard extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       this.setState({
         runningCalc: false
       });
-    }
-
-    if (this.state.poolCode !== "" && this.state.sidebar.length !== 0) {
-      if (this.state.handlePoolList !== true) {
-        this.handlePoolList();
-      }
     }
   }
 
@@ -8327,12 +8231,13 @@ class Pickcard extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Main, {
       poolName: this.props.poolName,
       poolType: this.props.poolType,
+      poolCode: this.props.poolCode,
+      poolList: this.props.poolList,
       info: this.state,
       theme: this.props.theme,
       pickOne: this.pickOne,
       pickTen: this.pickTen,
-      calc: this.calc,
-      getPickup: this.getPickup
+      calc: this.calc
     }));
   }
 
@@ -8353,14 +8258,11 @@ class Pickcard extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! axios */ "axios");
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _components_basic_jsx__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/basic.jsx */ "./src/scripts/components/basic.jsx");
-/* harmony import */ var _sass_pages_pools_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../sass/pages/pools.scss */ "./src/sass/pages/pools.scss");
-/* harmony import */ var _sass_pages_pools_scss__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_sass_pages_pools_scss__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _components_Template_jsx__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/Template.jsx */ "./src/scripts/components/Template.jsx");
+/* harmony import */ var _components_basic_jsx__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/basic.jsx */ "./src/scripts/components/basic.jsx");
+/* harmony import */ var _sass_pages_pools_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../sass/pages/pools.scss */ "./src/sass/pages/pools.scss");
+/* harmony import */ var _sass_pages_pools_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_sass_pages_pools_scss__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _components_Template_jsx__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Template.jsx */ "./src/scripts/components/Template.jsx");
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-
 
 
 
@@ -8383,34 +8285,25 @@ class ShowPool extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       }
     });
 
-    _defineProperty(this, "getPoolList", () => {
-      const data = {
-        params: {
-          type: "search",
-          method: "getPoolList",
-          poolType: this.props.poolType
+    _defineProperty(this, "handlePoolList", () => {
+      const poolList = this.props.poolList[this.props.poolType.split("Pool")[0]].reverse();
+      let arr = [];
+      poolList.forEach(x => {
+        arr.push({
+          key: x.type + x.code,
+          tag: "pool",
+          name: `${x.name} [ ${x.date} ] `,
+          data: [{
+            key: 0,
+            href: x.url,
+            img: `../images/pools/${this.props.poolType}/${x.name}.jpg`
+          }]
+        });
+      });
+      this.setState({
+        zh_cn: {
+          contents: arr
         }
-      };
-      axios__WEBPACK_IMPORTED_MODULE_1___default.a.get("/getPoolList", data).then(res => {
-        console.log(res.data);
-        let arr = [];
-        res.data.forEach(x => {
-          arr.unshift({
-            key: x.type + x.code,
-            tag: "pool",
-            name: `${x.name} [ ${x.date} ] `,
-            data: [{
-              key: 0,
-              href: x.url,
-              img: `../images/pools/${this.props.poolType}/${x.name}.jpg`
-            }]
-          });
-        });
-        this.setState({
-          zh_cn: {
-            contents: arr
-          }
-        });
       });
     });
 
@@ -8421,13 +8314,15 @@ class ShowPool extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
     };
   }
 
-  componentDidMount() {
-    this.getPoolList();
+  componentDidUpdate(prevProps, prevState, snapshot) {
+    if (this.props.poolList !== prevProps.poolList) {
+      this.handlePoolList();
+    }
   }
 
   render() {
     let language = this.checkLanguage();
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Template_jsx__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Template_jsx__WEBPACK_IMPORTED_MODULE_3__["default"], {
       language: this.props.language,
       theme: this.props.theme,
       toDarkTheme: this.props.toDarkTheme,
@@ -8437,7 +8332,7 @@ class ShowPool extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       toJA_JP: this.props.toJA_JP
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: `main-container ${this.props.theme}`
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_basic_jsx__WEBPACK_IMPORTED_MODULE_2__["MainContents"], {
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_basic_jsx__WEBPACK_IMPORTED_MODULE_1__["MainContents"], {
       contents: language.contents,
       theme: this.props.theme
     })));
